@@ -1,0 +1,179 @@
+{
+  "tool": "nsis_recon_v5.py",
+  "generated_utc": "2026-10-13T13:33:53.836368+00:00",
+  "read_only_inputs": true,
+  "exe_path": "C:\\Users\\MAFIA\\Downloads\\Compressed\\ROSLegacy\\Diamonds\\ROSLegacy_Install_202609251811.exe",
+  "sidecar_path": "C:\\Users\\MAFIA\\Downloads\\Compressed\\ROSLegacy\\Diamonds\\ROSLegacy_Install_202609251811.nsisbin",
+  "installer_size_bytes": 225888,
+  "sidecar_size_bytes": 8250888993,
+  "firstheader": {
+    "offset": 86528,
+    "marker_offset": 86532,
+    "flags": 240,
+    "flags_hex": "0x000000F0",
+    "siginfo_hex": "0xDEADBEEF",
+    "magic_words_hex": [
+      "0x6C6C754E",
+      "0x74666F73",
+      "0x74736E49"
+    ],
+    "header_output_size": 559820,
+    "length_of_all_following_data": 129273,
+    "external_size_declared": 8250888993,
+    "external_size_low": 3955921697,
+    "external_size_high": 1,
+    "bytes_after_firstheader_in_exe": 139324
+  },
+  "stored_header_record": {
+    "record_prefix_offset": 86564,
+    "record_prefix_hex": "0x800000000001F8C5",
+    "compressed_flag": true,
+    "stored_bytes": 129221,
+    "body_offset": 86572,
+    "body_end_exclusive": 215793,
+    "trailing_exe_bytes_after_record_body": 10095,
+    "first_16_stored_bytes_hex": "bf f8 01 ec dd 09 58 8e 5d bb 38 fc fb ae 28 8d",
+    "last_16_stored_bytes_hex": "fd 07 f9 f7 f7 ac e7 ff 94 f8 fd ff 01 00 00 00"
+  },
+  "header_decode": {
+    "codec": "NSISBI framed raw-DEFLATE",
+    "framing": "3-byte little-endian compressed length, then independent raw-DEFLATE block; 00 00 00 terminator",
+    "blocks": [
+      {
+        "index": 0,
+        "framing_offset": 0,
+        "compressed_bytes": 129215,
+        "decoded_bytes": 559820
+      }
+    ],
+    "decoded_bytes": 559820,
+    "declared_output_bytes": 559820,
+    "decoded_size_matches": true,
+    "terminator_found": true,
+    "sha256": "b1b41540adb84e57f5fca7ddd067bcb4a08ecc58fd3e40535a322e003bb062f3",
+    "first_128_bytes_hex": "a1 00 00 00 2c 01 00 00 06 00 00 00 ac 02 00 00 01 00 00 00 c4 0a 00 00 a5 1a 00 00 f8 c9 03 00 00 00 00 00 4a 89 08 00 01 00 00 00 84 8a 08 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 80 74 00 00 00 8f 00 00 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 3a 01 00 00 fb ff ff ff 64 00 00 00 ff ff ff ff ff ff ff ff b5 01 00 00 96 01 00 00"
+  },
+  "integrity_checks": {
+    "external_size_matches": true,
+    "firstheader_following_length_matches": true,
+    "archive_data_end_offset": 215801,
+    "header_record_end_offset": 215793,
+    "bytes_between_header_record_and_archive_data_end": 8
+  },
+  "block_layout_candidates": [
+    {
+      "block_count": 8,
+      "score_out_of_4": 4,
+      "offsets_in_bounds": true,
+      "ordered_nonzero_offsets": true,
+      "entries_block_36_byte_records_in_bounds": true,
+      "utf16_string_table_in_bounds": true,
+      "blocks": [
+        {
+          "index": 0,
+          "offset": 300,
+          "count": 6,
+          "label": "pages"
+        },
+        {
+          "index": 1,
+          "offset": 684,
+          "count": 1,
+          "label": "sections"
+        },
+        {
+          "index": 2,
+          "offset": 2756,
+          "count": 6821,
+          "label": "entries"
+        },
+        {
+          "index": 3,
+          "offset": 248312,
+          "count": 0,
+          "label": "strings"
+        },
+        {
+          "index": 4,
+          "offset": 559434,
+          "count": 1,
+          "label": "language_tables"
+        },
+        {
+          "index": 5,
+          "offset": 559748,
+          "count": 0,
+          "label": "control_colors"
+        },
+        {
+          "index": 6,
+          "offset": 0,
+          "count": 0,
+          "label": "font_data"
+        },
+        {
+          "index": 7,
+          "offset": 0,
+          "count": 0,
+          "label": "data"
+        }
+      ],
+      "entries_block_end": 248312,
+      "strings_block_utf16_end": 248312
+    },
+    {
+      "block_count": 7,
+      "score_out_of_4": 4,
+      "offsets_in_bounds": true,
+      "ordered_nonzero_offsets": true,
+      "entries_block_36_byte_records_in_bounds": true,
+      "utf16_string_table_in_bounds": true,
+      "blocks": [
+        {
+          "index": 0,
+          "offset": 300,
+          "count": 6,
+          "label": "pages"
+        },
+        {
+          "index": 1,
+          "offset": 684,
+          "count": 1,
+          "label": "sections"
+        },
+        {
+          "index": 2,
+          "offset": 2756,
+          "count": 6821,
+          "label": "entries"
+        },
+        {
+          "index": 3,
+          "offset": 248312,
+          "count": 0,
+          "label": "strings"
+        },
+        {
+          "index": 4,
+          "offset": 559434,
+          "count": 1,
+          "label": "language_tables"
+        },
+        {
+          "index": 5,
+          "offset": 559748,
+          "count": 0,
+          "label": "control_colors"
+        },
+        {
+          "index": 6,
+          "offset": 0,
+          "count": 0,
+          "label": "data"
+        }
+      ],
+      "entries_block_end": 248312,
+      "strings_block_utf16_end": 248312
+    }
+  ]
+}

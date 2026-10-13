@@ -1,0 +1,782 @@
+ROSLegacy NSISBI header decode v5
+============================================================================
+Generated UTC: 2026-10-13T13:33:53.836368+00:00
+Input EXE: C:\Users\MAFIA\Downloads\Compressed\ROSLegacy\Diamonds\ROSLegacy_Install_202609251811.exe
+Input sidecar: C:\Users\MAFIA\Downloads\Compressed\ROSLegacy\Diamonds\ROSLegacy_Install_202609251811.nsisbin
+
+HEADER / COMPRESSED STREAM VALIDATION
+----------------------------------------------------------------------------
+Firstheader offset: 86528
+Header flags: 0x000000F0 (raw only)
+Declared decoded header size: 559820 bytes
+Stored header record size: 129221 bytes
+Header record compressed flag: True
+Inner compression codec: NSISBI framed raw-DEFLATE
+Inner blocks decoded: 1
+Decoded header bytes: 559820
+Exact decoded-size match: True
+3-byte stream terminator found: True
+Following-data length equation matches: True
+Declared sidecar size matches actual: True
+
+HEADER BLOCK-LAYOUT CANDIDATES
+----------------------------------------------------------------------------
+Candidate 8 blocks: score 4/4
+  offsets in bounds=True; ordered=True; entries bounds=True; UTF-16 string range bounds=True
+   0 pages              offset=     300 count=6
+   1 sections           offset=     684 count=1
+   2 entries            offset=    2756 count=6821
+   3 strings            offset=  248312 count=0
+   4 language_tables    offset=  559434 count=1
+   5 control_colors     offset=  559748 count=0
+   6 font_data          offset=       0 count=0
+   7 data               offset=       0 count=0
+
+Candidate 7 blocks: score 4/4
+  offsets in bounds=True; ordered=True; entries bounds=True; UTF-16 string range bounds=True
+   0 pages              offset=     300 count=6
+   1 sections           offset=     684 count=1
+   2 entries            offset=    2756 count=6821
+   3 strings            offset=  248312 count=0
+   4 language_tables    offset=  559434 count=1
+   5 control_colors     offset=  559748 count=0
+   6 data               offset=       0 count=0
+
+
+Readable ASCII strings: 304
+Readable UTF-16LE ASCII strings: 3089
+Relevant string candidates: 727
+----------------------------------------------------------------------------
+@  248376 [utf-16le-ascii] C:\Program Files
+@  248544 [utf-16le-ascii] Software\MiraeLabsLauncher
+@  248598 [utf-16le-ascii] InstallPath
+@  248662 [utf-16le-ascii] \System.dll
+@  248970 [utf-16le-ascii] \nsExec.dll
+@  249000 [utf-16le-ascii] \taskkill.exe" /IM "
+@  249128 [utf-16le-ascii] \tasklist.exe" /NH /FI "IMAGENAME eq 
+@  249216 [utf-16le-ascii] Mirae Labs Launcher.exe
+@  249264 [utf-16le-ascii] AutoUpdater.exe
+@  249296 [utf-16le-ascii] patcher.exe
+@  249320 [utf-16le-ascii] ros64.exe
+@  249340 [utf-16le-ascii] HashVerifier.exe
+@  249374 [utf-16le-ascii] miraelabs.exe
+@  249416 [utf-16le-ascii] \version.dat
+@  249494 [utf-16le-ascii] \Mirae Labs Launcher.exe
+@  249596 [utf-16le-ascii] \Mirae Labs Launcher.exe
+@  249650 [utf-16le-ascii] \resources\common\ROS Legacy\*.*
+@  249716 [utf-16le-ascii] An existing ROS Legacy installation was found at:
+@  249822 [utf-16le-ascii] \resources\common\ROS Legacy
+@  249886 [utf-16le-ascii] Install and replace it in the same folder?
+@  249976 [utf-16le-ascii] \Mirae Labs Launcher.exe
+@  250050 [utf-16le-ascii] \Mirae Labs Launcher.exe
+@  250152 [utf-16le-ascii] \ioSpecial.ini
+@  250320 [utf-16le-ascii] This guide will walk you through the installation process step-by-step...
+@  250548 [utf-16le-ascii] \InstallOptions.dll
+@  268234 [utf-16le-ascii] {\nofchars26592}{\nofcharsws31195}{\vern85}}{\*\xmlnstbl {\xmlns1 http://schemas.microsoft.com/office/word/2003/wordml}}\paperw12240\paperh15840\margl1440\margr1440\margt1440\margb1440\gutter0\ltrsect 
+@  273552 [utf-16le-ascii] her services that may be added (collectively, the "Services"). This agreement reflects our approach to memberships across our Sites and Services.
+@  309226 [utf-16le-ascii]  for publication. We may modify the format and display of the work. It may be distributed across }{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid7744712 Myth Games}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid5266604 
+@  314814 [utf-16le-ascii] \par Any material downloaded or otherwise obtained through the use of the Services is done at your own discretion and risk, and you will be solely responsible for any potential damage to your computer system or loss of data that results from the download of an
+@  343450 [utf-16le-ascii]  reserves the right to cancel your subscription immediately without refund. Additionally, reuse of copyrighted information (pictures, interviews, features, videos, audio, etc.) will be prosecuted to the fullest extent of the law.
+@  351516 [utf-16le-ascii] \par Downloadable Material: Any material or third party software downloaded through or for the use of the Sites and Services is done at your own discretion and risk. }{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid7744712 Myth Games}{\rtlch\fcs1 \af0 \ltrch\fcs0 
+@  352028 [utf-16le-ascii] \insrsid5266604  will not be responsible in any way for any potential damage to your computer system or loss of data that results from the download of any such material. No advice or information, whether oral or written, obtained by you from the }{
+@  354734 [utf-16le-ascii] \par No material will be sent to you via electronic mail or postal service. Our service is provided online only and failure to obtain your download will not be exchanged for tangible goods or sent via email.}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid668948 
+@  413324 [utf-16le-ascii] Install
+@  413350 [utf-16le-ascii] \version.dat
+@  413524 [utf-16le-ascii] rosl.ico
+@  413586 [utf-16le-ascii] Installing Mirae Labs Launcher and ROS Legacy...
+@  413690 [utf-16le-ascii] LICENSE.electron.txt
+@  413778 [utf-16le-ascii] chrome_100_percent.pak
+@  413824 [utf-16le-ascii] chrome_200_percent.pak
+@  413870 [utf-16le-ascii] d3dcompiler_47.dll
+@  413908 [utf-16le-ascii] dxcompiler.dll
+@  413938 [utf-16le-ascii] dxil.dll
+@  413956 [utf-16le-ascii] ffmpeg.dll
+@  413978 [utf-16le-ascii] icudtl.dat
+@  414000 [utf-16le-ascii] libEGL.dll
+@  414022 [utf-16le-ascii] libGLESv2.dll
+@  414050 [utf-16le-ascii] resources.pak
+@  414078 [utf-16le-ascii] snapshot_blob.bin
+@  414114 [utf-16le-ascii] v8_context_snapshot.bin
+@  414162 [utf-16le-ascii] vk_swiftshader.dll
+@  414200 [utf-16le-ascii] vk_swiftshader_icd.json
+@  414248 [utf-16le-ascii] vulkan-1.dll
+@  414296 [utf-16le-ascii] AutoUpdater.deps.json
+@  414340 [utf-16le-ascii] AutoUpdater.dll
+@  414372 [utf-16le-ascii] AutoUpdater.dll.config
+@  414450 [utf-16le-ascii] AutoUpdater.runtimeconfig.json
+@  414512 [utf-16le-ascii] HashVerifier.deps.json
+@  414558 [utf-16le-ascii] HashVerifier.dll
+@  414592 [utf-16le-ascii] HashVerifier.dll.config
+@  414674 [utf-16le-ascii] HashVerifier.runtimeconfig.json
+@  414738 [utf-16le-ascii] K4os.Hash.xxHash.dll
+@  414780 [utf-16le-ascii] Microsoft.CSharp.dll
+@  414822 [utf-16le-ascii] Microsoft.DiaSymReader.Native.amd64.dll
+@  414902 [utf-16le-ascii] Microsoft.VisualBasic.Core.dll
+@  414964 [utf-16le-ascii] Microsoft.VisualBasic.dll
+@  415016 [utf-16le-ascii] Microsoft.Win32.Primitives.dll
+@  415078 [utf-16le-ascii] Microsoft.Win32.Registry.dll
+@  415136 [utf-16le-ascii] System.AppContext.dll
+@  415180 [utf-16le-ascii] System.Buffers.dll
+@  415218 [utf-16le-ascii] System.Collections.Concurrent.dll
+@  415286 [utf-16le-ascii] System.Collections.Immutable.dll
+@  415352 [utf-16le-ascii] System.Collections.NonGeneric.dll
+@  415420 [utf-16le-ascii] System.Collections.Specialized.dll
+@  415490 [utf-16le-ascii] System.Collections.dll
+@  415536 [utf-16le-ascii] System.ComponentModel.Annotations.dll
+@  415612 [utf-16le-ascii] System.ComponentModel.DataAnnotations.dll
+@  415696 [utf-16le-ascii] System.ComponentModel.EventBasedAsync.dll
+@  415780 [utf-16le-ascii] System.ComponentModel.Primitives.dll
+@  415854 [utf-16le-ascii] System.ComponentModel.TypeConverter.dll
+@  415934 [utf-16le-ascii] System.ComponentModel.dll
+@  415986 [utf-16le-ascii] System.Configuration.dll
+@  416036 [utf-16le-ascii] System.Console.dll
+@  416074 [utf-16le-ascii] System.Core.dll
+@  416106 [utf-16le-ascii] System.Data.Common.dll
+@  416152 [utf-16le-ascii] System.Data.DataSetExtensions.dll
+@  416220 [utf-16le-ascii] System.Data.dll
+@  416252 [utf-16le-ascii] System.Diagnostics.Contracts.dll
+@  416318 [utf-16le-ascii] System.Diagnostics.Debug.dll
+@  416376 [utf-16le-ascii] System.Diagnostics.DiagnosticSource.dll
+@  416456 [utf-16le-ascii] System.Diagnostics.FileVersionInfo.dll
+@  416534 [utf-16le-ascii] System.Diagnostics.Process.dll
+@  416596 [utf-16le-ascii] System.Diagnostics.StackTrace.dll
+@  416664 [utf-16le-ascii] System.Diagnostics.TextWriterTraceListener.dll
+@  416758 [utf-16le-ascii] System.Diagnostics.Tools.dll
+@  416816 [utf-16le-ascii] System.Diagnostics.TraceSource.dll
+@  416886 [utf-16le-ascii] System.Diagnostics.Tracing.dll
+@  416948 [utf-16le-ascii] System.Drawing.Primitives.dll
+@  417008 [utf-16le-ascii] System.Drawing.dll
+@  417046 [utf-16le-ascii] System.Dynamic.Runtime.dll
+@  417100 [utf-16le-ascii] System.Formats.Asn1.dll
+@  417148 [utf-16le-ascii] System.Formats.Tar.dll
+@  417194 [utf-16le-ascii] System.Globalization.Calendars.dll
+@  417264 [utf-16le-ascii] System.Globalization.Extensions.dll
+@  417336 [utf-16le-ascii] System.Globalization.dll
+@  417386 [utf-16le-ascii] System.IO.Compression.Brotli.dll
+@  417452 [utf-16le-ascii] System.IO.Compression.FileSystem.dll
+@  417526 [utf-16le-ascii] System.IO.Compression.Native.dll
+@  417592 [utf-16le-ascii] System.IO.Compression.ZipFile.dll
+@  417660 [utf-16le-ascii] System.IO.Compression.dll
+@  417712 [utf-16le-ascii] System.IO.FileSystem.AccessControl.dll
+@  417790 [utf-16le-ascii] System.IO.FileSystem.DriveInfo.dll
+@  417860 [utf-16le-ascii] System.IO.FileSystem.Primitives.dll
+@  417932 [utf-16le-ascii] System.IO.FileSystem.Watcher.dll
+@  417998 [utf-16le-ascii] System.IO.FileSystem.dll
+@  418048 [utf-16le-ascii] System.IO.IsolatedStorage.dll
+@  418108 [utf-16le-ascii] System.IO.MemoryMappedFiles.dll
+@  418172 [utf-16le-ascii] System.IO.Pipes.AccessControl.dll
+@  418240 [utf-16le-ascii] System.IO.Pipes.dll
+@  418280 [utf-16le-ascii] System.IO.UnmanagedMemoryStream.dll
+@  418352 [utf-16le-ascii] System.IO.dll
+@  418380 [utf-16le-ascii] System.Linq.Expressions.dll
+@  418436 [utf-16le-ascii] System.Linq.Parallel.dll
+@  418486 [utf-16le-ascii] System.Linq.Queryable.dll
+@  418538 [utf-16le-ascii] System.Linq.dll
+@  418570 [utf-16le-ascii] System.Memory.dll
+@  418606 [utf-16le-ascii] System.Net.Http.Json.dll
+@  418656 [utf-16le-ascii] System.Net.Http.dll
+@  418696 [utf-16le-ascii] System.Net.HttpListener.dll
+@  418752 [utf-16le-ascii] System.Net.Mail.dll
+@  418792 [utf-16le-ascii] System.Net.NameResolution.dll
+@  418852 [utf-16le-ascii] System.Net.NetworkInformation.dll
+@  418920 [utf-16le-ascii] System.Net.Ping.dll
+@  418960 [utf-16le-ascii] System.Net.Primitives.dll
+@  419012 [utf-16le-ascii] System.Net.Quic.dll
+@  419052 [utf-16le-ascii] System.Net.Requests.dll
+@  419100 [utf-16le-ascii] System.Net.Security.dll
+@  419148 [utf-16le-ascii] System.Net.ServicePoint.dll
+@  419204 [utf-16le-ascii] System.Net.Sockets.dll
+@  419250 [utf-16le-ascii] System.Net.WebClient.dll
+@  419300 [utf-16le-ascii] System.Net.WebHeaderCollection.dll
+@  419370 [utf-16le-ascii] System.Net.WebProxy.dll
+@  419418 [utf-16le-ascii] System.Net.WebSockets.Client.dll
+@  419484 [utf-16le-ascii] System.Net.WebSockets.dll
+@  419536 [utf-16le-ascii] System.Net.dll
+@  419566 [utf-16le-ascii] System.Numerics.Vectors.dll
+@  419622 [utf-16le-ascii] System.Numerics.dll
+@  419662 [utf-16le-ascii] System.ObjectModel.dll
+@  419708 [utf-16le-ascii] System.Private.CoreLib.dll
+@  419762 [utf-16le-ascii] System.Private.DataContractSerialization.dll
+@  419852 [utf-16le-ascii] System.Private.Uri.dll
+@  419898 [utf-16le-ascii] System.Private.Xml.Linq.dll
+@  419954 [utf-16le-ascii] System.Private.Xml.dll
+@  420000 [utf-16le-ascii] System.Reflection.DispatchProxy.dll
+@  420072 [utf-16le-ascii] System.Reflection.Emit.ILGeneration.dll
+@  420152 [utf-16le-ascii] System.Reflection.Emit.Lightweight.dll
+@  420230 [utf-16le-ascii] System.Reflection.Emit.dll
+@  420284 [utf-16le-ascii] System.Reflection.Extensions.dll
+@  420350 [utf-16le-ascii] System.Reflection.Metadata.dll
+@  420412 [utf-16le-ascii] System.Reflection.Primitives.dll
+@  420478 [utf-16le-ascii] System.Reflection.TypeExtensions.dll
+@  420552 [utf-16le-ascii] System.Reflection.dll
+@  420596 [utf-16le-ascii] System.Resources.Reader.dll
+@  420652 [utf-16le-ascii] System.Resources.ResourceManager.dll
+@  420726 [utf-16le-ascii] System.Resources.Writer.dll
+@  420782 [utf-16le-ascii] System.Runtime.CompilerServices.Unsafe.dll
+@  420868 [utf-16le-ascii] System.Runtime.CompilerServices.VisualC.dll
+@  420956 [utf-16le-ascii] System.Runtime.Extensions.dll
+@  421016 [utf-16le-ascii] System.Runtime.Handles.dll
+@  421070 [utf-16le-ascii] System.Runtime.InteropServices.JavaScript.dll
+@  421162 [utf-16le-ascii] System.Runtime.InteropServices.RuntimeInformation.dll
+@  421270 [utf-16le-ascii] System.Runtime.InteropServices.dll
+@  421340 [utf-16le-ascii] System.Runtime.Intrinsics.dll
+@  421400 [utf-16le-ascii] System.Runtime.Loader.dll
+@  421452 [utf-16le-ascii] System.Runtime.Numerics.dll
+@  421508 [utf-16le-ascii] System.Runtime.Serialization.Formatters.dll
+@  421596 [utf-16le-ascii] System.Runtime.Serialization.Json.dll
+@  421672 [utf-16le-ascii] System.Runtime.Serialization.Primitives.dll
+@  421760 [utf-16le-ascii] System.Runtime.Serialization.Xml.dll
+@  421834 [utf-16le-ascii] System.Runtime.Serialization.dll
+@  421900 [utf-16le-ascii] System.Runtime.dll
+@  421938 [utf-16le-ascii] System.Security.AccessControl.dll
+@  422006 [utf-16le-ascii] System.Security.Claims.dll
+@  422060 [utf-16le-ascii] System.Security.Cryptography.Algorithms.dll
+@  422148 [utf-16le-ascii] System.Security.Cryptography.Cng.dll
+@  422222 [utf-16le-ascii] System.Security.Cryptography.Csp.dll
+@  422296 [utf-16le-ascii] System.Security.Cryptography.Encoding.dll
+@  422380 [utf-16le-ascii] System.Security.Cryptography.OpenSsl.dll
+@  422462 [utf-16le-ascii] System.Security.Cryptography.Primitives.dll
+@  422550 [utf-16le-ascii] System.Security.Cryptography.X509Certificates.dll
+@  422650 [utf-16le-ascii] System.Security.Cryptography.dll
+@  422716 [utf-16le-ascii] System.Security.Principal.Windows.dll
+@  422792 [utf-16le-ascii] System.Security.Principal.dll
+@  422852 [utf-16le-ascii] System.Security.SecureString.dll
+@  422918 [utf-16le-ascii] System.Security.dll
+@  422958 [utf-16le-ascii] System.ServiceModel.Web.dll
+@  423014 [utf-16le-ascii] System.ServiceProcess.dll
+@  423066 [utf-16le-ascii] System.Text.Encoding.CodePages.dll
+@  423136 [utf-16le-ascii] System.Text.Encoding.Extensions.dll
+@  423208 [utf-16le-ascii] System.Text.Encoding.dll
+@  423258 [utf-16le-ascii] System.Text.Encodings.Web.dll
+@  423318 [utf-16le-ascii] System.Text.Json.dll
+@  423360 [utf-16le-ascii] System.Text.RegularExpressions.dll
+@  423430 [utf-16le-ascii] System.Threading.Channels.dll
+@  423490 [utf-16le-ascii] System.Threading.Overlapped.dll
+@  423554 [utf-16le-ascii] System.Threading.Tasks.Dataflow.dll
+@  423626 [utf-16le-ascii] System.Threading.Tasks.Extensions.dll
+@  423702 [utf-16le-ascii] System.Threading.Tasks.Parallel.dll
+@  423774 [utf-16le-ascii] System.Threading.Tasks.dll
+@  423828 [utf-16le-ascii] System.Threading.Thread.dll
+@  423884 [utf-16le-ascii] System.Threading.ThreadPool.dll
+@  423948 [utf-16le-ascii] System.Threading.Timer.dll
+@  424002 [utf-16le-ascii] System.Threading.dll
+@  424044 [utf-16le-ascii] System.Transactions.Local.dll
+@  424104 [utf-16le-ascii] System.Transactions.dll
+@  424152 [utf-16le-ascii] System.ValueTuple.dll
+@  424196 [utf-16le-ascii] System.Web.HttpUtility.dll
+@  424250 [utf-16le-ascii] System.Web.dll
+@  424280 [utf-16le-ascii] System.Windows.dll
+@  424318 [utf-16le-ascii] System.Xml.Linq.dll
+@  424358 [utf-16le-ascii] System.Xml.ReaderWriter.dll
+@  424414 [utf-16le-ascii] System.Xml.Serialization.dll
+@  424472 [utf-16le-ascii] System.Xml.XDocument.dll
+@  424522 [utf-16le-ascii] System.Xml.XPath.XDocument.dll
+@  424584 [utf-16le-ascii] System.Xml.XPath.dll
+@  424626 [utf-16le-ascii] System.Xml.XmlDocument.dll
+@  424680 [utf-16le-ascii] System.Xml.XmlSerializer.dll
+@  424738 [utf-16le-ascii] System.Xml.dll
+@  424768 [utf-16le-ascii] WindowsBase.dll
+@  424800 [utf-16le-ascii] clretwrc.dll
+@  424826 [utf-16le-ascii] clrgc.dll
+@  424846 [utf-16le-ascii] clrjit.dll
+@  424868 [utf-16le-ascii] coreclr.dll
+@  424892 [utf-16le-ascii] createdump.exe
+@  424922 [utf-16le-ascii] hostfxr.dll
+@  424946 [utf-16le-ascii] hostpolicy.dll
+@  424976 [utf-16le-ascii] mscordaccore.dll
+@  425010 [utf-16le-ascii] mscordaccore_amd64_amd64_8.0.2325.60607.dll
+@  425098 [utf-16le-ascii] mscordbi.dll
+@  425124 [utf-16le-ascii] mscorlib.dll
+@  425150 [utf-16le-ascii] mscorrc.dll
+@  425174 [utf-16le-ascii] msquic.dll
+@  425196 [utf-16le-ascii] netstandard.dll
+@  425228 [utf-16le-ascii] patcher.deps.json
+@  425264 [utf-16le-ascii] patcher.dll
+@  425288 [utf-16le-ascii] patcher.dll.config
+@  425326 [utf-16le-ascii] patcher.pdb
+@  425350 [utf-16le-ascii] patcher.runtimeconfig.json
+@  425426 [utf-16le-ascii] af.pak
+@  425440 [utf-16le-ascii] am.pak
+@  425454 [utf-16le-ascii] ar.pak
+@  425468 [utf-16le-ascii] bg.pak
+@  425482 [utf-16le-ascii] bn.pak
+@  425496 [utf-16le-ascii] ca.pak
+@  425510 [utf-16le-ascii] cs.pak
+@  425524 [utf-16le-ascii] da.pak
+@  425538 [utf-16le-ascii] de.pak
+@  425552 [utf-16le-ascii] el.pak
+@  425566 [utf-16le-ascii] en-GB.pak
+@  425586 [utf-16le-ascii] en-US.pak
+@  425606 [utf-16le-ascii] es-419.pak
+@  425628 [utf-16le-ascii] et.pak
+@  425642 [utf-16le-ascii] fa.pak
+@  425656 [utf-16le-ascii] fi.pak
+@  425670 [utf-16le-ascii] fil.pak
+@  425686 [utf-16le-ascii] fr.pak
+@  425700 [utf-16le-ascii] gu.pak
+@  425714 [utf-16le-ascii] he.pak
+@  425728 [utf-16le-ascii] hi.pak
+@  425742 [utf-16le-ascii] hr.pak
+@  425756 [utf-16le-ascii] hu.pak
+@  425770 [utf-16le-ascii] id.pak
+@  425784 [utf-16le-ascii] it.pak
+@  425798 [utf-16le-ascii] ja.pak
+@  425812 [utf-16le-ascii] kn.pak
+@  425826 [utf-16le-ascii] ko.pak
+@  425840 [utf-16le-ascii] lt.pak
+@  425854 [utf-16le-ascii] lv.pak
+@  425868 [utf-16le-ascii] ml.pak
+@  425882 [utf-16le-ascii] mr.pak
+@  425896 [utf-16le-ascii] ms.pak
+@  425910 [utf-16le-ascii] nb.pak
+@  425924 [utf-16le-ascii] nl.pak
+@  425938 [utf-16le-ascii] pl.pak
+@  425952 [utf-16le-ascii] pt-BR.pak
+@  425972 [utf-16le-ascii] pt-PT.pak
+@  425992 [utf-16le-ascii] ro.pak
+@  426006 [utf-16le-ascii] ru.pak
+@  426020 [utf-16le-ascii] sk.pak
+@  426034 [utf-16le-ascii] sl.pak
+@  426048 [utf-16le-ascii] sr.pak
+@  426062 [utf-16le-ascii] sv.pak
+@  426076 [utf-16le-ascii] sw.pak
+@  426090 [utf-16le-ascii] ta.pak
+@  426104 [utf-16le-ascii] te.pak
+@  426118 [utf-16le-ascii] th.pak
+@  426132 [utf-16le-ascii] tr.pak
+@  426146 [utf-16le-ascii] uk.pak
+@  426160 [utf-16le-ascii] ur.pak
+@  426174 [utf-16le-ascii] vi.pak
+@  426188 [utf-16le-ascii] zh-CN.pak
+@  426208 [utf-16le-ascii] zh-TW.pak
+@  426540 [utf-16le-ascii] package.json
+@  427138 [utf-16le-ascii] roots.exe
+@  428812 [utf-16le-ascii] 7z.dll
+@  429270 [utf-16le-ascii] ros-legacy-logo.png
+@  429402 [utf-16le-ascii] \resources\common\ROS Legacy
+@  429460 [utf-16le-ascii] Ally_pay_oversea.dll
+@  429502 [utf-16le-ascii] Ally_pay_oversea.dll.bak
+@  429552 [utf-16le-ascii] CCMsgSdk.dll
+@  429578 [utf-16le-ascii] D3DCompiler_42.dll
+@  429616 [utf-16le-ascii] D3DCompiler_43.dll
+@  429654 [utf-16le-ascii] D3DCompiler_47.dll
+@  429692 [utf-16le-ascii] D3DX9_43.dll
+@  429718 [utf-16le-ascii] NEACSDK.cfg
+@  429742 [utf-16le-ascii] NtUniSDKResources.dll
+@  429786 [utf-16le-ascii] NtUniSdkAllysdkOversea.dll
+@  429840 [utf-16le-ascii] NtUniSdkBase.dll
+@  429874 [utf-16le-ascii] NtUniSdkBase.dll.bak
+@  429916 [utf-16le-ascii] NtUniSdkMpayOversea.dll
+@  430004 [utf-16le-ascii] allysdk_global.data
+@  430066 [utf-16le-ascii] dxwebsetup.exe
+@  430096 [utf-16le-ascii] fmod_event.dll
+@  430126 [utf-16le-ascii] fmod_event.dll.bak
+@  430164 [utf-16le-ascii] fmod_event_net.dll
+@  430202 [utf-16le-ascii] fmod_event_net.dll.bak
+@  430248 [utf-16le-ascii] fmodex.dll
+@  430270 [utf-16le-ascii] fmodex.dll.bak
+@  430370 [utf-16le-ascii] log.txt
+@  430386 [utf-16le-ascii] mpay_oversea.dll
+@  430420 [utf-16le-ascii] mpay_oversea.dll.bak
+@  430462 [utf-16le-ascii] msdia140.dll
+@  430506 [utf-16le-ascii] netease_global.data
+@  430546 [utf-16le-ascii] no_first_patch.txt
+@  430584 [utf-16le-ascii] no_patch.txt
+@  430610 [utf-16le-ascii] normaliz.dll
+@  430636 [utf-16le-ascii] ntunisdk.cfg
+@  430694 [utf-16le-ascii] pc.txt
+@  430744 [utf-16le-ascii] server_ip.txt
+@  430772 [utf-16le-ascii] setting.ini
+@  430796 [utf-16le-ascii] symsrv.dll
+@  430818 [utf-16le-ascii] version.dll
+@  430842 [utf-16le-ascii] version_orig.dll
+@  430880 [utf-16le-ascii] \resources\common\ROS Legacy\AllysdkOverseaRes
+@  430978 [utf-16le-ascii] \resources\common\ROS Legacy\AllysdkOverseaRes\Button
+@  431324 [utf-16le-ascii] \resources\common\ROS Legacy\Documents
+@  431402 [utf-16le-ascii] NtUniSdkAxeso.dll
+@  431438 [utf-16le-ascii] NtUniSdkSteam.dll
+@  431492 [utf-16le-ascii] adOncePerDay.txt
+@  431526 [utf-16le-ascii] airwar_guide_info_218635378_10101.txt
+@  431602 [utf-16le-ascii] basic_settings.txt
+@  431640 [utf-16le-ascii] character_info.txt
+@  431678 [utf-16le-ascii] chat_history_0.bin
+@  431716 [utf-16le-ascii] chat_history_1000001.bin
+@  431766 [utf-16le-ascii] chat_history_1000002.bin
+@  431816 [utf-16le-ascii] chat_history_1000003.bin
+@  431866 [utf-16le-ascii] chat_meta_0.bin
+@  431898 [utf-16le-ascii] chat_meta_1000001.bin
+@  431942 [utf-16le-ascii] chat_meta_1000002.bin
+@  431986 [utf-16le-ascii] chat_meta_1000003.bin
+@  432084 [utf-16le-ascii] graphics_settings.txt
+@  432128 [utf-16le-ascii] language_setting.txt
+@  432170 [utf-16le-ascii] loadingTutorial_setting.txt
+@  432226 [utf-16le-ascii] market_record_point_1000001_10001.txt
+@  432302 [utf-16le-ascii] market_record_point_1000003_10001.txt
+@  432378 [utf-16le-ascii] notice_once_config.txt
+@  432424 [utf-16le-ascii] operate_guide.txt
+@  432474 [utf-16le-ascii] ros_launcher.exe
+@  432508 [utf-16le-ascii] team_logo_files.txt
+@  432548 [utf-16le-ascii] unique.bin
+@  432570 [utf-16le-ascii] user_ccmini.txt
+@  432602 [utf-16le-ascii] user_info.txt
+@  432662 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\assets
+@  432782 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\ccmini
+@  432878 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\dlc_clothes
+@  432984 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\dlc_clothes\res
+@  433098 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\patch_temp
+@  433202 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\patch_temp\npk
+@  433314 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\patch_temp\npk\res
+@  433434 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\patched
+@  434864 [utf-16le-ascii] npk_version_na_ros2_inner_pc.plist.history
+@  434950 [utf-16le-ascii] npk_version_na_ros2_inner_pc.plist.plist
+@  435032 [utf-16le-ascii] npk_version_na_ros2_inner_pc.plist.plist.total_list
+@  435136 [utf-16le-ascii] npk_version_na_ros2_inner_pc.plist.progress
+@  435228 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\patching
+@  435328 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\patching\dlc_pc_launcher.plist
+@  435472 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\patching\npk_version_na_8k_inner_pc.plist
+@  435638 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\patching\npk_version_na_fps_inner_pc.plist
+@  435806 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\patching\npk_version_na_nextgen_inner_pc.plist
+@  435982 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\patching\npk_version_na_ros2_inner_pc.plist
+@  436152 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res
+@  436486 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\dlc8k
+@  436588 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\dlc8k\xiutz8k
+@  436706 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\dlc8k\xiutz8k\xiutz8k_content
+@  436856 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\dlc8k\xiutz8k\xiutz8k_content\landscape
+@  437026 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\dlc8k\xiutz8k\xiutz8k_content\landscape\xiutz8k
+@  437346 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache
+@  437462 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\32
+@  437584 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\32\common
+@  437720 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\32\common\pipeline
+@  437874 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\32\common\pipeline\bloom.nfx
+@  438300 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\32\common\pipeline\color_adjust.nfx
+@  438584 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\32\common\pipeline\copy.nfx
+@  438756 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\32\common\pipeline\dof_mobile.nfx
+@  438940 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\32\common\pipeline\fxaa2.nfx
+@  439114 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\32\common\pipeline\radial_blur.nfx
+@  439300 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\32\common\pipeline\sun_shaft.nfx
+@  439482 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\32\common\shader
+@  439632 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\32\common\shader\blendadd.nfx
+@  440000 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\32\common\shader\new_effects
+@  440174 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\32\common\shader\new_effects\blend_uv_mask.nfx
+@  440384 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\32\common\shader\new_effects\erosion.nfx
+@  440582 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\32\common\shader\new_effects\plasma.nfx
+@  440918 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\32\common\shader\simpletech.nfx
+@  442282 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\32\shader
+@  442418 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\32\shader\barrier3.nfx
+@  442580 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\32\shader\blendadd_no_buffer.nfx
+@  442762 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\32\shader\character_state.nfx
+@  443602 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\32\shader\common.nfx
+@  443900 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\32\shader\common_nolight.nfx
+@  444118 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\32\shader\debug_common.nfx
+@  444288 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\32\shader\debug_landscape.nfx
+@  444464 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\32\shader\defer_shadow.nfx
+@  445238 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\32\shader\diamond.nfx
+@  445398 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\32\shader\diffuse_2pass.nfx
+@  445614 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\32\shader\diffuse_only.nfx
+@  446116 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\32\shader\dissolve.nfx
+@  447046 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\32\shader\distortion_g89.nfx
+@  447220 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\32\shader\flare.nfx
+@  447376 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\32\shader\hair.nfx
+@  449486 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\32\shader\landscape.nfx
+@  449930 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\32\shader\light.nfx
+@  450086 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\32\shader\lightmap.nfx
+@  450668 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\32\shader\lightmap_uber.nfx
+@  450928 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\32\shader\meadow_atlas.nfx
+@  451098 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\32\shader\meadow_base.nfx
+@  451310 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\32\shader\meadow_lod.nfx
+@  451476 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\32\shader\meadow_terrain_base_new.nfx
+@  453172 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\32\shader\meadow_terrain_weight_atlas.nfx
+@  453372 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\32\shader\meadow_weight_atlas_runtime.nfx
+@  453572 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\32\shader\mmt.nfx
+@  453724 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\32\shader\obsidian3.nfx
+@  460120 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\32\shader\obsidian4.nfx
+@  476004 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\32\shader\obsidian4_2pass.nfx
+@  477584 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\32\shader\obsidian4_outline.nfx
+@  478364 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\32\shader\obsidian4_wave.nfx
+@  478766 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\32\shader\obsidian4_with_rim_light.nfx
+@  479608 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\32\shader\obsidian_fur.nfx
+@  479866 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\32\shader\openworldmesh.nfx
+@  480082 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\32\shader\openworldmesh_alpha.nfx
+@  480266 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\32\shader\plasma_new.nfx
+@  480572 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\32\shader\road_new.nfx
+@  480970 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\32\shader\sfx_general.nfx
+@  481574 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\32\shader\sfx_general_new.nfx
+@  483334 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\32\shader\sfx_general_v2.nfx
+@  484216 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\32\shader\shadow.nfx
+@  484618 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\32\shader\skybox.nfx
+@  484776 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\32\shader\star_sky_g89.nfx
+@  484998 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\32\shader\terrain_shadow.nfx
+@  485172 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\32\shader\turbulence.nfx
+@  485338 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\32\shader\turbulence_model.nfx
+@  485516 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\32\shader\water_ref.nfx
+@  485776 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\64
+@  485898 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\64\common
+@  486034 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\64\common\pipeline
+@  486188 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\64\common\pipeline\bloom.nfx
+@  486362 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\64\common\pipeline\color_adjust.nfx
+@  486550 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\64\common\pipeline\copy.nfx
+@  486722 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\64\common\pipeline\dof_mobile.nfx
+@  486906 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\64\common\pipeline\fxaa2.nfx
+@  487080 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\64\common\pipeline\radial_blur.nfx
+@  487266 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\64\common\pipeline\sun_shaft.nfx
+@  487448 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\64\common\shader
+@  487598 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\64\common\shader\blendadd.nfx
+@  487774 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\64\common\shader\new_effects
+@  487948 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\64\common\shader\new_effects\blend_uv_mask.nfx
+@  488158 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\64\common\shader\new_effects\erosion.nfx
+@  488356 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\64\common\shader\new_effects\plasma.nfx
+@  488596 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\64\common\shader\simpletech.nfx
+@  488776 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\64\shader
+@  488912 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\64\shader\barrier3.nfx
+@  489074 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\64\shader\blendadd_no_buffer.nfx
+@  489256 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\64\shader\character_state.nfx
+@  489432 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\64\shader\common.nfx
+@  489590 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\64\shader\common_nolight.nfx
+@  489764 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\64\shader\crack.nfx
+@  490104 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\64\shader\debug_common.nfx
+@  490274 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\64\shader\debug_landscape.nfx
+@  490450 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\64\shader\defer_shadow.nfx
+@  490664 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\64\shader\defer_shadow_fix.nfx
+@  490842 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\64\shader\diamond.nfx
+@  491002 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\64\shader\diffuse_2pass.nfx
+@  491278 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\64\shader\diffuse_only.nfx
+@  491448 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\64\shader\dissolve.nfx
+@  491802 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\64\shader\flare.nfx
+@  491958 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\64\shader\hair.nfx
+@  492392 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\64\shader\landscape.nfx
+@  492556 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\64\shader\light.nfx
+@  492712 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\64\shader\lightmap.nfx
+@  493022 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\64\shader\lightmap_uber.nfx
+@  493290 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\64\shader\meadow_atlas.nfx
+@  493460 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\64\shader\meadow_base.nfx
+@  493628 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\64\shader\meadow_lod.nfx
+@  493794 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\64\shader\meadow_terrain_base_new.nfx
+@  494090 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\64\shader\meadow_terrain_weight_atlas.nfx
+@  494290 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\64\shader\meadow_weight_atlas_runtime.nfx
+@  494490 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\64\shader\mmt.nfx
+@  494642 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\64\shader\obsidian3.nfx
+@  497750 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\64\shader\obsidian4.nfx
+@  504982 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\64\shader\obsidian4_2pass.nfx
+@  505906 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\64\shader\obsidian4_outline.nfx
+@  506086 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\64\shader\obsidian4_with_rim_light.nfx
+@  506676 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\64\shader\obsidian_fur.nfx
+@  507038 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\64\shader\openworldmesh.nfx
+@  507262 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\64\shader\openworldmesh_alpha.nfx
+@  507446 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\64\shader\plasma_new.nfx
+@  507656 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\64\shader\road_new.nfx
+@  507818 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\64\shader\sfx_general.nfx
+@  507986 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\64\shader\sfx_general_new.nfx
+@  508390 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\64\shader\sfx_general_v2.nfx
+@  508740 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\64\shader\shadow.nfx
+@  508898 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\64\shader\skybox.nfx
+@  509056 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\64\shader\star_sky_g89.nfx
+@  509226 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\64\shader\terrain_shadow.nfx
+@  509400 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\64\shader\tree.nfx
+@  509914 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\64\shader\turbulence.nfx
+@  510080 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\64\shader\turbulence_model.nfx
+@  510258 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\effect_cache\64\shader\water_ref.nfx
+@  510422 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\model
+@  510524 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\picked_image
+@  510640 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\ros2
+@  510740 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\ros2\scene
+@  510852 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\ros2\scene\jiliwan
+@  510980 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\ros2\scene\jiliwan\jiliwan
+@  511146 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\ros2\scene\jiliwan\jiliwan_content
+@  511306 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\ros2\scene\jiliwan\jiliwan_content\landscape
+@  511486 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\ros2\scene\jiliwan\jiliwan_content\landscape\jiliwan
+@  511720 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\scene
+@  511822 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\scene\xiutz
+@  511936 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\scene\xiutz\xiutz_content
+@  512078 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\scene\xiutz\xiutz_content\landscape
+@  512240 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\scene\xiutz\xiutz_content\landscape\xiutz
+@  512478 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\sound
+@  512580 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\sound\sound_g89
+@  512702 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\ui
+@  512798 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\ui\images
+@  512908 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\ui\images\mytantan
+@  513036 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\ui\images\ros_match_team
+@  513176 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\ui\images\ros_match_team\custom_logo
+@  513340 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\ui\images\ros_match_team\custom_logo\texture
+@  514378 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\ui\images\ros_match_team\custom_logo\tmp
+@  514628 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\ui\images\tantan
+@  514752 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\ui\qrcodes
+@  514864 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\video
+@  515100 [utf-16le-ascii] ros2.mp4
+@  515142 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\res\voice
+@  515244 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\script
+@  515340 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\voice_data
+@  515444 [utf-16le-ascii] \resources\common\ROS Legacy\Documents\x64
+@  515586 [utf-16le-ascii] \resources\common\ROS Legacy\MiraeAC
+@  515660 [utf-16le-ascii] AxInterop.WMPLib.dll
+@  515702 [utf-16le-ascii] DiscordRPC.dll
+@  515732 [utf-16le-ascii] Microsoft.Win32.SystemEvents.dll
+@  515798 [utf-16le-ascii] Newtonsoft.Json.dll
+@  515838 [utf-16le-ascii] NtApiDotNet.dll
+@  515870 [utf-16le-ascii] System.CodeDom.dll
+@  515908 [utf-16le-ascii] System.Diagnostics.EventLog.Messages.dll
+@  515990 [utf-16le-ascii] System.Diagnostics.EventLog.dll
+@  516054 [utf-16le-ascii] System.DirectoryServices.dll
+@  516112 [utf-16le-ascii] System.Drawing.Common.dll
+@  516164 [utf-16le-ascii] System.Management.dll
+@  516208 [utf-16le-ascii] System.Security.Cryptography.Pkcs.dll
+@  516284 [utf-16le-ascii] System.Security.Cryptography.ProtectedData.dll
+@  516378 [utf-16le-ascii] System.Security.Permissions.dll
+@  516442 [utf-16le-ascii] System.ServiceProcess.ServiceController.dll
+@  516530 [utf-16le-ascii] System.Windows.Extensions.dll
+@  516590 [utf-16le-ascii] miraelabs.deps.json
+@  516630 [utf-16le-ascii] miraelabs.dll.config
+@  516672 [utf-16le-ascii] miraelabs.runtimeconfig.json
+@  516734 [utf-16le-ascii] \resources\common\ROS Legacy\cclive_bin
+@  516814 [utf-16le-ascii] CCVideoPlayer.exe
+@  516850 [utf-16le-ascii] MLiveCCPlayer.dll
+@  516886 [utf-16le-ascii] MLiveCCPlayer64.dll
+@  516926 [utf-16le-ascii] MLiveCCPlayerApp.exe
+@  516968 [utf-16le-ascii] VideoPlayer.dll
+@  517000 [utf-16le-ascii] avcodec-57.dll
+@  517030 [utf-16le-ascii] avformat-57.dll
+@  517062 [utf-16le-ascii] avutil-55.dll
+@  517090 [utf-16le-ascii] ccprotocal.dll
+@  517120 [utf-16le-ascii] dbghelp.dll
+@  517144 [utf-16le-ascii] iplay.dll
+@  517164 [utf-16le-ascii] p2p_layer.dll
+@  517192 [utf-16le-ascii] pthreadVC2.dll
+@  517222 [utf-16le-ascii] swresample-2.dll
+@  517256 [utf-16le-ascii] swscale-4.dll
+@  517288 [utf-16le-ascii] \resources\common\ROS Legacy\ccmini
+@  517360 [utf-16le-ascii] AudioCC.dll
+@  517384 [utf-16le-ascii] AudioCore.dll
+@  517412 [utf-16le-ascii] AudioEngine.dll
+@  517444 [utf-16le-ascii] CCLib_Log.txt
+@  517472 [utf-16le-ascii] CCMini.exe
+@  517494 [utf-16le-ascii] ccipc.dll
+@  517514 [utf-16le-ascii] msvcp100.dll
+@  517540 [utf-16le-ascii] msvcr100.dll
+@  517570 [utf-16le-ascii] \resources\common\ROS Legacy\ccmini\logs
+@  517656 [utf-16le-ascii] \resources\common\ROS Legacy\ccmini\x64
+@  517736 [utf-16le-ascii] ccipc_d.dll
+@  517764 [utf-16le-ascii] \resources\common\ROS Legacy\res
+@  518192 [utf-16le-ascii] exclusive_list.txt
+@  518366 [utf-16le-ascii] khmeros.ttf
+@  518428 [utf-16le-ascii] npk_manifest.xml
+@  518518 [utf-16le-ascii] ros.ico
+@  518806 [utf-16le-ascii] \resources\common\ROS Legacy\res\scene
+@  518888 [utf-16le-ascii] \resources\common\ROS Legacy\res\scene\xiutz
+@  518982 [utf-16le-ascii] \resources\common\ROS Legacy\res\scene\xiutz\xiutz_content
+@  519104 [utf-16le-ascii] \resources\common\ROS Legacy\res\scene\xiutz\xiutz_content\landscape
+@  519246 [utf-16le-ascii] \resources\common\ROS Legacy\res\scene\xiutz\xiutz_content\landscape\xiutz
+@  519400 [utf-16le-ascii] \resources\common\ROS Legacy\res\share_raw_resource
+@  519674 [utf-16le-ascii] \resources\common\ROS Legacy\res\sound
+@  525336 [utf-16le-ascii] wp_crossbow.fsb
+@  526238 [utf-16le-ascii] \resources\common\ROS Legacy\res\sound\music
+@  528212 [utf-16le-ascii] \resources\common\ROS Legacy\res\sound\output
+@  528664 [utf-16le-ascii] \resources\common\ROS Legacy\res\sound\sound_g89
+@  531466 [utf-16le-ascii] \resources\common\ROS Legacy\res\video
+@  531602 [utf-16le-ascii] \resources\common\ROS Legacy\x64
+@  531668 [utf-16le-ascii] CCMsgSdk.x64.dll
+@  531702 [utf-16le-ascii] NtUniSDKBase.dll
+@  531736 [utf-16le-ascii] NtUniSDKBase.dll.bak
+@  531778 [utf-16le-ascii] WebView2Loader.dll
+@  531816 [utf-16le-ascii] d3dx9_43.dll
+@  531842 [utf-16le-ascii] fmod_event64.dll
+@  531876 [utf-16le-ascii] fmod_event_net64.dll
+@  531918 [utf-16le-ascii] fmodex64.dll
+@  531950 [utf-16le-ascii] Installed Mirae Labs Launcher is current or newer; preserving shared launcher files.
+@  532124 [utf-16le-ascii] \resources\common\ROS Legacy\Mirae Labs Launcher.exe
+@  532230 [utf-16le-ascii] Removing misplaced launcher files from the ROS Legacy directory...
+@  532368 [utf-16le-ascii] \resources\common\ROS Legacy\helpers
+@  532446 [utf-16le-ascii] \resources\common\ROS Legacy\locales
+@  532524 [utf-16le-ascii] \resources\common\ROS Legacy\resources
+@  532606 [utf-16le-ascii] \resources\common\ROS Legacy\chrome_100_percent.pak
+@  532714 [utf-16le-ascii] \resources\common\ROS Legacy\chrome_200_percent.pak
+@  532822 [utf-16le-ascii] \resources\common\ROS Legacy\d3dcompiler_47.dll
+@  532922 [utf-16le-ascii] \resources\common\ROS Legacy\dxcompiler.dll
+@  533014 [utf-16le-ascii] \resources\common\ROS Legacy\dxil.dll
+@  533094 [utf-16le-ascii] \resources\common\ROS Legacy\ffmpeg.dll
+@  533178 [utf-16le-ascii] \resources\common\ROS Legacy\icudtl.dat
+@  533262 [utf-16le-ascii] \resources\common\ROS Legacy\idate3.ico
+@  533346 [utf-16le-ascii] \resources\common\ROS Legacy\libEGL.dll
+@  533430 [utf-16le-ascii] \resources\common\ROS Legacy\libGLESv2.dll
+@  533520 [utf-16le-ascii] \resources\common\ROS Legacy\LICENSE.electron.txt
+@  533624 [utf-16le-ascii] \resources\common\ROS Legacy\LICENSES.chromium.html
+@  533732 [utf-16le-ascii] \resources\common\ROS Legacy\resources.pak
+@  533822 [utf-16le-ascii] \resources\common\ROS Legacy\rosl.ico
+@  533902 [utf-16le-ascii] \resources\common\ROS Legacy\sfl.ico
+@  533980 [utf-16le-ascii] \resources\common\ROS Legacy\snapshot_blob.bin
+@  534078 [utf-16le-ascii] \resources\common\ROS Legacy\v8_context_snapshot.bin
+@  534188 [utf-16le-ascii] \resources\common\ROS Legacy\vk_swiftshader.dll
+@  534288 [utf-16le-ascii] \resources\common\ROS Legacy\vk_swiftshader_icd.json
+@  534398 [utf-16le-ascii] \resources\common\ROS Legacy\vulkan-1.dll
+@  534486 [utf-16le-ascii] \resources\common\ROS Legacy\Uninstall ROS Legacy.exe
+@  534598 [utf-16le-ascii] \resources\common\ROS Legacy
+@  534972 [utf-16le-ascii] \Documents\patch_temp
+@  535020 [utf-16le-ascii] \Documents\patch_temp\npk
+@  535076 [utf-16le-ascii] \Documents\patch_temp\npk\res
+@  535140 [utf-16le-ascii] \Documents\patched
+@  535182 [utf-16le-ascii] \Documents\patching
+@  535226 [utf-16le-ascii] \Documents\patching\dlc_pc_launcher.plist
+@  535314 [utf-16le-ascii] \Documents\patching\npk_version_na_8k_inner_pc.plist
+@  535424 [utf-16le-ascii] \Documents\patching\npk_version_na_fps_inner_pc.plist
+@  535536 [utf-16le-ascii] \Documents\patching\npk_version_na_nextgen_inner_pc.plist
+@  535656 [utf-16le-ascii] \Documents\patching\npk_version_na_ros2_inner_pc.plist
+@  537908 [utf-16le-ascii] \Documents\res\effect_cache\32\common\shader\new_effects\erosion.nfx
+@  545370 [utf-16le-ascii] \Documents\res\effect_cache\64\common\shader\new_effects\erosion.nfx
+@  551424 [utf-16le-ascii] \Documents\res\ros2
+@  551468 [utf-16le-ascii] \Documents\res\ros2\scene
+@  551524 [utf-16le-ascii] \Documents\res\ros2\scene\jiliwan
+@  551596 [utf-16le-ascii] \Documents\res\ros2\scene\jiliwan\jiliwan
+@  551684 [utf-16le-ascii] \Documents\res\ros2\scene\jiliwan\jiliwan_content
+@  551788 [utf-16le-ascii] \Documents\res\ros2\scene\jiliwan\jiliwan_content\landscape
+@  551912 [utf-16le-ascii] \Documents\res\ros2\scene\jiliwan\jiliwan_content\landscape\jiliwan
+@  552744 [utf-16le-ascii] \Documents\res\ui\images\ros_match_team
+@  552828 [utf-16le-ascii] \Documents\res\ui\images\ros_match_team\custom_logo
+@  552936 [utf-16le-ascii] \Documents\res\ui\images\ros_match_team\custom_logo\texture
+@  553060 [utf-16le-ascii] \Documents\res\ui\images\ros_match_team\custom_logo\tmp
+@  554224 [utf-16le-ascii] \resources\common\ROS Legacy\version.dat
+@  554344 [utf-16le-ascii] \Uninstall ROS Legacy.exe
+@  554406 [utf-16le-ascii] \Uninstall ROS Legacy.exe
+@  554598 [utf-16le-ascii] \ROS Legacy.lnk
+@  554630 [utf-16le-ascii] --game=ROSL
+@  554658 [utf-16le-ascii] \resources\common\ROS Legacy\logo.ico
+@  554738 [utf-16le-ascii] \Mirae Labs\ROS Legacy.lnk
+@  554796 [utf-16le-ascii] \Mirae Labs\Uninstall ROS Legacy.lnk
+@  554874 [utf-16le-ascii] \resources\assets\icons\rosl.ico
+@  554940 [utf-16le-ascii] Software\MiraeLabs\ROS
+@  554986 [utf-16le-ascii] Software\Microsoft\Windows\CurrentVersion\Uninstall\MiraeLabsROS
+@  555518 [utf-16le-ascii] InstallLocation
+@  555580 [utf-16le-ascii] \resources\assets\icons\rosl.ico"
+@  555648 [utf-16le-ascii] UninstallString
+@  555686 [utf-16le-ascii] \Uninstall ROS Legacy.exe"
+@  555740 [utf-16le-ascii] QuietUninstallString
+@  555788 [utf-16le-ascii] \Uninstall ROS Legacy.exe" /S
+@  556064 [utf-16le-ascii]  Setup
+@  556326 [utf-16le-ascii] Created uninstaller: 
+@  556522 [utf-16le-ascii] Error decompressing data! Corrupted installer?
+@  556724 [utf-16le-ascii] Installer corrupted: invalid opcode
+@  557060 [utf-16le-ascii] Click Abort to stop the installation,
+@  557264 [utf-16le-ascii]  Setup
+@  557304 [utf-16le-ascii] If you accept the terms of the agreement, click I Agree to continue. You must accept the agreement to install 
+@  557568 [utf-16le-ascii] Please review the license terms before installing 
+@  557776 [utf-16le-ascii] Choose Install Location
+@  557824 [utf-16le-ascii] Choose the folder in which to install 
+@  557908 [utf-16le-ascii] Installing
+@  557970 [utf-16le-ascii]  is being installed.
+@  558012 [utf-16le-ascii] Installation Complete
+@  558056 [utf-16le-ascii] Setup was completed successfully.
+@  558124 [utf-16le-ascii] Installation Aborted
+@  558166 [utf-16le-ascii] Setup was not completed successfully.
+@  558284 [utf-16le-ascii]  Setup
+@  558298 [utf-16le-ascii] Your computer must be restarted in order to complete the installation of 
+@  558596 [utf-16le-ascii]  has been installed on your computer.
+@  558678 [utf-16le-ascii] Click Finish to close Setup.
+@  558862 [utf-16le-ascii] Setup will install 
+@  558904 [utf-16le-ascii]  in the following folder. To install in a different folder, click Browse and select another folder. 
+@  559170 [utf-16le-ascii] Select the folder to install 
+@  559242 [utf-16le-ascii] &Install
+@  559260 [utf-16le-ascii] Click Install to start the installation.
+@  559408 [utf-16le-ascii] \wininit.ini
+
+INTERPRETATION LIMITS
+----------------------------------------------------------------------------
+A valid header decode proves the compressed header was reconstructed, not that all NSIS instructions have been decompiled.
+String candidates are evidence for filenames/configs, but their position alone does not prove how an instruction uses them.
+No external payload file was extracted by this script.
