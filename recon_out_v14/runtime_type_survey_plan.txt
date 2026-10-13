@@ -1,0 +1,13 @@
+ROS64 V14 RUNTIME TYPE SURVEY PLAN
+============================================================================
+Module base: 0x0000000140000000
+Module end (exclusive): 0x0000000145AEA000
+Mapped image size: 95330304 bytes (0x5AEA000)
+
+Scans:
+  1. Runtime MSVC class type-name prefix .?AV
+  2. Runtime MSVC struct type-name prefix .?AU
+
+Run inside WinDbg, not cmd.exe. Confirm `lm m ros64` reports the expected module base first.
+The command file enumerates matching strings across the loaded image; it does not execute target code.
+After execution, commit the generated log and plan so the type names can be ranked for vehicle/movement tracking relevance.

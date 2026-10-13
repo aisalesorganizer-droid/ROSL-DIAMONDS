@@ -1,0 +1,17 @@
+.echo ============================================================================
+.echo ROS64 V14 runtime MSVC type-name survey
+.echo READ-ONLY: search mapped image and display strings only
+.logopen C:\Users\MAFIA\Downloads\Compressed\ROSLegacy\Diamonds\recon_out_v14\windbg_runtime_types_v14.log
+.echo Confirm ros64 module base and end before interpreting results
+lm m ros64
+.echo Expected base 0x140000000 end 0x145AEA000 size 0x5AEA000
+!dh 0000000140000000 -s
+.echo ============================================================================
+.echo MSVC CLASS TYPE NAMES (.?AV) ACROSS THE FULL IMAGE
+.foreach ( classhit { s-[1]a 0000000140000000 L5AEA000 ".?AV" }) { da ${classhit} }
+.echo ============================================================================
+.echo MSVC STRUCT TYPE NAMES (.?AU) ACROSS THE FULL IMAGE
+.foreach ( structhit { s-[1]a 0000000140000000 L5AEA000 ".?AU" }) { da ${structhit} }
+.echo ============================================================================
+.echo END V14 TYPE SURVEY
+.logclose

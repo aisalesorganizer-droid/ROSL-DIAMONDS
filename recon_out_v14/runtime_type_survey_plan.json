@@ -1,0 +1,37 @@
+{
+  "tool": "ros64_runtime_type_survey_v14",
+  "purpose": "Enumerate runtime MSVC RTTI class/struct names across the mapped ros64 image.",
+  "repository_context": "Continue from V13 commit 3c9e1ed; V13 confirmed ModelFxData is visual-effect configuration rather than a demonstrated vehicle-tracking class.",
+  "module": {
+    "name": "ros64.exe",
+    "base": "0x0000000140000000",
+    "end_exclusive": "0x0000000145AEA000",
+    "size": 95330304,
+    "size_hex": "0x5AEA000"
+  },
+  "scans": [
+    {
+      "kind": "class",
+      "prefix": ".?AV",
+      "method": "WinDbg s-[1]a across full image, then da each hit"
+    },
+    {
+      "kind": "struct",
+      "prefix": ".?AU",
+      "method": "WinDbg s-[1]a across full image, then da each hit"
+    }
+  ],
+  "safety": "Read-only debugger commands. No function calls, breakpoints, memory writes, or execution-state changes are issued.",
+  "interpretation": [
+    "Confirm the actual ros64 base shown by lm m ros64 matches the expected base before running.",
+    "The address shown by da for a type name normally points 0x10 bytes after the MSVC TypeDescriptor start; corroborate candidates before deriving hierarchy.",
+    "Framework and compiler-generated types are expected. Prioritize game-specific namespaces and names related to world entities, movement, positions, tracking, mounts, vehicles, or simulation.",
+    "A missing word such as Vehicle does not prove the feature is absent; names may be indirect, stripped, or implemented in another module."
+  ],
+  "outputs": {
+    "command_file": "recon_out_v14/windbg_runtime_types_v14.txt",
+    "log_file": "recon_out_v14/windbg_runtime_types_v14.log",
+    "plan_file": "recon_out_v14/runtime_type_survey_plan.txt",
+    "json_file": "recon_out_v14/runtime_type_survey_plan.json"
+  }
+}
