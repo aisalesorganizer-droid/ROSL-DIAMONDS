@@ -1,0 +1,166 @@
+Opened log file 'C:\Users\MAFIA\Downloads\Compressed\ROSLegacy\Diamonds\recon_out_v18\windbg_vehicle_vftable_probe_v18.log'
+Confirm module range before interpreting results
+Browse full module list
+start             end                 module name
+00000001`40000000 00000001`45aea000   ros64      (export symbols)       ros64.exe
+Expected module base 0x0000000140000000 end-exclusive 0x0000000145AEA000
+Search range .rdata 0x0000000141BD2000 size 0x112DC6A
+Each candidate COL should begin with DWORDs signature=1 offset=0 cdOffset=0
+COL+0x0C is TypeDescriptor RVA COL+0x10 is CHD RVA COL+0x14 is pSelf RVA
+Each CHD dump shows signature numBaseClasses and baseClassArray RVA
+A qword search hit at SLOT may be the pointer immediately before a vftable
+Validate with dq SLOT L3 and dps SLOT+8 L20 in a follow-up before disassembly
+============================================================================
+----------------------------------------------------------------------------
+TARGET AvatarVehicleFilter PRIORITY vehicle avatar interpolation/filtering
+COL 0x00000001428C50B8 CHD 0x00000001428C50E0
+00000001`428c50b8  00000001 00000000 00000000 031a61e0
+00000001`428c50c8  028c50e0 028c50b8
+00000001`428c50e0  00000000 00000000 00000005
+00000001`41bfdf10  00000001`428c50b8 00000001`40266110
+----------------------------------------------------------------------------
+TARGET AvatarVehicleVtimeFilter PRIORITY vehicle avatar time interpolation/filtering
+COL 0x00000001428C4F90 CHD 0x00000001428C4FB8
+00000001`428c4f90  00000001 00000000 00000000 031a6120
+00000001`428c4fa0  028c4fb8 028c4f90
+00000001`428c4fb8  00000000 00000000 00000005
+00000001`41bfde00  00000001`428c4f90 00000001`40263720
+----------------------------------------------------------------------------
+TARGET DynamicVehicle4W PRIORITY primary vehicle type
+COL 0x00000001428FEE30 CHD 0x00000001428FEE58
+00000001`428fee30  00000001 00000000 00000000 031c9a78
+00000001`428fee40  028fee58 028fee30
+00000001`428fee58  00000000 00000001 00000005
+00000001`41d049c0  00000001`428fee30 00000001`407f66a0
+----------------------------------------------------------------------------
+TARGET DynamicVehicleModelDelegate4W PRIORITY vehicle model bridge/delegate
+COL 0x00000001428FEEC8 CHD 0x00000001428FEEF0
+00000001`428feec8  00000001 00000000 00000000 031c9ab0
+00000001`428feed8  028feef0 028feec8
+00000001`428feef0  00000000 00000000 00000002
+00000001`41d04a90  00000001`428feec8 00000001`4082a3f0
+----------------------------------------------------------------------------
+TARGET DynamicVehicleModelDelegate PRIORITY generic vehicle model bridge/delegate
+COL 0x00000001428FF680 CHD 0x00000001428FF6A8
+00000001`428ff680  00000001 00000000 00000000 031c9dc0
+00000001`428ff690  028ff6a8 028ff680
+00000001`428ff6a8  00000000 00000000 00000002
+00000001`41d06bb8  00000001`428ff680 00000001`408471f0
+----------------------------------------------------------------------------
+TARGET DynamicCharacter PRIORITY related dynamic actor comparison
+COL 0x00000001428FE9C0 CHD 0x00000001428FE9E8
+00000001`428fe9c0  00000001 00000000 00000000 031c9928
+00000001`428fe9d0  028fe9e8 028fe9c0
+00000001`428fe9e8  00000000 00000000 00000003
+00000001`41d04138  00000001`428fe9c0 00000001`4081a8e0
+----------------------------------------------------------------------------
+TARGET PhysicsModelActor PRIORITY physics actor bridge
+COL 0x00000001428FD690 CHD 0x00000001428FD6B8
+00000001`428fd690  00000001 00000000 00000000 031c90a0
+00000001`428fd6a0  028fd6b8 028fd690
+00000001`428fd6b8  00000000 00000001 00000004
+00000001`41d01748  00000001`428fd690 00000001`40801fd0
+----------------------------------------------------------------------------
+TARGET PhysicsModel PRIORITY physics model
+COL 0x00000001428FD820 CHD 0x00000001428FD848
+00000001`428fd820  00000001 00000000 00000000 031c9178
+00000001`428fd830  028fd848 028fd820
+00000001`428fd848  00000000 00000001 00000005
+00000001`41d017b0  00000001`428fd820 00000001`408044e0
+----------------------------------------------------------------------------
+TARGET DynamicWorld PRIORITY dynamic physics world
+COL 0x00000001428FCAF8 CHD 0x00000001428FCB20
+00000001`428fcaf8  00000001 00000000 00000000 031c8c38
+00000001`428fcb08  028fcb20 028fcaf8
+00000001`428fcb20  00000000 00000000 00000002
+00000001`41d00590  00000001`428fcaf8 00000001`407f2500
+----------------------------------------------------------------------------
+TARGET DynamicBody PRIORITY dynamic body comparison
+COL 0x00000001428FCDB8 CHD 0x00000001428FCDE0
+00000001`428fcdb8  00000001 00000000 00000000 03158e00
+00000001`428fcdc8  028fcde0 028fcdb8
+00000001`428fcde0  00000000 00000001 00000004
+00000001`41d00db0  00000001`428fcdb8 00000001`407f66a0
+----------------------------------------------------------------------------
+TARGET SceneNode PRIORITY scene entity node
+COL 0x00000001428E9198 CHD 0x00000001428E91C0
+00000001`428e9198  00000001 00000000 00000000 031c03c0
+00000001`428e91a8  028e91c0 028e9198
+00000001`428e91c0  00000000 00000001 00000004
+00000001`41c409d8  00000001`428e9198 00000001`405e9b30
+----------------------------------------------------------------------------
+TARGET PositionProvider PRIORITY position source/provider
+COL 0x00000001428E1858 CHD 0x00000001428E1880
+00000001`428e1858  00000001 00000000 00000000 03154300
+00000001`428e1868  028e1880 028e1858
+00000001`428e1880  00000000 00000000 00000002
+00000001`41c31f18  00000001`428e1858 00000001`4052db60
+----------------------------------------------------------------------------
+TARGET SpaceNode PRIORITY world-space entity node
+COL 0x00000001428D4FF8 CHD 0x00000001428D5020
+00000001`428d4ff8  00000001 00000000 00000000 031b7b30
+00000001`428d5008  028d5020 028d4ff8
+00000001`428d5020  00000000 00000001 00000003
+00000001`41c137c0  00000001`428d4ff8 00000001`40395830
+----------------------------------------------------------------------------
+TARGET AutoTracing PRIORITY tracking behavior data, verify whether a vftable exists
+COL 0x00000001428D9F78 CHD 0x00000001428D9FA0
+00000001`428d9f78  00000001 00000000 00000000 031ba1d0
+00000001`428d9f88  028d9fa0 028d9f78
+00000001`428d9fa0  00000000 00000000 00000002
+00000001`41c23718  00000001`428d9f78 00000001`40431e40
+----------------------------------------------------------------------------
+TARGET AutoTracingPos PRIORITY position-tracking behavior data, verify whether a vftable exists
+COL 0x00000001428D9FF8 CHD 0x00000001428DA020
+00000001`428d9ff8  00000001 00000000 00000000 031ba208
+00000001`428da008  028da020 028d9ff8
+00000001`428da020  00000000 00000000 00000003
+00000001`41c23738  00000001`428d9ff8 00000001`40431e70
+----------------------------------------------------------------------------
+TARGET AutoMoving PRIORITY automatic movement behavior data, verify whether a vftable exists
+COL 0x00000001428D9F00 CHD 0x00000001428D9F28
+00000001`428d9f00  00000001 00000000 00000000 031ba198
+00000001`428d9f10  028d9f28 028d9f00
+00000001`428d9f28  00000000 00000000 00000001
+00000001`41c23700  00000001`428d9f00 00000001`40431e10
+----------------------------------------------------------------------------
+TARGET GameObject PRIORITY gameplay object
+COL 0x00000001428D1B10 CHD 0x00000001428CAAA8
+00000001`428d1b10  00000001 00000000 00000000 031ab7a8
+00000001`428d1b20  028caaa8 028d1b10
+00000001`428caaa8  00000000 00000000 00000002
+00000001`41c08908  00000001`428d1b10 00000001`402c9c30
+----------------------------------------------------------------------------
+TARGET Transform PRIORITY gameplay transform
+COL 0x00000001428CDA28 CHD 0x00000001428CDA50
+00000001`428cda28  00000001 00000000 00000000 03152470
+00000001`428cda38  028cda50 028cda28
+00000001`428cda50  00000000 00000000 00000003
+00000001`41c06450  00000001`428cda28 00000001`402eca50
+----------------------------------------------------------------------------
+TARGET World PRIORITY world container
+COL 0x00000001428D3BF0 CHD 0x00000001428D3C18
+00000001`428d3bf0  00000001 00000000 00000000 031b7138
+00000001`428d3c00  028d3c18 028d3bf0
+00000001`428d3c18  00000000 00000000 00000002
+00000001`41c0ed98  00000001`428d3bf0 00000001`40372da0
+----------------------------------------------------------------------------
+TARGET Scene PRIORITY scene container primary COL
+COL 0x00000001428D9DD0 CHD 0x00000001428D9DF8
+00000001`428d9dd0  00000001 00000000 00000000 031ba140
+00000001`428d9de0  028d9df8 028d9dd0
+00000001`428d9df8  00000000 00000001 00000004
+00000001`41c24c00  00000001`428d9dd0 00000001`40436770
+----------------------------------------------------------------------------
+TARGET Scene alternate COL PRIORITY secondary COL candidate, inspect offset and references
+COL 0x00000001428D9ED8 CHD 0x00000001428D9DF8
+00000001`428d9ed8  00000001 00000008 00000000 031ba140
+00000001`428d9ee8  028d9df8 028d9ed8
+00000001`428d9df8  00000000 00000001 00000004
+00000001`41c25420  00000001`428d9ed8 00000001`40437ae4
+----------------------------------------------------------------------------
+VALIDATION ONLY GameObject non-COL matching reference PRIORITY expected to fail COL signature / self checks
+00000001`428caa74  00000000 00000000 00000000 031ab7a8
+00000001`428caa84  00000001 00000000
+V18 COL and qword-reference probe complete
+Closing open log file C:\Users\MAFIA\Downloads\Compressed\ROSLegacy\Diamonds\recon_out_v18\windbg_vehicle_vftable_probe_v18.log
