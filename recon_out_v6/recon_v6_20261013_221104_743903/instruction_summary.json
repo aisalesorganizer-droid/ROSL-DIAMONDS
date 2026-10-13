@@ -1,0 +1,269 @@
+{
+  "total_entries": 6821,
+  "opcode_counts": [
+    {
+      "opcode": 1,
+      "opcode_name": "RET",
+      "count": 28
+    },
+    {
+      "opcode": 2,
+      "opcode_name": "NOP_OR_GOTO",
+      "count": 40
+    },
+    {
+      "opcode": 3,
+      "opcode_name": "ABORT",
+      "count": 3
+    },
+    {
+      "opcode": 4,
+      "opcode_name": "QUIT",
+      "count": 3
+    },
+    {
+      "opcode": 5,
+      "opcode_name": "CALL",
+      "count": 46
+    },
+    {
+      "opcode": 6,
+      "opcode_name": "UPDATETEXT_OR_DETAILPRINT",
+      "count": 5
+    },
+    {
+      "opcode": 7,
+      "opcode_name": "SLEEP",
+      "count": 2
+    },
+    {
+      "opcode": 11,
+      "opcode_name": "CREATEDIR_OR_SETOUTPATH",
+      "count": 433
+    },
+    {
+      "opcode": 12,
+      "opcode_name": "IFFILEEXISTS",
+      "count": 16
+    },
+    {
+      "opcode": 13,
+      "opcode_name": "SETFLAG",
+      "count": 37
+    },
+    {
+      "opcode": 14,
+      "opcode_name": "IFFLAG",
+      "count": 14
+    },
+    {
+      "opcode": 17,
+      "opcode_name": "GETFULLPATHNAME",
+      "count": 4
+    },
+    {
+      "opcode": 19,
+      "opcode_name": "GETTEMPFILENAME",
+      "count": 1
+    },
+    {
+      "opcode": 20,
+      "opcode_name": "EXTRACTFILE",
+      "count": 5590
+    },
+    {
+      "opcode": 23,
+      "opcode_name": "DELETEFILE",
+      "count": 26
+    },
+    {
+      "opcode": 24,
+      "opcode_name": "MESSAGEBOX",
+      "count": 2
+    },
+    {
+      "opcode": 25,
+      "opcode_name": "RMDIR",
+      "count": 3
+    },
+    {
+      "opcode": 26,
+      "opcode_name": "STRLEN",
+      "count": 4
+    },
+    {
+      "opcode": 27,
+      "opcode_name": "ASSIGNVAR_OR_STRCOPY",
+      "count": 84
+    },
+    {
+      "opcode": 28,
+      "opcode_name": "STRCMP",
+      "count": 54
+    },
+    {
+      "opcode": 30,
+      "opcode_name": "INTCMP",
+      "count": 9
+    },
+    {
+      "opcode": 31,
+      "opcode_name": "INTOP",
+      "count": 16
+    },
+    {
+      "opcode": 33,
+      "opcode_name": "PUSHPOP_OR_EXCHANGE",
+      "count": 178
+    },
+    {
+      "opcode": 34,
+      "opcode_name": "FINDWINDOW",
+      "count": 1
+    },
+    {
+      "opcode": 35,
+      "opcode_name": "SENDMESSAGE",
+      "count": 15
+    },
+    {
+      "opcode": 37,
+      "opcode_name": "GETDLGITEM",
+      "count": 53
+    },
+    {
+      "opcode": 38,
+      "opcode_name": "SETCTLCOLORS",
+      "count": 14
+    },
+    {
+      "opcode": 39,
+      "opcode_name": "LOADANDSETIMAGE",
+      "count": 1
+    },
+    {
+      "opcode": 40,
+      "opcode_name": "CREATEFONT",
+      "count": 3
+    },
+    {
+      "opcode": 41,
+      "opcode_name": "SHOWWINDOW",
+      "count": 28
+    },
+    {
+      "opcode": 42,
+      "opcode_name": "SHELLEXEC",
+      "count": 1
+    },
+    {
+      "opcode": 45,
+      "opcode_name": "GETDLLVERSION",
+      "count": 1
+    },
+    {
+      "opcode": 46,
+      "opcode_name": "REGISTERDLL_OR_PLUGIN_CALL",
+      "count": 24
+    },
+    {
+      "opcode": 47,
+      "opcode_name": "CREATESHORTCUT",
+      "count": 3
+    },
+    {
+      "opcode": 49,
+      "opcode_name": "REBOOT",
+      "count": 1
+    },
+    {
+      "opcode": 50,
+      "opcode_name": "WRITEINI",
+      "count": 33
+    },
+    {
+      "opcode": 51,
+      "opcode_name": "READINISTR",
+      "count": 1
+    },
+    {
+      "opcode": 52,
+      "opcode_name": "DELREG",
+      "count": 1
+    },
+    {
+      "opcode": 53,
+      "opcode_name": "WRITEREG",
+      "count": 14
+    },
+    {
+      "opcode": 54,
+      "opcode_name": "READREGSTR",
+      "count": 1
+    },
+    {
+      "opcode": 56,
+      "opcode_name": "FCLOSE",
+      "count": 2
+    },
+    {
+      "opcode": 57,
+      "opcode_name": "FOPEN",
+      "count": 2
+    },
+    {
+      "opcode": 59,
+      "opcode_name": "FGETS_OR_FILEREAD",
+      "count": 2
+    },
+    {
+      "opcode": 60,
+      "opcode_name": "FSEEK",
+      "count": 1
+    },
+    {
+      "opcode": 61,
+      "opcode_name": "FINDCLOSE",
+      "count": 4
+    },
+    {
+      "opcode": 62,
+      "opcode_name": "FINDNEXT",
+      "count": 6
+    },
+    {
+      "opcode": 63,
+      "opcode_name": "FINDFIRST",
+      "count": 2
+    },
+    {
+      "opcode": 64,
+      "opcode_name": "WRITEUNINSTALLER",
+      "count": 1
+    },
+    {
+      "opcode": 69,
+      "opcode_name": "OPCODE_69_VERSION_DEPENDENT",
+      "count": 8
+    }
+  ],
+  "file_instruction_count": 5590,
+  "file_instruction_opcode_counts": {
+    "20": 5590
+  },
+  "sections": [
+    {
+      "index": 0,
+      "offset": 684,
+      "record_size": 2072,
+      "name_string_index": 82506,
+      "install_types": 0,
+      "flags": 1,
+      "code_entry_index": 477,
+      "code_entry_count": 6329,
+      "size_kb_declared": 16610871,
+      "name_raw": "",
+      "entry_range_end": 6806
+    }
+  ]
+}
