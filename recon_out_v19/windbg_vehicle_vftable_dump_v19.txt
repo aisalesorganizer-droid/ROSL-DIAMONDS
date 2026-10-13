@@ -1,0 +1,222 @@
+.echo ============================================================================
+.echo ROS64 V19 candidate vftable dump and RTTI hierarchy metadata
+.echo READ ONLY no target calls writes breakpoints or foreach substitution
+.logopen C:\Users\MAFIA\Downloads\Compressed\ROSLegacy\Diamonds\recon_out_v19\windbg_vehicle_vftable_dump_v19.log
+lm m ros64
+.echo Expected module base 0x0000000140000000 end-exclusive 0x0000000145AEA000
+.echo V18 found COL-pointer references in .rdata. Candidate vftable address is reference slot plus 8 bytes.
+.echo CHD has four DWORDs. The fourth DWORD is the base-class-array RVA.
+.echo Dumping up to 16 qword entries per candidate table
+.echo ============================================================================
+.echo ----------------------------------------------------------------------------
+.echo TARGET AvatarVehicleFilter PRIORITY vehicle avatar interpolation/filtering
+.echo COL 0x00000001428C50B8 CHD 0x00000001428C50E0
+.echo COL reference slot 0x0000000141BFDF10
+.echo VFTABLE candidate 0x0000000141BFDF18
+dd 00000001428C50B8 L6
+dd 00000001428C50E0 L4
+dq 0000000141BFDF10 L3
+dq 0000000141BFDF18 L10
+dps 0000000141BFDF18 L10
+.echo ----------------------------------------------------------------------------
+.echo TARGET AvatarVehicleVtimeFilter PRIORITY vehicle avatar time interpolation/filtering
+.echo COL 0x00000001428C4F90 CHD 0x00000001428C4FB8
+.echo COL reference slot 0x0000000141BFDE00
+.echo VFTABLE candidate 0x0000000141BFDE08
+dd 00000001428C4F90 L6
+dd 00000001428C4FB8 L4
+dq 0000000141BFDE00 L3
+dq 0000000141BFDE08 L10
+dps 0000000141BFDE08 L10
+.echo ----------------------------------------------------------------------------
+.echo TARGET DynamicVehicle4W PRIORITY primary vehicle type
+.echo COL 0x00000001428FEE30 CHD 0x00000001428FEE58
+.echo COL reference slot 0x0000000141D049C0
+.echo VFTABLE candidate 0x0000000141D049C8
+dd 00000001428FEE30 L6
+dd 00000001428FEE58 L4
+dq 0000000141D049C0 L3
+dq 0000000141D049C8 L10
+dps 0000000141D049C8 L10
+.echo ----------------------------------------------------------------------------
+.echo TARGET DynamicVehicleModelDelegate4W PRIORITY vehicle model bridge/delegate
+.echo COL 0x00000001428FEEC8 CHD 0x00000001428FEEF0
+.echo COL reference slot 0x0000000141D04A90
+.echo VFTABLE candidate 0x0000000141D04A98
+dd 00000001428FEEC8 L6
+dd 00000001428FEEF0 L4
+dq 0000000141D04A90 L3
+dq 0000000141D04A98 L10
+dps 0000000141D04A98 L10
+.echo ----------------------------------------------------------------------------
+.echo TARGET DynamicVehicleModelDelegate PRIORITY generic vehicle model bridge/delegate
+.echo COL 0x00000001428FF680 CHD 0x00000001428FF6A8
+.echo COL reference slot 0x0000000141D06BB8
+.echo VFTABLE candidate 0x0000000141D06BC0
+dd 00000001428FF680 L6
+dd 00000001428FF6A8 L4
+dq 0000000141D06BB8 L3
+dq 0000000141D06BC0 L10
+dps 0000000141D06BC0 L10
+.echo ----------------------------------------------------------------------------
+.echo TARGET DynamicCharacter PRIORITY related dynamic actor comparison
+.echo COL 0x00000001428FE9C0 CHD 0x00000001428FE9E8
+.echo COL reference slot 0x0000000141D04138
+.echo VFTABLE candidate 0x0000000141D04140
+dd 00000001428FE9C0 L6
+dd 00000001428FE9E8 L4
+dq 0000000141D04138 L3
+dq 0000000141D04140 L10
+dps 0000000141D04140 L10
+.echo ----------------------------------------------------------------------------
+.echo TARGET PhysicsModelActor PRIORITY physics actor bridge
+.echo COL 0x00000001428FD690 CHD 0x00000001428FD6B8
+.echo COL reference slot 0x0000000141D01748
+.echo VFTABLE candidate 0x0000000141D01750
+dd 00000001428FD690 L6
+dd 00000001428FD6B8 L4
+dq 0000000141D01748 L3
+dq 0000000141D01750 L10
+dps 0000000141D01750 L10
+.echo ----------------------------------------------------------------------------
+.echo TARGET PhysicsModel PRIORITY physics model
+.echo COL 0x00000001428FD820 CHD 0x00000001428FD848
+.echo COL reference slot 0x0000000141D017B0
+.echo VFTABLE candidate 0x0000000141D017B8
+dd 00000001428FD820 L6
+dd 00000001428FD848 L4
+dq 0000000141D017B0 L3
+dq 0000000141D017B8 L10
+dps 0000000141D017B8 L10
+.echo ----------------------------------------------------------------------------
+.echo TARGET DynamicWorld PRIORITY dynamic physics world
+.echo COL 0x00000001428FCAF8 CHD 0x00000001428FCB20
+.echo COL reference slot 0x0000000141D00590
+.echo VFTABLE candidate 0x0000000141D00598
+dd 00000001428FCAF8 L6
+dd 00000001428FCB20 L4
+dq 0000000141D00590 L3
+dq 0000000141D00598 L10
+dps 0000000141D00598 L10
+.echo ----------------------------------------------------------------------------
+.echo TARGET DynamicBody PRIORITY dynamic body comparison
+.echo COL 0x00000001428FCDB8 CHD 0x00000001428FCDE0
+.echo COL reference slot 0x0000000141D00DB0
+.echo VFTABLE candidate 0x0000000141D00DB8
+dd 00000001428FCDB8 L6
+dd 00000001428FCDE0 L4
+dq 0000000141D00DB0 L3
+dq 0000000141D00DB8 L10
+dps 0000000141D00DB8 L10
+.echo ----------------------------------------------------------------------------
+.echo TARGET SceneNode PRIORITY scene entity node
+.echo COL 0x00000001428E9198 CHD 0x00000001428E91C0
+.echo COL reference slot 0x0000000141C409D8
+.echo VFTABLE candidate 0x0000000141C409E0
+dd 00000001428E9198 L6
+dd 00000001428E91C0 L4
+dq 0000000141C409D8 L3
+dq 0000000141C409E0 L10
+dps 0000000141C409E0 L10
+.echo ----------------------------------------------------------------------------
+.echo TARGET PositionProvider PRIORITY position source/provider
+.echo COL 0x00000001428E1858 CHD 0x00000001428E1880
+.echo COL reference slot 0x0000000141C31F18
+.echo VFTABLE candidate 0x0000000141C31F20
+dd 00000001428E1858 L6
+dd 00000001428E1880 L4
+dq 0000000141C31F18 L3
+dq 0000000141C31F20 L10
+dps 0000000141C31F20 L10
+.echo ----------------------------------------------------------------------------
+.echo TARGET SpaceNode PRIORITY world-space entity node
+.echo COL 0x00000001428D4FF8 CHD 0x00000001428D5020
+.echo COL reference slot 0x0000000141C137C0
+.echo VFTABLE candidate 0x0000000141C137C8
+dd 00000001428D4FF8 L6
+dd 00000001428D5020 L4
+dq 0000000141C137C0 L3
+dq 0000000141C137C8 L10
+dps 0000000141C137C8 L10
+.echo ----------------------------------------------------------------------------
+.echo TARGET AutoTracing PRIORITY tracking behavior data
+.echo COL 0x00000001428D9F78 CHD 0x00000001428D9FA0
+.echo COL reference slot 0x0000000141C23718
+.echo VFTABLE candidate 0x0000000141C23720
+dd 00000001428D9F78 L6
+dd 00000001428D9FA0 L4
+dq 0000000141C23718 L3
+dq 0000000141C23720 L10
+dps 0000000141C23720 L10
+.echo ----------------------------------------------------------------------------
+.echo TARGET AutoTracingPos PRIORITY position-tracking behavior data
+.echo COL 0x00000001428D9FF8 CHD 0x00000001428DA020
+.echo COL reference slot 0x0000000141C23738
+.echo VFTABLE candidate 0x0000000141C23740
+dd 00000001428D9FF8 L6
+dd 00000001428DA020 L4
+dq 0000000141C23738 L3
+dq 0000000141C23740 L10
+dps 0000000141C23740 L10
+.echo ----------------------------------------------------------------------------
+.echo TARGET AutoMoving PRIORITY automatic movement behavior data
+.echo COL 0x00000001428D9F00 CHD 0x00000001428D9F28
+.echo COL reference slot 0x0000000141C23700
+.echo VFTABLE candidate 0x0000000141C23708
+dd 00000001428D9F00 L6
+dd 00000001428D9F28 L4
+dq 0000000141C23700 L3
+dq 0000000141C23708 L10
+dps 0000000141C23708 L10
+.echo ----------------------------------------------------------------------------
+.echo TARGET GameObject PRIORITY gameplay object
+.echo COL 0x00000001428D1B10 CHD 0x00000001428CAAA8
+.echo COL reference slot 0x0000000141C08908
+.echo VFTABLE candidate 0x0000000141C08910
+dd 00000001428D1B10 L6
+dd 00000001428CAAA8 L4
+dq 0000000141C08908 L3
+dq 0000000141C08910 L10
+dps 0000000141C08910 L10
+.echo ----------------------------------------------------------------------------
+.echo TARGET Transform PRIORITY gameplay transform
+.echo COL 0x00000001428CDA28 CHD 0x00000001428CDA50
+.echo COL reference slot 0x0000000141C06450
+.echo VFTABLE candidate 0x0000000141C06458
+dd 00000001428CDA28 L6
+dd 00000001428CDA50 L4
+dq 0000000141C06450 L3
+dq 0000000141C06458 L10
+dps 0000000141C06458 L10
+.echo ----------------------------------------------------------------------------
+.echo TARGET World PRIORITY world container
+.echo COL 0x00000001428D3BF0 CHD 0x00000001428D3C18
+.echo COL reference slot 0x0000000141C0ED98
+.echo VFTABLE candidate 0x0000000141C0EDA0
+dd 00000001428D3BF0 L6
+dd 00000001428D3C18 L4
+dq 0000000141C0ED98 L3
+dq 0000000141C0EDA0 L10
+dps 0000000141C0EDA0 L10
+.echo ----------------------------------------------------------------------------
+.echo TARGET Scene primary PRIORITY scene primary subobject
+.echo COL 0x00000001428D9DD0 CHD 0x00000001428D9DF8
+.echo COL reference slot 0x0000000141C24C00
+.echo VFTABLE candidate 0x0000000141C24C08
+dd 00000001428D9DD0 L6
+dd 00000001428D9DF8 L4
+dq 0000000141C24C00 L3
+dq 0000000141C24C08 L10
+dps 0000000141C24C08 L10
+.echo ----------------------------------------------------------------------------
+.echo TARGET Scene alternate offset 8 PRIORITY scene secondary subobject with offset 8
+.echo COL 0x00000001428D9ED8 CHD 0x00000001428D9DF8
+.echo COL reference slot 0x0000000141C25420
+.echo VFTABLE candidate 0x0000000141C25428
+dd 00000001428D9ED8 L6
+dd 00000001428D9DF8 L4
+dq 0000000141C25420 L3
+dq 0000000141C25428 L10
+dps 0000000141C25428 L10
+.echo V19 candidate vftable dump complete
+.logclose
