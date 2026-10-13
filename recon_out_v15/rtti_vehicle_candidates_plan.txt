@@ -1,0 +1,32 @@
+ROS64 V15 RTTI VEHICLE/TRACKING CANDIDATE PLAN
+============================================================================
+Module base: 0x0000000140000000
+Module end (exclusive): 0x0000000145AEA000
+Candidates: 20
+.rdata search window: 0x0000000141BD2000 size 0x112DC6A
+
+Targets:
+  AvatarVehicleFilter: name=0x00000001431A61F0 TD=0x00000001431A61E0 RVA=0x031A61E0 (vehicle avatar interpolation/filtering)
+  AvatarVehicleVtimeFilter: name=0x00000001431A6130 TD=0x00000001431A6120 RVA=0x031A6120 (vehicle avatar time interpolation/filtering)
+  DynamicVehicle4W: name=0x00000001431C9A88 TD=0x00000001431C9A78 RVA=0x031C9A78 (primary vehicle type)
+  DynamicVehicleModelDelegate4W: name=0x00000001431C9AC0 TD=0x00000001431C9AB0 RVA=0x031C9AB0 (vehicle model bridge/delegate)
+  DynamicVehicleModelDelegate: name=0x00000001431C9DD0 TD=0x00000001431C9DC0 RVA=0x031C9DC0 (generic vehicle model bridge/delegate)
+  DynamicCharacter: name=0x00000001431C9938 TD=0x00000001431C9928 RVA=0x031C9928 (related dynamic actor comparison)
+  PhysicsModelActor: name=0x00000001431C90B0 TD=0x00000001431C90A0 RVA=0x031C90A0 (physics actor bridge)
+  PhysicsModel: name=0x00000001431C9188 TD=0x00000001431C9178 RVA=0x031C9178 (physics model)
+  DynamicWorld: name=0x00000001431C8C48 TD=0x00000001431C8C38 RVA=0x031C8C38 (dynamic physics world)
+  DynamicBody: name=0x0000000143158E10 TD=0x0000000143158E00 RVA=0x03158E00 (dynamic body comparison)
+  SceneNode: name=0x00000001431C03D0 TD=0x00000001431C03C0 RVA=0x031C03C0 (scene entity node)
+  PositionProvider: name=0x0000000143154310 TD=0x0000000143154300 RVA=0x03154300 (position source/provider)
+  SpaceNode: name=0x00000001431B7B40 TD=0x00000001431B7B30 RVA=0x031B7B30 (world-space entity node)
+  AutoTracing: name=0x00000001431BA1E0 TD=0x00000001431BA1D0 RVA=0x031BA1D0 (tracking behavior data)
+  AutoTracingPos: name=0x00000001431BA218 TD=0x00000001431BA208 RVA=0x031BA208 (position-tracking behavior data)
+  AutoMoving: name=0x00000001431BA1A8 TD=0x00000001431BA198 RVA=0x031BA198 (automatic movement behavior data)
+  GameObject: name=0x00000001431AB7B8 TD=0x00000001431AB7A8 RVA=0x031AB7A8 (gameplay object)
+  Transform: name=0x0000000143152480 TD=0x0000000143152470 RVA=0x03152470 (gameplay transform)
+  World: name=0x00000001431B7148 TD=0x00000001431B7138 RVA=0x031B7138 (world container)
+  Scene: name=0x00000001431BA150 TD=0x00000001431BA140 RVA=0x031BA140 (scene container)
+
+Run the command file inside WinDbg after confirming `lm m ros64`.
+Inspect each COL hit at H-0x0C and validate its fields before concluding the class has a vftable.
+This pass only locates RTTI records; the following pass will map verified COLs to vftables.

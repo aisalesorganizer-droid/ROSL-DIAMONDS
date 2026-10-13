@@ -1,0 +1,192 @@
+.echo ============================================================================
+.echo V15 RTTI candidate reference scan for vehicle and tracking types
+.echo READ-ONLY: searches mapped image and dumps candidate RTTI metadata only
+.logopen C:\Users\MAFIA\Downloads\Compressed\ROSLegacy\Diamonds\recon_out_v15\windbg_rtti_vehicle_candidates_v15.log
+.echo Confirm the module range before interpreting results
+lm m ros64
+.echo Expected base 0x140000000 end 0x145AEA000 size 0x5AEA000
+.echo For x64 MSVC RTTI, a name at TD+0x10 implies TD=name_address-0x10.
+.echo The COL TypeDescriptor RVA field is at COL+0x0C. A match hit is expected there.
+.echo ============================================================================
+.echo TARGET AvatarVehicleFilter [class] - vehicle avatar interpolation/filtering
+.echo DECORATED .?AVAvatarVehicleFilter@filter_2_0@bwclient@neox@@
+.echo NAME_ADDRESS 0x00000001431A61F0
+.echo TYPE_DESCRIPTOR 0x00000001431A61E0 RVA 0x031A61E0
+da 00000001431A61F0
+dps 00000001431A61E0 L3
+.echo Search image for 32-bit TypeDescriptor RVA 0x031A61E0
+.foreach ( tdfield { s -d 0000000141BD2000 L112DC6A 031A61E0 }) { dd ${tdfield}-C L6 }
+.echo ============================================================================
+.echo TARGET AvatarVehicleVtimeFilter [class] - vehicle avatar time interpolation/filtering
+.echo DECORATED .?AVAvatarVehicleVtimeFilter@filter_2_0@bwclient@neox@@
+.echo NAME_ADDRESS 0x00000001431A6130
+.echo TYPE_DESCRIPTOR 0x00000001431A6120 RVA 0x031A6120
+da 00000001431A6130
+dps 00000001431A6120 L3
+.echo Search image for 32-bit TypeDescriptor RVA 0x031A6120
+.foreach ( tdfield { s -d 0000000141BD2000 L112DC6A 031A6120 }) { dd ${tdfield}-C L6 }
+.echo ============================================================================
+.echo TARGET DynamicVehicle4W [class] - primary vehicle type
+.echo DECORATED .?AVDynamicVehicle4W@dynamics@neox@@
+.echo NAME_ADDRESS 0x00000001431C9A88
+.echo TYPE_DESCRIPTOR 0x00000001431C9A78 RVA 0x031C9A78
+da 00000001431C9A88
+dps 00000001431C9A78 L3
+.echo Search image for 32-bit TypeDescriptor RVA 0x031C9A78
+.foreach ( tdfield { s -d 0000000141BD2000 L112DC6A 031C9A78 }) { dd ${tdfield}-C L6 }
+.echo ============================================================================
+.echo TARGET DynamicVehicleModelDelegate4W [class] - vehicle model bridge/delegate
+.echo DECORATED .?AVDynamicVehicleModelDelegate4W@dynamics@neox@@
+.echo NAME_ADDRESS 0x00000001431C9AC0
+.echo TYPE_DESCRIPTOR 0x00000001431C9AB0 RVA 0x031C9AB0
+da 00000001431C9AC0
+dps 00000001431C9AB0 L3
+.echo Search image for 32-bit TypeDescriptor RVA 0x031C9AB0
+.foreach ( tdfield { s -d 0000000141BD2000 L112DC6A 031C9AB0 }) { dd ${tdfield}-C L6 }
+.echo ============================================================================
+.echo TARGET DynamicVehicleModelDelegate [class] - generic vehicle model bridge/delegate
+.echo DECORATED .?AVDynamicVehicleModelDelegate@dynamics@neox@@
+.echo NAME_ADDRESS 0x00000001431C9DD0
+.echo TYPE_DESCRIPTOR 0x00000001431C9DC0 RVA 0x031C9DC0
+da 00000001431C9DD0
+dps 00000001431C9DC0 L3
+.echo Search image for 32-bit TypeDescriptor RVA 0x031C9DC0
+.foreach ( tdfield { s -d 0000000141BD2000 L112DC6A 031C9DC0 }) { dd ${tdfield}-C L6 }
+.echo ============================================================================
+.echo TARGET DynamicCharacter [class] - related dynamic actor comparison
+.echo DECORATED .?AVDynamicCharacter@dynamics@neox@@
+.echo NAME_ADDRESS 0x00000001431C9938
+.echo TYPE_DESCRIPTOR 0x00000001431C9928 RVA 0x031C9928
+da 00000001431C9938
+dps 00000001431C9928 L3
+.echo Search image for 32-bit TypeDescriptor RVA 0x031C9928
+.foreach ( tdfield { s -d 0000000141BD2000 L112DC6A 031C9928 }) { dd ${tdfield}-C L6 }
+.echo ============================================================================
+.echo TARGET PhysicsModelActor [class] - physics actor bridge
+.echo DECORATED .?AVPhysicsModelActor@dynamics@neox@@
+.echo NAME_ADDRESS 0x00000001431C90B0
+.echo TYPE_DESCRIPTOR 0x00000001431C90A0 RVA 0x031C90A0
+da 00000001431C90B0
+dps 00000001431C90A0 L3
+.echo Search image for 32-bit TypeDescriptor RVA 0x031C90A0
+.foreach ( tdfield { s -d 0000000141BD2000 L112DC6A 031C90A0 }) { dd ${tdfield}-C L6 }
+.echo ============================================================================
+.echo TARGET PhysicsModel [class] - physics model
+.echo DECORATED .?AVPhysicsModel@dynamics@neox@@
+.echo NAME_ADDRESS 0x00000001431C9188
+.echo TYPE_DESCRIPTOR 0x00000001431C9178 RVA 0x031C9178
+da 00000001431C9188
+dps 00000001431C9178 L3
+.echo Search image for 32-bit TypeDescriptor RVA 0x031C9178
+.foreach ( tdfield { s -d 0000000141BD2000 L112DC6A 031C9178 }) { dd ${tdfield}-C L6 }
+.echo ============================================================================
+.echo TARGET DynamicWorld [class] - dynamic physics world
+.echo DECORATED .?AVDynamicWorld@dynamics@neox@@
+.echo NAME_ADDRESS 0x00000001431C8C48
+.echo TYPE_DESCRIPTOR 0x00000001431C8C38 RVA 0x031C8C38
+da 00000001431C8C48
+dps 00000001431C8C38 L3
+.echo Search image for 32-bit TypeDescriptor RVA 0x031C8C38
+.foreach ( tdfield { s -d 0000000141BD2000 L112DC6A 031C8C38 }) { dd ${tdfield}-C L6 }
+.echo ============================================================================
+.echo TARGET DynamicBody [class] - dynamic body comparison
+.echo DECORATED .?AVDynamicBody@dynamics@neox@@
+.echo NAME_ADDRESS 0x0000000143158E10
+.echo TYPE_DESCRIPTOR 0x0000000143158E00 RVA 0x03158E00
+da 0000000143158E10
+dps 0000000143158E00 L3
+.echo Search image for 32-bit TypeDescriptor RVA 0x03158E00
+.foreach ( tdfield { s -d 0000000141BD2000 L112DC6A 03158E00 }) { dd ${tdfield}-C L6 }
+.echo ============================================================================
+.echo TARGET SceneNode [class] - scene entity node
+.echo DECORATED .?AVSceneNode@world@neox@@
+.echo NAME_ADDRESS 0x00000001431C03D0
+.echo TYPE_DESCRIPTOR 0x00000001431C03C0 RVA 0x031C03C0
+da 00000001431C03D0
+dps 00000001431C03C0 L3
+.echo Search image for 32-bit TypeDescriptor RVA 0x031C03C0
+.foreach ( tdfield { s -d 0000000141BD2000 L112DC6A 031C03C0 }) { dd ${tdfield}-C L6 }
+.echo ============================================================================
+.echo TARGET PositionProvider [class] - position source/provider
+.echo DECORATED .?AVPositionProvider@world@neox@@
+.echo NAME_ADDRESS 0x0000000143154310
+.echo TYPE_DESCRIPTOR 0x0000000143154300 RVA 0x03154300
+da 0000000143154310
+dps 0000000143154300 L3
+.echo Search image for 32-bit TypeDescriptor RVA 0x03154300
+.foreach ( tdfield { s -d 0000000141BD2000 L112DC6A 03154300 }) { dd ${tdfield}-C L6 }
+.echo ============================================================================
+.echo TARGET SpaceNode [class] - world-space entity node
+.echo DECORATED .?AVSpaceNode@world@neox@@
+.echo NAME_ADDRESS 0x00000001431B7B40
+.echo TYPE_DESCRIPTOR 0x00000001431B7B30 RVA 0x031B7B30
+da 00000001431B7B40
+dps 00000001431B7B30 L3
+.echo Search image for 32-bit TypeDescriptor RVA 0x031B7B30
+.foreach ( tdfield { s -d 0000000141BD2000 L112DC6A 031B7B30 }) { dd ${tdfield}-C L6 }
+.echo ============================================================================
+.echo TARGET AutoTracing [struct] - tracking behavior data
+.echo DECORATED .?AUAutoTracing@SpaceNode@world@neox@@
+.echo NAME_ADDRESS 0x00000001431BA1E0
+.echo TYPE_DESCRIPTOR 0x00000001431BA1D0 RVA 0x031BA1D0
+da 00000001431BA1E0
+dps 00000001431BA1D0 L3
+.echo Search image for 32-bit TypeDescriptor RVA 0x031BA1D0
+.foreach ( tdfield { s -d 0000000141BD2000 L112DC6A 031BA1D0 }) { dd ${tdfield}-C L6 }
+.echo ============================================================================
+.echo TARGET AutoTracingPos [struct] - position-tracking behavior data
+.echo DECORATED .?AUAutoTracingPos@SpaceNode@world@neox@@
+.echo NAME_ADDRESS 0x00000001431BA218
+.echo TYPE_DESCRIPTOR 0x00000001431BA208 RVA 0x031BA208
+da 00000001431BA218
+dps 00000001431BA208 L3
+.echo Search image for 32-bit TypeDescriptor RVA 0x031BA208
+.foreach ( tdfield { s -d 0000000141BD2000 L112DC6A 031BA208 }) { dd ${tdfield}-C L6 }
+.echo ============================================================================
+.echo TARGET AutoMoving [struct] - automatic movement behavior data
+.echo DECORATED .?AUAutoMoving@SpaceNode@world@neox@@
+.echo NAME_ADDRESS 0x00000001431BA1A8
+.echo TYPE_DESCRIPTOR 0x00000001431BA198 RVA 0x031BA198
+da 00000001431BA1A8
+dps 00000001431BA198 L3
+.echo Search image for 32-bit TypeDescriptor RVA 0x031BA198
+.foreach ( tdfield { s -d 0000000141BD2000 L112DC6A 031BA198 }) { dd ${tdfield}-C L6 }
+.echo ============================================================================
+.echo TARGET GameObject [class] - gameplay object
+.echo DECORATED .?AVGameObject@gameplay@@
+.echo NAME_ADDRESS 0x00000001431AB7B8
+.echo TYPE_DESCRIPTOR 0x00000001431AB7A8 RVA 0x031AB7A8
+da 00000001431AB7B8
+dps 00000001431AB7A8 L3
+.echo Search image for 32-bit TypeDescriptor RVA 0x031AB7A8
+.foreach ( tdfield { s -d 0000000141BD2000 L112DC6A 031AB7A8 }) { dd ${tdfield}-C L6 }
+.echo ============================================================================
+.echo TARGET Transform [class] - gameplay transform
+.echo DECORATED .?AVTransform@gameplay@@
+.echo NAME_ADDRESS 0x0000000143152480
+.echo TYPE_DESCRIPTOR 0x0000000143152470 RVA 0x03152470
+da 0000000143152480
+dps 0000000143152470 L3
+.echo Search image for 32-bit TypeDescriptor RVA 0x03152470
+.foreach ( tdfield { s -d 0000000141BD2000 L112DC6A 03152470 }) { dd ${tdfield}-C L6 }
+.echo ============================================================================
+.echo TARGET World [class] - world container
+.echo DECORATED .?AVWorld@world@neox@@
+.echo NAME_ADDRESS 0x00000001431B7148
+.echo TYPE_DESCRIPTOR 0x00000001431B7138 RVA 0x031B7138
+da 00000001431B7148
+dps 00000001431B7138 L3
+.echo Search image for 32-bit TypeDescriptor RVA 0x031B7138
+.foreach ( tdfield { s -d 0000000141BD2000 L112DC6A 031B7138 }) { dd ${tdfield}-C L6 }
+.echo ============================================================================
+.echo TARGET Scene [class] - scene container
+.echo DECORATED .?AVScene@world@neox@@
+.echo NAME_ADDRESS 0x00000001431BA150
+.echo TYPE_DESCRIPTOR 0x00000001431BA140 RVA 0x031BA140
+da 00000001431BA150
+dps 00000001431BA140 L3
+.echo Search image for 32-bit TypeDescriptor RVA 0x031BA140
+.foreach ( tdfield { s -d 0000000141BD2000 L112DC6A 031BA140 }) { dd ${tdfield}-C L6 }
+.echo ============================================================================
+.echo V15 RTTI candidate scan complete
+.logclose
