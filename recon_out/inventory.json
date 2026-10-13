@@ -1,0 +1,55 @@
+{
+  "exe": "C:\\Users\\MAFIA\\Downloads\\Compressed\\ROSLegacy\\Diamonds\\ROSLegacy_Install_202609251811.exe",
+  "total_files": 6,
+  "total_size": 178099,
+  "files": [
+    {
+      "date": "2024-09-18",
+      "time": "17:00:14",
+      "attr": ".....",
+      "size": 31495,
+      "compressed": 31744,
+      "name": ".text"
+    },
+    {
+      "date": "2024-09-18",
+      "time": "17:00:14",
+      "attr": ".....",
+      "size": 6732,
+      "compressed": 7168,
+      "name": ".rdata"
+    },
+    {
+      "date": "2024-09-18",
+      "time": "17:00:14",
+      "attr": ".....",
+      "size": 512,
+      "compressed": 512,
+      "name": ".data"
+    },
+    {
+      "date": "2024-09-18",
+      "time": "17:00:14",
+      "attr": ".....",
+      "size": 0,
+      "compressed": 0,
+      "name": ".ndata"
+    },
+    {
+      "date": "2024-09-18",
+      "time": "17:00:14",
+      "attr": ".....",
+      "size": 10080,
+      "compressed": 10080,
+      "name": "CERTIFICATE"
+    },
+    {
+      "date": "2024-09-18",
+      "time": "17:00:14",
+      "attr": ".....",
+      "size": 129280,
+      "compressed": 129280,
+      "name": "[0]"
+    }
+  ]
+}
