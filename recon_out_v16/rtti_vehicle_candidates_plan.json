@@ -1,0 +1,251 @@
+{
+  "tool": "ros64_rtti_vehicle_candidates_v16",
+  "purpose": "Search read-only for MSVC x64 COL TypeDescriptor RVA fields associated with 20 vehicle, physics, tracking, movement, gameplay, and world candidates.",
+  "fix_from_v15": "Removed .foreach around s -d; V15 accidentally iterated over all tokens of search output including data words, causing invalid addresses and 'Couldn't resolve error'.",
+  "module": {
+    "name": "ros64.exe",
+    "base": "0x0000000140000000",
+    "end_exclusive": "0x0000000145AEA000",
+    "size": 95330304
+  },
+  "search_range": {
+    "name": ".rdata",
+    "base": "0x0000000141BD2000",
+    "size": 18013290,
+    "end_exclusive": "0x0000000142CFFC6A"
+  },
+  "candidate_count": 20,
+  "candidates": [
+    {
+      "name": "AvatarVehicleFilter",
+      "kind": "class",
+      "name_addr": 5420769776,
+      "decorated": ".?AVAvatarVehicleFilter@filter_2_0@bwclient@neox@@",
+      "priority": "vehicle avatar interpolation/filtering",
+      "name_address": "0x00000001431A61F0",
+      "type_descriptor_address": "0x00000001431A61E0",
+      "type_descriptor_rva": "0x031A61E0",
+      "search_command": "s -d 0000000141BD2000 L112DC6A 031A61E0"
+    },
+    {
+      "name": "AvatarVehicleVtimeFilter",
+      "kind": "class",
+      "name_addr": 5420769584,
+      "decorated": ".?AVAvatarVehicleVtimeFilter@filter_2_0@bwclient@neox@@",
+      "priority": "vehicle avatar time interpolation/filtering",
+      "name_address": "0x00000001431A6130",
+      "type_descriptor_address": "0x00000001431A6120",
+      "type_descriptor_rva": "0x031A6120",
+      "search_command": "s -d 0000000141BD2000 L112DC6A 031A6120"
+    },
+    {
+      "name": "DynamicVehicle4W",
+      "kind": "class",
+      "name_addr": 5420915336,
+      "decorated": ".?AVDynamicVehicle4W@dynamics@neox@@",
+      "priority": "primary vehicle type",
+      "name_address": "0x00000001431C9A88",
+      "type_descriptor_address": "0x00000001431C9A78",
+      "type_descriptor_rva": "0x031C9A78",
+      "search_command": "s -d 0000000141BD2000 L112DC6A 031C9A78"
+    },
+    {
+      "name": "DynamicVehicleModelDelegate4W",
+      "kind": "class",
+      "name_addr": 5420915392,
+      "decorated": ".?AVDynamicVehicleModelDelegate4W@dynamics@neox@@",
+      "priority": "vehicle model bridge/delegate",
+      "name_address": "0x00000001431C9AC0",
+      "type_descriptor_address": "0x00000001431C9AB0",
+      "type_descriptor_rva": "0x031C9AB0",
+      "search_command": "s -d 0000000141BD2000 L112DC6A 031C9AB0"
+    },
+    {
+      "name": "DynamicVehicleModelDelegate",
+      "kind": "class",
+      "name_addr": 5420916176,
+      "decorated": ".?AVDynamicVehicleModelDelegate@dynamics@neox@@",
+      "priority": "generic vehicle model bridge/delegate",
+      "name_address": "0x00000001431C9DD0",
+      "type_descriptor_address": "0x00000001431C9DC0",
+      "type_descriptor_rva": "0x031C9DC0",
+      "search_command": "s -d 0000000141BD2000 L112DC6A 031C9DC0"
+    },
+    {
+      "name": "DynamicCharacter",
+      "kind": "class",
+      "name_addr": 5420915000,
+      "decorated": ".?AVDynamicCharacter@dynamics@neox@@",
+      "priority": "related dynamic actor comparison",
+      "name_address": "0x00000001431C9938",
+      "type_descriptor_address": "0x00000001431C9928",
+      "type_descriptor_rva": "0x031C9928",
+      "search_command": "s -d 0000000141BD2000 L112DC6A 031C9928"
+    },
+    {
+      "name": "PhysicsModelActor",
+      "kind": "class",
+      "name_addr": 5420912816,
+      "decorated": ".?AVPhysicsModelActor@dynamics@neox@@",
+      "priority": "physics actor bridge",
+      "name_address": "0x00000001431C90B0",
+      "type_descriptor_address": "0x00000001431C90A0",
+      "type_descriptor_rva": "0x031C90A0",
+      "search_command": "s -d 0000000141BD2000 L112DC6A 031C90A0"
+    },
+    {
+      "name": "PhysicsModel",
+      "kind": "class",
+      "name_addr": 5420913032,
+      "decorated": ".?AVPhysicsModel@dynamics@neox@@",
+      "priority": "physics model",
+      "name_address": "0x00000001431C9188",
+      "type_descriptor_address": "0x00000001431C9178",
+      "type_descriptor_rva": "0x031C9178",
+      "search_command": "s -d 0000000141BD2000 L112DC6A 031C9178"
+    },
+    {
+      "name": "DynamicWorld",
+      "kind": "class",
+      "name_addr": 5420911688,
+      "decorated": ".?AVDynamicWorld@dynamics@neox@@",
+      "priority": "dynamic physics world",
+      "name_address": "0x00000001431C8C48",
+      "type_descriptor_address": "0x00000001431C8C38",
+      "type_descriptor_rva": "0x031C8C38",
+      "search_command": "s -d 0000000141BD2000 L112DC6A 031C8C38"
+    },
+    {
+      "name": "DynamicBody",
+      "kind": "class",
+      "name_addr": 5420453392,
+      "decorated": ".?AVDynamicBody@dynamics@neox@@",
+      "priority": "dynamic body comparison",
+      "name_address": "0x0000000143158E10",
+      "type_descriptor_address": "0x0000000143158E00",
+      "type_descriptor_rva": "0x03158E00",
+      "search_command": "s -d 0000000141BD2000 L112DC6A 03158E00"
+    },
+    {
+      "name": "SceneNode",
+      "kind": "class",
+      "name_addr": 5420876752,
+      "decorated": ".?AVSceneNode@world@neox@@",
+      "priority": "scene entity node",
+      "name_address": "0x00000001431C03D0",
+      "type_descriptor_address": "0x00000001431C03C0",
+      "type_descriptor_rva": "0x031C03C0",
+      "search_command": "s -d 0000000141BD2000 L112DC6A 031C03C0"
+    },
+    {
+      "name": "PositionProvider",
+      "kind": "class",
+      "name_addr": 5420434192,
+      "decorated": ".?AVPositionProvider@world@neox@@",
+      "priority": "position source/provider",
+      "name_address": "0x0000000143154310",
+      "type_descriptor_address": "0x0000000143154300",
+      "type_descriptor_rva": "0x03154300",
+      "search_command": "s -d 0000000141BD2000 L112DC6A 03154300"
+    },
+    {
+      "name": "SpaceNode",
+      "kind": "class",
+      "name_addr": 5420841792,
+      "decorated": ".?AVSpaceNode@world@neox@@",
+      "priority": "world-space entity node",
+      "name_address": "0x00000001431B7B40",
+      "type_descriptor_address": "0x00000001431B7B30",
+      "type_descriptor_rva": "0x031B7B30",
+      "search_command": "s -d 0000000141BD2000 L112DC6A 031B7B30"
+    },
+    {
+      "name": "AutoTracing",
+      "kind": "struct",
+      "name_addr": 5420851680,
+      "decorated": ".?AUAutoTracing@SpaceNode@world@neox@@",
+      "priority": "tracking behavior data",
+      "name_address": "0x00000001431BA1E0",
+      "type_descriptor_address": "0x00000001431BA1D0",
+      "type_descriptor_rva": "0x031BA1D0",
+      "search_command": "s -d 0000000141BD2000 L112DC6A 031BA1D0"
+    },
+    {
+      "name": "AutoTracingPos",
+      "kind": "struct",
+      "name_addr": 5420851736,
+      "decorated": ".?AUAutoTracingPos@SpaceNode@world@neox@@",
+      "priority": "position-tracking behavior data",
+      "name_address": "0x00000001431BA218",
+      "type_descriptor_address": "0x00000001431BA208",
+      "type_descriptor_rva": "0x031BA208",
+      "search_command": "s -d 0000000141BD2000 L112DC6A 031BA208"
+    },
+    {
+      "name": "AutoMoving",
+      "kind": "struct",
+      "name_addr": 5420851624,
+      "decorated": ".?AUAutoMoving@SpaceNode@world@neox@@",
+      "priority": "automatic movement behavior data",
+      "name_address": "0x00000001431BA1A8",
+      "type_descriptor_address": "0x00000001431BA198",
+      "type_descriptor_rva": "0x031BA198",
+      "search_command": "s -d 0000000141BD2000 L112DC6A 031BA198"
+    },
+    {
+      "name": "GameObject",
+      "kind": "class",
+      "name_addr": 5420791736,
+      "decorated": ".?AVGameObject@gameplay@@",
+      "priority": "gameplay object",
+      "name_address": "0x00000001431AB7B8",
+      "type_descriptor_address": "0x00000001431AB7A8",
+      "type_descriptor_rva": "0x031AB7A8",
+      "search_command": "s -d 0000000141BD2000 L112DC6A 031AB7A8"
+    },
+    {
+      "name": "Transform",
+      "kind": "class",
+      "name_addr": 5420426368,
+      "decorated": ".?AVTransform@gameplay@@",
+      "priority": "gameplay transform",
+      "name_address": "0x0000000143152480",
+      "type_descriptor_address": "0x0000000143152470",
+      "type_descriptor_rva": "0x03152470",
+      "search_command": "s -d 0000000141BD2000 L112DC6A 03152470"
+    },
+    {
+      "name": "World",
+      "kind": "class",
+      "name_addr": 5420839240,
+      "decorated": ".?AVWorld@world@neox@@",
+      "priority": "world container",
+      "name_address": "0x00000001431B7148",
+      "type_descriptor_address": "0x00000001431B7138",
+      "type_descriptor_rva": "0x031B7138",
+      "search_command": "s -d 0000000141BD2000 L112DC6A 031B7138"
+    },
+    {
+      "name": "Scene",
+      "kind": "class",
+      "name_addr": 5420851536,
+      "decorated": ".?AVScene@world@neox@@",
+      "priority": "scene container",
+      "name_address": "0x00000001431BA150",
+      "type_descriptor_address": "0x00000001431BA140",
+      "type_descriptor_rva": "0x031BA140",
+      "search_command": "s -d 0000000141BD2000 L112DC6A 031BA140"
+    }
+  ],
+  "interpretation": [
+    "The search hit H is the address of the DWORD containing the TypeDescriptor RVA.",
+    "The matching COL candidate begins at H-0x0C; inspect six DWORDs there.",
+    "On a plausible x64 MSVC COL, signature should be 1, and pSelf at COL+0x14 should equal COL-MODULE_BASE. Validate before treating a hit as authoritative.",
+    "COL presence does not yet prove a vftable reference; the next stage should search for aligned absolute qword references to each validated COL address."
+  ],
+  "safety": "Read-only memory/string search and display; no target calls, memory writes, or breakpoints.",
+  "outputs": {
+    "command_file": "recon_out_v16/windbg_rtti_vehicle_candidates_v16.txt",
+    "log_file": "recon_out_v16/windbg_rtti_vehicle_candidates_v16.log"
+  }
+}

@@ -1,0 +1,153 @@
+.echo ============================================================================
+.echo V16 direct RTTI reference searches for vehicle and tracking types
+.echo READ-ONLY: direct search commands only, no .foreach token substitution
+.logopen C:\Users\MAFIA\Downloads\Compressed\ROSLegacy\Diamonds\recon_out_v16\windbg_rtti_vehicle_candidates_v16.log
+.echo Confirm the module range before interpreting results
+lm m ros64
+.echo Expected base 0x140000000 end 0x145AEA000 size 0x5AEA000
+.echo Search range .rdata 0x0000000141BD2000 size 0x112DC6A
+.echo Each s -d hit is the address of the matching TypeDescriptor RVA DWORD, expected at COL+0x0C.
+.echo To validate a hit H, run: dd H-C L6. The first DWORD should be 1 and final pSelf RVA should equal (COL-MODULE_BASE).
+.echo ============================================================================
+.echo TARGET AvatarVehicleFilter [class] - vehicle avatar interpolation/filtering
+.echo DECORATED .?AVAvatarVehicleFilter@filter_2_0@bwclient@neox@@
+.echo NAME_ADDRESS 0x00000001431A61F0
+.echo TYPE_DESCRIPTOR 0x00000001431A61E0 RVA 0x031A61E0
+da 00000001431A61F0
+s -d 0000000141BD2000 L112DC6A 031A61E0
+.echo ============================================================================
+.echo TARGET AvatarVehicleVtimeFilter [class] - vehicle avatar time interpolation/filtering
+.echo DECORATED .?AVAvatarVehicleVtimeFilter@filter_2_0@bwclient@neox@@
+.echo NAME_ADDRESS 0x00000001431A6130
+.echo TYPE_DESCRIPTOR 0x00000001431A6120 RVA 0x031A6120
+da 00000001431A6130
+s -d 0000000141BD2000 L112DC6A 031A6120
+.echo ============================================================================
+.echo TARGET DynamicVehicle4W [class] - primary vehicle type
+.echo DECORATED .?AVDynamicVehicle4W@dynamics@neox@@
+.echo NAME_ADDRESS 0x00000001431C9A88
+.echo TYPE_DESCRIPTOR 0x00000001431C9A78 RVA 0x031C9A78
+da 00000001431C9A88
+s -d 0000000141BD2000 L112DC6A 031C9A78
+.echo ============================================================================
+.echo TARGET DynamicVehicleModelDelegate4W [class] - vehicle model bridge/delegate
+.echo DECORATED .?AVDynamicVehicleModelDelegate4W@dynamics@neox@@
+.echo NAME_ADDRESS 0x00000001431C9AC0
+.echo TYPE_DESCRIPTOR 0x00000001431C9AB0 RVA 0x031C9AB0
+da 00000001431C9AC0
+s -d 0000000141BD2000 L112DC6A 031C9AB0
+.echo ============================================================================
+.echo TARGET DynamicVehicleModelDelegate [class] - generic vehicle model bridge/delegate
+.echo DECORATED .?AVDynamicVehicleModelDelegate@dynamics@neox@@
+.echo NAME_ADDRESS 0x00000001431C9DD0
+.echo TYPE_DESCRIPTOR 0x00000001431C9DC0 RVA 0x031C9DC0
+da 00000001431C9DD0
+s -d 0000000141BD2000 L112DC6A 031C9DC0
+.echo ============================================================================
+.echo TARGET DynamicCharacter [class] - related dynamic actor comparison
+.echo DECORATED .?AVDynamicCharacter@dynamics@neox@@
+.echo NAME_ADDRESS 0x00000001431C9938
+.echo TYPE_DESCRIPTOR 0x00000001431C9928 RVA 0x031C9928
+da 00000001431C9938
+s -d 0000000141BD2000 L112DC6A 031C9928
+.echo ============================================================================
+.echo TARGET PhysicsModelActor [class] - physics actor bridge
+.echo DECORATED .?AVPhysicsModelActor@dynamics@neox@@
+.echo NAME_ADDRESS 0x00000001431C90B0
+.echo TYPE_DESCRIPTOR 0x00000001431C90A0 RVA 0x031C90A0
+da 00000001431C90B0
+s -d 0000000141BD2000 L112DC6A 031C90A0
+.echo ============================================================================
+.echo TARGET PhysicsModel [class] - physics model
+.echo DECORATED .?AVPhysicsModel@dynamics@neox@@
+.echo NAME_ADDRESS 0x00000001431C9188
+.echo TYPE_DESCRIPTOR 0x00000001431C9178 RVA 0x031C9178
+da 00000001431C9188
+s -d 0000000141BD2000 L112DC6A 031C9178
+.echo ============================================================================
+.echo TARGET DynamicWorld [class] - dynamic physics world
+.echo DECORATED .?AVDynamicWorld@dynamics@neox@@
+.echo NAME_ADDRESS 0x00000001431C8C48
+.echo TYPE_DESCRIPTOR 0x00000001431C8C38 RVA 0x031C8C38
+da 00000001431C8C48
+s -d 0000000141BD2000 L112DC6A 031C8C38
+.echo ============================================================================
+.echo TARGET DynamicBody [class] - dynamic body comparison
+.echo DECORATED .?AVDynamicBody@dynamics@neox@@
+.echo NAME_ADDRESS 0x0000000143158E10
+.echo TYPE_DESCRIPTOR 0x0000000143158E00 RVA 0x03158E00
+da 0000000143158E10
+s -d 0000000141BD2000 L112DC6A 03158E00
+.echo ============================================================================
+.echo TARGET SceneNode [class] - scene entity node
+.echo DECORATED .?AVSceneNode@world@neox@@
+.echo NAME_ADDRESS 0x00000001431C03D0
+.echo TYPE_DESCRIPTOR 0x00000001431C03C0 RVA 0x031C03C0
+da 00000001431C03D0
+s -d 0000000141BD2000 L112DC6A 031C03C0
+.echo ============================================================================
+.echo TARGET PositionProvider [class] - position source/provider
+.echo DECORATED .?AVPositionProvider@world@neox@@
+.echo NAME_ADDRESS 0x0000000143154310
+.echo TYPE_DESCRIPTOR 0x0000000143154300 RVA 0x03154300
+da 0000000143154310
+s -d 0000000141BD2000 L112DC6A 03154300
+.echo ============================================================================
+.echo TARGET SpaceNode [class] - world-space entity node
+.echo DECORATED .?AVSpaceNode@world@neox@@
+.echo NAME_ADDRESS 0x00000001431B7B40
+.echo TYPE_DESCRIPTOR 0x00000001431B7B30 RVA 0x031B7B30
+da 00000001431B7B40
+s -d 0000000141BD2000 L112DC6A 031B7B30
+.echo ============================================================================
+.echo TARGET AutoTracing [struct] - tracking behavior data
+.echo DECORATED .?AUAutoTracing@SpaceNode@world@neox@@
+.echo NAME_ADDRESS 0x00000001431BA1E0
+.echo TYPE_DESCRIPTOR 0x00000001431BA1D0 RVA 0x031BA1D0
+da 00000001431BA1E0
+s -d 0000000141BD2000 L112DC6A 031BA1D0
+.echo ============================================================================
+.echo TARGET AutoTracingPos [struct] - position-tracking behavior data
+.echo DECORATED .?AUAutoTracingPos@SpaceNode@world@neox@@
+.echo NAME_ADDRESS 0x00000001431BA218
+.echo TYPE_DESCRIPTOR 0x00000001431BA208 RVA 0x031BA208
+da 00000001431BA218
+s -d 0000000141BD2000 L112DC6A 031BA208
+.echo ============================================================================
+.echo TARGET AutoMoving [struct] - automatic movement behavior data
+.echo DECORATED .?AUAutoMoving@SpaceNode@world@neox@@
+.echo NAME_ADDRESS 0x00000001431BA1A8
+.echo TYPE_DESCRIPTOR 0x00000001431BA198 RVA 0x031BA198
+da 00000001431BA1A8
+s -d 0000000141BD2000 L112DC6A 031BA198
+.echo ============================================================================
+.echo TARGET GameObject [class] - gameplay object
+.echo DECORATED .?AVGameObject@gameplay@@
+.echo NAME_ADDRESS 0x00000001431AB7B8
+.echo TYPE_DESCRIPTOR 0x00000001431AB7A8 RVA 0x031AB7A8
+da 00000001431AB7B8
+s -d 0000000141BD2000 L112DC6A 031AB7A8
+.echo ============================================================================
+.echo TARGET Transform [class] - gameplay transform
+.echo DECORATED .?AVTransform@gameplay@@
+.echo NAME_ADDRESS 0x0000000143152480
+.echo TYPE_DESCRIPTOR 0x0000000143152470 RVA 0x03152470
+da 0000000143152480
+s -d 0000000141BD2000 L112DC6A 03152470
+.echo ============================================================================
+.echo TARGET World [class] - world container
+.echo DECORATED .?AVWorld@world@neox@@
+.echo NAME_ADDRESS 0x00000001431B7148
+.echo TYPE_DESCRIPTOR 0x00000001431B7138 RVA 0x031B7138
+da 00000001431B7148
+s -d 0000000141BD2000 L112DC6A 031B7138
+.echo ============================================================================
+.echo TARGET Scene [class] - scene container
+.echo DECORATED .?AVScene@world@neox@@
+.echo NAME_ADDRESS 0x00000001431BA150
+.echo TYPE_DESCRIPTOR 0x00000001431BA140 RVA 0x031BA140
+da 00000001431BA150
+s -d 0000000141BD2000 L112DC6A 031BA140
+.echo ============================================================================
+.echo V16 direct RTTI searches complete
+.logclose

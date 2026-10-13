@@ -1,0 +1,30 @@
+ROS64 V16 RTTI VEHICLE/TRACKING CANDIDATE PLAN
+============================================================================
+Module: 0x0000000140000000 - 0x0000000145AEA000 (exclusive)
+Search range: 0x0000000141BD2000 size 0x112DC6A
+Candidate count: 20
+
+Fix: direct s -d searches; no .foreach over search output tokens.
+After execution, each result hit H identifies a possible TypeDescriptor RVA field.
+Validate with `dd H-C L6`; candidate COL is at H-0x0C.
+
+AvatarVehicleFilter: TD=0x00000001431A61E0 RVA=0x031A61E0 | vehicle avatar interpolation/filtering
+AvatarVehicleVtimeFilter: TD=0x00000001431A6120 RVA=0x031A6120 | vehicle avatar time interpolation/filtering
+DynamicVehicle4W: TD=0x00000001431C9A78 RVA=0x031C9A78 | primary vehicle type
+DynamicVehicleModelDelegate4W: TD=0x00000001431C9AB0 RVA=0x031C9AB0 | vehicle model bridge/delegate
+DynamicVehicleModelDelegate: TD=0x00000001431C9DC0 RVA=0x031C9DC0 | generic vehicle model bridge/delegate
+DynamicCharacter: TD=0x00000001431C9928 RVA=0x031C9928 | related dynamic actor comparison
+PhysicsModelActor: TD=0x00000001431C90A0 RVA=0x031C90A0 | physics actor bridge
+PhysicsModel: TD=0x00000001431C9178 RVA=0x031C9178 | physics model
+DynamicWorld: TD=0x00000001431C8C38 RVA=0x031C8C38 | dynamic physics world
+DynamicBody: TD=0x0000000143158E00 RVA=0x03158E00 | dynamic body comparison
+SceneNode: TD=0x00000001431C03C0 RVA=0x031C03C0 | scene entity node
+PositionProvider: TD=0x0000000143154300 RVA=0x03154300 | position source/provider
+SpaceNode: TD=0x00000001431B7B30 RVA=0x031B7B30 | world-space entity node
+AutoTracing: TD=0x00000001431BA1D0 RVA=0x031BA1D0 | tracking behavior data
+AutoTracingPos: TD=0x00000001431BA208 RVA=0x031BA208 | position-tracking behavior data
+AutoMoving: TD=0x00000001431BA198 RVA=0x031BA198 | automatic movement behavior data
+GameObject: TD=0x00000001431AB7A8 RVA=0x031AB7A8 | gameplay object
+Transform: TD=0x0000000143152470 RVA=0x03152470 | gameplay transform
+World: TD=0x00000001431B7138 RVA=0x031B7138 | world container
+Scene: TD=0x00000001431BA140 RVA=0x031BA140 | scene container

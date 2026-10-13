@@ -1,0 +1,186 @@
+Opened log file 'C:\Users\MAFIA\Downloads\Compressed\ROSLegacy\Diamonds\recon_out_v16\windbg_rtti_vehicle_candidates_v16.log'
+Confirm the module range before interpreting results
+Browse full module list
+start             end                 module name
+00000001`40000000 00000001`45aea000   ros64      (export symbols)       ros64.exe
+Expected base 0x140000000 end 0x145AEA000 size 0x5AEA000
+Search range .rdata 0x0000000141BD2000 size 0x112DC6A
+Each s -d hit is the address of the matching TypeDescriptor RVA DWORD, expected at COL+0x0C.
+To validate a hit H, run: dd H-C L6. The first DWORD should be 1 and final pSelf RVA should equal (COL-MODULE_BASE).
+============================================================================
+TARGET AvatarVehicleFilter [class] - vehicle avatar interpolation/filtering
+DECORATED .?AVAvatarVehicleFilter@filter_2_0@bwclient@neox@@
+NAME_ADDRESS 0x00000001431A61F0
+TYPE_DESCRIPTOR 0x00000001431A61E0 RVA 0x031A61E0
+00000001`431a61f0  ".?AVAvatarVehicleFilter@filter_2"
+00000001`431a6210  "_0@bwclient@neox@@"
+00000001`428c50c4  031a61e0 028c50e0 028c50b8 00000000  .a...P...P......
+00000001`428c5128  031a61e0 00000004 00000000 ffffffff  .a..............
+============================================================================
+TARGET AvatarVehicleVtimeFilter [class] - vehicle avatar time interpolation/filtering
+DECORATED .?AVAvatarVehicleVtimeFilter@filter_2_0@bwclient@neox@@
+NAME_ADDRESS 0x00000001431A6130
+TYPE_DESCRIPTOR 0x00000001431A6120 RVA 0x031A6120
+00000001`431a6130  ".?AVAvatarVehicleVtimeFilter@fil"
+00000001`431a6150  "ter_2_0@bwclient@neox@@"
+00000001`428c4f9c  031a6120 028c4fb8 028c4f90 00000000   a...O...O......
+00000001`428c5000  031a6120 00000004 00000000 ffffffff   a..............
+============================================================================
+TARGET DynamicVehicle4W [class] - primary vehicle type
+DECORATED .?AVDynamicVehicle4W@dynamics@neox@@
+NAME_ADDRESS 0x00000001431C9A88
+TYPE_DESCRIPTOR 0x00000001431C9A78 RVA 0x031C9A78
+00000001`431c9a88  ".?AVDynamicVehicle4W@dynamics@ne"
+00000001`431c9aa8  "ox@@"
+00000001`428fee3c  031c9a78 028fee58 028fee30 00000000  x...X...0.......
+00000001`428feea0  031c9a78 00000004 00000000 ffffffff  x...............
+============================================================================
+TARGET DynamicVehicleModelDelegate4W [class] - vehicle model bridge/delegate
+DECORATED .?AVDynamicVehicleModelDelegate4W@dynamics@neox@@
+NAME_ADDRESS 0x00000001431C9AC0
+TYPE_DESCRIPTOR 0x00000001431C9AB0 RVA 0x031C9AB0
+00000001`431c9ac0  ".?AVDynamicVehicleModelDelegate4"
+00000001`431c9ae0  "W@dynamics@neox@@"
+00000001`428feed4  031c9ab0 028feef0 028feec8 00000000  ................
+00000001`428fef20  031c9ab0 00000001 00000000 ffffffff  ................
+============================================================================
+TARGET DynamicVehicleModelDelegate [class] - generic vehicle model bridge/delegate
+DECORATED .?AVDynamicVehicleModelDelegate@dynamics@neox@@
+NAME_ADDRESS 0x00000001431C9DD0
+TYPE_DESCRIPTOR 0x00000001431C9DC0 RVA 0x031C9DC0
+00000001`431c9dd0  ".?AVDynamicVehicleModelDelegate@"
+00000001`431c9df0  "dynamics@neox@@"
+00000001`428ff68c  031c9dc0 028ff6a8 028ff680 00000000  ................
+00000001`428ff6d8  031c9dc0 00000001 00000000 ffffffff  ................
+============================================================================
+TARGET DynamicCharacter [class] - related dynamic actor comparison
+DECORATED .?AVDynamicCharacter@dynamics@neox@@
+NAME_ADDRESS 0x00000001431C9938
+TYPE_DESCRIPTOR 0x00000001431C9928 RVA 0x031C9928
+00000001`431c9938  ".?AVDynamicCharacter@dynamics@ne"
+00000001`431c9958  "ox@@"
+00000001`428fe9cc  031c9928 028fe9e8 028fe9c0 00000000  (...............
+00000001`428fea20  031c9928 00000002 00000000 ffffffff  (...............
+============================================================================
+TARGET PhysicsModelActor [class] - physics actor bridge
+DECORATED .?AVPhysicsModelActor@dynamics@neox@@
+NAME_ADDRESS 0x00000001431C90B0
+TYPE_DESCRIPTOR 0x00000001431C90A0 RVA 0x031C90A0
+00000001`431c90b0  ".?AVPhysicsModelActor@dynamics@n"
+00000001`431c90d0  "eox@@"
+00000001`428fd69c  031c90a0 028fd6b8 028fd690 00000000  ................
+00000001`428fd6f8  031c90a0 00000003 00000000 ffffffff  ................
+============================================================================
+TARGET PhysicsModel [class] - physics model
+DECORATED .?AVPhysicsModel@dynamics@neox@@
+NAME_ADDRESS 0x00000001431C9188
+TYPE_DESCRIPTOR 0x00000001431C9178 RVA 0x031C9178
+00000001`431c9188  ".?AVPhysicsModel@dynamics@neox@@"
+00000001`431c91a8  ""
+00000001`428fd82c  031c9178 028fd848 028fd820 00000000  x...H... .......
+00000001`428fd890  031c9178 00000004 00000000 ffffffff  x...............
+============================================================================
+TARGET DynamicWorld [class] - dynamic physics world
+DECORATED .?AVDynamicWorld@dynamics@neox@@
+NAME_ADDRESS 0x00000001431C8C48
+TYPE_DESCRIPTOR 0x00000001431C8C38 RVA 0x031C8C38
+00000001`431c8c48  ".?AVDynamicWorld@dynamics@neox@@"
+00000001`431c8c68  ""
+00000001`428fcb04  031c8c38 028fcb20 028fcaf8 00000000  8... ...........
+00000001`428fcb50  031c8c38 00000001 00000000 ffffffff  8...............
+============================================================================
+TARGET DynamicBody [class] - dynamic body comparison
+DECORATED .?AVDynamicBody@dynamics@neox@@
+NAME_ADDRESS 0x0000000143158E10
+TYPE_DESCRIPTOR 0x0000000143158E00 RVA 0x03158E00
+00000001`43158e10  ".?AVDynamicBody@dynamics@neox@@"
+00000001`428fcdc4  03158e00 028fcde0 028fcdb8 00000000  ................
+00000001`428fce20  03158e00 00000003 00000000 ffffffff  ................
+============================================================================
+TARGET SceneNode [class] - scene entity node
+DECORATED .?AVSceneNode@world@neox@@
+NAME_ADDRESS 0x00000001431C03D0
+TYPE_DESCRIPTOR 0x00000001431C03C0 RVA 0x031C03C0
+00000001`431c03d0  ".?AVSceneNode@world@neox@@"
+00000001`428e91a4  031c03c0 028e91c0 028e9198 00000000  ................
+00000001`428e9200  031c03c0 00000003 00000000 ffffffff  ................
+============================================================================
+TARGET PositionProvider [class] - position source/provider
+DECORATED .?AVPositionProvider@world@neox@@
+NAME_ADDRESS 0x0000000143154310
+TYPE_DESCRIPTOR 0x0000000143154300 RVA 0x03154300
+00000001`43154310  ".?AVPositionProvider@world@neox@"
+00000001`43154330  "@"
+00000001`428e1864  03154300 028e1880 028e1858 00000000  .C......X.......
+00000001`428e18b0  03154300 00000001 00000000 ffffffff  .C..............
+============================================================================
+TARGET SpaceNode [class] - world-space entity node
+DECORATED .?AVSpaceNode@world@neox@@
+NAME_ADDRESS 0x00000001431B7B40
+TYPE_DESCRIPTOR 0x00000001431B7B30 RVA 0x031B7B30
+00000001`431b7b40  ".?AVSpaceNode@world@neox@@"
+00000001`428d5004  031b7b30 028d5020 028d4ff8 00000000  0{.. P...O......
+00000001`428d5058  031b7b30 00000002 00000000 ffffffff  0{..............
+============================================================================
+TARGET AutoTracing [struct] - tracking behavior data
+DECORATED .?AUAutoTracing@SpaceNode@world@neox@@
+NAME_ADDRESS 0x00000001431BA1E0
+TYPE_DESCRIPTOR 0x00000001431BA1D0 RVA 0x031BA1D0
+00000001`431ba1e0  ".?AUAutoTracing@SpaceNode@world@"
+00000001`431ba200  "neox@@"
+00000001`428d9f84  031ba1d0 028d9fa0 028d9f78 00000000  ........x.......
+00000001`428d9fd0  031ba1d0 00000001 00000000 ffffffff  ................
+============================================================================
+TARGET AutoTracingPos [struct] - position-tracking behavior data
+DECORATED .?AUAutoTracingPos@SpaceNode@world@neox@@
+NAME_ADDRESS 0x00000001431BA218
+TYPE_DESCRIPTOR 0x00000001431BA208 RVA 0x031BA208
+00000001`431ba218  ".?AUAutoTracingPos@SpaceNode@wor"
+00000001`431ba238  "ld@neox@@"
+00000001`428da004  031ba208 028da020 028d9ff8 00000000  .... ...........
+00000001`428da058  031ba208 00000002 00000000 ffffffff  ................
+============================================================================
+TARGET AutoMoving [struct] - automatic movement behavior data
+DECORATED .?AUAutoMoving@SpaceNode@world@neox@@
+NAME_ADDRESS 0x00000001431BA1A8
+TYPE_DESCRIPTOR 0x00000001431BA198 RVA 0x031BA198
+00000001`431ba1a8  ".?AUAutoMoving@SpaceNode@world@n"
+00000001`431ba1c8  "eox@@"
+00000001`428d9f0c  031ba198 028d9f28 028d9f00 00000000  ....(...........
+00000001`428d9f50  031ba198 00000000 00000000 ffffffff  ................
+============================================================================
+TARGET GameObject [class] - gameplay object
+DECORATED .?AVGameObject@gameplay@@
+NAME_ADDRESS 0x00000001431AB7B8
+TYPE_DESCRIPTOR 0x00000001431AB7A8 RVA 0x031AB7A8
+00000001`431ab7b8  ".?AVGameObject@gameplay@@"
+00000001`428caa80  031ab7a8 00000001 00000000 ffffffff  ................
+00000001`428d1b1c  031ab7a8 028caaa8 028d1b10 00000000  ................
+============================================================================
+TARGET Transform [class] - gameplay transform
+DECORATED .?AVTransform@gameplay@@
+NAME_ADDRESS 0x0000000143152480
+TYPE_DESCRIPTOR 0x0000000143152470 RVA 0x03152470
+00000001`43152480  ".?AVTransform@gameplay@@"
+00000001`428cda34  03152470 028cda50 028cda28 00000000  p$..P...(.......
+00000001`428cda88  03152470 00000002 00000000 ffffffff  p$..............
+============================================================================
+TARGET World [class] - world container
+DECORATED .?AVWorld@world@neox@@
+NAME_ADDRESS 0x00000001431B7148
+TYPE_DESCRIPTOR 0x00000001431B7138 RVA 0x031B7138
+00000001`431b7148  ".?AVWorld@world@neox@@"
+00000001`428d3bfc  031b7138 028d3c18 028d3bf0 00000000  8q...<...;......
+00000001`428d3c48  031b7138 00000001 00000000 ffffffff  8q..............
+============================================================================
+TARGET Scene [class] - scene container
+DECORATED .?AVScene@world@neox@@
+NAME_ADDRESS 0x00000001431BA150
+TYPE_DESCRIPTOR 0x00000001431BA140 RVA 0x031BA140
+00000001`431ba150  ".?AVScene@world@neox@@"
+00000001`428d9ddc  031ba140 028d9df8 028d9dd0 00000000  @...............
+00000001`428d9e38  031ba140 00000003 00000000 ffffffff  @...............
+00000001`428d9ee4  031ba140 028d9df8 028d9ed8 00000000  @...............
+============================================================================
+V16 direct RTTI searches complete
+Closing open log file C:\Users\MAFIA\Downloads\Compressed\ROSLegacy\Diamonds\recon_out_v16\windbg_rtti_vehicle_candidates_v16.log
