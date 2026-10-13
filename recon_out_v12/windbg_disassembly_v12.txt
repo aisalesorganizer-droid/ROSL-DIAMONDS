@@ -1,0 +1,107 @@
+.echo ============================================================================
+.echo V12 focused virtual-function disassembly for ROS64
+.echo SAFETY: commands inspect memory and disassemble only, target functions are not called.
+.logopen C:\Users\MAFIA\Downloads\Compressed\ROSLegacy\Diamonds\recon_out_v12\windbg_disassembly_v12.log
+.echo Confirm the module base shown below is 00000001`40000000 before trusting addresses.
+lm m ros64
+.echo ============================================================================
+.echo VFTABLE SLOT COMPARISON (no duplicate disassembly in this section)
+.echo CLASS ModelFxData vftable=00000001`41C2A990 COL=00000001`428DD1F8
+.echo SLOT 0 ModelFxData target=00000001`404A3D40
+.echo SLOT 1 ModelFxData target=00000001`404AB480
+.echo SLOT 2 ModelFxData target=00000001`404AF270
+.echo SLOT 3 ModelFxData target=00000001`404AF320
+.echo SLOT 4 ModelFxData target=00000001`404AF080
+.echo SLOT 5 ModelFxData target=00000001`404A68C0
+.echo SLOT 6 ModelFxData target=00000001`404A6DA0
+.echo CLASS SfxBaseData vftable=00000001`41C2A710 COL=00000001`428DCCD0
+.echo SLOT 0 SfxBaseData target=00000001`404A4300
+.echo SLOT 1 SfxBaseData target=00000001`404AD8B0
+.echo SLOT 6 SfxBaseData target=00000001`404A73F0
+.echo CLASS DummyFxData vftable=00000001`41C2A750 COL=00000001`428DCD48
+.echo SLOT 0 DummyFxData target=00000001`404A3830
+.echo SLOT 1 DummyFxData target=00000001`404AD8B0
+.echo SLOT 6 DummyFxData target=00000001`404A73F0
+.echo CLASS FxGroupData vftable=00000001`41C2A790 COL=00000001`428DCDC8
+.echo SLOT 0 FxGroupData target=00000001`404A38B0
+.echo SLOT 1 FxGroupData target=00000001`404AD8B0
+.echo SLOT 6 FxGroupData target=00000001`404A73F0
+.echo CLASS ParticleModelFxData vftable=00000001`41C2A810 COL=00000001`428DCEC8
+.echo SLOT 0 ParticleModelFxData target=00000001`404A3FF0
+.echo SLOT 1 ParticleModelFxData target=00000001`404ABFC0
+.echo SLOT 6 ParticleModelFxData target=00000001`404A7040
+.echo CLASS SpriteFxData vftable=00000001`41C2A950 COL=00000001`428DD178
+.echo SLOT 0 SpriteFxData target=00000001`404A4860
+.echo SLOT 1 SpriteFxData target=00000001`404AE3E0
+.echo SLOT 6 SpriteFxData target=00000001`404A76A0
+.echo CLASS MtlCtrlFxData vftable=00000001`41C2AC90 COL=00000001`428DD818
+.echo SLOT 0 MtlCtrlFxData target=00000001`404A3D80
+.echo SLOT 1 MtlCtrlFxData target=00000001`404AB890
+.echo SLOT 6 MtlCtrlFxData target=00000001`404A6EA0
+.echo ============================================================================
+.echo UNIQUE FUNCTION DISASSEMBLY
+.echo UNIQUE 00000001`404A3830 aliases=DummyFxData_s0
+ln 00000001`404A3830
+uf 00000001`404A3830
+.echo UNIQUE 00000001`404A38B0 aliases=FxGroupData_s0
+ln 00000001`404A38B0
+uf 00000001`404A38B0
+.echo UNIQUE 00000001`404A3D40 aliases=ModelFxData_s0
+ln 00000001`404A3D40
+uf 00000001`404A3D40
+.echo UNIQUE 00000001`404A3D80 aliases=MtlCtrlFxData_s0
+ln 00000001`404A3D80
+uf 00000001`404A3D80
+.echo UNIQUE 00000001`404A3FF0 aliases=ParticleModelFxData_s0
+ln 00000001`404A3FF0
+uf 00000001`404A3FF0
+.echo UNIQUE 00000001`404A4300 aliases=SfxBaseData_s0
+ln 00000001`404A4300
+uf 00000001`404A4300
+.echo UNIQUE 00000001`404A4860 aliases=SpriteFxData_s0
+ln 00000001`404A4860
+uf 00000001`404A4860
+.echo UNIQUE 00000001`404A68C0 aliases=ModelFxData_s5
+ln 00000001`404A68C0
+uf 00000001`404A68C0
+.echo UNIQUE 00000001`404A6DA0 aliases=ModelFxData_s6
+ln 00000001`404A6DA0
+uf 00000001`404A6DA0
+.echo UNIQUE 00000001`404A6EA0 aliases=MtlCtrlFxData_s6
+ln 00000001`404A6EA0
+uf 00000001`404A6EA0
+.echo UNIQUE 00000001`404A7040 aliases=ParticleModelFxData_s6
+ln 00000001`404A7040
+uf 00000001`404A7040
+.echo UNIQUE 00000001`404A73F0 aliases=SfxBaseData_s6_DummyFxData_s6_FxGroupData_s6
+ln 00000001`404A73F0
+uf 00000001`404A73F0
+.echo UNIQUE 00000001`404A76A0 aliases=SpriteFxData_s6
+ln 00000001`404A76A0
+uf 00000001`404A76A0
+.echo UNIQUE 00000001`404AB480 aliases=ModelFxData_s1
+ln 00000001`404AB480
+uf 00000001`404AB480
+.echo UNIQUE 00000001`404AB890 aliases=MtlCtrlFxData_s1
+ln 00000001`404AB890
+uf 00000001`404AB890
+.echo UNIQUE 00000001`404ABFC0 aliases=ParticleModelFxData_s1
+ln 00000001`404ABFC0
+uf 00000001`404ABFC0
+.echo UNIQUE 00000001`404AD8B0 aliases=SfxBaseData_s1_DummyFxData_s1_FxGroupData_s1
+ln 00000001`404AD8B0
+uf 00000001`404AD8B0
+.echo UNIQUE 00000001`404AE3E0 aliases=SpriteFxData_s1
+ln 00000001`404AE3E0
+uf 00000001`404AE3E0
+.echo UNIQUE 00000001`404AF080 aliases=ModelFxData_s4
+ln 00000001`404AF080
+uf 00000001`404AF080
+.echo UNIQUE 00000001`404AF270 aliases=ModelFxData_s2
+ln 00000001`404AF270
+uf 00000001`404AF270
+.echo UNIQUE 00000001`404AF320 aliases=ModelFxData_s3
+ln 00000001`404AF320
+uf 00000001`404AF320
+.logclose
+.echo V12 DISASSEMBLY COMPLETE

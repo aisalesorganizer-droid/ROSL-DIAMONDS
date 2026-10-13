@@ -1,0 +1,69 @@
+ROS64 VTABLE DISASSEMBLY PLAN V12
+==============================================================================
+Target class: ModelFxData
+Expected image base: 0x140000000 (verify with WinDbg lm m ros64)
+Selected class groups: 7
+Unique disassembly targets: 21
+
+VFTABLE SLOT MAP
+ModelFxData: vftable=0x141C2A990, COL=0x1428DD1F8
+  slot 0: 0x1404A3D40 (slot0_destructor_candidate)
+  slot 1: 0x1404AB480 (slot1_class_specific_virtual)
+  slot 2: 0x1404AF270 (slot2_shared_candidate)
+  slot 3: 0x1404AF320 (slot3_shared_candidate)
+  slot 4: 0x1404AF080 (slot4_shared_candidate)
+  slot 5: 0x1404A68C0 (slot5_shared_candidate)
+  slot 6: 0x1404A6DA0 (slot6_class_specific_virtual)
+SfxBaseData: vftable=0x141C2A710, COL=0x1428DCCD0
+  slot 0: 0x1404A4300 (slot0_destructor_candidate)
+  slot 1: 0x1404AD8B0 (slot1_class_specific_virtual)
+  slot 6: 0x1404A73F0 (slot6_class_specific_virtual)
+DummyFxData: vftable=0x141C2A750, COL=0x1428DCD48
+  slot 0: 0x1404A3830 (slot0_destructor_candidate)
+  slot 1: 0x1404AD8B0 (slot1_class_specific_virtual)
+  slot 6: 0x1404A73F0 (slot6_class_specific_virtual)
+FxGroupData: vftable=0x141C2A790, COL=0x1428DCDC8
+  slot 0: 0x1404A38B0 (slot0_destructor_candidate)
+  slot 1: 0x1404AD8B0 (slot1_class_specific_virtual)
+  slot 6: 0x1404A73F0 (slot6_class_specific_virtual)
+ParticleModelFxData: vftable=0x141C2A810, COL=0x1428DCEC8
+  slot 0: 0x1404A3FF0 (slot0_destructor_candidate)
+  slot 1: 0x1404ABFC0 (slot1_class_specific_virtual)
+  slot 6: 0x1404A7040 (slot6_class_specific_virtual)
+SpriteFxData: vftable=0x141C2A950, COL=0x1428DD178
+  slot 0: 0x1404A4860 (slot0_destructor_candidate)
+  slot 1: 0x1404AE3E0 (slot1_class_specific_virtual)
+  slot 6: 0x1404A76A0 (slot6_class_specific_virtual)
+MtlCtrlFxData: vftable=0x141C2AC90, COL=0x1428DD818
+  slot 0: 0x1404A3D80 (slot0_destructor_candidate)
+  slot 1: 0x1404AB890 (slot1_class_specific_virtual)
+  slot 6: 0x1404A6EA0 (slot6_class_specific_virtual)
+
+UNIQUE TARGETS
+0x1404A3830 [1 aliases]: DummyFxData.slot0
+0x1404A38B0 [1 aliases]: FxGroupData.slot0
+0x1404A3D40 [1 aliases]: ModelFxData.slot0
+0x1404A3D80 [1 aliases]: MtlCtrlFxData.slot0
+0x1404A3FF0 [1 aliases]: ParticleModelFxData.slot0
+0x1404A4300 [1 aliases]: SfxBaseData.slot0
+0x1404A4860 [1 aliases]: SpriteFxData.slot0
+0x1404A68C0 [1 aliases]: ModelFxData.slot5
+0x1404A6DA0 [1 aliases]: ModelFxData.slot6
+0x1404A6EA0 [1 aliases]: MtlCtrlFxData.slot6
+0x1404A7040 [1 aliases]: ParticleModelFxData.slot6
+0x1404A73F0 [3 aliases]: SfxBaseData.slot6, DummyFxData.slot6, FxGroupData.slot6
+0x1404A76A0 [1 aliases]: SpriteFxData.slot6
+0x1404AB480 [1 aliases]: ModelFxData.slot1
+0x1404AB890 [1 aliases]: MtlCtrlFxData.slot1
+0x1404ABFC0 [1 aliases]: ParticleModelFxData.slot1
+0x1404AD8B0 [3 aliases]: SfxBaseData.slot1, DummyFxData.slot1, FxGroupData.slot1
+0x1404AE3E0 [1 aliases]: SpriteFxData.slot1
+0x1404AF080 [1 aliases]: ModelFxData.slot4
+0x1404AF270 [1 aliases]: ModelFxData.slot2
+0x1404AF320 [1 aliases]: ModelFxData.slot3
+
+NOTES
+- Slot labels are provisional; disassembly must confirm semantics.
+- Slot 0 is called a destructor candidate based on prior observed code pattern, not just its position.
+- A valid runtime module base of 0x140000000 must be confirmed before interpreting these addresses.
+- WinDbg uf output is inspection only; this script never calls or executes target functions.

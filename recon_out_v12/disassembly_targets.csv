@@ -1,0 +1,22 @@
+﻿function_address,alias_count,aliases
+0x1404A3830,1,DummyFxData.slot0
+0x1404A38B0,1,FxGroupData.slot0
+0x1404A3D40,1,ModelFxData.slot0
+0x1404A3D80,1,MtlCtrlFxData.slot0
+0x1404A3FF0,1,ParticleModelFxData.slot0
+0x1404A4300,1,SfxBaseData.slot0
+0x1404A4860,1,SpriteFxData.slot0
+0x1404A68C0,1,ModelFxData.slot5
+0x1404A6DA0,1,ModelFxData.slot6
+0x1404A6EA0,1,MtlCtrlFxData.slot6
+0x1404A7040,1,ParticleModelFxData.slot6
+0x1404A73F0,3,SfxBaseData.slot6; DummyFxData.slot6; FxGroupData.slot6
+0x1404A76A0,1,SpriteFxData.slot6
+0x1404AB480,1,ModelFxData.slot1
+0x1404AB890,1,MtlCtrlFxData.slot1
+0x1404ABFC0,1,ParticleModelFxData.slot1
+0x1404AD8B0,3,SfxBaseData.slot1; DummyFxData.slot1; FxGroupData.slot1
+0x1404AE3E0,1,SpriteFxData.slot1
+0x1404AF080,1,ModelFxData.slot4
+0x1404AF270,1,ModelFxData.slot2
+0x1404AF320,1,ModelFxData.slot3

@@ -1,0 +1,578 @@
+{
+  "tool": "ros64_vtable_targets_v12",
+  "generated_utc": "2026-10-13T18:58:27.068343+00:00",
+  "input_image_base_assumption": 5368709120,
+  "target_class": "ModelFxData",
+  "comparison_classes": [
+    "SfxBaseData",
+    "DummyFxData",
+    "FxGroupData",
+    "ParticleModelFxData",
+    "SpriteFxData",
+    "MtlCtrlFxData"
+  ],
+  "selected_groups": {
+    "ModelFxData": {
+      "group_index": 35,
+      "decorated_name": ".?AVModelFxData@world@neox@@",
+      "col_address": 5411557880,
+      "vtable_address": 5398243728,
+      "function_count": 7,
+      "function_addresses": [
+        5373574464,
+        5373604992,
+        5373620848,
+        5373621024,
+        5373620352,
+        5373585600,
+        5373586848
+      ]
+    },
+    "SfxBaseData": {
+      "group_index": 25,
+      "decorated_name": ".?AVSfxBaseData@world@neox@@",
+      "col_address": 5411556560,
+      "vtable_address": 5398243088,
+      "function_count": 7,
+      "function_addresses": [
+        5373575936,
+        5373614256,
+        5373620848,
+        5373621024,
+        5373620352,
+        5373585600,
+        5373588464
+      ]
+    },
+    "DummyFxData": {
+      "group_index": 26,
+      "decorated_name": ".?AVDummyFxData@world@neox@@",
+      "col_address": 5411556680,
+      "vtable_address": 5398243152,
+      "function_count": 7,
+      "function_addresses": [
+        5373573168,
+        5373614256,
+        5373620848,
+        5373621024,
+        5373620352,
+        5373585600,
+        5373588464
+      ]
+    },
+    "FxGroupData": {
+      "group_index": 27,
+      "decorated_name": ".?AVFxGroupData@world@neox@@",
+      "col_address": 5411556808,
+      "vtable_address": 5398243216,
+      "function_count": 7,
+      "function_addresses": [
+        5373573296,
+        5373614256,
+        5373620848,
+        5373621024,
+        5373620352,
+        5373585600,
+        5373588464
+      ]
+    },
+    "ParticleModelFxData": {
+      "group_index": 29,
+      "decorated_name": ".?AVParticleModelFxData@world@neox@@",
+      "col_address": 5411557064,
+      "vtable_address": 5398243344,
+      "function_count": 7,
+      "function_addresses": [
+        5373575152,
+        5373607872,
+        5373620848,
+        5373621024,
+        5373620352,
+        5373585600,
+        5373587520
+      ]
+    },
+    "SpriteFxData": {
+      "group_index": 34,
+      "decorated_name": ".?AVSpriteFxData@world@neox@@",
+      "col_address": 5411557752,
+      "vtable_address": 5398243664,
+      "function_count": 7,
+      "function_addresses": [
+        5373577312,
+        5373617120,
+        5373620848,
+        5373621024,
+        5373620352,
+        5373585600,
+        5373589152
+      ]
+    },
+    "MtlCtrlFxData": {
+      "group_index": 47,
+      "decorated_name": ".?AVMtlCtrlFxData@world@neox@@",
+      "col_address": 5411559448,
+      "vtable_address": 5398244496,
+      "function_count": 7,
+      "function_addresses": [
+        5373574528,
+        5373606032,
+        5373620848,
+        5373621024,
+        5373620352,
+        5373585600,
+        5373587104
+      ]
+    }
+  },
+  "class_slot_map": {
+    "ModelFxData": [
+      {
+        "class_name": "ModelFxData",
+        "slot_index": 0,
+        "slot_label": "slot0_destructor_candidate",
+        "vtable_address": 5398243728,
+        "function_address": 5373574464
+      },
+      {
+        "class_name": "ModelFxData",
+        "slot_index": 1,
+        "slot_label": "slot1_class_specific_virtual",
+        "vtable_address": 5398243728,
+        "function_address": 5373604992
+      },
+      {
+        "class_name": "ModelFxData",
+        "slot_index": 2,
+        "slot_label": "slot2_shared_candidate",
+        "vtable_address": 5398243728,
+        "function_address": 5373620848
+      },
+      {
+        "class_name": "ModelFxData",
+        "slot_index": 3,
+        "slot_label": "slot3_shared_candidate",
+        "vtable_address": 5398243728,
+        "function_address": 5373621024
+      },
+      {
+        "class_name": "ModelFxData",
+        "slot_index": 4,
+        "slot_label": "slot4_shared_candidate",
+        "vtable_address": 5398243728,
+        "function_address": 5373620352
+      },
+      {
+        "class_name": "ModelFxData",
+        "slot_index": 5,
+        "slot_label": "slot5_shared_candidate",
+        "vtable_address": 5398243728,
+        "function_address": 5373585600
+      },
+      {
+        "class_name": "ModelFxData",
+        "slot_index": 6,
+        "slot_label": "slot6_class_specific_virtual",
+        "vtable_address": 5398243728,
+        "function_address": 5373586848
+      }
+    ],
+    "SfxBaseData": [
+      {
+        "class_name": "SfxBaseData",
+        "slot_index": 0,
+        "slot_label": "slot0_destructor_candidate",
+        "vtable_address": 5398243088,
+        "function_address": 5373575936
+      },
+      {
+        "class_name": "SfxBaseData",
+        "slot_index": 1,
+        "slot_label": "slot1_class_specific_virtual",
+        "vtable_address": 5398243088,
+        "function_address": 5373614256
+      },
+      {
+        "class_name": "SfxBaseData",
+        "slot_index": 6,
+        "slot_label": "slot6_class_specific_virtual",
+        "vtable_address": 5398243088,
+        "function_address": 5373588464
+      }
+    ],
+    "DummyFxData": [
+      {
+        "class_name": "DummyFxData",
+        "slot_index": 0,
+        "slot_label": "slot0_destructor_candidate",
+        "vtable_address": 5398243152,
+        "function_address": 5373573168
+      },
+      {
+        "class_name": "DummyFxData",
+        "slot_index": 1,
+        "slot_label": "slot1_class_specific_virtual",
+        "vtable_address": 5398243152,
+        "function_address": 5373614256
+      },
+      {
+        "class_name": "DummyFxData",
+        "slot_index": 6,
+        "slot_label": "slot6_class_specific_virtual",
+        "vtable_address": 5398243152,
+        "function_address": 5373588464
+      }
+    ],
+    "FxGroupData": [
+      {
+        "class_name": "FxGroupData",
+        "slot_index": 0,
+        "slot_label": "slot0_destructor_candidate",
+        "vtable_address": 5398243216,
+        "function_address": 5373573296
+      },
+      {
+        "class_name": "FxGroupData",
+        "slot_index": 1,
+        "slot_label": "slot1_class_specific_virtual",
+        "vtable_address": 5398243216,
+        "function_address": 5373614256
+      },
+      {
+        "class_name": "FxGroupData",
+        "slot_index": 6,
+        "slot_label": "slot6_class_specific_virtual",
+        "vtable_address": 5398243216,
+        "function_address": 5373588464
+      }
+    ],
+    "ParticleModelFxData": [
+      {
+        "class_name": "ParticleModelFxData",
+        "slot_index": 0,
+        "slot_label": "slot0_destructor_candidate",
+        "vtable_address": 5398243344,
+        "function_address": 5373575152
+      },
+      {
+        "class_name": "ParticleModelFxData",
+        "slot_index": 1,
+        "slot_label": "slot1_class_specific_virtual",
+        "vtable_address": 5398243344,
+        "function_address": 5373607872
+      },
+      {
+        "class_name": "ParticleModelFxData",
+        "slot_index": 6,
+        "slot_label": "slot6_class_specific_virtual",
+        "vtable_address": 5398243344,
+        "function_address": 5373587520
+      }
+    ],
+    "SpriteFxData": [
+      {
+        "class_name": "SpriteFxData",
+        "slot_index": 0,
+        "slot_label": "slot0_destructor_candidate",
+        "vtable_address": 5398243664,
+        "function_address": 5373577312
+      },
+      {
+        "class_name": "SpriteFxData",
+        "slot_index": 1,
+        "slot_label": "slot1_class_specific_virtual",
+        "vtable_address": 5398243664,
+        "function_address": 5373617120
+      },
+      {
+        "class_name": "SpriteFxData",
+        "slot_index": 6,
+        "slot_label": "slot6_class_specific_virtual",
+        "vtable_address": 5398243664,
+        "function_address": 5373589152
+      }
+    ],
+    "MtlCtrlFxData": [
+      {
+        "class_name": "MtlCtrlFxData",
+        "slot_index": 0,
+        "slot_label": "slot0_destructor_candidate",
+        "vtable_address": 5398244496,
+        "function_address": 5373574528
+      },
+      {
+        "class_name": "MtlCtrlFxData",
+        "slot_index": 1,
+        "slot_label": "slot1_class_specific_virtual",
+        "vtable_address": 5398244496,
+        "function_address": 5373606032
+      },
+      {
+        "class_name": "MtlCtrlFxData",
+        "slot_index": 6,
+        "slot_label": "slot6_class_specific_virtual",
+        "vtable_address": 5398244496,
+        "function_address": 5373587104
+      }
+    ]
+  },
+  "unique_function_targets": [
+    {
+      "address": 5373573168,
+      "aliases": [
+        {
+          "class_name": "DummyFxData",
+          "slot_index": 0,
+          "slot_label": "slot0_destructor_candidate"
+        }
+      ],
+      "alias_count": 1
+    },
+    {
+      "address": 5373573296,
+      "aliases": [
+        {
+          "class_name": "FxGroupData",
+          "slot_index": 0,
+          "slot_label": "slot0_destructor_candidate"
+        }
+      ],
+      "alias_count": 1
+    },
+    {
+      "address": 5373574464,
+      "aliases": [
+        {
+          "class_name": "ModelFxData",
+          "slot_index": 0,
+          "slot_label": "slot0_destructor_candidate"
+        }
+      ],
+      "alias_count": 1
+    },
+    {
+      "address": 5373574528,
+      "aliases": [
+        {
+          "class_name": "MtlCtrlFxData",
+          "slot_index": 0,
+          "slot_label": "slot0_destructor_candidate"
+        }
+      ],
+      "alias_count": 1
+    },
+    {
+      "address": 5373575152,
+      "aliases": [
+        {
+          "class_name": "ParticleModelFxData",
+          "slot_index": 0,
+          "slot_label": "slot0_destructor_candidate"
+        }
+      ],
+      "alias_count": 1
+    },
+    {
+      "address": 5373575936,
+      "aliases": [
+        {
+          "class_name": "SfxBaseData",
+          "slot_index": 0,
+          "slot_label": "slot0_destructor_candidate"
+        }
+      ],
+      "alias_count": 1
+    },
+    {
+      "address": 5373577312,
+      "aliases": [
+        {
+          "class_name": "SpriteFxData",
+          "slot_index": 0,
+          "slot_label": "slot0_destructor_candidate"
+        }
+      ],
+      "alias_count": 1
+    },
+    {
+      "address": 5373585600,
+      "aliases": [
+        {
+          "class_name": "ModelFxData",
+          "slot_index": 5,
+          "slot_label": "slot5_shared_candidate"
+        }
+      ],
+      "alias_count": 1
+    },
+    {
+      "address": 5373586848,
+      "aliases": [
+        {
+          "class_name": "ModelFxData",
+          "slot_index": 6,
+          "slot_label": "slot6_class_specific_virtual"
+        }
+      ],
+      "alias_count": 1
+    },
+    {
+      "address": 5373587104,
+      "aliases": [
+        {
+          "class_name": "MtlCtrlFxData",
+          "slot_index": 6,
+          "slot_label": "slot6_class_specific_virtual"
+        }
+      ],
+      "alias_count": 1
+    },
+    {
+      "address": 5373587520,
+      "aliases": [
+        {
+          "class_name": "ParticleModelFxData",
+          "slot_index": 6,
+          "slot_label": "slot6_class_specific_virtual"
+        }
+      ],
+      "alias_count": 1
+    },
+    {
+      "address": 5373588464,
+      "aliases": [
+        {
+          "class_name": "SfxBaseData",
+          "slot_index": 6,
+          "slot_label": "slot6_class_specific_virtual"
+        },
+        {
+          "class_name": "DummyFxData",
+          "slot_index": 6,
+          "slot_label": "slot6_class_specific_virtual"
+        },
+        {
+          "class_name": "FxGroupData",
+          "slot_index": 6,
+          "slot_label": "slot6_class_specific_virtual"
+        }
+      ],
+      "alias_count": 3
+    },
+    {
+      "address": 5373589152,
+      "aliases": [
+        {
+          "class_name": "SpriteFxData",
+          "slot_index": 6,
+          "slot_label": "slot6_class_specific_virtual"
+        }
+      ],
+      "alias_count": 1
+    },
+    {
+      "address": 5373604992,
+      "aliases": [
+        {
+          "class_name": "ModelFxData",
+          "slot_index": 1,
+          "slot_label": "slot1_class_specific_virtual"
+        }
+      ],
+      "alias_count": 1
+    },
+    {
+      "address": 5373606032,
+      "aliases": [
+        {
+          "class_name": "MtlCtrlFxData",
+          "slot_index": 1,
+          "slot_label": "slot1_class_specific_virtual"
+        }
+      ],
+      "alias_count": 1
+    },
+    {
+      "address": 5373607872,
+      "aliases": [
+        {
+          "class_name": "ParticleModelFxData",
+          "slot_index": 1,
+          "slot_label": "slot1_class_specific_virtual"
+        }
+      ],
+      "alias_count": 1
+    },
+    {
+      "address": 5373614256,
+      "aliases": [
+        {
+          "class_name": "SfxBaseData",
+          "slot_index": 1,
+          "slot_label": "slot1_class_specific_virtual"
+        },
+        {
+          "class_name": "DummyFxData",
+          "slot_index": 1,
+          "slot_label": "slot1_class_specific_virtual"
+        },
+        {
+          "class_name": "FxGroupData",
+          "slot_index": 1,
+          "slot_label": "slot1_class_specific_virtual"
+        }
+      ],
+      "alias_count": 3
+    },
+    {
+      "address": 5373617120,
+      "aliases": [
+        {
+          "class_name": "SpriteFxData",
+          "slot_index": 1,
+          "slot_label": "slot1_class_specific_virtual"
+        }
+      ],
+      "alias_count": 1
+    },
+    {
+      "address": 5373620352,
+      "aliases": [
+        {
+          "class_name": "ModelFxData",
+          "slot_index": 4,
+          "slot_label": "slot4_shared_candidate"
+        }
+      ],
+      "alias_count": 1
+    },
+    {
+      "address": 5373620848,
+      "aliases": [
+        {
+          "class_name": "ModelFxData",
+          "slot_index": 2,
+          "slot_label": "slot2_shared_candidate"
+        }
+      ],
+      "alias_count": 1
+    },
+    {
+      "address": 5373621024,
+      "aliases": [
+        {
+          "class_name": "ModelFxData",
+          "slot_index": 3,
+          "slot_label": "slot3_shared_candidate"
+        }
+      ],
+      "alias_count": 1
+    }
+  ],
+  "notes": [
+    "Slot labels are provisional; disassembly must confirm semantics.",
+    "Slot 0 is called a destructor candidate based on prior observed code pattern, not just its position.",
+    "A valid runtime module base of 0x140000000 must be confirmed before interpreting these addresses.",
+    "WinDbg uf output is inspection only; this script never calls or executes target functions."
+  ]
+}
