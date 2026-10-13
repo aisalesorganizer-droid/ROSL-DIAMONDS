@@ -1,0 +1,417 @@
+ROSLegacy read-only format probe v3
+========================================================================
+Generated UTC: 2026-10-13T12:49:22.726146+00:00
+Installer: C:\Users\MAFIA\Downloads\Compressed\ROSLegacy\Diamonds\ROSLegacy_Install_202609251811.exe (225,888 bytes)
+Sidecar:   C:\Users\MAFIA\Downloads\Compressed\ROSLegacy\Diamonds\ROSLegacy_Install_202609251811.nsisbin (8,250,888,993 bytes)
+Full sidecar scan: False
+
+INSTALLER SAMPLE
+------------------------------------------------------------------------
+Format guess: DOS/PE candidate (must validate PE header)
+Size: 225,888 bytes (0.000210 GiB)
+Sample @ 0 (256 bytes), entropy=4.551
+  HEX:   4d 5a 90 00 03 00 00 00 04 00 00 00 ff ff 00 00 b8 00 00 00 00 00 00 00 40 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 d0 00 00 00 0e 1f ba 0e 00 b4 09 cd 21 b8 01 4c cd 21 54 68 69 73 20 70 72 6f 67 72 61 6d 20 63 61 6e 6e 6f 74 20 62 65 20 72 75 6e 20 69 6e 20 44 4f 53 20 6d 6f 64 65 2e 0d 0d 0a 24 00 00 00 00 00 00 00 69 ed c5 ad 2d 8c ab fe 2d 8c ab fe 2d 8c ab fe ee 83 f4 fe 2f 8c ab fe ee 83 f6 fe 22 8c ab fe 2d 8c aa fe 86 8c ab fe 0a 4a c6 fe 22 8c ab fe 0a 4a d7 fe 2c 8c ab fe 0a 4a d3 fe 2c 8c ab fe 52 69 63 68 2d 8c ab fe 00 00 00 00 00 00 00 00 50 45 00 00 4c 01 05 00 9e 96 ea 66 00 00 00 00 00 00 00 00 e0 00 03 01 0b 01 08 00 00 7c 00 00 00 26 02 00 00 08 00 00 26 3a 00 00 00 10 00 00
+  ASCII: MZ......................@...............................................!..L.!This program cannot be run in DOS mode....$.......i...-...-...-......./......."...
+Sample @ 112,816 (256 bytes), entropy=7.1824
+  HEX:   9a 0c f7 64 f6 0c 4e 7a a9 4a 65 d4 10 30 2b ad d1 bc 5b 56 d4 05 cd ac 8f 0a f4 0d ac 15 60 76 b6 43 d3 b8 df d6 0d b5 a4 79 d6 d8 ad 47 f9 d9 1e 26 b8 7f 0c 54 15 4d 1a f0 f7 cf 49 30 55 0e 8d b8 b2 ee 6c 50 53 7a de 27 c3 f3 6e d3 1d cd d6 e7 f9 cc 68 ba 46 d2 7e 3b 4b c1 e4 f7 44 33 d2 76 3c 2b 13 0c db 8b d2 e9 dd 1c 48 cb 74 00 9a 09 9b 3d 59 9e e3 ee ee a7 be de 56 88 13 3b 82 8f 73 78 f6 db 26 92 72 fe 68 a1 6c e5 bc dd 12 68 43 8e c5 38 b9 de 9f 59 ff eb 4e b7 f1 b4 a7 53 2f 30 07 26 a2 19 66 99 51 1d fb 0e 51 29 b3 e6 0a d7 2c 1d 9c cc c7 f1 3d 77 ef 90 70 fd 4f c0 54 de 14 fb 76 a3 f5 75 91 60 6c a6 a3 19 77 fc 99 08 d3 5a d7 b5 15 7d 73 73 9f 30 3f 02 23 c9 cf f7 b9 bf bb b2 d7 95 5a b3 30 ce dd 18 2d 56 57 b6 6d f6 39 54 38 d6 1d 5a 89 f7 c6 ca
+  ASCII: ...d..Nz.Je..0+...[V..........`v.C.......y...G...&...T.M....I0U.....lPSz.'..n.......h.F.~;K...D3.v<+........H.t....=Y.......V..;..sx..&.r.h.l....hC..8...Y..N...
+Sample @ 225,632 (256 bytes), entropy=7.121
+  HEX:   c8 55 56 94 18 72 ed 52 08 00 c7 d6 3c d5 a8 01 1c f4 13 67 df 8a 29 98 5d eb 95 3a 73 15 0c 08 e8 0f b4 d6 5e 5a 16 fd 39 9f ec 67 2a 0a ed d1 9b 51 ba 64 a0 86 56 04 20 93 9d ac 28 50 8d c9 9a 56 27 5b 08 bd 38 a0 5b 3f 6f 0d 40 ad 67 39 18 b9 45 d0 c4 78 9c a4 7b b2 cb cd 28 dd 3f 09 7d 85 5d aa 83 10 57 a7 4f cb b2 ae e4 6a 34 4c 8a 3f 54 d6 a5 7e 52 d4 dc ac 6b 1b 4e 1f 64 73 60 68 ff 4e 3d f6 59 d0 2a 80 cd e5 d1 ac 1a c7 ac 3e ec 8c 84 9c 31 2a f1 e0 19 8d 0d 4b 46 06 0f 45 25 26 6c 8f 8e ae bf bb ca 31 cd db 5b 7c 9d 94 23 a8 25 22 e5 ba 6d aa 5a 08 d6 47 74 54 1b 13 52 9f 31 f2 8f dc fd cf 98 08 3e 7c 18 94 f8 d5 7b 20 e7 56 e2 09 3d b4 4b 4d db 4e 71 0d 71 ac f1 be 59 62 90 be 69 02 20 cd f1 29 aa 9b ef 3b 78 0a 4a 37 00 4c e7 ca dd 37 19 a9 e2 3c
+  ASCII: .UV..r.R....<......g..).]..:s.......^Z..9..g*....Q.d..V. ...(P...V'[..8.[?o.@.g9..E..x..{...(.?.}.]...W.O....j4L.?T..~R...k.N.ds`h.N=.Y.*........>....1*.....KF.
+
+SIDECAR SAMPLE
+------------------------------------------------------------------------
+Format guess: No recognized leading signature; inspect header samples and NSIS offsets
+Size: 8,250,888,993 bytes (7.684239 GiB)
+Sample @ 0 (256 bytes), entropy=7.092
+  HEX:   65 1b 00 00 00 00 00 80 5f 1b 00 ed 3a 6b 78 54 d5 b5 7b 1e 99 4c 92 09 67 20 0f 12 88 10 42 50 14 81 99 9c 3c 48 26 c1 04 98 24 28 c1 09 43 26 19 68 42 91 64 0c d3 98 d8 70 0e 48 25 01 3c 99 e0 f1 38 6a 7d b4 d5 cf d6 07 96 6b 5f 57 5b 2d 60 eb b5 13 c6 12 50 54 1e 7e 1a c1 5b a3 a5 7a 86 41 89 90 32 13 88 39 77 ad 7d 26 01 eb fd 7a bf fb a7 df bd df e7 81 75 f6 de 6b ad b3 f7 5a 6b af bd d6 de 3b 53 b3 e6 21 a2 23 84 e8 01 14 85 90 fd 44 7d ca c9 ff fc 0c 00 4c 9a f9 87 49 e4 e5 84 b7 66 ed d7 ac 78 6b d6 ea d6 8d 9b b2 ef ec ec b8 bd 73 fd 1d d9 1b d6 b7 b7 77 70 d9 b7 b5 64 77 f2 ed d9 1b db b3 97 dd ea cc be a3 a3 b9 65 41 72 72 62 6e ac 8f ad 7f 4e f9 4d d9 73 5d 63 e3 30 f6 ab ec b1 12 5a df 36 76 3d 94 d3 6e 33 8f 15 d3 92 50 fc b4 db e2 c7 4a 69 19
+  ASCII: e......._...:kxT..{..L..g ....BP....<H&...$(..C&.hB.d....p.H%.<...8j}......k_W[-`.....PT.~..[..z.A..2..9w.}&...z........u..k...Zk....;S..!.#.......D}......L...I
+Sample @ 4,125,444,368 (256 bytes), entropy=7.1691
+  HEX:   ed 72 31 2c d3 93 5d 0f bc bc 71 af 62 13 8b 21 f6 2d be 9d ac 96 a1 4d e4 ab 8c ac ef e5 cc 8f 6a dd bc ca 9c b0 0b 90 ec d9 05 88 17 fa 2b 2e e0 84 36 a5 18 cf 35 75 30 66 4e 85 57 16 6e 9e eb 03 b3 7f f7 96 8c d7 34 1a ce f6 43 11 ce ef 99 62 97 0a 6c c4 64 e2 2f 0e 72 56 40 2e fa 1f 34 37 11 34 87 6b 98 b6 ab 25 b7 a1 53 e8 dd c5 46 93 4b 27 66 22 2e b1 15 c1 b7 0e f0 4b 82 62 28 08 71 eb 3d 0b 5f e6 6b b8 74 98 fb 83 c9 bc 3a ca 9f 48 a4 ed bb 80 4a 68 5e 22 b2 87 ad 24 98 6b 8c 1f 60 67 54 1e a6 b2 68 2a 7e 8a 60 e3 c9 e3 9c 26 13 60 1a 7c ca 68 3e 8f ca 77 55 7e ee fd 6c d3 90 29 45 64 fb 1f 1c d7 7d 4b a2 3c 82 4c 54 10 37 8f 9c 88 6c 2f cf 83 8c 09 ff 08 72 b3 43 d7 37 64 cb ea 28 51 6e 3c 5e f0 59 9b bc e6 c2 f5 a9 5e 95 e4 90 24 e8 e3 cd b8 93 16
+  ASCII: .r1,..]...q.b..!.-.....M........j.............+...6...5u0fN.W.n.........4...C....b..l.d./.rV@...47.4.k...%..S...F.K'f".......K.b(.q.=._.k.t.....:..H....Jh^"...$
+Sample @ 8,250,888,737 (256 bytes), entropy=6.902
+  HEX:   40 87 64 36 97 cd 63 ab d9 06 b6 91 f5 82 e4 77 b3 3d ac 9f 7d 94 7d 89 95 d9 f3 ec 45 f6 12 3b c6 6a f3 0d f9 89 f9 93 f2 73 f2 af cb b7 e7 d7 e6 bb f3 bf 97 ff 74 fe c1 fc c2 82 67 0b f6 15 44 0a 2c 85 9f 17 0e 17 7e 55 a8 2b 4a 2c 62 8a 52 8b 32 41 b3 d9 45 d7 17 2d 2c 7a a5 e8 b5 a2 4f 8b 86 8a 46 8a 94 22 fd a2 19 8b 6e 5e b4 61 d1 47 8b 26 15 db 8b 6b 8a bf 53 dc 5a cc 15 ef 2c 7e ae f8 d7 c5 fd c5 97 8b 95 62 5d 49 7c 49 52 09 53 92 52 32 b5 64 6e 89 b5 a4 b8 e4 a6 92 65 25 6f 96 d4 da be 6b db 6c 93 6c bb 6d bf b0 bd 6a 7b dd 76 6d e9 82 d2 25 a5 d5 a5 2b 4b 5d a5 ad a5 ed a5 7c 69 6f e9 2b a5 ef 95 7e 54 3a 5a 1a 57 c6 94 a5 95 8d 94 29 65 cb 17 d7 2e 6e 58 fc 9d c5 2d 8b db 17 73 8b 77 2e fe d6 e9 bf 7d c6 9f ff 02 00 00 00 6b 17 89 f9 3e b5 da 70
+  ASCII: @.d6..c........w.=..}.}.....E..;.j.......s............t.....g...D.,.....~U.+J,b.R.2A..E..-,z....O...F.."....n^.a.G.&...k..S.Z...,~.........b]I|IR.S.R2.dn.......
+
+INSTALLER PE ANALYSIS
+------------------------------------------------------------------------
+{
+  "is_pe": true,
+  "pe_offset": 208,
+  "machine_hex": "0x014c",
+  "architecture": "x86",
+  "kind": "PE32",
+  "section_count": 5,
+  "timestamp_unix": 1726650014,
+  "timestamp_utc": "2024-09-18T09:00:14+00:00",
+  "entry_point_rva": "0x3a26",
+  "image_base": "0x400000",
+  "size_of_image": 303104,
+  "size_of_headers": 1024,
+  "characteristics_hex": "0x0103",
+  "sections": [
+    {
+      "name": ".text",
+      "virtual_size": 31495,
+      "virtual_address": 4096,
+      "raw_size": 31744,
+      "raw_pointer": 1024,
+      "raw_range_within_file": true
+    },
+    {
+      "name": ".rdata",
+      "virtual_size": 6732,
+      "virtual_address": 36864,
+      "raw_size": 7168,
+      "raw_pointer": 32768,
+      "raw_range_within_file": true
+    },
+    {
+      "name": ".data",
+      "virtual_size": 128644,
+      "virtual_address": 45056,
+      "raw_size": 512,
+      "raw_pointer": 39936,
+      "raw_range_within_file": true
+    },
+    {
+      "name": ".ndata",
+      "virtual_size": 77824,
+      "virtual_address": 176128,
+      "raw_size": 0,
+      "raw_pointer": 0,
+      "raw_range_within_file": true
+    },
+    {
+      "name": ".rsrc",
+      "virtual_size": 45888,
+      "virtual_address": 253952,
+      "raw_size": 46080,
+      "raw_pointer": 40448,
+      "raw_range_within_file": true
+    }
+  ],
+  "imports_rva": "0x9b28",
+  "imports_directory_size": 160,
+  "imports": [
+    {
+      "dll": "ADVAPI32.dll",
+      "functions": [
+        "RegDeleteKeyW",
+        "RegCloseKey",
+        "RegEnumKeyW",
+        "RegEnumValueW",
+        "RegQueryValueExW",
+        "RegSetValueExW",
+        "RegDeleteValueW",
+        "AdjustTokenPrivileges",
+        "LookupPrivilegeValueW",
+        "OpenProcessToken",
+        "RegOpenKeyExW",
+        "RegCreateKeyExW"
+      ]
+    },
+    {
+      "dll": "SHELL32.dll",
+      "functions": [
+        "SHBrowseForFolderW",
+        "SHGetPathFromIDListW",
+        "SHGetFileInfoW",
+        "SHFileOperationW",
+        "ShellExecuteExW"
+      ]
+    },
+    {
+      "dll": "ole32.dll",
+      "functions": [
+        "CoCreateInstance",
+        "OleUninitialize",
+        "OleInitialize",
+        "IIDFromString",
+        "CoTaskMemFree"
+      ]
+    },
+    {
+      "dll": "COMCTL32.dll",
+      "functions": [
+        "ImageList_Destroy",
+        "ordinal:17",
+        "ImageList_AddMasked",
+        "ImageList_Create"
+      ]
+    },
+    {
+      "dll": "USER32.dll",
+      "functions": [
+        "GetDlgItemTextW",
+        "SetDlgItemTextW",
+        "RegisterClassW",
+        "SystemParametersInfoW",
+        "CreateWindowExW",
+        "GetClassInfoW",
+        "DialogBoxParamW",
+        "SetWindowPos",
+        "IsWindowEnabled",
+        "SetClassLongW",
+        "GetSystemMenu",
+        "EnableMenuItem",
+        "EndDialog",
+        "GetSystemMetrics",
+        "CreatePopupMenu",
+        "AppendMenuW",
+        "GetWindowRect",
+        "TrackPopupMenu",
+        "OpenClipboard",
+        "EmptyClipboard",
+        "SetClipboardData",
+        "CloseClipboard",
+        "IsWindowVisible",
+        "CallWindowProcW",
+        "GetMessagePos",
+        "ScreenToClient",
+        "CheckDlgButton",
+        "LoadCursorW",
+        "MessageBoxIndirectW",
+        "GetWindowLongW",
+        "GetSysColor",
+        "CharNextW",
+        "ExitWindowsEx",
+        "DestroyWindow",
+        "CreateDialogParamW",
+        "SetTimer",
+        "SetWindowTextW",
+        "PostQuitMessage",
+        "SetForegroundWindow",
+        "ShowWindow",
+        "wsprintfW",
+        "SendMessageTimeoutW",
+        "FindWindowExW",
+        "IsWindow",
+        "GetDlgItem",
+        "SetWindowLongW",
+        "LoadImageW",
+        "GetDC",
+        "ReleaseDC",
+        "EnableWindow",
+        "InvalidateRect",
+        "SendMessageW",
+        "DefWindowProcW",
+        "BeginPaint",
+        "GetClientRect",
+        "FillRect",
+        "DrawTextW",
+        "EndPaint",
+        "CharPrevW",
+        "DispatchMessageW",
+        "PeekMessageW",
+        "wsprintfA",
+        "SetCursor",
+        "CharNextA"
+      ]
+    },
+    {
+      "dll": "GDI32.dll",
+      "functions": [
+        "GetDeviceCaps",
+        "SetBkColor",
+        "DeleteObject",
+        "SelectObject",
+        "SetTextColor",
+        "SetBkMode",
+        "CreateFontIndirectW",
+        "CreateBrushIndirect"
+      ]
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "functions": [
+        "WaitForSingleObject",
+        "RemoveDirectoryW",
+        "lstrcpyA",
+        "GetExitCodeProcess",
+        "GetModuleHandleA",
+        "GetProcAddress",
+        "GetSystemDirectoryW",
+        "lstrcatW",
+        "WriteFile",
+        "GetTempFileNameW",
+        "CreateFileW",
+        "lstrcmpiA",
+        "CreateProcessW",
+        "CreateDirectoryW",
+        "CreateThread",
+        "GlobalLock",
+        "GlobalUnlock",
+        "GetDiskFreeSpaceW",
+        "WideCharToMultiByte",
+        "lstrcpynW",
+        "lstrlenW",
+        "SetErrorMode",
+        "GetVersionExW",
+        "MoveFileExW",
+        "GetTempPathW",
+        "GetWindowsDirectoryW",
+        "SetEnvironmentVariableW",
+        "ExitProcess",
+        "CopyFileW",
+        "GetCurrentProcess",
+        "GetModuleFileNameW",
+        "GetFileSize",
+        "GetLastError",
+        "GetTickCount",
+        "Sleep",
+        "SetFileAttributesW",
+        "GetFileAttributesW",
+        "SetCurrentDirectoryW",
+        "MoveFileW",
+        "GetFullPathNameW",
+        "GetShortPathNameW",
+        "SearchPathW",
+        "CompareFileTime",
+        "SetFileTime",
+        "CloseHandle",
+        "lstrcmpiW",
+        "lstrcmpW",
+        "ExpandEnvironmentStringsW",
+        "GlobalAlloc",
+        "GlobalFree",
+        "GetModuleHandleW",
+        "LoadLibraryExW",
+        "FreeLibrary",
+        "WritePrivateProfileStringW",
+        "GetPrivateProfileStringW",
+        "lstrlenA",
+        "MultiByteToWideChar",
+        "ReadFile",
+        "SetFilePointer",
+        "FindClose",
+        "FindNextFileW",
+        "FindFirstFileW",
+        "DeleteFileW",
+        "MulDiv",
+        "InitializeCriticalSection",
+        "DeleteCriticalSection",
+        "LeaveCriticalSection",
+        "EnterCriticalSection",
+        "CreateEventW",
+        "ResetEvent",
+        "WaitForMultipleObjects",
+        "SetEvent",
+        "GetCommandLineW"
+      ]
+    }
+  ]
+}
+
+INSTALLER RAW SCAN
+------------------------------------------------------------------------
+Scanned 225,888 bytes; full scan=True; SHA256=3f7ff420f72bb999756ade90e3c50f90930a8b78873d780e4e5e9a629dd90b57
+NSIS signature offsets: [86532]
+Candidate MZ offsets (not necessarily valid PE): [0, 88675, 123029, 198487]
+Validated PE candidates (extent estimated from section raw data, not SizeOfImage):
+[
+  {
+    "offset": 0,
+    "architecture": "x86",
+    "kind": "PE32",
+    "section_count": 5,
+    "size_of_image_virtual_not_file_size": 303104,
+    "size_of_headers": 1024,
+    "estimated_pe_file_extent_from_section_raw_data": 86528,
+    "sections": [
+      {
+        "name": ".text",
+        "raw_size": 31744,
+        "raw_pointer": 1024
+      },
+      {
+        "name": ".rdata",
+        "raw_size": 7168,
+        "raw_pointer": 32768
+      },
+      {
+        "name": ".data",
+        "raw_size": 512,
+        "raw_pointer": 39936
+      },
+      {
+        "name": ".ndata",
+        "raw_size": 0,
+        "raw_pointer": 0
+      },
+      {
+        "name": ".rsrc",
+        "raw_size": 46080,
+        "raw_pointer": 40448
+      }
+    ]
+  }
+]
+Magic hits:
+  DOS/PE candidate (must validate PE header): [0, 88675, 123029, 198487]
+  GZIP: [13010, 26759, 26918, 113241, 212598]
+Interesting readable strings:
+  @ 34,064 [ascii] SETUPAPI
+  @ 34,089 [ascii] DWMAPI
+  @ 34,792 [ascii] SHLWAPI
+  @ 34,868 [ascii] ADVAPI32
+  @ 36,714 [ascii] ADVAPI32.dll
+  @ 36,830 [ascii] SHELL32.dll
+  @ 36,928 [ascii] ole32.dll
+  @ 37,000 [ascii] COMCTL32.dll
+  @ 38,004 [ascii] DispatchMessageW
+  @ 38,050 [ascii] USER32.dll
+  @ 38,196 [ascii] GDI32.dll
+  @ 39,486 [ascii] KERNEL32.dll
+  @ 85,248 [ascii] <?xml version="1.0" encoding="UTF-8" standalone="yes"?><assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0"><assemblyIdentity version="1.0.0.0" processorArchitecture="*" name="Nullsoft.NSIS.exehead" type="win32"/><description>Nullsoft Install System v18-Sep-2024.cvs</description><dependency><dependentAssembly><assemblyIdentity type="win32" name="Microsoft.Windows.Common-Controls" version="6.0.0.0" processorArchitecture="*" publicKeyToken="6595b64144ccf1df" language="*" /></de
+  @ 216,475 [ascii] :http://crl.sectigo.com/SectigoPublicCodeSigningRootE46.crl0{
+  @ 216,563 [ascii] :http://crt.sectigo.com/SectigoPublicCodeSigningRootE46.p7c0#
+  @ 216,636 [ascii] http://ocsp.sectigo.com0
+  @ 217,362 [ascii] 2http://crl.comodoca.com/AAACertificateServices.crl04
+  @ 217,443 [ascii] http://ocsp.comodoca.com0
+  @ 218,020 [ascii] )KAMOTEWORKS SOFTWARE DEVELOPMENT SERVICES1200
+  @ 218,072 [ascii] )KAMOTEWORKS SOFTWARE DEVELOPMENT SERVICES0v0
+  @ 218,400 [ascii] https://sectigo.com/CPS0
+  @ 218,450 [ascii] :http://crl.sectigo.com/SectigoPublicCodeSigningCAEVE36.crl0{
+  @ 218,538 [ascii] :http://crt.sectigo.com/SectigoPublicCodeSigningCAEVE36.crt0#
+  @ 218,611 [ascii] http://ocsp.sectigo.com0
+  @ 219,096 [ascii] mailto:developers@mythgames.net 0
+  @ 220,581 [ascii] https://sectigo.com/CPS0J
+  @ 220,622 [ascii] 9http://crl.sectigo.com/SectigoPublicTimeStampingCAR41.crl0z
+  @ 220,709 [ascii] 9http://crt.sectigo.com/SectigoPublicTimeStampingCAR41.crt0#
+  @ 220,781 [ascii] http://ocsp.sectigo.com0
+  @ 222,325 [ascii] ;http://crl.sectigo.com/SectigoPublicTimeStampingRootR46.crl0|
+  @ 222,414 [ascii] ;http://crt.sectigo.com/SectigoPublicTimeStampingRootR46.p7c0#
+  @ 222,488 [ascii] http://ocsp.sectigo.com0
+  @ 224,062 [ascii] ?http://crl.usertrust.com/USERTrustRSACertificationAuthority.crl05
+  @ 224,156 [ascii] http://ocsp.usertrust.com0
+  @ 33,704 [utf-16le-ascii] incomplete download and damaged media. Contact the
+  @ 33,932 [utf-16le-ascii] http://nsis.sf.net/NSIS_Error
+  @ 35,048 [utf-16le-ascii] Software\Microsoft\Windows\CurrentVersion
+  @ 35,248 [utf-16le-ascii] %s%S.dll
+  @ 84,336 [utf-16le-ascii] KAMOTEWORKS SOFTWARE DEVELOPMENT SERVICES
+  @ 84,600 [utf-16le-ascii] ROSLegacy_Install_202609251811.exe
+  @ 84,708 [utf-16le-ascii] Copyright 2026 KAMOTEWORKS SOFTWARE DEVELOPMENT SERVICES
+  @ 84,864 [utf-16le-ascii] KAMOTEWORKS SOFTWARE DEVELOPMENT SERVICES
+  @ 84,988 [utf-16le-ascii] ROSLegacy_Install_202609251811.exe
+  @ 218,990 [utf-16le-ascii] fSigned by KAMOTEWORKS SOFTWARE DEVELOPMENT SERVICE
+
+SIDECAR RAW SCAN
+------------------------------------------------------------------------
+Scanned 2,097,152 bytes; full scan=False; SHA256=None
+NSIS signature offsets: []
+Candidate MZ offsets (not necessarily valid PE): [5610, 133579, 212691, 225321, 611581, 632898, 700268, 727864, 879914, 954811, 1046972, 1291065, 1331036, 1332717, 1496463, 1612906, 1734793, 1758730, 1770961, 1793824, 1802680, 1832712, 1860600, 1886709, 1892617, 1964052, 2011950]
+Validated PE candidates (extent estimated from section raw data, not SizeOfImage):
+[]
+Magic hits:
+  DOS/PE candidate (must validate PE header): [5610, 133579, 212691, 225321, 611581, 632898, 700268, 727864, 879914, 954811, 1046972, 1291065, 1331036, 1332717, 1496463, 1612906, 1734793, 1758730, 1770961, 1793824]
+  GZIP: [9264, 344072, 419149, 546525, 556698, 568578, 585955, 608115, 665208, 773832, 814041, 1151310, 1193692, 1200789, 1367397, 1460262, 1509779, 1528007, 1552855, 1575680]
+Interesting readable strings:
+NOTE: Sidecar was sampled/scanned for the first 2 MiB only. Use --deep-scan for a full streaming scan.
+
+LIMITATIONS
+------------------------------------------------------------------------
+- This is a format-probe report, not a decompiled NSIS script.
+- Raw scans only see readable bytes; compressed/encrypted/encoded content must be decoded with a format-aware parser.
+- An MZ byte sequence is only a candidate; offsets require PE-header validation before carving any file.
+- The .nsisbin companion's format must be established from its bytes and the installer's file-access logic before extraction logic is written.
