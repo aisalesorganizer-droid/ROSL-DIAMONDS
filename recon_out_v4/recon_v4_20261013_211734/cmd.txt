@@ -1,0 +1,19 @@
+
+C:\Users\MAFIA\Downloads\Compressed\ROSLegacy\Diamonds>cd /d "C:\Users\MAFIA\Downloads\Compressed\ROSLegacy\Diamonds"
+
+C:\Users\MAFIA\Downloads\Compressed\ROSLegacy\Diamonds>python nsis_recon_v4.py
+[INFO] Indexing 8-byte length prefixes; payload bytes are skipped.
+
+[COMPLETE] Read-only NSISBI layout probe finished.
+  EXE: C:\Users\MAFIA\Downloads\Compressed\ROSLegacy\Diamonds\ROSLegacy_Install_202609251811.exe
+  Sidecar: C:\Users\MAFIA\Downloads\Compressed\ROSLegacy\Diamonds\ROSLegacy_Install_202609251811.nsisbin (7.68 GiB)
+  JSON report: recon_out_v4\recon_v4_20261013_211734\nsisbi_layout.json
+  Text report: recon_out_v4\recon_v4_20261013_211734\nsisbi_layout.txt
+  Firstheader offset: 86,528; flags=0x000000F0
+  Header output size: 559,820 bytes
+  Header-declared external size matches sidecar: True
+  Record prefixes indexed: 2,511
+  Walk reached exact EOF: True
+  Stop reason: reached_eof
+
+C:\Users\MAFIA\Downloads\Compressed\ROSLegacy\Diamonds>

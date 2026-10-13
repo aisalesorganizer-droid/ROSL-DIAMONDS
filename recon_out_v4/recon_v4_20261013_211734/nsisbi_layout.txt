@@ -1,0 +1,62 @@
+ROSLegacy NSISBI external-data layout report v4
+========================================================================
+Generated UTC: 2026-10-13T13:17:33.475038+00:00
+EXE: C:\Users\MAFIA\Downloads\Compressed\ROSLegacy\Diamonds\ROSLegacy_Install_202609251811.exe
+Sidecar: C:\Users\MAFIA\Downloads\Compressed\ROSLegacy\Diamonds\ROSLegacy_Install_202609251811.nsisbin
+
+NSISBI HEADER VALIDATION
+------------------------------------------------------------------------
+Installer size: 220.59 KiB (225888 bytes)
+NSISBI marker candidates: [86532]
+Validated firstheader #1:
+  Header offset: 86528
+  Flags: 0x000000F0 (240) [raw; no version-specific interpretation assumed]
+  Header output size: 559820 bytes (546.70 KiB)
+  Length-of-following-data field: 129273 bytes
+  External data size declared by EXE: 8250888993 bytes (7.68 GiB)
+  Bytes after firstheader in EXE: 139324
+
+EXTERNAL SIDECAR CONSISTENCY
+------------------------------------------------------------------------
+Actual sidecar size: 8250888993 bytes (7.68 GiB)
+Declared sidecar size: 8250888993 bytes (7.68 GiB)
+Declared size equals actual size: True
+
+SIDECAR RECORD-LENGTH WALK (reads only 8-byte prefixes; skips payload bytes)
+------------------------------------------------------------------------
+Records indexed: 2511
+Compressed-flag records: 2462
+Uncompressed-flag records: 49
+Payload bytes covered by indexed records: 7.68 GiB
+Prefix bytes read: 20088
+Stop reason: reached_eof
+Walk reached exact EOF: True
+Bytes remaining after walk: 0
+
+First record boundaries:
+  #    0 @            0:   compressed, stored=       7,013 bytes, next=       7,021
+  #    1 @        7,021:   compressed, stored=       3,656 bytes, next=      10,685
+  #    2 @       10,685:   compressed, stored=       8,512 bytes, next=      19,205
+  #    3 @       19,205:   compressed, stored=         140 bytes, next=      19,353
+  #    4 @       19,353:   compressed, stored=       5,120 bytes, next=      24,481
+  #    5 @       24,481:   compressed, stored=       2,476 bytes, next=      26,965
+  #    6 @       26,965:   compressed, stored=       4,110 bytes, next=      31,083
+  #    7 @       31,083:   compressed, stored=         646 bytes, next=      31,737
+  #    8 @       31,737:   compressed, stored=   1,917,286 bytes, next=   1,949,031
+  #    9 @    1,949,031:   compressed, stored=  90,766,622 bytes, next=  92,715,661
+  #   10 @   92,715,661:   compressed, stored=     105,145 bytes, next=  92,820,814
+  #   11 @   92,820,814:   compressed, stored=     174,028 bytes, next=  92,994,850
+  #   12 @   92,994,850:   compressed, stored=   2,153,935 bytes, next=  95,148,793
+  #   13 @   95,148,793:   compressed, stored=  10,255,262 bytes, next= 105,404,063
+  #   14 @  105,404,063:   compressed, stored=     694,616 bytes, next= 106,098,687
+  #   15 @  106,098,687:   compressed, stored=   1,251,678 bytes, next= 107,350,373
+  #   16 @  107,350,373:   compressed, stored=   4,604,385 bytes, next= 111,954,766
+  #   17 @  111,954,766:   compressed, stored=     226,197 bytes, next= 112,180,971
+  #   18 @  112,180,971:   compressed, stored=   3,351,585 bytes, next= 115,532,564
+  #   19 @  115,532,564:   compressed, stored=   6,257,358 bytes, next= 121,789,930
+
+INTERPRETATION LIMITS
+------------------------------------------------------------------------
+This is a structural index, not a script decompiler or content extractor.
+A complete record walk reaching EOF supports the NSISBI length-prefix hypothesis, but does not identify filenames or decompress payloads.
+Do not carve MZ/GZIP byte hits from high-entropy payload data unless the candidate is independently validated.
