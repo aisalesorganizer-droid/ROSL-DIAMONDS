@@ -1,0 +1,187 @@
+{
+  "version": 20,
+  "image_base": "0x140000000",
+  "image_end_exclusive": "0x145aea000",
+  "target_groups": [
+    {
+      "name": "DynamicVehicle4W",
+      "addresses": [
+        "0x1407f66a0",
+        "0x1407f7170",
+        "0x1407f79a0",
+        "0x1407f6530",
+        "0x1407f7d70",
+        "0x1407f6600",
+        "0x1407f77b0",
+        "0x1407f7410",
+        "0x1407f62d0",
+        "0x1407f7470",
+        "0x1407f62f0",
+        "0x1407f7440",
+        "0x1407f72f0",
+        "0x1407f6650",
+        "0x1407f6260",
+        "0x1407f6520"
+      ]
+    },
+    {
+      "name": "DynamicVehicleModelDelegate4W",
+      "addresses": [
+        "0x14082a3f0",
+        "0x14082a380",
+        "0x14082a400",
+        "0x14082b4e0",
+        "0x140829f00",
+        "0x14082bca0",
+        "0x140829520",
+        "0x14082b4d0",
+        "0x140829fc0",
+        "0x14082b3b0",
+        "0x140829000"
+      ]
+    },
+    {
+      "name": "DynamicVehicleModelDelegate",
+      "addresses": [
+        "0x1408471f0",
+        "0x1408471e0",
+        "0x140847200",
+        "0x140847e90",
+        "0x140847110",
+        "0x140846f20",
+        "0x140848440",
+        "0x140845ff0",
+        "0x140847c50",
+        "0x140847010",
+        "0x140847b00",
+        "0x140845970"
+      ]
+    },
+    {
+      "name": "AvatarVehicleFilter",
+      "addresses": [
+        "0x140266110",
+        "0x140266830",
+        "0x140266fc0",
+        "0x140267550",
+        "0x140258440",
+        "0x140267120",
+        "0x1402673f0",
+        "0x1402664e0",
+        "0x140266a10"
+      ]
+    },
+    {
+      "name": "AvatarVehicleVtimeFilter",
+      "addresses": [
+        "0x140263720",
+        "0x140263e10",
+        "0x140264ae0",
+        "0x140265340",
+        "0x140258440",
+        "0x140264c40",
+        "0x1402651d0",
+        "0x140263af0",
+        "0x140264380"
+      ]
+    },
+    {
+      "name": "AutoMoving_AutoTracing_AutoTracingPos",
+      "addresses": [
+        "0x140431e10",
+        "0x140398400",
+        "0x140431e40",
+        "0x140398480",
+        "0x140431e70",
+        "0x1403940a0",
+        "0x140431ea0",
+        "0x1403940c0"
+      ]
+    }
+  ],
+  "chd_addresses": [
+    {
+      "name": "AvatarVehicleFilter_CHD",
+      "address": "0x1428c50e0"
+    },
+    {
+      "name": "AvatarVehicleVtimeFilter_CHD",
+      "address": "0x1428c4fb8"
+    },
+    {
+      "name": "DynamicVehicle4W_CHD",
+      "address": "0x1428fee58"
+    },
+    {
+      "name": "DynamicVehicleModelDelegate4W_CHD",
+      "address": "0x1428feef0"
+    },
+    {
+      "name": "DynamicVehicleModelDelegate_CHD",
+      "address": "0x1428ff6a8"
+    },
+    {
+      "name": "DynamicCharacter_CHD",
+      "address": "0x1428fe9e8"
+    },
+    {
+      "name": "PhysicsModelActor_CHD",
+      "address": "0x1428fd6b8"
+    },
+    {
+      "name": "PhysicsModel_CHD",
+      "address": "0x1428fd848"
+    },
+    {
+      "name": "DynamicWorld_CHD",
+      "address": "0x1428fcb20"
+    },
+    {
+      "name": "DynamicBody_CHD",
+      "address": "0x1428fcde0"
+    },
+    {
+      "name": "SceneNode_CHD",
+      "address": "0x1428e91c0"
+    },
+    {
+      "name": "PositionProvider_CHD",
+      "address": "0x1428e1880"
+    },
+    {
+      "name": "SpaceNode_CHD",
+      "address": "0x1428d5020"
+    },
+    {
+      "name": "AutoTracing_CHD",
+      "address": "0x1428d9fa0"
+    },
+    {
+      "name": "AutoTracingPos_CHD",
+      "address": "0x1428da020"
+    },
+    {
+      "name": "AutoMoving_CHD",
+      "address": "0x1428d9f28"
+    },
+    {
+      "name": "GameObject_CHD",
+      "address": "0x1428caaa8"
+    },
+    {
+      "name": "Transform_CHD",
+      "address": "0x1428cda50"
+    },
+    {
+      "name": "World_CHD",
+      "address": "0x1428d3c18"
+    },
+    {
+      "name": "Scene_CHD",
+      "address": "0x1428d9df8"
+    }
+  ],
+  "unique_function_count": 64,
+  "commands_file": "recon_out_v20\\windbg_vehicle_tracking_disassembly_v20.txt",
+  "log_file": "recon_out_v20\\windbg_vehicle_tracking_disassembly_v20.log"
+}

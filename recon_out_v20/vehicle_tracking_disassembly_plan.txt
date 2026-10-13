@@ -1,0 +1,12 @@
+ROS64 V20 targeted disassembly plan
+
+Unique candidate function addresses: 64
+Groups:
+- DynamicVehicle4W: 16 candidates
+- DynamicVehicleModelDelegate4W: 11 candidates
+- DynamicVehicleModelDelegate: 12 candidates
+- AvatarVehicleFilter: 9 candidates
+- AvatarVehicleVtimeFilter: 9 candidates
+- AutoMoving_AutoTracing_AutoTracingPos: 8 candidates
+
+Read-only: ln and uf commands plus CHD data reads.
