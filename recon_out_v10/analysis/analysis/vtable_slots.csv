@@ -1,0 +1,65 @@
+﻿index,slot_address,function_pointer,capture_status
+0,0x141C2A990,0x1404A3D40,outside supplied captures
+1,0x141C2A998,0x1404AB480,outside supplied captures
+2,0x141C2A9A0,0x1404AF270,outside supplied captures
+3,0x141C2A9A8,0x1404AF320,outside supplied captures
+4,0x141C2A9B0,0x1404AF080,outside supplied captures
+5,0x141C2A9B8,0x1404A68C0,outside supplied captures
+6,0x141C2A9C0,0x1404A6DA0,outside supplied captures
+7,0x141C2A9C8,0x1428DD278,inside typeinfo
+8,0x141C2A9D0,0x1404A48A0,outside supplied captures
+9,0x141C2A9D8,0x1404AF000,outside supplied captures
+10,0x141C2A9E0,0x1404AF270,outside supplied captures
+11,0x141C2A9E8,0x1404AF320,outside supplied captures
+12,0x141C2A9F0,0x1404AF080,outside supplied captures
+13,0x141C2A9F8,0x1404A68C0,outside supplied captures
+14,0x141C2AA00,0x1404A7790,outside supplied captures
+15,0x141C2AA08,0x1428DD2F8,inside typeinfo
+16,0x141C2AA10,0x1404A3B30,outside supplied captures
+17,0x141C2AA18,0x1404AA970,outside supplied captures
+18,0x141C2AA20,0x1404AF270,outside supplied captures
+19,0x141C2AA28,0x1404AF320,outside supplied captures
+20,0x141C2AA30,0x1404AF080,outside supplied captures
+21,0x141C2AA38,0x1404A68C0,outside supplied captures
+22,0x141C2AA40,0x1404A6BD0,outside supplied captures
+23,0x141C2AA48,0x1428DD378,inside typeinfo
+24,0x141C2AA50,0x1404A3B90,outside supplied captures
+25,0x141C2AA58,0x1404AAAB0,outside supplied captures
+26,0x141C2AA60,0x1404AF270,outside supplied captures
+27,0x141C2AA68,0x1404AF320,outside supplied captures
+28,0x141C2AA70,0x1404AF080,outside supplied captures
+29,0x141C2AA78,0x1404A68C0,outside supplied captures
+30,0x141C2AA80,0x1404A6C30,outside supplied captures
+31,0x141C2AA88,0x1428DD400,inside typeinfo
+32,0x141C2AA90,0x1404A3A20,outside supplied captures
+33,0x141C2AA98,0x1404AA380,outside supplied captures
+34,0x141C2AAA0,0x1404AF270,outside supplied captures
+35,0x141C2AAA8,0x1404AF320,outside supplied captures
+36,0x141C2AAB0,0x1404AF080,outside supplied captures
+37,0x141C2AAB8,0x1404A68C0,outside supplied captures
+38,0x141C2AAC0,0x1404A6B50,outside supplied captures
+39,0x141C2AAC8,0x1428DD488,inside typeinfo
+40,0x141C2AAD0,0x1404A37F0,outside supplied captures
+41,0x141C2AAD8,0x1404A8A80,outside supplied captures
+42,0x141C2AAE0,0x1404AF270,outside supplied captures
+43,0x141C2AAE8,0x1404AF320,outside supplied captures
+44,0x141C2AAF0,0x1404AF080,outside supplied captures
+45,0x141C2AAF8,0x1404A68C0,outside supplied captures
+46,0x141C2AB00,0x1404A6900,outside supplied captures
+47,0x141C2AB08,0x1428DD508,inside typeinfo
+48,0x141C2AB10,0x1404A4690,outside supplied captures
+49,0x141C2AB18,0x1404AE0A0,outside supplied captures
+50,0x141C2AB20,0x1404AF270,outside supplied captures
+51,0x141C2AB28,0x1404AF320,outside supplied captures
+52,0x141C2AB30,0x1404AF080,outside supplied captures
+53,0x141C2AB38,0x1404A68C0,outside supplied captures
+54,0x141C2AB40,0x1404A74E0,outside supplied captures
+55,0x141C2AB48,0x1428DD588,inside typeinfo
+56,0x141C2AB50,0x1404A4780,outside supplied captures
+57,0x141C2AB58,0x1404AE290,outside supplied captures
+58,0x141C2AB60,0x1404AF270,outside supplied captures
+59,0x141C2AB68,0x1404AF320,outside supplied captures
+60,0x141C2AB70,0x1404AF080,outside supplied captures
+61,0x141C2AB78,0x1404A68C0,outside supplied captures
+62,0x141C2AB80,0x1404A75C0,outside supplied captures
+63,0x141C2AB88,0x1428DD610,inside typeinfo

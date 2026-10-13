@@ -1,0 +1,502 @@
+{
+  "tool": "ros64_runtime_rtti_v10",
+  "generated_utc": "2026-10-13T18:28:09.450229+00:00",
+  "target_name": ".?AVModelFxData@world@neox@@",
+  "regions": [
+    {
+      "name": "typeinfo",
+      "path": "recon_out_v10\\ModelFxData_typeinfo.bin",
+      "base": 5411557376,
+      "end_exclusive": 5411565568,
+      "size": 8192,
+      "sha256": "0ef78b56236af884e0af0fcea63e20b89986dab1d922c71c99a50cce42541b9a"
+    },
+    {
+      "name": "vtable",
+      "path": "recon_out_v10\\ModelFxData_vtable.bin",
+      "base": 5398241280,
+      "end_exclusive": 5398249472,
+      "size": 8192,
+      "sha256": "091aac8193c9ebcca2c4a053a95256d5f18ce44c102f1d0e393cb58605c372ed"
+    },
+    {
+      "name": "name",
+      "path": "recon_out_v10\\ModelFxData_name.bin",
+      "base": 5420855296,
+      "end_exclusive": 5420863488,
+      "size": 8192,
+      "sha256": "1c61550d04853a78758b717f319e46d4c36e2c41fc580eec4cda3165043a488d"
+    }
+  ],
+  "type_name_hits": [
+    {
+      "name_address": 5420858928,
+      "capture": "name",
+      "capture_offset": 3632,
+      "candidate_type_descriptor_address": 5420858912
+    }
+  ],
+  "type_descriptors": [
+    {
+      "address": 5420858912,
+      "capture": "name",
+      "type_info_vftable_pointer": 5411296816,
+      "spare_pointer": 0,
+      "looks_like_type_descriptor": true,
+      "decorated_name_address": 5420858928,
+      "decorated_name": ".?AVModelFxData@world@neox@@",
+      "looks_like_target": true
+    }
+  ],
+  "candidate_col_addresses": [
+    5411557880
+  ],
+  "col_candidates": [
+    {
+      "address": 5411557880,
+      "signature": 1,
+      "offset": 0,
+      "cd_offset": 0,
+      "type_descriptor_rva": 52149792,
+      "class_hierarchy_descriptor_rva": 42848800,
+      "self_rva": 42848760,
+      "layout": "MSVC x64 RVA-style COL",
+      "inferred_image_base": 5368709120,
+      "type_descriptor_address": 5420858912,
+      "class_hierarchy_descriptor_address": 5411557920,
+      "self_rva_matches_address": true,
+      "status": "parsed",
+      "type_descriptor_matches_target": true,
+      "class_hierarchy_descriptor": {
+        "address": 5411557920,
+        "signature": 0,
+        "attributes": 0,
+        "num_base_classes": 2,
+        "base_class_array_rva": 42848824,
+        "base_class_array_address": 5411557944,
+        "base_classes": [
+          {
+            "index": 0,
+            "bcd_rva": 42848848,
+            "bcd_address": 5411557968,
+            "type_descriptor_rva": 52149792,
+            "type_descriptor_address": 5420858912,
+            "contained_bases": 1,
+            "pmd": {
+              "mdisp": 0,
+              "pdisp": -1,
+              "vdisp": 0
+            },
+            "attributes": 64,
+            "nested_class_hierarchy_rva": 42848800,
+            "type_name": ".?AVModelFxData@world@neox@@"
+          },
+          {
+            "index": 1,
+            "bcd_rva": 42847520,
+            "bcd_address": 5411556640,
+            "status": "base descriptor outside supplied captures"
+          }
+        ],
+        "base_array_status": "walked"
+      }
+    }
+  ],
+  "vtable": {
+    "address": 5398243728,
+    "slots": [
+      {
+        "index": 0,
+        "slot_address": 5398243728,
+        "function_pointer": 5373574464,
+        "capture_status": "outside supplied captures"
+      },
+      {
+        "index": 1,
+        "slot_address": 5398243736,
+        "function_pointer": 5373604992,
+        "capture_status": "outside supplied captures"
+      },
+      {
+        "index": 2,
+        "slot_address": 5398243744,
+        "function_pointer": 5373620848,
+        "capture_status": "outside supplied captures"
+      },
+      {
+        "index": 3,
+        "slot_address": 5398243752,
+        "function_pointer": 5373621024,
+        "capture_status": "outside supplied captures"
+      },
+      {
+        "index": 4,
+        "slot_address": 5398243760,
+        "function_pointer": 5373620352,
+        "capture_status": "outside supplied captures"
+      },
+      {
+        "index": 5,
+        "slot_address": 5398243768,
+        "function_pointer": 5373585600,
+        "capture_status": "outside supplied captures"
+      },
+      {
+        "index": 6,
+        "slot_address": 5398243776,
+        "function_pointer": 5373586848,
+        "capture_status": "outside supplied captures"
+      },
+      {
+        "index": 7,
+        "slot_address": 5398243784,
+        "function_pointer": 5411558008,
+        "capture_status": "inside typeinfo"
+      },
+      {
+        "index": 8,
+        "slot_address": 5398243792,
+        "function_pointer": 5373577376,
+        "capture_status": "outside supplied captures"
+      },
+      {
+        "index": 9,
+        "slot_address": 5398243800,
+        "function_pointer": 5373620224,
+        "capture_status": "outside supplied captures"
+      },
+      {
+        "index": 10,
+        "slot_address": 5398243808,
+        "function_pointer": 5373620848,
+        "capture_status": "outside supplied captures"
+      },
+      {
+        "index": 11,
+        "slot_address": 5398243816,
+        "function_pointer": 5373621024,
+        "capture_status": "outside supplied captures"
+      },
+      {
+        "index": 12,
+        "slot_address": 5398243824,
+        "function_pointer": 5373620352,
+        "capture_status": "outside supplied captures"
+      },
+      {
+        "index": 13,
+        "slot_address": 5398243832,
+        "function_pointer": 5373585600,
+        "capture_status": "outside supplied captures"
+      },
+      {
+        "index": 14,
+        "slot_address": 5398243840,
+        "function_pointer": 5373589392,
+        "capture_status": "outside supplied captures"
+      },
+      {
+        "index": 15,
+        "slot_address": 5398243848,
+        "function_pointer": 5411558136,
+        "capture_status": "inside typeinfo"
+      },
+      {
+        "index": 16,
+        "slot_address": 5398243856,
+        "function_pointer": 5373573936,
+        "capture_status": "outside supplied captures"
+      },
+      {
+        "index": 17,
+        "slot_address": 5398243864,
+        "function_pointer": 5373602160,
+        "capture_status": "outside supplied captures"
+      },
+      {
+        "index": 18,
+        "slot_address": 5398243872,
+        "function_pointer": 5373620848,
+        "capture_status": "outside supplied captures"
+      },
+      {
+        "index": 19,
+        "slot_address": 5398243880,
+        "function_pointer": 5373621024,
+        "capture_status": "outside supplied captures"
+      },
+      {
+        "index": 20,
+        "slot_address": 5398243888,
+        "function_pointer": 5373620352,
+        "capture_status": "outside supplied captures"
+      },
+      {
+        "index": 21,
+        "slot_address": 5398243896,
+        "function_pointer": 5373585600,
+        "capture_status": "outside supplied captures"
+      },
+      {
+        "index": 22,
+        "slot_address": 5398243904,
+        "function_pointer": 5373586384,
+        "capture_status": "outside supplied captures"
+      },
+      {
+        "index": 23,
+        "slot_address": 5398243912,
+        "function_pointer": 5411558264,
+        "capture_status": "inside typeinfo"
+      },
+      {
+        "index": 24,
+        "slot_address": 5398243920,
+        "function_pointer": 5373574032,
+        "capture_status": "outside supplied captures"
+      },
+      {
+        "index": 25,
+        "slot_address": 5398243928,
+        "function_pointer": 5373602480,
+        "capture_status": "outside supplied captures"
+      },
+      {
+        "index": 26,
+        "slot_address": 5398243936,
+        "function_pointer": 5373620848,
+        "capture_status": "outside supplied captures"
+      },
+      {
+        "index": 27,
+        "slot_address": 5398243944,
+        "function_pointer": 5373621024,
+        "capture_status": "outside supplied captures"
+      },
+      {
+        "index": 28,
+        "slot_address": 5398243952,
+        "function_pointer": 5373620352,
+        "capture_status": "outside supplied captures"
+      },
+      {
+        "index": 29,
+        "slot_address": 5398243960,
+        "function_pointer": 5373585600,
+        "capture_status": "outside supplied captures"
+      },
+      {
+        "index": 30,
+        "slot_address": 5398243968,
+        "function_pointer": 5373586480,
+        "capture_status": "outside supplied captures"
+      },
+      {
+        "index": 31,
+        "slot_address": 5398243976,
+        "function_pointer": 5411558400,
+        "capture_status": "inside typeinfo"
+      },
+      {
+        "index": 32,
+        "slot_address": 5398243984,
+        "function_pointer": 5373573664,
+        "capture_status": "outside supplied captures"
+      },
+      {
+        "index": 33,
+        "slot_address": 5398243992,
+        "function_pointer": 5373600640,
+        "capture_status": "outside supplied captures"
+      },
+      {
+        "index": 34,
+        "slot_address": 5398244000,
+        "function_pointer": 5373620848,
+        "capture_status": "outside supplied captures"
+      },
+      {
+        "index": 35,
+        "slot_address": 5398244008,
+        "function_pointer": 5373621024,
+        "capture_status": "outside supplied captures"
+      },
+      {
+        "index": 36,
+        "slot_address": 5398244016,
+        "function_pointer": 5373620352,
+        "capture_status": "outside supplied captures"
+      },
+      {
+        "index": 37,
+        "slot_address": 5398244024,
+        "function_pointer": 5373585600,
+        "capture_status": "outside supplied captures"
+      },
+      {
+        "index": 38,
+        "slot_address": 5398244032,
+        "function_pointer": 5373586256,
+        "capture_status": "outside supplied captures"
+      },
+      {
+        "index": 39,
+        "slot_address": 5398244040,
+        "function_pointer": 5411558536,
+        "capture_status": "inside typeinfo"
+      },
+      {
+        "index": 40,
+        "slot_address": 5398244048,
+        "function_pointer": 5373573104,
+        "capture_status": "outside supplied captures"
+      },
+      {
+        "index": 41,
+        "slot_address": 5398244056,
+        "function_pointer": 5373594240,
+        "capture_status": "outside supplied captures"
+      },
+      {
+        "index": 42,
+        "slot_address": 5398244064,
+        "function_pointer": 5373620848,
+        "capture_status": "outside supplied captures"
+      },
+      {
+        "index": 43,
+        "slot_address": 5398244072,
+        "function_pointer": 5373621024,
+        "capture_status": "outside supplied captures"
+      },
+      {
+        "index": 44,
+        "slot_address": 5398244080,
+        "function_pointer": 5373620352,
+        "capture_status": "outside supplied captures"
+      },
+      {
+        "index": 45,
+        "slot_address": 5398244088,
+        "function_pointer": 5373585600,
+        "capture_status": "outside supplied captures"
+      },
+      {
+        "index": 46,
+        "slot_address": 5398244096,
+        "function_pointer": 5373585664,
+        "capture_status": "outside supplied captures"
+      },
+      {
+        "index": 47,
+        "slot_address": 5398244104,
+        "function_pointer": 5411558664,
+        "capture_status": "inside typeinfo"
+      },
+      {
+        "index": 48,
+        "slot_address": 5398244112,
+        "function_pointer": 5373576848,
+        "capture_status": "outside supplied captures"
+      },
+      {
+        "index": 49,
+        "slot_address": 5398244120,
+        "function_pointer": 5373616288,
+        "capture_status": "outside supplied captures"
+      },
+      {
+        "index": 50,
+        "slot_address": 5398244128,
+        "function_pointer": 5373620848,
+        "capture_status": "outside supplied captures"
+      },
+      {
+        "index": 51,
+        "slot_address": 5398244136,
+        "function_pointer": 5373621024,
+        "capture_status": "outside supplied captures"
+      },
+      {
+        "index": 52,
+        "slot_address": 5398244144,
+        "function_pointer": 5373620352,
+        "capture_status": "outside supplied captures"
+      },
+      {
+        "index": 53,
+        "slot_address": 5398244152,
+        "function_pointer": 5373585600,
+        "capture_status": "outside supplied captures"
+      },
+      {
+        "index": 54,
+        "slot_address": 5398244160,
+        "function_pointer": 5373588704,
+        "capture_status": "outside supplied captures"
+      },
+      {
+        "index": 55,
+        "slot_address": 5398244168,
+        "function_pointer": 5411558792,
+        "capture_status": "inside typeinfo"
+      },
+      {
+        "index": 56,
+        "slot_address": 5398244176,
+        "function_pointer": 5373577088,
+        "capture_status": "outside supplied captures"
+      },
+      {
+        "index": 57,
+        "slot_address": 5398244184,
+        "function_pointer": 5373616784,
+        "capture_status": "outside supplied captures"
+      },
+      {
+        "index": 58,
+        "slot_address": 5398244192,
+        "function_pointer": 5373620848,
+        "capture_status": "outside supplied captures"
+      },
+      {
+        "index": 59,
+        "slot_address": 5398244200,
+        "function_pointer": 5373621024,
+        "capture_status": "outside supplied captures"
+      },
+      {
+        "index": 60,
+        "slot_address": 5398244208,
+        "function_pointer": 5373620352,
+        "capture_status": "outside supplied captures"
+      },
+      {
+        "index": 61,
+        "slot_address": 5398244216,
+        "function_pointer": 5373585600,
+        "capture_status": "outside supplied captures"
+      },
+      {
+        "index": 62,
+        "slot_address": 5398244224,
+        "function_pointer": 5373588928,
+        "capture_status": "outside supplied captures"
+      },
+      {
+        "index": 63,
+        "slot_address": 5398244232,
+        "function_pointer": 5411558928,
+        "capture_status": "inside typeinfo"
+      }
+    ],
+    "preceding_pointer_address": 5398243720,
+    "preceding_pointer_value": 5411557880,
+    "preceding_pointer_region_status": "inside typeinfo"
+  },
+  "findings": [
+    "Found target TypeDescriptor at 0x1431BBE20; name captured in name.",
+    "COL candidate at 0x1428DD1F8; inferred image base 0x140000000; TypeDescriptor match=True .",
+    "No aligned qword references to the target TypeDescriptor found in supplied regions."
+  ]
+}

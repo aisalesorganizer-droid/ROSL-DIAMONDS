@@ -1,0 +1,27 @@
+ROS64 RUNTIME RTTI CAPTURE ANALYSIS V10
+==============================================================================
+Target decorated name: .?AVModelFxData@world@neox@@
+
+CAPTURE REGIONS
+- typeinfo: base=0x1428DD000, end=0x1428DF000, size=8,192, SHA256=0ef78b56236af884e0af0fcea63e20b89986dab1d922c71c99a50cce42541b9a
+- vtable: base=0x141C2A000, end=0x141C2C000, size=8,192, SHA256=091aac8193c9ebcca2c4a053a95256d5f18ce44c102f1d0e393cb58605c372ed
+- name: base=0x1431BB000, end=0x1431BD000, size=8,192, SHA256=1c61550d04853a78758b717f319e46d4c36e2c41fc580eec4cda3165043a488d
+
+Target-name hits: 1
+TypeDescriptors parsed: 1
+COL candidates: 1
+Vtable slots read: 64
+
+FINDINGS
+- Found target TypeDescriptor at 0x1431BBE20; name captured in name.
+- COL candidate at 0x1428DD1F8; inferred image base 0x140000000; TypeDescriptor match=True .
+- No aligned qword references to the target TypeDescriptor found in supplied regions.
+
+TYPE DESCRIPTORS
+- TD 0x1431BBE20; type_info_vftable=0x14289D630; name='.?AVModelFxData@world@neox@@'
+
+COMPLETE OBJECT LOCATORS
+- COL 0x1428DD1F8: signature=1, offset=0x0, cdOffset=0x0, imageBase=0x140000000, TD=0x1431BBE20, CHD=0x1428DD220, target-TD-match=True
+  CHD 0x1428DD220: signature=0, attributes=0x0, base-count=2, base-array=0x1428DD238, status=walked
+    [0] type=.?AVModelFxData@world@neox@@ BCD=0x1428DD250
+    [1] type=<not captured> BCD=0x1428DCD20
