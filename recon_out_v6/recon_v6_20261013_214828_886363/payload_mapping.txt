@@ -1,0 +1,49 @@
+ROSLegacy NSISBI payload mapping v6
+==============================================================================
+Generated UTC: 2026-10-13T13:48:28.884995+00:00
+Installer: C:\Users\MAFIA\Downloads\Compressed\ROSLegacy\Diamonds\ROSLegacy_Install_202609251811.exe (225,888 bytes)
+Sidecar: C:\Users\MAFIA\Downloads\Compressed\ROSLegacy\Diamonds\ROSLegacy_Install_202609251811.nsisbin (8,250,888,993 bytes / 7.68 GiB)
+
+EMBEDDED HEADER VALIDATION
+------------------------------------------------------------------------------
+Firstheader offset: 86,528
+Firstheader flags: 0x000000F0 (preserved raw; no unsupported interpretation)
+Decoded header bytes: 559,820
+Header SHA-256: b1b41540adb84e57f5fca7ddd067bcb4a08ecc58fd3e40535a322e003bb062f3
+Eight-block layout score: 6/6
+Entry table: offset 2,756, count 6,821, record size 36
+String table: byte range [248,312, 559,434), field count is preserved raw
+Language-table size: 314 bytes
+
+SIDECAR RECORD INDEX
+------------------------------------------------------------------------------
+Records indexed: 2,511
+Walk reached exact EOF: True
+Compressed-flag records: 2,462
+Uncompressed-flag records: 49
+File-extraction instructions (opcodes 20/21): 5,590
+Distinct instruction data offsets: 2,509
+Matched instruction offsets: 5,590
+Unmatched file-instruction offsets: 0
+Sidecar records without a direct file-instruction reference: 2
+
+SELECTED TARGETS / INTERESTING NAMES
+------------------------------------------------------------------------------
+@    1,949,031    compressed  stored=90,766,622  refs=   1  Mirae Labs Launcher.exe
+@  256,265,486  uncompressed  stored=        12  refs=   2  server_ip.txt
+@  256,331,590    compressed  stored=    38,048  refs=   2  version.dll
+@  256,369,646    compressed  stored=    15,319  refs=   2  version_orig.dll
+@ 8,224,324,479    compressed  stored=26,338,394  refs=   2  ros64.exe
+@ 8,250,662,881  uncompressed  stored=        15  refs=   2  server_ip.txt
+@ 8,250,662,904    compressed  stored=   189,579  refs=   2  version.dll
+@ 8,250,852,491    compressed  stored=    17,096  refs=   2  version_orig.dll
+
+EXTRACTION RESULT
+------------------------------------------------------------------------------
+No payload was extracted. Default operation is inventory-only.
+
+LIMITATIONS
+------------------------------------------------------------------------------
+The manifest maps compiled File instructions to exact sidecar record boundaries; it does not simulate every NSIS branch or prove the final installed destination for relative paths.
+The CRC field is compared only after an explicitly requested extraction. Compression framing and CRC results must be confirmed against the local sidecar.
+Opcodes beyond the stable core are labeled version-dependent where the exact installer runtime mapping is not independently established.
