@@ -1,0 +1,419 @@
+[
+  {
+    "dll": "fmod_event_net64.dll",
+    "original_first_thunk_rva": 90411696,
+    "first_thunk_rva": 89427968,
+    "symbols": [
+      {
+        "name": "?setPaused@Event@FMOD@@QEAA?AW4FMOD_RESULT@@_N@Z",
+        "hint": 0
+      }
+    ],
+    "symbol_count": 1
+  },
+  {
+    "dll": "fmodex64.dll",
+    "original_first_thunk_rva": 90411712,
+    "first_thunk_rva": 89427984,
+    "symbols": [
+      {
+        "name": "?setChannelGroup@Channel@FMOD@@QEAA?AW4FMOD_RESULT@@PEAVChannelGroup@2@@Z",
+        "hint": 0
+      }
+    ],
+    "symbol_count": 1
+  },
+  {
+    "dll": "WS2_32.dll",
+    "original_first_thunk_rva": 90411728,
+    "first_thunk_rva": 89428000,
+    "symbols": [
+      {
+        "ordinal": 18
+      }
+    ],
+    "symbol_count": 1
+  },
+  {
+    "dll": "WLDAP32.dll",
+    "original_first_thunk_rva": 90411744,
+    "first_thunk_rva": 89428016,
+    "symbols": [
+      {
+        "ordinal": 211
+      }
+    ],
+    "symbol_count": 1
+  },
+  {
+    "dll": "ADVAPI32.dll",
+    "original_first_thunk_rva": 90411760,
+    "first_thunk_rva": 89428032,
+    "symbols": [
+      {
+        "name": "RegFlushKey",
+        "hint": 0
+      }
+    ],
+    "symbol_count": 1
+  },
+  {
+    "dll": "CRYPT32.dll",
+    "original_first_thunk_rva": 90411776,
+    "first_thunk_rva": 89428048,
+    "symbols": [
+      {
+        "name": "CertEnumCRLsInStore",
+        "hint": 0
+      }
+    ],
+    "symbol_count": 1
+  },
+  {
+    "dll": "RPCRT4.dll",
+    "original_first_thunk_rva": 90411792,
+    "first_thunk_rva": 89428064,
+    "symbols": [
+      {
+        "name": "UuidCreate",
+        "hint": 0
+      }
+    ],
+    "symbol_count": 1
+  },
+  {
+    "dll": "USP10.dll",
+    "original_first_thunk_rva": 90411808,
+    "first_thunk_rva": 89428080,
+    "symbols": [
+      {
+        "name": "ScriptFreeCache",
+        "hint": 0
+      }
+    ],
+    "symbol_count": 1
+  },
+  {
+    "dll": "GDI32.dll",
+    "original_first_thunk_rva": 90411824,
+    "first_thunk_rva": 89428096,
+    "symbols": [
+      {
+        "name": "CreateFontIndirectA",
+        "hint": 0
+      }
+    ],
+    "symbol_count": 1
+  },
+  {
+    "dll": "USER32.dll",
+    "original_first_thunk_rva": 90411840,
+    "first_thunk_rva": 89428112,
+    "symbols": [
+      {
+        "name": "SystemParametersInfoA",
+        "hint": 0
+      }
+    ],
+    "symbol_count": 1
+  },
+  {
+    "dll": "OPENGL32.dll",
+    "original_first_thunk_rva": 90411856,
+    "first_thunk_rva": 89428128,
+    "symbols": [
+      {
+        "name": "glCopyTexImage2D",
+        "hint": 0
+      }
+    ],
+    "symbol_count": 1
+  },
+  {
+    "dll": "NtUniSdkBase.dll",
+    "original_first_thunk_rva": 90411872,
+    "first_thunk_rva": 89428144,
+    "symbols": [
+      {
+        "name": "?getInst@SdkMgr@NtUniSDK@@SAPEAVINtUniSdkGamerInterface@2@XZ",
+        "hint": 0
+      }
+    ],
+    "symbol_count": 1
+  },
+  {
+    "dll": "d3d9.dll",
+    "original_first_thunk_rva": 90411888,
+    "first_thunk_rva": 89428160,
+    "symbols": [
+      {
+        "name": "D3DPERF_EndEvent",
+        "hint": 0
+      }
+    ],
+    "symbol_count": 1
+  },
+  {
+    "dll": "gdiplus.dll",
+    "original_first_thunk_rva": 90411904,
+    "first_thunk_rva": 89428176,
+    "symbols": [
+      {
+        "name": "GdipGetImageEncoders",
+        "hint": 0
+      }
+    ],
+    "symbol_count": 1
+  },
+  {
+    "dll": "IMM32.dll",
+    "original_first_thunk_rva": 90411920,
+    "first_thunk_rva": 89428192,
+    "symbols": [
+      {
+        "name": "ImmAssociateContext",
+        "hint": 0
+      }
+    ],
+    "symbol_count": 1
+  },
+  {
+    "dll": "dbghelp.dll",
+    "original_first_thunk_rva": 90411936,
+    "first_thunk_rva": 89428208,
+    "symbols": [
+      {
+        "name": "ImageNtHeader",
+        "hint": 0
+      }
+    ],
+    "symbol_count": 1
+  },
+  {
+    "dll": "d3dx9_43.dll",
+    "original_first_thunk_rva": 90411952,
+    "first_thunk_rva": 89428224,
+    "symbols": [
+      {
+        "name": "D3DXSaveSurfaceToFileA",
+        "hint": 0
+      }
+    ],
+    "symbol_count": 1
+  },
+  {
+    "dll": "KERNEL32.dll",
+    "original_first_thunk_rva": 90411968,
+    "first_thunk_rva": 89428240,
+    "symbols": [
+      {
+        "name": "GetVersionExW",
+        "hint": 0
+      },
+      {
+        "name": "GetVersion",
+        "hint": 0
+      },
+      {
+        "name": "GetVersionExA",
+        "hint": 0
+      }
+    ],
+    "symbol_count": 3
+  },
+  {
+    "dll": "SHELL32.dll",
+    "original_first_thunk_rva": 90412000,
+    "first_thunk_rva": 89428272,
+    "symbols": [
+      {
+        "name": "SHGetSpecialFolderLocation",
+        "hint": 0
+      }
+    ],
+    "symbol_count": 1
+  },
+  {
+    "dll": "ole32.dll",
+    "original_first_thunk_rva": 90412016,
+    "first_thunk_rva": 89428288,
+    "symbols": [
+      {
+        "name": "CoCreateInstance",
+        "hint": 0
+      }
+    ],
+    "symbol_count": 1
+  },
+  {
+    "dll": "OLEAUT32.dll",
+    "original_first_thunk_rva": 90412032,
+    "first_thunk_rva": 89428304,
+    "symbols": [
+      {
+        "ordinal": 2
+      }
+    ],
+    "symbol_count": 1
+  },
+  {
+    "dll": "COMDLG32.dll",
+    "original_first_thunk_rva": 90412048,
+    "first_thunk_rva": 89428320,
+    "symbols": [
+      {
+        "name": "GetOpenFileNameA",
+        "hint": 0
+      }
+    ],
+    "symbol_count": 1
+  },
+  {
+    "dll": "PSAPI.DLL",
+    "original_first_thunk_rva": 90412064,
+    "first_thunk_rva": 89428336,
+    "symbols": [
+      {
+        "name": "GetModuleFileNameExW",
+        "hint": 0
+      }
+    ],
+    "symbol_count": 1
+  },
+  {
+    "dll": "WINMM.dll",
+    "original_first_thunk_rva": 90412080,
+    "first_thunk_rva": 89428352,
+    "symbols": [
+      {
+        "name": "timeSetEvent",
+        "hint": 0
+      }
+    ],
+    "symbol_count": 1
+  },
+  {
+    "dll": "WINTRUST.dll",
+    "original_first_thunk_rva": 90412096,
+    "first_thunk_rva": 89428368,
+    "symbols": [
+      {
+        "name": "WinVerifyTrust",
+        "hint": 0
+      }
+    ],
+    "symbol_count": 1
+  },
+  {
+    "dll": "SHLWAPI.dll",
+    "original_first_thunk_rva": 90412112,
+    "first_thunk_rva": 89428384,
+    "symbols": [
+      {
+        "name": "PathIsRelativeA",
+        "hint": 0
+      }
+    ],
+    "symbol_count": 1
+  },
+  {
+    "dll": "IPHLPAPI.DLL",
+    "original_first_thunk_rva": 90412128,
+    "first_thunk_rva": 89428400,
+    "symbols": [
+      {
+        "name": "GetAdaptersInfo",
+        "hint": 0
+      }
+    ],
+    "symbol_count": 1
+  },
+  {
+    "dll": "VERSION.dll",
+    "original_first_thunk_rva": 90412144,
+    "first_thunk_rva": 89428416,
+    "symbols": [
+      {
+        "name": "GetFileVersionInfoW",
+        "hint": 0
+      }
+    ],
+    "symbol_count": 1
+  },
+  {
+    "dll": "KERNEL32.dll",
+    "original_first_thunk_rva": 90412160,
+    "first_thunk_rva": 89428432,
+    "symbols": [
+      {
+        "name": "GetSystemTimeAsFileTime",
+        "hint": 0
+      }
+    ],
+    "symbol_count": 1
+  },
+  {
+    "dll": "USER32.dll",
+    "original_first_thunk_rva": 90412176,
+    "first_thunk_rva": 89428448,
+    "symbols": [
+      {
+        "name": "CharUpperBuffW",
+        "hint": 0
+      }
+    ],
+    "symbol_count": 1
+  },
+  {
+    "dll": "KERNEL32.dll",
+    "original_first_thunk_rva": 90412192,
+    "first_thunk_rva": 89428464,
+    "symbols": [
+      {
+        "name": "LocalAlloc",
+        "hint": 0
+      },
+      {
+        "name": "LocalFree",
+        "hint": 0
+      },
+      {
+        "name": "GetModuleFileNameW",
+        "hint": 0
+      },
+      {
+        "name": "GetProcessAffinityMask",
+        "hint": 0
+      },
+      {
+        "name": "SetProcessAffinityMask",
+        "hint": 0
+      },
+      {
+        "name": "SetThreadAffinityMask",
+        "hint": 0
+      },
+      {
+        "name": "Sleep",
+        "hint": 0
+      },
+      {
+        "name": "ExitProcess",
+        "hint": 0
+      },
+      {
+        "name": "LoadLibraryA",
+        "hint": 0
+      },
+      {
+        "name": "GetModuleHandleA",
+        "hint": 0
+      },
+      {
+        "name": "GetProcAddress",
+        "hint": 0
+      }
+    ],
+    "symbol_count": 11
+  }
+]

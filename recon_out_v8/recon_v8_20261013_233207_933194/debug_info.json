@@ -1,0 +1,27 @@
+[
+  {
+    "type": 2,
+    "size": 120,
+    "timestamp": 1647863059,
+    "address_of_raw_data": 93481728,
+    "pointer_to_raw_data": 26189568,
+    "codeview": "RSDS",
+    "guid": "ad2eb09d-bc0a-42bc-875c-ebcaaabb9eaf",
+    "age": 49,
+    "pdb_path": "D:\\h45na\\engine\\stable\\NeoX\\bin_dev_win64\\mobile\\Visual_Studio_16_2019\\win32\\Release\\client.pdb"
+  },
+  {
+    "type": 12,
+    "size": 20,
+    "timestamp": 1647863059,
+    "address_of_raw_data": 93481856,
+    "pointer_to_raw_data": 26189696
+  },
+  {
+    "type": 13,
+    "size": 1220,
+    "timestamp": 1647863059,
+    "address_of_raw_data": 93481888,
+    "pointer_to_raw_data": 26189728
+  }
+]
