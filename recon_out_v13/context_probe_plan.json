@@ -1,0 +1,55 @@
+{
+  "tool": "ros64_context_probe_v13",
+  "input_log": "recon_out_v12\\windbg_disassembly_v12.log",
+  "data_references": [
+    "0x0000000141C2B5E0",
+    "0x0000000141C2BAB8",
+    "0x0000000141C19680",
+    "0x0000000141C2B838",
+    "0x0000000141C2B7B8",
+    "0x0000000141C2B7A8",
+    "0x0000000141C2BA70",
+    "0x0000000141C2BA80",
+    "0x0000000141C2B6A8",
+    "0x0000000141C2BAC8",
+    "0x0000000141C2BAD8",
+    "0x0000000141C2B650",
+    "0x0000000141C2B880",
+    "0x0000000141C2BAE8",
+    "0x0000000141C2BB08",
+    "0x0000000141C2BA90",
+    "0x0000000141C2BAA8",
+    "0x0000000141C2B0E8",
+    "0x0000000141C2BB30",
+    "0x0000000141C2BB40"
+  ],
+  "helpers": [
+    {
+      "address": "0x00000001404A8430",
+      "description": "ModelFxData slot1 field conversion helper A"
+    },
+    {
+      "address": "0x00000001404A8600",
+      "description": "ModelFxData slot1 field conversion helper B"
+    },
+    {
+      "address": "0x000000014061B760",
+      "description": "ModelFxData slot1 collection or field helper"
+    },
+    {
+      "address": "0x000000014061B6D0",
+      "description": "ModelFxData slot6 size-accounting helper"
+    },
+    {
+      "address": "0x000000014040F810",
+      "description": "ModelFxData slot1 lookup helper"
+    },
+    {
+      "address": "0x000000014049F1D0",
+      "description": "ModelFxData slot4 collection helper"
+    }
+  ],
+  "command_file": "recon_out_v13\\windbg_context_v13.txt",
+  "report": "recon_out_v13\\context_probe_plan.txt",
+  "read_only": true
+}

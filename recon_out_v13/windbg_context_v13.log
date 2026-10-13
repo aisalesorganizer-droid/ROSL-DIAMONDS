@@ -1,0 +1,1836 @@
+Opened log file 'C:\Users\MAFIA\Downloads\Compressed\ROSLegacy\Diamonds\recon_out_v13\windbg_context_v13.log'
+Confirm module base before interpreting addresses.
+Browse full module list
+start             end                 module name
+00000001`40000000 00000001`45aea000   ros64      (export symbols)       ros64.exe
+============================================================================
+STRING AND DATA CONSTANTS REFERENCED BY ModelFxData SLOT 1
+DATA_REF_01 00000001`41C2B5E0
+00000001`41c2b5e0  "ModelName"
+DATA_REF_02 00000001`41C2BAB8
+00000001`41c2bab8  "ModelCastShadow"
+DATA_REF_03 00000001`41C19680
+00000001`41c19680  "AnimName"
+DATA_REF_04 00000001`41C2B838
+00000001`41c2b838  "DirType"
+DATA_REF_05 00000001`41C2B7B8
+00000001`41c2b7b8  "SprSpeedRate"
+DATA_REF_06 00000001`41C2B7A8
+00000001`41c2b7a8  "SprWorkMode"
+DATA_REF_07 00000001`41C2BA70
+00000001`41c2ba70  "SmoothStartTime"
+DATA_REF_08 00000001`41C2BA80
+00000001`41c2ba80  "SmoothStopTime"
+DATA_REF_09 00000001`41C2B6A8
+00000001`41c2b6a8  "TransparentMode"
+DATA_REF_10 00000001`41C2BAC8
+00000001`41c2bac8  "RenderType"
+DATA_REF_11 00000001`41C2BAD8
+00000001`41c2bad8  "ScaleFrame"
+DATA_REF_12 00000001`41C2B650
+00000001`41c2b650  "AlphaFrame"
+DATA_REF_13 00000001`41C2B880
+00000001`41c2b880  "ColorFrame"
+DATA_REF_14 00000001`41C2BAE8
+00000001`41c2bae8  "Model-fx's ModelName is empty!"
+DATA_REF_15 00000001`41C2BB08
+00000001`41c2bb08  "Model-fx's mesh file %s is not f"
+00000001`41c2bb28  "ound!"
+DATA_REF_16 00000001`41C2BA90
+00000001`41c2ba90  "SmoothStartFrame"
+DATA_REF_17 00000001`41C2BAA8
+00000001`41c2baa8  "SmoothStopFrame"
+DATA_REF_18 00000001`41C2B0E8
+00000001`41c2b0e8  "ShaderComponent"
+DATA_REF_19 00000001`41C2BB30
+00000001`41c2bb30  "PostProcessKind"
+DATA_REF_20 00000001`41C2BB40
+00000001`41c2bb40  "ModelPostProcessComponent"
+============================================================================
+HELPER FUNCTIONS REACHED BY MODELFXDATA METHODS
+TARGET 00000001`404A8430 ModelFxData slot1 field conversion helper A
+Browse module
+Set bu breakpoint
+
+(00000001`402bf8f0)   ros64!initgameplay+0x1e8b40   |  (00000001`4068c3f0)   ros64!cocos2d::AccelAmplitude::AccelAmplitude
+ros64!initgameplay+0x1e8b40:
+00000001`404a8430 488bc4          mov     rax,rsp
+00000001`404a8433 48895818        mov     qword ptr [rax+18h],rbx
+00000001`404a8437 48897020        mov     qword ptr [rax+20h],rsi
+00000001`404a843b 55              push    rbp
+00000001`404a843c 57              push    rdi
+00000001`404a843d 4154            push    r12
+00000001`404a843f 4156            push    r14
+00000001`404a8441 4157            push    r15
+00000001`404a8443 488da868f8ffff  lea     rbp,[rax-798h]
+00000001`404a844a 4881ec70080000  sub     rsp,870h
+00000001`404a8451 0f2970c8        movaps  xmmword ptr [rax-38h],xmm6
+00000001`404a8455 488b054c5aca02  mov     rax,qword ptr [ros64!PyExc_BlockingIOError+0x297458 (00000001`4314dea8)]
+00000001`404a845c 4833c4          xor     rax,rsp
+00000001`404a845f 48898550070000  mov     qword ptr [rbp+750h],rax
+00000001`404a8466 4c8bf2          mov     r14,rdx
+00000001`404a8469 4c8bf9          mov     r15,rcx
+00000001`404a846c 488b09          mov     rcx,qword ptr [rcx]
+00000001`404a846f 488b01          mov     rax,qword ptr [rcx]
+00000001`404a8472 33ff            xor     edi,edi
+00000001`404a8474 897c2420        mov     dword ptr [rsp+20h],edi
+00000001`404a8478 4c8d4c2434      lea     r9,[rsp+34h]
+00000001`404a847d 4c8d05642a7801  lea     r8,[ros64!Py_hashtable_size+0x907688 (00000001`41c2aee8)]
+00000001`404a8484 4c8d25553c7301  lea     r12,[ros64!Py_hashtable_size+0x8b8880 (00000001`41bdc0e0)]
+00000001`404a848b 498bd4          mov     rdx,r12
+00000001`404a848e ff90b8000000    call    qword ptr [rax+0B8h]
+00000001`404a8494 498b0f          mov     rcx,qword ptr [r15]
+00000001`404a8497 488b01          mov     rax,qword ptr [rcx]
+00000001`404a849a 498bd4          mov     rdx,r12
+00000001`404a849d ff90e0000000    call    qword ptr [rax+0E0h]
+00000001`404a84a3 488bf0          mov     rsi,rax
+00000001`404a84a6 8b4c2434        mov     ecx,dword ptr [rsp+34h]
+00000001`404a84aa 41890e          mov     dword ptr [r14],ecx
+00000001`404a84ad 8bd0            mov     edx,eax
+00000001`404a84af 498d4e18        lea     rcx,[r14+18h]
+00000001`404a84b3 4c8b4110        mov     r8,qword ptr [rcx+10h]
+00000001`404a84b7 4c2b01          sub     r8,qword ptr [rcx]
+00000001`404a84ba 49c1f803        sar     r8,3
+00000001`404a84be 493bd0          cmp     rdx,r8
+00000001`404a84c1 7605            jbe     ros64!initgameplay+0x1e8bd8 (00000001`404a84c8)  Branch
+
+ros64!initgameplay+0x1e8bd3:
+00000001`404a84c3 e868b2f5ff      call    ros64!initgameplay+0x143e40 (00000001`40403730)
+
+ros64!initgameplay+0x1e8bd8:
+00000001`404a84c8 4885f6          test    rsi,rsi
+00000001`404a84cb 0f84f4000000    je      ros64!initgameplay+0x1e8cd5 (00000001`404a85c5)  Branch
+
+ros64!initgameplay+0x1e8be1:
+00000001`404a84d1 0f57f6          xorps   xmm6,xmm6
+00000001`404a84d4 0f1f4000        nop     dword ptr [rax]
+00000001`404a84d8 0f1f840000000000 nop     dword ptr [rax+rax]
+
+ros64!initgameplay+0x1e8bf0:
+00000001`404a84e0 498b0f          mov     rcx,qword ptr [r15]
+00000001`404a84e3 488b01          mov     rax,qword ptr [rcx]
+00000001`404a84e6 4c8bc7          mov     r8,rdi
+00000001`404a84e9 498bd4          mov     rdx,r12
+00000001`404a84ec ff5018          call    qword ptr [rax+18h]
+00000001`404a84ef 488bd8          mov     rbx,rax
+00000001`404a84f2 4889442440      mov     qword ptr [rsp+40h],rax
+00000001`404a84f7 c644244801      mov     byte ptr [rsp+48h],1
+00000001`404a84fc 4c8b10          mov     r10,qword ptr [rax]
+00000001`404a84ff f30f11742420    movss   dword ptr [rsp+20h],xmm6
+00000001`404a8505 4c8d4c2438      lea     r9,[rsp+38h]
+00000001`404a850a 4c8d057bc67501  lea     r8,[ros64!Py_hashtable_size+0x8e132c (00000001`41c04b8c)]
+00000001`404a8511 498bd4          mov     rdx,r12
+00000001`404a8514 488bc8          mov     rcx,rax
+00000001`404a8517 41ff92a8000000  call    qword ptr [r10+0A8h]
+00000001`404a851e 488b03          mov     rax,qword ptr [rbx]
+00000001`404a8521 4c89642420      mov     qword ptr [rsp+20h],r12
+00000001`404a8526 4c8d05c7297801  lea     r8,[ros64!Py_hashtable_size+0x907694 (00000001`41c2aef4)]
+00000001`404a852d 498bd4          mov     rdx,r12
+00000001`404a8530 488bcb          mov     rcx,rbx
+00000001`404a8533 807b0800        cmp     byte ptr [rbx+8],0
+00000001`404a8537 742a            je      ros64!initgameplay+0x1e8c73 (00000001`404a8563)  Branch
+
+ros64!initgameplay+0x1e8c49:
+00000001`404a8539 4c8d4c2450      lea     r9,[rsp+50h]
+00000001`404a853e ff90c8000000    call    qword ptr [rax+0C8h]
+00000001`404a8544 66c7442431ffff  mov     word ptr [rsp+31h],0FFFFh
+00000001`404a854b c6442430ff      mov     byte ptr [rsp+30h],0FFh
+00000001`404a8550 c6442433ff      mov     byte ptr [rsp+33h],0FFh
+00000001`404a8555 807c245000      cmp     byte ptr [rsp+50h],0
+00000001`404a855a 743f            je      ros64!initgameplay+0x1e8cab (00000001`404a859b)  Branch
+
+ros64!initgameplay+0x1e8c6c:
+00000001`404a855c 488d542450      lea     rdx,[rsp+50h]
+00000001`404a8561 eb2e            jmp     ros64!initgameplay+0x1e8ca1 (00000001`404a8591)  Branch
+
+ros64!initgameplay+0x1e8c73:
+00000001`404a8563 4c8d8d50030000  lea     r9,[rbp+350h]
+00000001`404a856a ff90c8000000    call    qword ptr [rax+0C8h]
+00000001`404a8570 66c7442431ffff  mov     word ptr [rsp+31h],0FFFFh
+00000001`404a8577 c6442430ff      mov     byte ptr [rsp+30h],0FFh
+00000001`404a857c c6442433ff      mov     byte ptr [rsp+33h],0FFh
+00000001`404a8581 80bd5003000000  cmp     byte ptr [rbp+350h],0
+00000001`404a8588 7411            je      ros64!initgameplay+0x1e8cab (00000001`404a859b)  Branch
+
+ros64!initgameplay+0x1e8c9a:
+00000001`404a858a 488d9550030000  lea     rdx,[rbp+350h]
+
+ros64!initgameplay+0x1e8ca1:
+00000001`404a8591 488d4c2430      lea     rcx,[rsp+30h]
+00000001`404a8596 e845c9f8ff      call    ros64!initgameplay+0x1755f0 (00000001`40434ee0)
+
+ros64!initgameplay+0x1e8cab:
+00000001`404a859b 4c8d442430      lea     r8,[rsp+30h]
+00000001`404a85a0 f30f104c2438    movss   xmm1,dword ptr [rsp+38h]
+00000001`404a85a6 498bce          mov     rcx,r14
+00000001`404a85a9 e8929ef5ff      call    ros64!initgameplay+0x142b50 (00000001`40402440)
+00000001`404a85ae 90              nop
+00000001`404a85af 488b03          mov     rax,qword ptr [rbx]
+00000001`404a85b2 488bcb          mov     rcx,rbx
+00000001`404a85b5 ff5008          call    qword ptr [rax+8]
+00000001`404a85b8 90              nop
+00000001`404a85b9 48ffc7          inc     rdi
+00000001`404a85bc 483bfe          cmp     rdi,rsi
+00000001`404a85bf 0f821bffffff    jb      ros64!initgameplay+0x1e8bf0 (00000001`404a84e0)  Branch
+
+ros64!initgameplay+0x1e8cd5:
+00000001`404a85c5 488b8d50070000  mov     rcx,qword ptr [rbp+750h]
+00000001`404a85cc 4833cc          xor     rcx,rsp
+00000001`404a85cf e8dcb25901      call    ros64!Py_hashtable_size+0x720050 (00000001`41a438b0)
+00000001`404a85d4 4c8d9c2470080000 lea     r11,[rsp+870h]
+00000001`404a85dc 498b5b40        mov     rbx,qword ptr [r11+40h]
+00000001`404a85e0 498b7348        mov     rsi,qword ptr [r11+48h]
+00000001`404a85e4 410f2873f0      movaps  xmm6,xmmword ptr [r11-10h]
+00000001`404a85e9 498be3          mov     rsp,r11
+00000001`404a85ec 415f            pop     r15
+00000001`404a85ee 415e            pop     r14
+00000001`404a85f0 415c            pop     r12
+00000001`404a85f2 5f              pop     rdi
+00000001`404a85f3 5d              pop     rbp
+00000001`404a85f4 c3              ret
+TARGET 00000001`404A8600 ModelFxData slot1 field conversion helper B
+Browse module
+Set bu breakpoint
+
+(00000001`402bf8f0)   ros64!initgameplay+0x1e8d10   |  (00000001`4068c3f0)   ros64!cocos2d::AccelAmplitude::AccelAmplitude
+ros64!initgameplay+0x1e8d10:
+00000001`404a8600 4053            push    rbx
+00000001`404a8602 56              push    rsi
+00000001`404a8603 57              push    rdi
+00000001`404a8604 4156            push    r14
+00000001`404a8606 4157            push    r15
+00000001`404a8608 4883ec60        sub     rsp,60h
+00000001`404a860c 0f29742450      movaps  xmmword ptr [rsp+50h],xmm6
+00000001`404a8611 0f297c2440      movaps  xmmword ptr [rsp+40h],xmm7
+00000001`404a8616 4c8bf2          mov     r14,rdx
+00000001`404a8619 4c8bf9          mov     r15,rcx
+00000001`404a861c 488b09          mov     rcx,qword ptr [rcx]
+00000001`404a861f 488b01          mov     rax,qword ptr [rcx]
+00000001`404a8622 33ff            xor     edi,edi
+00000001`404a8624 897c2420        mov     dword ptr [rsp+20h],edi
+00000001`404a8628 4c8d8c2490000000 lea     r9,[rsp+90h]
+00000001`404a8630 4c8d05b1287801  lea     r8,[ros64!Py_hashtable_size+0x907688 (00000001`41c2aee8)]
+00000001`404a8637 488d15a23a7301  lea     rdx,[ros64!Py_hashtable_size+0x8b8880 (00000001`41bdc0e0)]
+00000001`404a863e ff90b8000000    call    qword ptr [rax+0B8h]
+00000001`404a8644 498b0f          mov     rcx,qword ptr [r15]
+00000001`404a8647 488b01          mov     rax,qword ptr [rcx]
+00000001`404a864a 897c2420        mov     dword ptr [rsp+20h],edi
+00000001`404a864e 4c8d8c2498000000 lea     r9,[rsp+98h]
+00000001`404a8656 4c8d05a3287801  lea     r8,[ros64!Py_hashtable_size+0x9076a0 (00000001`41c2af00)]
+00000001`404a865d 488d157c3a7301  lea     rdx,[ros64!Py_hashtable_size+0x8b8880 (00000001`41bdc0e0)]
+00000001`404a8664 ff90b8000000    call    qword ptr [rax+0B8h]
+00000001`404a866a 498b0f          mov     rcx,qword ptr [r15]
+00000001`404a866d 488b01          mov     rax,qword ptr [rcx]
+00000001`404a8670 488d15693a7301  lea     rdx,[ros64!Py_hashtable_size+0x8b8880 (00000001`41bdc0e0)]
+00000001`404a8677 ff90e0000000    call    qword ptr [rax+0E0h]
+00000001`404a867d 488bf0          mov     rsi,rax
+00000001`404a8680 8b8c2490000000  mov     ecx,dword ptr [rsp+90h]
+00000001`404a8687 41890e          mov     dword ptr [r14],ecx
+00000001`404a868a 8b8c2498000000  mov     ecx,dword ptr [rsp+98h]
+00000001`404a8691 41894e04        mov     dword ptr [r14+4],ecx
+00000001`404a8695 8bd0            mov     edx,eax
+00000001`404a8697 498d4e18        lea     rcx,[r14+18h]
+00000001`404a869b 4c8b4110        mov     r8,qword ptr [rcx+10h]
+00000001`404a869f 4c2b01          sub     r8,qword ptr [rcx]
+00000001`404a86a2 49c1f803        sar     r8,3
+00000001`404a86a6 493bd0          cmp     rdx,r8
+00000001`404a86a9 7605            jbe     ros64!initgameplay+0x1e8dc0 (00000001`404a86b0)  Branch
+
+ros64!initgameplay+0x1e8dbb:
+00000001`404a86ab e8605af5ff      call    ros64!initgameplay+0x13e820 (00000001`403fe110)
+
+ros64!initgameplay+0x1e8dc0:
+00000001`404a86b0 4885f6          test    rsi,rsi
+00000001`404a86b3 0f84b9000000    je      ros64!initgameplay+0x1e8e82 (00000001`404a8772)  Branch
+
+ros64!initgameplay+0x1e8dc9:
+00000001`404a86b9 0f57f6          xorps   xmm6,xmm6
+00000001`404a86bc f30f103d243d7301 movss   xmm7,dword ptr [ros64!Py_hashtable_size+0x8b8b88 (00000001`41bdc3e8)]
+00000001`404a86c4 0f1f4000        nop     dword ptr [rax]
+00000001`404a86c8 0f1f840000000000 nop     dword ptr [rax+rax]
+
+ros64!initgameplay+0x1e8de0:
+00000001`404a86d0 498b0f          mov     rcx,qword ptr [r15]
+00000001`404a86d3 488b01          mov     rax,qword ptr [rcx]
+00000001`404a86d6 4c8bc7          mov     r8,rdi
+00000001`404a86d9 488d15003a7301  lea     rdx,[ros64!Py_hashtable_size+0x8b8880 (00000001`41bdc0e0)]
+00000001`404a86e0 ff5018          call    qword ptr [rax+18h]
+00000001`404a86e3 488bd8          mov     rbx,rax
+00000001`404a86e6 4889442430      mov     qword ptr [rsp+30h],rax
+00000001`404a86eb c644243801      mov     byte ptr [rsp+38h],1
+00000001`404a86f0 4c8b10          mov     r10,qword ptr [rax]
+00000001`404a86f3 f30f11742420    movss   dword ptr [rsp+20h],xmm6
+00000001`404a86f9 4c8d8c24a8000000 lea     r9,[rsp+0A8h]
+00000001`404a8701 4c8d0584c47501  lea     r8,[ros64!Py_hashtable_size+0x8e132c (00000001`41c04b8c)]
+00000001`404a8708 488d15d1397301  lea     rdx,[ros64!Py_hashtable_size+0x8b8880 (00000001`41bdc0e0)]
+00000001`404a870f 488bc8          mov     rcx,rax
+00000001`404a8712 41ff92a8000000  call    qword ptr [r10+0A8h]
+00000001`404a8719 4c8b13          mov     r10,qword ptr [rbx]
+00000001`404a871c f30f117c2420    movss   dword ptr [rsp+20h],xmm7
+00000001`404a8722 4c8d8c24a0000000 lea     r9,[rsp+0A0h]
+00000001`404a872a 4c8d05c3277801  lea     r8,[ros64!Py_hashtable_size+0x907694 (00000001`41c2aef4)]
+00000001`404a8731 488d15a8397301  lea     rdx,[ros64!Py_hashtable_size+0x8b8880 (00000001`41bdc0e0)]
+00000001`404a8738 488bcb          mov     rcx,rbx
+00000001`404a873b 41ff92a8000000  call    qword ptr [r10+0A8h]
+00000001`404a8742 4c8d8424a0000000 lea     r8,[rsp+0A0h]
+00000001`404a874a f30f108c24a8000000 movss xmm1,dword ptr [rsp+0A8h]
+00000001`404a8753 498bce          mov     rcx,r14
+00000001`404a8756 e8453bf5ff      call    ros64!initgameplay+0x13c9b0 (00000001`403fc2a0)
+00000001`404a875b 90              nop
+00000001`404a875c 488b03          mov     rax,qword ptr [rbx]
+00000001`404a875f 488bcb          mov     rcx,rbx
+00000001`404a8762 ff5008          call    qword ptr [rax+8]
+00000001`404a8765 90              nop
+00000001`404a8766 48ffc7          inc     rdi
+00000001`404a8769 483bfe          cmp     rdi,rsi
+00000001`404a876c 0f825effffff    jb      ros64!initgameplay+0x1e8de0 (00000001`404a86d0)  Branch
+
+ros64!initgameplay+0x1e8e82:
+00000001`404a8772 0f28742450      movaps  xmm6,xmmword ptr [rsp+50h]
+00000001`404a8777 0f287c2440      movaps  xmm7,xmmword ptr [rsp+40h]
+00000001`404a877c 4883c460        add     rsp,60h
+00000001`404a8780 415f            pop     r15
+00000001`404a8782 415e            pop     r14
+00000001`404a8784 5f              pop     rdi
+00000001`404a8785 5e              pop     rsi
+00000001`404a8786 5b              pop     rbx
+00000001`404a8787 c3              ret
+TARGET 00000001`4061B760 ModelFxData slot1 collection or field helper
+Browse module
+Set bu breakpoint
+
+(00000001`402bf8f0)   ros64!initgameplay+0x35be70   |  (00000001`4068c3f0)   ros64!cocos2d::AccelAmplitude::AccelAmplitude
+ros64!initgameplay+0x35be70:
+00000001`4061b760 48895c2420      mov     qword ptr [rsp+20h],rbx
+00000001`4061b765 55              push    rbp
+00000001`4061b766 56              push    rsi
+00000001`4061b767 57              push    rdi
+00000001`4061b768 4154            push    r12
+00000001`4061b76a 4155            push    r13
+00000001`4061b76c 4156            push    r14
+00000001`4061b76e 4157            push    r15
+00000001`4061b770 488d6c24e0      lea     rbp,[rsp-20h]
+00000001`4061b775 4881ec20010000  sub     rsp,120h
+00000001`4061b77c 488b052527b302  mov     rax,qword ptr [ros64!PyExc_BlockingIOError+0x297458 (00000001`4314dea8)]
+00000001`4061b783 4833c4          xor     rax,rsp
+00000001`4061b786 48894518        mov     qword ptr [rbp+18h],rax
+00000001`4061b78a 498bf8          mov     rdi,r8
+00000001`4061b78d 488bda          mov     rbx,rdx
+00000001`4061b790 488bf1          mov     rsi,rcx
+00000001`4061b793 48894c2430      mov     qword ptr [rsp+30h],rcx
+00000001`4061b798 488b0a          mov     rcx,qword ptr [rdx]
+00000001`4061b79b 488b01          mov     rax,qword ptr [rcx]
+00000001`4061b79e 488d159b6f6201  lea     rdx,[ros64!Py_hashtable_size+0x91eee0 (00000001`41c42740)]
+00000001`4061b7a5 ff5020          call    qword ptr [rax+20h]
+00000001`4061b7a8 4c8bf0          mov     r14,rax
+00000001`4061b7ab 488945c8        mov     qword ptr [rbp-38h],rax
+00000001`4061b7af c645d001        mov     byte ptr [rbp-30h],1
+00000001`4061b7b3 4885c0          test    rax,rax
+00000001`4061b7b6 7413            je      ros64!initgameplay+0x35bedb (00000001`4061b7cb)  Branch
+
+ros64!initgameplay+0x35bec8:
+00000001`4061b7b8 488d0d916f6201  lea     rcx,[ros64!Py_hashtable_size+0x91eef0 (00000001`41c42750)]
+00000001`4061b7bf e87c1eb900      call    ros64!init_tinyxml+0x297260 (00000001`411ad640)
+00000001`4061b7c4 32db            xor     bl,bl
+00000001`4061b7c6 e944040000      jmp     ros64!initgameplay+0x35c31f (00000001`4061bc0f)  Branch
+
+ros64!initgameplay+0x35bedb:
+00000001`4061b7cb 488b0b          mov     rcx,qword ptr [rbx]
+00000001`4061b7ce 488b01          mov     rax,qword ptr [rcx]
+00000001`4061b7d1 488bd7          mov     rdx,rdi
+00000001`4061b7d4 ff5020          call    qword ptr [rax+20h]
+00000001`4061b7d7 488bf8          mov     rdi,rax
+00000001`4061b7da 488945a8        mov     qword ptr [rbp-58h],rax
+00000001`4061b7de c645b001        mov     byte ptr [rbp-50h],1
+00000001`4061b7e2 4885c0          test    rax,rax
+00000001`4061b7e5 0f8413040000    je      ros64!initgameplay+0x35c30e (00000001`4061bbfe)  Branch
+
+ros64!initgameplay+0x35befb:
+00000001`4061b7eb 4c8b00          mov     r8,qword ptr [rax]
+00000001`4061b7ee 488d15736f6201  lea     rdx,[ros64!Py_hashtable_size+0x91ef08 (00000001`41c42768)]
+00000001`4061b7f5 488bc8          mov     rcx,rax
+00000001`4061b7f8 41ff5020        call    qword ptr [r8+20h]
+00000001`4061b7fc 4c8bf0          mov     r14,rax
+00000001`4061b7ff 488945b8        mov     qword ptr [rbp-48h],rax
+00000001`4061b803 c645c001        mov     byte ptr [rbp-40h],1
+00000001`4061b807 4885c0          test    rax,rax
+00000001`4061b80a 7472            je      ros64!initgameplay+0x35bf8e (00000001`4061b87e)  Branch
+
+ros64!initgameplay+0x35bf1c:
+00000001`4061b80c 4c8d4e64        lea     r9,[rsi+64h]
+00000001`4061b810 418b09          mov     ecx,dword ptr [r9]
+00000001`4061b813 4c8b10          mov     r10,qword ptr [rax]
+00000001`4061b816 894c2420        mov     dword ptr [rsp+20h],ecx
+00000001`4061b81a 4c8d05576f6201  lea     r8,[ros64!Py_hashtable_size+0x91ef18 (00000001`41c42778)]
+00000001`4061b821 488d15b8085c01  lea     rdx,[ros64!Py_hashtable_size+0x8b8880 (00000001`41bdc0e0)]
+00000001`4061b828 488bc8          mov     rcx,rax
+00000001`4061b82b 41ff92b8000000  call    qword ptr [r10+0B8h]
+00000001`4061b832 4c8d4e68        lea     r9,[rsi+68h]
+00000001`4061b836 418b01          mov     eax,dword ptr [r9]
+00000001`4061b839 4d8b16          mov     r10,qword ptr [r14]
+00000001`4061b83c 89442420        mov     dword ptr [rsp+20h],eax
+00000001`4061b840 4c8d053d6f6201  lea     r8,[ros64!Py_hashtable_size+0x91ef24 (00000001`41c42784)]
+00000001`4061b847 488d1592085c01  lea     rdx,[ros64!Py_hashtable_size+0x8b8880 (00000001`41bdc0e0)]
+00000001`4061b84e 498bce          mov     rcx,r14
+00000001`4061b851 41ff92b8000000  call    qword ptr [r10+0B8h]
+00000001`4061b858 4c8d4e60        lea     r9,[rsi+60h]
+00000001`4061b85c 418b01          mov     eax,dword ptr [r9]
+00000001`4061b85f 4d8b16          mov     r10,qword ptr [r14]
+00000001`4061b862 89442420        mov     dword ptr [rsp+20h],eax
+00000001`4061b866 4c8d053bfe6001  lea     r8,[ros64!Py_hashtable_size+0x907e48 (00000001`41c2b6a8)]
+00000001`4061b86d 488d156c085c01  lea     rdx,[ros64!Py_hashtable_size+0x8b8880 (00000001`41bdc0e0)]
+00000001`4061b874 498bce          mov     rcx,r14
+00000001`4061b877 41ff92b0000000  call    qword ptr [r10+0B0h]
+
+ros64!initgameplay+0x35bf8e:
+00000001`4061b87e 488b07          mov     rax,qword ptr [rdi]
+00000001`4061b881 488d1570f86001  lea     rdx,[ros64!Py_hashtable_size+0x907898 (00000001`41c2b0f8)]
+00000001`4061b888 488bcf          mov     rcx,rdi
+00000001`4061b88b ff5020          call    qword ptr [rax+20h]
+00000001`4061b88e 4889442450      mov     qword ptr [rsp+50h],rax
+00000001`4061b893 c644245801      mov     byte ptr [rsp+58h],1
+00000001`4061b898 4885c0          test    rax,rax
+00000001`4061b89b 740d            je      ros64!initgameplay+0x35bfba (00000001`4061b8aa)  Branch
+
+ros64!initgameplay+0x35bfad:
+00000001`4061b89d 488d542450      lea     rdx,[rsp+50h]
+00000001`4061b8a2 488bce          mov     rcx,rsi
+00000001`4061b8a5 e8a672ffff      call    ros64!initgameplay+0x353260 (00000001`40612b50)
+
+ros64!initgameplay+0x35bfba:
+00000001`4061b8aa 488b07          mov     rax,qword ptr [rdi]
+00000001`4061b8ad 488d1550f86001  lea     rdx,[ros64!Py_hashtable_size+0x9078a4 (00000001`41c2b104)]
+00000001`4061b8b4 488bcf          mov     rcx,rdi
+00000001`4061b8b7 ff5020          call    qword ptr [rax+20h]
+00000001`4061b8ba 488bc8          mov     rcx,rax
+00000001`4061b8bd 4889442440      mov     qword ptr [rsp+40h],rax
+00000001`4061b8c2 c644244801      mov     byte ptr [rsp+48h],1
+00000001`4061b8c7 4885c0          test    rax,rax
+00000001`4061b8ca 7413            je      ros64!initgameplay+0x35bfef (00000001`4061b8df)  Branch
+
+ros64!initgameplay+0x35bfdc:
+00000001`4061b8cc 488d4e28        lea     rcx,[rsi+28h]
+00000001`4061b8d0 488d542440      lea     rdx,[rsp+40h]
+00000001`4061b8d5 e87672ffff      call    ros64!initgameplay+0x353260 (00000001`40612b50)
+00000001`4061b8da 488b4c2440      mov     rcx,qword ptr [rsp+40h]
+
+ros64!initgameplay+0x35bfef:
+00000001`4061b8df 488b4608        mov     rax,qword ptr [rsi+8]
+00000001`4061b8e3 482b06          sub     rax,qword ptr [rsi]
+00000001`4061b8e6 48c1f803        sar     rax,3
+00000001`4061b8ea 4889442478      mov     qword ptr [rsp+78h],rax
+00000001`4061b8ef 4533ff          xor     r15d,r15d
+00000001`4061b8f2 418bdf          mov     ebx,r15d
+00000001`4061b8f5 48895c2438      mov     qword ptr [rsp+38h],rbx
+00000001`4061b8fa 4885c0          test    rax,rax
+00000001`4061b8fd 0f84bd020000    je      ros64!initgameplay+0x35c2d0 (00000001`4061bbc0)  Branch
+
+ros64!initgameplay+0x35c013:
+00000001`4061b903 488b06          mov     rax,qword ptr [rsi]
+00000001`4061b906 488b1cd8        mov     rbx,qword ptr [rax+rbx*8]
+00000001`4061b90a 837b4000        cmp     dword ptr [rbx+40h],0
+00000001`4061b90e 0f8587020000    jne     ros64!initgameplay+0x35c2ab (00000001`4061bb9b)  Branch
+
+ros64!initgameplay+0x35c024:
+00000001`4061b914 4c897d08        mov     qword ptr [rbp+8],r15
+00000001`4061b918 48c745100f000000 mov     qword ptr [rbp+10h],0Fh
+00000001`4061b920 c645f800        mov     byte ptr [rbp-8],0
+00000001`4061b924 488d55f8        lea     rdx,[rbp-8]
+00000001`4061b928 488bcb          mov     rcx,rbx
+00000001`4061b92b e8e07dffff      call    ros64!initgameplay+0x353e20 (00000001`40613710)
+00000001`4061b930 488d55f8        lea     rdx,[rbp-8]
+00000001`4061b934 48837d1010      cmp     qword ptr [rbp+10h],10h
+00000001`4061b939 480f4355f8      cmovae  rdx,qword ptr [rbp-8]
+00000001`4061b93e 488b0d0b69be02  mov     rcx,qword ptr [ros64!PyExc_BlockingIOError+0x34b800 (00000001`43202250)]
+00000001`4061b945 488b01          mov     rax,qword ptr [rcx]
+00000001`4061b948 ff90e0010000    call    qword ptr [rax+1E0h]
+00000001`4061b94e 4889442470      mov     qword ptr [rsp+70h],rax
+00000001`4061b953 4c897de8        mov     qword ptr [rbp-18h],r15
+00000001`4061b957 48c745f00f000000 mov     qword ptr [rbp-10h],0Fh
+00000001`4061b95f c645d800        mov     byte ptr [rbp-28h],0
+00000001`4061b963 49c7c0ffffffff  mov     r8,0FFFFFFFFFFFFFFFFh
+00000001`4061b96a 660f1f440000    nop     word ptr [rax+rax]
+
+ros64!initgameplay+0x35c080:
+00000001`4061b970 49ffc0          inc     r8
+00000001`4061b973 42803c0300      cmp     byte ptr [rbx+r8],0
+00000001`4061b978 75f6            jne     ros64!initgameplay+0x35c080 (00000001`4061b970)  Branch
+
+ros64!initgameplay+0x35c08a:
+00000001`4061b97a 488bd3          mov     rdx,rbx
+00000001`4061b97d 488d4dd8        lea     rcx,[rbp-28h]
+00000001`4061b981 e83a8ca6ff      call    ros64+0x845c0 (00000001`400845c0)
+00000001`4061b986 90              nop
+00000001`4061b987 4c8d6e50        lea     r13,[rsi+50h]
+00000001`4061b98b 498b7d00        mov     rdi,qword ptr [r13]
+00000001`4061b98f 48897c2460      mov     qword ptr [rsp+60h],rdi
+00000001`4061b994 488b5f08        mov     rbx,qword ptr [rdi+8]
+00000001`4061b998 48895d80        mov     qword ptr [rbp-80h],rbx
+00000001`4061b99c 44897d88        mov     dword ptr [rbp-78h],r15d
+00000001`4061b9a0 4c8bf7          mov     r14,rdi
+00000001`4061b9a3 4c8b7df0        mov     r15,qword ptr [rbp-10h]
+00000001`4061b9a7 488b75e8        mov     rsi,qword ptr [rbp-18h]
+00000001`4061b9ab 4c8b65d8        mov     r12,qword ptr [rbp-28h]
+00000001`4061b9af 807b1900        cmp     byte ptr [rbx+19h],0
+00000001`4061b9b3 0f857d000000    jne     ros64!initgameplay+0x35c146 (00000001`4061ba36)  Branch
+
+ros64!initgameplay+0x35c0c9:
+00000001`4061b9b9 0f1f8000000000  nop     dword ptr [rax]
+
+ros64!initgameplay+0x35c0d0:
+00000001`4061b9c0 48895d80        mov     qword ptr [rbp-80h],rbx
+00000001`4061b9c4 488d55d8        lea     rdx,[rbp-28h]
+00000001`4061b9c8 4983ff10        cmp     r15,10h
+00000001`4061b9cc 490f43d4        cmovae  rdx,r12
+00000001`4061b9d0 488d4b20        lea     rcx,[rbx+20h]
+00000001`4061b9d4 48837b3810      cmp     qword ptr [rbx+38h],10h
+00000001`4061b9d9 7204            jb      ros64!initgameplay+0x35c0ef (00000001`4061b9df)  Branch
+
+ros64!initgameplay+0x35c0eb:
+00000001`4061b9db 488b4b20        mov     rcx,qword ptr [rbx+20h]
+
+ros64!initgameplay+0x35c0ef:
+00000001`4061b9df 488b7b30        mov     rdi,qword ptr [rbx+30h]
+00000001`4061b9e3 4c8bc7          mov     r8,rdi
+00000001`4061b9e6 483bf7          cmp     rsi,rdi
+00000001`4061b9e9 4c0f42c6        cmovb   r8,rsi
+00000001`4061b9ed e8aee24201      call    ros64!Py_hashtable_size+0x726440 (00000001`41a49ca0)
+00000001`4061b9f2 85c0            test    eax,eax
+00000001`4061b9f4 7514            jne     ros64!initgameplay+0x35c11a (00000001`4061ba0a)  Branch
+
+ros64!initgameplay+0x35c106:
+00000001`4061b9f6 483bfe          cmp     rdi,rsi
+00000001`4061b9f9 7307            jae     ros64!initgameplay+0x35c112 (00000001`4061ba02)  Branch
+
+ros64!initgameplay+0x35c10b:
+00000001`4061b9fb b8ffffffff      mov     eax,0FFFFFFFFh
+00000001`4061ba00 eb08            jmp     ros64!initgameplay+0x35c11a (00000001`4061ba0a)  Branch
+
+ros64!initgameplay+0x35c112:
+00000001`4061ba02 33c0            xor     eax,eax
+00000001`4061ba04 483bfe          cmp     rdi,rsi
+00000001`4061ba07 0f97c0          seta    al
+
+ros64!initgameplay+0x35c11a:
+00000001`4061ba0a c1e81f          shr     eax,1Fh
+00000001`4061ba0d 84c0            test    al,al
+00000001`4061ba0f 740d            je      ros64!initgameplay+0x35c12e (00000001`4061ba1e)  Branch
+
+ros64!initgameplay+0x35c121:
+00000001`4061ba11 c7458800000000  mov     dword ptr [rbp-78h],0
+00000001`4061ba18 488b5b10        mov     rbx,qword ptr [rbx+10h]
+00000001`4061ba1c eb0d            jmp     ros64!initgameplay+0x35c13b (00000001`4061ba2b)  Branch
+
+ros64!initgameplay+0x35c12e:
+00000001`4061ba1e c7458801000000  mov     dword ptr [rbp-78h],1
+00000001`4061ba25 4c8bf3          mov     r14,rbx
+00000001`4061ba28 488b1b          mov     rbx,qword ptr [rbx]
+
+ros64!initgameplay+0x35c13b:
+00000001`4061ba2b 807b1900        cmp     byte ptr [rbx+19h],0
+00000001`4061ba2f 748f            je      ros64!initgameplay+0x35c0d0 (00000001`4061b9c0)  Branch
+
+ros64!initgameplay+0x35c141:
+00000001`4061ba31 488b7c2460      mov     rdi,qword ptr [rsp+60h]
+
+ros64!initgameplay+0x35c146:
+00000001`4061ba36 41807e1900      cmp     byte ptr [r14+19h],0
+00000001`4061ba3b 7554            jne     ros64!initgameplay+0x35c1a1 (00000001`4061ba91)  Branch
+
+ros64!initgameplay+0x35c14d:
+00000001`4061ba3d 498d5620        lea     rdx,[r14+20h]
+00000001`4061ba41 49837e3810      cmp     qword ptr [r14+38h],10h
+00000001`4061ba46 7204            jb      ros64!initgameplay+0x35c15c (00000001`4061ba4c)  Branch
+
+ros64!initgameplay+0x35c158:
+00000001`4061ba48 498b5620        mov     rdx,qword ptr [r14+20h]
+
+ros64!initgameplay+0x35c15c:
+00000001`4061ba4c 488d4dd8        lea     rcx,[rbp-28h]
+00000001`4061ba50 4983ff10        cmp     r15,10h
+00000001`4061ba54 490f43cc        cmovae  rcx,r12
+00000001`4061ba58 498b5e30        mov     rbx,qword ptr [r14+30h]
+00000001`4061ba5c 4c8bc6          mov     r8,rsi
+00000001`4061ba5f 483bde          cmp     rbx,rsi
+00000001`4061ba62 4c0f42c3        cmovb   r8,rbx
+00000001`4061ba66 e835e24201      call    ros64!Py_hashtable_size+0x726440 (00000001`41a49ca0)
+00000001`4061ba6b 4533ff          xor     r15d,r15d
+00000001`4061ba6e 85c0            test    eax,eax
+00000001`4061ba70 7514            jne     ros64!initgameplay+0x35c196 (00000001`4061ba86)  Branch
+
+ros64!initgameplay+0x35c182:
+00000001`4061ba72 483bf3          cmp     rsi,rbx
+00000001`4061ba75 7306            jae     ros64!initgameplay+0x35c18d (00000001`4061ba7d)  Branch
+
+ros64!initgameplay+0x35c187:
+00000001`4061ba77 418d47ff        lea     eax,[r15-1]
+00000001`4061ba7b eb09            jmp     ros64!initgameplay+0x35c196 (00000001`4061ba86)  Branch
+
+ros64!initgameplay+0x35c18d:
+00000001`4061ba7d 418bc7          mov     eax,r15d
+00000001`4061ba80 483bf3          cmp     rsi,rbx
+00000001`4061ba83 0f97c0          seta    al
+
+ros64!initgameplay+0x35c196:
+00000001`4061ba86 c1e81f          shr     eax,1Fh
+00000001`4061ba89 84c0            test    al,al
+00000001`4061ba8b 0f8485000000    je      ros64!initgameplay+0x35c226 (00000001`4061bb16)  Branch
+
+ros64!initgameplay+0x35c1a1:
+00000001`4061ba91 48b88ee3388ee3388e03 mov rax,38E38E38E38E38Eh
+00000001`4061ba9b 49394508        cmp     qword ptr [r13+8],rax
+00000001`4061ba9f 0f84a9010000    je      ros64!initgameplay+0x35c35e (00000001`4061bc4e)  Branch
+
+ros64!initgameplay+0x35c1b5:
+00000001`4061baa5 4c896d98        mov     qword ptr [rbp-68h],r13
+00000001`4061baa9 4533ff          xor     r15d,r15d
+00000001`4061baac 4c897da0        mov     qword ptr [rbp-60h],r15
+00000001`4061bab0 418d4f48        lea     ecx,[r15+48h]
+00000001`4061bab4 e857784201      call    ros64!Py_hashtable_size+0x71fab0 (00000001`41a43310)
+00000001`4061bab9 90              nop
+00000001`4061baba 4c897830        mov     qword ptr [rax+30h],r15
+00000001`4061babe 4c897838        mov     qword ptr [rax+38h],r15
+00000001`4061bac2 0f1045d8        movups  xmm0,xmmword ptr [rbp-28h]
+00000001`4061bac6 0f114020        movups  xmmword ptr [rax+20h],xmm0
+00000001`4061baca 0f104de8        movups  xmm1,xmmword ptr [rbp-18h]
+00000001`4061bace 0f114830        movups  xmmword ptr [rax+30h],xmm1
+00000001`4061bad2 4c897de8        mov     qword ptr [rbp-18h],r15
+00000001`4061bad6 48c745f00f000000 mov     qword ptr [rbp-10h],0Fh
+00000001`4061bade 44887dd8        mov     byte ptr [rbp-28h],r15b
+00000001`4061bae2 4c897840        mov     qword ptr [rax+40h],r15
+00000001`4061bae6 488938          mov     qword ptr [rax],rdi
+00000001`4061bae9 48897808        mov     qword ptr [rax+8],rdi
+00000001`4061baed 48897810        mov     qword ptr [rax+10h],rdi
+00000001`4061baf1 6644897818      mov     word ptr [rax+18h],r15w
+00000001`4061baf6 4c897da0        mov     qword ptr [rbp-60h],r15
+00000001`4061bafa 0f104580        movups  xmm0,xmmword ptr [rbp-80h]
+00000001`4061bafe 0f29442460      movaps  xmmword ptr [rsp+60h],xmm0
+00000001`4061bb03 4c8bc0          mov     r8,rax
+00000001`4061bb06 488d542460      lea     rdx,[rsp+60h]
+00000001`4061bb0b 498bcd          mov     rcx,r13
+00000001`4061bb0e e84d010000      call    ros64!initgameplay+0x35c370 (00000001`4061bc60)
+00000001`4061bb13 4c8bf0          mov     r14,rax
+
+ros64!initgameplay+0x35c226:
+00000001`4061bb16 488b442470      mov     rax,qword ptr [rsp+70h]
+00000001`4061bb1b 49894640        mov     qword ptr [r14+40h],rax
+00000001`4061bb1f 488b55f0        mov     rdx,qword ptr [rbp-10h]
+00000001`4061bb23 4883fa10        cmp     rdx,10h
+00000001`4061bb27 7232            jb      ros64!initgameplay+0x35c26b (00000001`4061bb5b)  Branch
+
+ros64!initgameplay+0x35c239:
+00000001`4061bb29 48ffc2          inc     rdx
+00000001`4061bb2c 488b4dd8        mov     rcx,qword ptr [rbp-28h]
+00000001`4061bb30 488bc1          mov     rax,rcx
+00000001`4061bb33 4881fa00100000  cmp     rdx,1000h
+00000001`4061bb3a 7219            jb      ros64!initgameplay+0x35c265 (00000001`4061bb55)  Branch
+
+ros64!initgameplay+0x35c24c:
+00000001`4061bb3c 4883c227        add     rdx,27h
+00000001`4061bb40 488b49f8        mov     rcx,qword ptr [rcx-8]
+00000001`4061bb44 482bc1          sub     rax,rcx
+00000001`4061bb47 4883c0f8        add     rax,0FFFFFFFFFFFFFFF8h
+00000001`4061bb4b 4883f81f        cmp     rax,1Fh
+00000001`4061bb4f 0f87ff000000    ja      ros64!initgameplay+0x35c364 (00000001`4061bc54)  Branch
+
+ros64!initgameplay+0x35c265:
+00000001`4061bb55 e8f2774201      call    ros64!Py_hashtable_size+0x71faec (00000001`41a4334c)
+00000001`4061bb5a 90              nop
+
+ros64!initgameplay+0x35c26b:
+00000001`4061bb5b 488b5510        mov     rdx,qword ptr [rbp+10h]
+00000001`4061bb5f 4883fa10        cmp     rdx,10h
+00000001`4061bb63 7231            jb      ros64!initgameplay+0x35c2a6 (00000001`4061bb96)  Branch
+
+ros64!initgameplay+0x35c275:
+00000001`4061bb65 48ffc2          inc     rdx
+00000001`4061bb68 488b4df8        mov     rcx,qword ptr [rbp-8]
+00000001`4061bb6c 488bc1          mov     rax,rcx
+00000001`4061bb6f 4881fa00100000  cmp     rdx,1000h
+00000001`4061bb76 7219            jb      ros64!initgameplay+0x35c2a1 (00000001`4061bb91)  Branch
+
+ros64!initgameplay+0x35c288:
+00000001`4061bb78 4883c227        add     rdx,27h
+00000001`4061bb7c 488b49f8        mov     rcx,qword ptr [rcx-8]
+00000001`4061bb80 482bc1          sub     rax,rcx
+00000001`4061bb83 4883c0f8        add     rax,0FFFFFFFFFFFFFFF8h
+00000001`4061bb87 4883f81f        cmp     rax,1Fh
+00000001`4061bb8b 0f87b7000000    ja      ros64!initgameplay+0x35c358 (00000001`4061bc48)  Branch
+
+ros64!initgameplay+0x35c2a1:
+00000001`4061bb91 e8b6774201      call    ros64!Py_hashtable_size+0x71faec (00000001`41a4334c)
+
+ros64!initgameplay+0x35c2a6:
+00000001`4061bb96 488b742430      mov     rsi,qword ptr [rsp+30h]
+
+ros64!initgameplay+0x35c2ab:
+00000001`4061bb9b 488b5c2438      mov     rbx,qword ptr [rsp+38h]
+00000001`4061bba0 48ffc3          inc     rbx
+00000001`4061bba3 48895c2438      mov     qword ptr [rsp+38h],rbx
+00000001`4061bba8 483b5c2478      cmp     rbx,qword ptr [rsp+78h]
+00000001`4061bbad 0f8250fdffff    jb      ros64!initgameplay+0x35c013 (00000001`4061b903)  Branch
+
+ros64!initgameplay+0x35c2c3:
+00000001`4061bbb3 488b4c2440      mov     rcx,qword ptr [rsp+40h]
+00000001`4061bbb8 488b7da8        mov     rdi,qword ptr [rbp-58h]
+00000001`4061bbbc 4c8b75b8        mov     r14,qword ptr [rbp-48h]
+
+ros64!initgameplay+0x35c2d0:
+00000001`4061bbc0 807c244800      cmp     byte ptr [rsp+48h],0
+00000001`4061bbc5 740c            je      ros64!initgameplay+0x35c2e3 (00000001`4061bbd3)  Branch
+
+ros64!initgameplay+0x35c2d7:
+00000001`4061bbc7 4885c9          test    rcx,rcx
+00000001`4061bbca 7407            je      ros64!initgameplay+0x35c2e3 (00000001`4061bbd3)  Branch
+
+ros64!initgameplay+0x35c2dc:
+00000001`4061bbcc 488b01          mov     rax,qword ptr [rcx]
+00000001`4061bbcf ff5008          call    qword ptr [rax+8]
+00000001`4061bbd2 90              nop
+
+ros64!initgameplay+0x35c2e3:
+00000001`4061bbd3 807c245800      cmp     byte ptr [rsp+58h],0
+00000001`4061bbd8 7411            je      ros64!initgameplay+0x35c2fb (00000001`4061bbeb)  Branch
+
+ros64!initgameplay+0x35c2ea:
+00000001`4061bbda 488b4c2450      mov     rcx,qword ptr [rsp+50h]
+00000001`4061bbdf 4885c9          test    rcx,rcx
+00000001`4061bbe2 7407            je      ros64!initgameplay+0x35c2fb (00000001`4061bbeb)  Branch
+
+ros64!initgameplay+0x35c2f4:
+00000001`4061bbe4 488b01          mov     rax,qword ptr [rcx]
+00000001`4061bbe7 ff5008          call    qword ptr [rax+8]
+00000001`4061bbea 90              nop
+
+ros64!initgameplay+0x35c2fb:
+00000001`4061bbeb 4d85f6          test    r14,r14
+00000001`4061bbee 740a            je      ros64!initgameplay+0x35c30a (00000001`4061bbfa)  Branch
+
+ros64!initgameplay+0x35c300:
+00000001`4061bbf0 498b06          mov     rax,qword ptr [r14]
+00000001`4061bbf3 498bce          mov     rcx,r14
+00000001`4061bbf6 ff5008          call    qword ptr [rax+8]
+00000001`4061bbf9 90              nop
+
+ros64!initgameplay+0x35c30a:
+00000001`4061bbfa 4c8b75c8        mov     r14,qword ptr [rbp-38h]
+
+ros64!initgameplay+0x35c30e:
+00000001`4061bbfe 4885ff          test    rdi,rdi
+00000001`4061bc01 740a            je      ros64!initgameplay+0x35c31d (00000001`4061bc0d)  Branch
+
+ros64!initgameplay+0x35c313:
+00000001`4061bc03 488b07          mov     rax,qword ptr [rdi]
+00000001`4061bc06 488bcf          mov     rcx,rdi
+00000001`4061bc09 ff5008          call    qword ptr [rax+8]
+00000001`4061bc0c 90              nop
+
+ros64!initgameplay+0x35c31d:
+00000001`4061bc0d b301            mov     bl,1
+
+ros64!initgameplay+0x35c31f:
+00000001`4061bc0f 4d85f6          test    r14,r14
+00000001`4061bc12 740a            je      ros64!initgameplay+0x35c32e (00000001`4061bc1e)  Branch
+
+ros64!initgameplay+0x35c324:
+00000001`4061bc14 498b16          mov     rdx,qword ptr [r14]
+00000001`4061bc17 498bce          mov     rcx,r14
+00000001`4061bc1a ff5208          call    qword ptr [rdx+8]
+00000001`4061bc1d 90              nop
+
+ros64!initgameplay+0x35c32e:
+00000001`4061bc1e 0fb6c3          movzx   eax,bl
+00000001`4061bc21 488b4d18        mov     rcx,qword ptr [rbp+18h]
+00000001`4061bc25 4833cc          xor     rcx,rsp
+00000001`4061bc28 e8837c4201      call    ros64!Py_hashtable_size+0x720050 (00000001`41a438b0)
+00000001`4061bc2d 488b9c2478010000 mov     rbx,qword ptr [rsp+178h]
+00000001`4061bc35 4881c420010000  add     rsp,120h
+00000001`4061bc3c 415f            pop     r15
+00000001`4061bc3e 415e            pop     r14
+00000001`4061bc40 415d            pop     r13
+00000001`4061bc42 415c            pop     r12
+00000001`4061bc44 5f              pop     rdi
+00000001`4061bc45 5e              pop     rsi
+00000001`4061bc46 5d              pop     rbp
+00000001`4061bc47 c3              ret
+
+ros64!initgameplay+0x35c358:
+00000001`4061bc48 e87bbe4301      call    ros64!Py_hashtable_size+0x734268 (00000001`41a57ac8)
+00000001`4061bc4d 90              nop
+
+ros64!initgameplay+0x35c35e:
+00000001`4061bc4e e80d6aa7ff      call    ros64+0x92660 (00000001`40092660)
+00000001`4061bc53 90              nop
+
+ros64!initgameplay+0x35c364:
+00000001`4061bc54 e86fbe4301      call    ros64!Py_hashtable_size+0x734268 (00000001`41a57ac8)
+00000001`4061bc59 cc              int     3
+00000001`4061bc5a cc              int     3
+00000001`4061bc5b cc              int     3
+00000001`4061bc5c cc              int     3
+00000001`4061bc5d cc              int     3
+00000001`4061bc5e cc              int     3
+00000001`4061bc5f cc              int     3
+00000001`4061bc60 48895c2408      mov     qword ptr [rsp+8],rbx
+00000001`4061bc65 48897c2410      mov     qword ptr [rsp+10h],rdi
+00000001`4061bc6a 48ff4108        inc     qword ptr [rcx+8]
+00000001`4061bc6e 4d8bd8          mov     r11,r8
+00000001`4061bc71 488b39          mov     rdi,qword ptr [rcx]
+00000001`4061bc74 488bd9          mov     rbx,rcx
+00000001`4061bc77 488b02          mov     rax,qword ptr [rdx]
+00000001`4061bc7a 49894008        mov     qword ptr [r8+8],rax
+00000001`4061bc7e 483bc7          cmp     rax,rdi
+00000001`4061bc81 751e            jne     ros64!initgameplay+0x35c3b1 (00000001`4061bca1)  Branch
+
+ros64!initgameplay+0x35c393:
+00000001`4061bc83 4c8907          mov     qword ptr [rdi],r8
+00000001`4061bc86 498bc0          mov     rax,r8
+00000001`4061bc89 4c894708        mov     qword ptr [rdi+8],r8
+00000001`4061bc8d 4c894710        mov     qword ptr [rdi+10h],r8
+00000001`4061bc91 41c6401801      mov     byte ptr [r8+18h],1
+00000001`4061bc96 488b5c2408      mov     rbx,qword ptr [rsp+8]
+00000001`4061bc9b 488b7c2410      mov     rdi,qword ptr [rsp+10h]
+00000001`4061bca0 c3              ret
+
+ros64!initgameplay+0x35c3b1:
+00000001`4061bca1 837a0800        cmp     dword ptr [rdx+8],0
+00000001`4061bca5 7510            jne     ros64!initgameplay+0x35c3c7 (00000001`4061bcb7)  Branch
+
+ros64!initgameplay+0x35c3b7:
+00000001`4061bca7 4c895810        mov     qword ptr [rax+10h],r11
+00000001`4061bcab 483b4710        cmp     rax,qword ptr [rdi+10h]
+00000001`4061bcaf 7511            jne     ros64!initgameplay+0x35c3d2 (00000001`4061bcc2)  Branch
+
+ros64!initgameplay+0x35c3c1:
+00000001`4061bcb1 4c895f10        mov     qword ptr [rdi+10h],r11
+00000001`4061bcb5 eb0b            jmp     ros64!initgameplay+0x35c3d2 (00000001`4061bcc2)  Branch
+
+ros64!initgameplay+0x35c3c7:
+00000001`4061bcb7 4c8918          mov     qword ptr [rax],r11
+00000001`4061bcba 483b07          cmp     rax,qword ptr [rdi]
+00000001`4061bcbd 7503            jne     ros64!initgameplay+0x35c3d2 (00000001`4061bcc2)  Branch
+
+ros64!initgameplay+0x35c3cf:
+00000001`4061bcbf 4c891f          mov     qword ptr [rdi],r11
+
+ros64!initgameplay+0x35c3d2:
+00000001`4061bcc2 498b4008        mov     rax,qword ptr [r8+8]
+00000001`4061bcc6 498bd3          mov     rdx,r11
+00000001`4061bcc9 80781800        cmp     byte ptr [rax+18h],0
+00000001`4061bccd 0f85f4010000    jne     ros64!initgameplay+0x35c5d7 (00000001`4061bec7)  Branch
+
+ros64!initgameplay+0x35c3e3:
+00000001`4061bcd3 0f1f4000        nop     dword ptr [rax]
+00000001`4061bcd7 660f1f840000000000 nop   word ptr [rax+rax]
+
+ros64!initgameplay+0x35c3f0:
+00000001`4061bce0 488b4a08        mov     rcx,qword ptr [rdx+8]
+00000001`4061bce4 4c8d4a08        lea     r9,[rdx+8]
+00000001`4061bce8 4c8b4108        mov     r8,qword ptr [rcx+8]
+00000001`4061bcec 4c8d5108        lea     r10,[rcx+8]
+00000001`4061bcf0 498b00          mov     rax,qword ptr [r8]
+00000001`4061bcf3 483bc8          cmp     rcx,rax
+00000001`4061bcf6 0f85e5000000    jne     ros64!initgameplay+0x35c4f1 (00000001`4061bde1)  Branch
+
+ros64!initgameplay+0x35c40c:
+00000001`4061bcfc 498b4010        mov     rax,qword ptr [r8+10h]
+00000001`4061bd00 80781800        cmp     byte ptr [rax+18h],0
+00000001`4061bd04 0f84dd000000    je      ros64!initgameplay+0x35c4f7 (00000001`4061bde7)  Branch
+
+ros64!initgameplay+0x35c41a:
+00000001`4061bd0a 4c8b4110        mov     r8,qword ptr [rcx+10h]
+00000001`4061bd0e 493bd0          cmp     rdx,r8
+00000001`4061bd11 755b            jne     ros64!initgameplay+0x35c47e (00000001`4061bd6e)  Branch
+
+ros64!initgameplay+0x35c423:
+00000001`4061bd13 498b00          mov     rax,qword ptr [r8]
+00000001`4061bd16 488bd1          mov     rdx,rcx
+00000001`4061bd19 48894110        mov     qword ptr [rcx+10h],rax
+00000001`4061bd1d 498b00          mov     rax,qword ptr [r8]
+00000001`4061bd20 80781900        cmp     byte ptr [rax+19h],0
+00000001`4061bd24 7504            jne     ros64!initgameplay+0x35c43a (00000001`4061bd2a)  Branch
+
+ros64!initgameplay+0x35c436:
+00000001`4061bd26 48894808        mov     qword ptr [rax+8],rcx
+
+ros64!initgameplay+0x35c43a:
+00000001`4061bd2a 498b02          mov     rax,qword ptr [r10]
+00000001`4061bd2d 49894008        mov     qword ptr [r8+8],rax
+00000001`4061bd31 488b03          mov     rax,qword ptr [rbx]
+00000001`4061bd34 483b4808        cmp     rcx,qword ptr [rax+8]
+00000001`4061bd38 750f            jne     ros64!initgameplay+0x35c459 (00000001`4061bd49)  Branch
+
+ros64!initgameplay+0x35c44a:
+00000001`4061bd3a 4c894008        mov     qword ptr [rax+8],r8
+00000001`4061bd3e 4d8bca          mov     r9,r10
+00000001`4061bd41 498908          mov     qword ptr [r8],rcx
+00000001`4061bd44 4d8902          mov     qword ptr [r10],r8
+00000001`4061bd47 eb28            jmp     ros64!initgameplay+0x35c481 (00000001`4061bd71)  Branch
+
+ros64!initgameplay+0x35c459:
+00000001`4061bd49 498b02          mov     rax,qword ptr [r10]
+00000001`4061bd4c 483b08          cmp     rcx,qword ptr [rax]
+00000001`4061bd4f 750e            jne     ros64!initgameplay+0x35c46f (00000001`4061bd5f)  Branch
+
+ros64!initgameplay+0x35c461:
+00000001`4061bd51 4c8900          mov     qword ptr [rax],r8
+00000001`4061bd54 4d8bca          mov     r9,r10
+00000001`4061bd57 498908          mov     qword ptr [r8],rcx
+00000001`4061bd5a 4d8902          mov     qword ptr [r10],r8
+00000001`4061bd5d eb12            jmp     ros64!initgameplay+0x35c481 (00000001`4061bd71)  Branch
+
+ros64!initgameplay+0x35c46f:
+00000001`4061bd5f 4c894010        mov     qword ptr [rax+10h],r8
+00000001`4061bd63 4d8bca          mov     r9,r10
+00000001`4061bd66 498908          mov     qword ptr [r8],rcx
+00000001`4061bd69 4d8902          mov     qword ptr [r10],r8
+00000001`4061bd6c eb03            jmp     ros64!initgameplay+0x35c481 (00000001`4061bd71)  Branch
+
+ros64!initgameplay+0x35c47e:
+00000001`4061bd6e 4c8bc1          mov     r8,rcx
+
+ros64!initgameplay+0x35c481:
+00000001`4061bd71 41c6401801      mov     byte ptr [r8+18h],1
+00000001`4061bd76 498b01          mov     rax,qword ptr [r9]
+00000001`4061bd79 488b4808        mov     rcx,qword ptr [rax+8]
+00000001`4061bd7d c6411800        mov     byte ptr [rcx+18h],0
+00000001`4061bd81 498b01          mov     rax,qword ptr [r9]
+00000001`4061bd84 488b4808        mov     rcx,qword ptr [rax+8]
+00000001`4061bd88 4c8b01          mov     r8,qword ptr [rcx]
+00000001`4061bd8b 498b4010        mov     rax,qword ptr [r8+10h]
+00000001`4061bd8f 488901          mov     qword ptr [rcx],rax
+00000001`4061bd92 498b4010        mov     rax,qword ptr [r8+10h]
+00000001`4061bd96 80781900        cmp     byte ptr [rax+19h],0
+00000001`4061bd9a 7504            jne     ros64!initgameplay+0x35c4b0 (00000001`4061bda0)  Branch
+
+ros64!initgameplay+0x35c4ac:
+00000001`4061bd9c 48894808        mov     qword ptr [rax+8],rcx
+
+ros64!initgameplay+0x35c4b0:
+00000001`4061bda0 488b4108        mov     rax,qword ptr [rcx+8]
+00000001`4061bda4 49894008        mov     qword ptr [r8+8],rax
+00000001`4061bda8 488b03          mov     rax,qword ptr [rbx]
+00000001`4061bdab 483b4808        cmp     rcx,qword ptr [rax+8]
+00000001`4061bdaf 750d            jne     ros64!initgameplay+0x35c4ce (00000001`4061bdbe)  Branch
+
+ros64!initgameplay+0x35c4c1:
+00000001`4061bdb1 4c894008        mov     qword ptr [rax+8],r8
+00000001`4061bdb5 49894810        mov     qword ptr [r8+10h],rcx
+00000001`4061bdb9 e9f7000000      jmp     ros64!initgameplay+0x35c5c5 (00000001`4061beb5)  Branch
+
+ros64!initgameplay+0x35c4ce:
+00000001`4061bdbe 488b4108        mov     rax,qword ptr [rcx+8]
+00000001`4061bdc2 483b4810        cmp     rcx,qword ptr [rax+10h]
+00000001`4061bdc6 750d            jne     ros64!initgameplay+0x35c4e5 (00000001`4061bdd5)  Branch
+
+ros64!initgameplay+0x35c4d8:
+00000001`4061bdc8 4c894010        mov     qword ptr [rax+10h],r8
+00000001`4061bdcc 49894810        mov     qword ptr [r8+10h],rcx
+00000001`4061bdd0 e9e0000000      jmp     ros64!initgameplay+0x35c5c5 (00000001`4061beb5)  Branch
+
+ros64!initgameplay+0x35c4e5:
+00000001`4061bdd5 4c8900          mov     qword ptr [rax],r8
+00000001`4061bdd8 49894810        mov     qword ptr [r8+10h],rcx
+00000001`4061bddc e9d4000000      jmp     ros64!initgameplay+0x35c5c5 (00000001`4061beb5)  Branch
+
+ros64!initgameplay+0x35c4f1:
+00000001`4061bde1 80781800        cmp     byte ptr [rax+18h],0
+00000001`4061bde5 751f            jne     ros64!initgameplay+0x35c516 (00000001`4061be06)  Branch
+
+ros64!initgameplay+0x35c4f7:
+00000001`4061bde7 c6411801        mov     byte ptr [rcx+18h],1
+00000001`4061bdeb c6401801        mov     byte ptr [rax+18h],1
+00000001`4061bdef 498b01          mov     rax,qword ptr [r9]
+00000001`4061bdf2 488b4808        mov     rcx,qword ptr [rax+8]
+00000001`4061bdf6 c6411800        mov     byte ptr [rcx+18h],0
+00000001`4061bdfa 498b01          mov     rax,qword ptr [r9]
+00000001`4061bdfd 488b5008        mov     rdx,qword ptr [rax+8]
+00000001`4061be01 e9b3000000      jmp     ros64!initgameplay+0x35c5c9 (00000001`4061beb9)  Branch
+
+ros64!initgameplay+0x35c516:
+00000001`4061be06 488b01          mov     rax,qword ptr [rcx]
+00000001`4061be09 483bd0          cmp     rdx,rax
+00000001`4061be0c 754d            jne     ros64!initgameplay+0x35c56b (00000001`4061be5b)  Branch
+
+ros64!initgameplay+0x35c51e:
+00000001`4061be0e 488bd1          mov     rdx,rcx
+00000001`4061be11 488bc8          mov     rcx,rax
+00000001`4061be14 488b4010        mov     rax,qword ptr [rax+10h]
+00000001`4061be18 488902          mov     qword ptr [rdx],rax
+00000001`4061be1b 488b4110        mov     rax,qword ptr [rcx+10h]
+00000001`4061be1f 80781900        cmp     byte ptr [rax+19h],0
+00000001`4061be23 7504            jne     ros64!initgameplay+0x35c539 (00000001`4061be29)  Branch
+
+ros64!initgameplay+0x35c535:
+00000001`4061be25 48895008        mov     qword ptr [rax+8],rdx
+
+ros64!initgameplay+0x35c539:
+00000001`4061be29 498b02          mov     rax,qword ptr [r10]
+00000001`4061be2c 48894108        mov     qword ptr [rcx+8],rax
+00000001`4061be30 488b03          mov     rax,qword ptr [rbx]
+00000001`4061be33 483b5008        cmp     rdx,qword ptr [rax+8]
+00000001`4061be37 7506            jne     ros64!initgameplay+0x35c54f (00000001`4061be3f)  Branch
+
+ros64!initgameplay+0x35c549:
+00000001`4061be39 48894808        mov     qword ptr [rax+8],rcx
+00000001`4061be3d eb12            jmp     ros64!initgameplay+0x35c561 (00000001`4061be51)  Branch
+
+ros64!initgameplay+0x35c54f:
+00000001`4061be3f 498b02          mov     rax,qword ptr [r10]
+00000001`4061be42 483b5010        cmp     rdx,qword ptr [rax+10h]
+00000001`4061be46 7506            jne     ros64!initgameplay+0x35c55e (00000001`4061be4e)  Branch
+
+ros64!initgameplay+0x35c558:
+00000001`4061be48 48894810        mov     qword ptr [rax+10h],rcx
+00000001`4061be4c eb03            jmp     ros64!initgameplay+0x35c561 (00000001`4061be51)  Branch
+
+ros64!initgameplay+0x35c55e:
+00000001`4061be4e 488908          mov     qword ptr [rax],rcx
+
+ros64!initgameplay+0x35c561:
+00000001`4061be51 48895110        mov     qword ptr [rcx+10h],rdx
+00000001`4061be55 4d8bca          mov     r9,r10
+00000001`4061be58 49890a          mov     qword ptr [r10],rcx
+
+ros64!initgameplay+0x35c56b:
+00000001`4061be5b c6411801        mov     byte ptr [rcx+18h],1
+00000001`4061be5f 498b01          mov     rax,qword ptr [r9]
+00000001`4061be62 488b4808        mov     rcx,qword ptr [rax+8]
+00000001`4061be66 c6411800        mov     byte ptr [rcx+18h],0
+00000001`4061be6a 498b01          mov     rax,qword ptr [r9]
+00000001`4061be6d 488b4808        mov     rcx,qword ptr [rax+8]
+00000001`4061be71 4c8b4110        mov     r8,qword ptr [rcx+10h]
+00000001`4061be75 498b00          mov     rax,qword ptr [r8]
+00000001`4061be78 48894110        mov     qword ptr [rcx+10h],rax
+00000001`4061be7c 498b00          mov     rax,qword ptr [r8]
+00000001`4061be7f 80781900        cmp     byte ptr [rax+19h],0
+00000001`4061be83 7504            jne     ros64!initgameplay+0x35c599 (00000001`4061be89)  Branch
+
+ros64!initgameplay+0x35c595:
+00000001`4061be85 48894808        mov     qword ptr [rax+8],rcx
+
+ros64!initgameplay+0x35c599:
+00000001`4061be89 488b4108        mov     rax,qword ptr [rcx+8]
+00000001`4061be8d 49894008        mov     qword ptr [r8+8],rax
+00000001`4061be91 488b03          mov     rax,qword ptr [rbx]
+00000001`4061be94 483b4808        cmp     rcx,qword ptr [rax+8]
+00000001`4061be98 7506            jne     ros64!initgameplay+0x35c5b0 (00000001`4061bea0)  Branch
+
+ros64!initgameplay+0x35c5aa:
+00000001`4061be9a 4c894008        mov     qword ptr [rax+8],r8
+00000001`4061be9e eb12            jmp     ros64!initgameplay+0x35c5c2 (00000001`4061beb2)  Branch
+
+ros64!initgameplay+0x35c5b0:
+00000001`4061bea0 488b4108        mov     rax,qword ptr [rcx+8]
+00000001`4061bea4 483b08          cmp     rcx,qword ptr [rax]
+00000001`4061bea7 7505            jne     ros64!initgameplay+0x35c5be (00000001`4061beae)  Branch
+
+ros64!initgameplay+0x35c5b9:
+00000001`4061bea9 4c8900          mov     qword ptr [rax],r8
+00000001`4061beac eb04            jmp     ros64!initgameplay+0x35c5c2 (00000001`4061beb2)  Branch
+
+ros64!initgameplay+0x35c5be:
+00000001`4061beae 4c894010        mov     qword ptr [rax+10h],r8
+
+ros64!initgameplay+0x35c5c2:
+00000001`4061beb2 498908          mov     qword ptr [r8],rcx
+
+ros64!initgameplay+0x35c5c5:
+00000001`4061beb5 4c894108        mov     qword ptr [rcx+8],r8
+
+ros64!initgameplay+0x35c5c9:
+00000001`4061beb9 488b4208        mov     rax,qword ptr [rdx+8]
+00000001`4061bebd 80781800        cmp     byte ptr [rax+18h],0
+00000001`4061bec1 0f8419feffff    je      ros64!initgameplay+0x35c3f0 (00000001`4061bce0)  Branch
+
+ros64!initgameplay+0x35c5d7:
+00000001`4061bec7 488b4708        mov     rax,qword ptr [rdi+8]
+00000001`4061becb 488b5c2408      mov     rbx,qword ptr [rsp+8]
+00000001`4061bed0 488b7c2410      mov     rdi,qword ptr [rsp+10h]
+00000001`4061bed5 c6401801        mov     byte ptr [rax+18h],1
+00000001`4061bed9 498bc3          mov     rax,r11
+00000001`4061bedc c3              ret
+TARGET 00000001`4061B6D0 ModelFxData slot6 size-accounting helper
+Browse module
+Set bu breakpoint
+
+(00000001`402bf8f0)   ros64!initgameplay+0x35bde0   |  (00000001`4068c3f0)   ros64!cocos2d::AccelAmplitude::AccelAmplitude
+ros64!initgameplay+0x35bde0:
+00000001`4061b6d0 48895c2408      mov     qword ptr [rsp+8],rbx
+00000001`4061b6d5 4889742410      mov     qword ptr [rsp+10h],rsi
+00000001`4061b6da 48897c2418      mov     qword ptr [rsp+18h],rdi
+00000001`4061b6df 4156            push    r14
+00000001`4061b6e1 4883ec20        sub     rsp,20h
+00000001`4061b6e5 488b5928        mov     rbx,qword ptr [rcx+28h]
+00000001`4061b6e9 4c8bf1          mov     r14,rcx
+00000001`4061b6ec 488b4138        mov     rax,qword ptr [rcx+38h]
+00000001`4061b6f0 488b7130        mov     rsi,qword ptr [rcx+30h]
+00000001`4061b6f4 482bc3          sub     rax,rbx
+00000001`4061b6f7 48c1f803        sar     rax,3
+00000001`4061b6fb 8d3cc570000000  lea     edi,[rax*8+70h]
+00000001`4061b702 483bde          cmp     rbx,rsi
+00000001`4061b705 7413            je      ros64!initgameplay+0x35be2a (00000001`4061b71a)  Branch
+
+ros64!initgameplay+0x35be17:
+00000001`4061b707 488b0b          mov     rcx,qword ptr [rbx]
+00000001`4061b70a e8a17fffff      call    ros64!initgameplay+0x353dc0 (00000001`406136b0)
+00000001`4061b70f 03f8            add     edi,eax
+00000001`4061b711 4883c308        add     rbx,8
+00000001`4061b715 483bde          cmp     rbx,rsi
+00000001`4061b718 75ed            jne     ros64!initgameplay+0x35be17 (00000001`4061b707)  Branch
+
+ros64!initgameplay+0x35be2a:
+00000001`4061b71a 498b1e          mov     rbx,qword ptr [r14]
+00000001`4061b71d 498b4610        mov     rax,qword ptr [r14+10h]
+00000001`4061b721 498b7608        mov     rsi,qword ptr [r14+8]
+00000001`4061b725 482bc3          sub     rax,rbx
+00000001`4061b728 48c1f803        sar     rax,3
+00000001`4061b72c 8d3cc7          lea     edi,[rdi+rax*8]
+00000001`4061b72f 483bde          cmp     rbx,rsi
+00000001`4061b732 7413            je      ros64!initgameplay+0x35be57 (00000001`4061b747)  Branch
+
+ros64!initgameplay+0x35be44:
+00000001`4061b734 488b0b          mov     rcx,qword ptr [rbx]
+00000001`4061b737 e8747fffff      call    ros64!initgameplay+0x353dc0 (00000001`406136b0)
+00000001`4061b73c 03f8            add     edi,eax
+00000001`4061b73e 4883c308        add     rbx,8
+00000001`4061b742 483bde          cmp     rbx,rsi
+00000001`4061b745 75ed            jne     ros64!initgameplay+0x35be44 (00000001`4061b734)  Branch
+
+ros64!initgameplay+0x35be57:
+00000001`4061b747 488b5c2430      mov     rbx,qword ptr [rsp+30h]
+00000001`4061b74c 8bc7            mov     eax,edi
+00000001`4061b74e 488b7c2440      mov     rdi,qword ptr [rsp+40h]
+00000001`4061b753 488b742438      mov     rsi,qword ptr [rsp+38h]
+00000001`4061b758 4883c420        add     rsp,20h
+00000001`4061b75c 415e            pop     r14
+00000001`4061b75e c3              ret
+TARGET 00000001`4040F810 ModelFxData slot1 lookup helper
+Browse module
+Set bu breakpoint
+
+(00000001`402bf8f0)   ros64!initgameplay+0x14ff20   |  (00000001`4068c3f0)   ros64!cocos2d::AccelAmplitude::AccelAmplitude
+ros64!initgameplay+0x14ff20:
+00000001`4040f810 4053            push    rbx
+00000001`4040f812 4883ec20        sub     rsp,20h
+00000001`4040f816 8b0d9cea7b03    mov     ecx,dword ptr [ros64!PyOS_InputHook+0x2d210 (00000001`43bce2b8)]
+00000001`4040f81c 65488b042558000000 mov   rax,qword ptr gs:[58h]
+00000001`4040f825 ba20000000      mov     edx,20h
+00000001`4040f82a 488b0cc8        mov     rcx,qword ptr [rax+rcx*8]
+00000001`4040f82e 8b040a          mov     eax,dword ptr [rdx+rcx]
+00000001`4040f831 39057933df02    cmp     dword ptr [ros64!PyExc_BlockingIOError+0x34c160 (00000001`43202bb0)],eax
+00000001`4040f837 7f0d            jg      ros64!initgameplay+0x14ff56 (00000001`4040f846)  Branch
+
+ros64!initgameplay+0x14ff49:
+00000001`4040f839 488d05e0589202  lea     rax,[ros64!Py_ctype_toupper+0xf5c000 (00000001`42d35120)]
+00000001`4040f840 4883c420        add     rsp,20h
+00000001`4040f844 5b              pop     rbx
+00000001`4040f845 c3              ret
+
+ros64!initgameplay+0x14ff56:
+00000001`4040f846 488d0d6333df02  lea     rcx,[ros64!PyExc_BlockingIOError+0x34c160 (00000001`43202bb0)]
+00000001`4040f84d e83e386301      call    ros64!Py_hashtable_size+0x71f830 (00000001`41a43090)
+00000001`4040f852 833d5733df02ff  cmp     dword ptr [ros64!PyExc_BlockingIOError+0x34c160 (00000001`43202bb0)],0FFFFFFFFh
+00000001`4040f859 75de            jne     ros64!initgameplay+0x14ff49 (00000001`4040f839)  Branch
+
+ros64!initgameplay+0x14ff6b:
+00000001`4040f85b b920000000      mov     ecx,20h
+00000001`4040f860 e8ab3a6301      call    ros64!Py_hashtable_size+0x71fab0 (00000001`41a43310)
+00000001`4040f865 488900          mov     qword ptr [rax],rax
+00000001`4040f868 48894008        mov     qword ptr [rax+8],rax
+00000001`4040f86c 488905b5589202  mov     qword ptr [ros64!Py_ctype_toupper+0xf5c008 (00000001`42d35128)],rax
+00000001`4040f873 33db            xor     ebx,ebx
+00000001`4040f875 48891dbc589202  mov     qword ptr [ros64!Py_ctype_toupper+0xf5c018 (00000001`42d35138)],rbx
+00000001`4040f87c 48891dbd589202  mov     qword ptr [ros64!Py_ctype_toupper+0xf5c020 (00000001`42d35140)],rbx
+00000001`4040f883 8d4b30          lea     ecx,[rbx+30h]
+00000001`4040f886 e8853a6301      call    ros64!Py_hashtable_size+0x71fab0 (00000001`41a43310)
+00000001`4040f88b 488900          mov     qword ptr [rax],rax
+00000001`4040f88e 48894008        mov     qword ptr [rax+8],rax
+00000001`4040f892 48894010        mov     qword ptr [rax+10h],rax
+00000001`4040f896 66c740180101    mov     word ptr [rax+18h],101h
+00000001`4040f89c 48890595589202  mov     qword ptr [ros64!Py_ctype_toupper+0xf5c018 (00000001`42d35138)],rax
+00000001`4040f8a3 891d9f589202    mov     dword ptr [ros64!Py_ctype_toupper+0xf5c028 (00000001`42d35148)],ebx
+00000001`4040f8a9 48891da0589202  mov     qword ptr [ros64!Py_ctype_toupper+0xf5c030 (00000001`42d35150)],rbx
+00000001`4040f8b0 488d0da1589202  lea     rcx,[ros64!Py_ctype_toupper+0xf5c038 (00000001`42d35158)]
+00000001`4040f8b7 e8d478fb00      call    ros64!Py_hashtable_size+0xa3930 (00000001`413c7190)
+00000001`4040f8bc 90              nop
+00000001`4040f8bd 488d05ec0a8101  lea     rax,[ros64!Py_hashtable_size+0x8fcb50 (00000001`41c203b0)]
+00000001`4040f8c4 48890555589202  mov     qword ptr [ros64!Py_ctype_toupper+0xf5c000 (00000001`42d35120)],rax
+00000001`4040f8cb 48891dae589202  mov     qword ptr [ros64!Py_ctype_toupper+0xf5c060 (00000001`42d35180)],rbx
+00000001`4040f8d2 48891daf589202  mov     qword ptr [ros64!Py_ctype_toupper+0xf5c068 (00000001`42d35188)],rbx
+00000001`4040f8d9 8d4b30          lea     ecx,[rbx+30h]
+00000001`4040f8dc e82f3a6301      call    ros64!Py_hashtable_size+0x71fab0 (00000001`41a43310)
+00000001`4040f8e1 488900          mov     qword ptr [rax],rax
+00000001`4040f8e4 48894008        mov     qword ptr [rax+8],rax
+00000001`4040f8e8 48894010        mov     qword ptr [rax+10h],rax
+00000001`4040f8ec 66c740180101    mov     word ptr [rax+18h],101h
+00000001`4040f8f2 48890587589202  mov     qword ptr [ros64!Py_ctype_toupper+0xf5c060 (00000001`42d35180)],rax
+00000001`4040f8f9 488d0db08c7901  lea     rcx,[ros64!Py_hashtable_size+0x884d50 (00000001`41ba85b0)]
+00000001`4040f900 e8833e6301      call    ros64!Py_hashtable_size+0x71ff28 (00000001`41a43788)
+00000001`4040f905 90              nop
+00000001`4040f906 488d0da332df02  lea     rcx,[ros64!PyExc_BlockingIOError+0x34c160 (00000001`43202bb0)]
+00000001`4040f90d e81e376301      call    ros64!Py_hashtable_size+0x71f7d0 (00000001`41a43030)
+00000001`4040f912 488d0507589202  lea     rax,[ros64!Py_ctype_toupper+0xf5c000 (00000001`42d35120)]
+00000001`4040f919 4883c420        add     rsp,20h
+00000001`4040f91d 5b              pop     rbx
+00000001`4040f91e c3              ret
+TARGET 00000001`4049F1D0 ModelFxData slot4 collection helper
+Browse module
+Set bu breakpoint
+
+(00000001`402bf8f0)   ros64!initgameplay+0x1df8e0   |  (00000001`4068c3f0)   ros64!cocos2d::AccelAmplitude::AccelAmplitude
+ros64!initgameplay+0x1df8e0:
+00000001`4049f1d0 4c894c2420      mov     qword ptr [rsp+20h],r9
+00000001`4049f1d5 4c89442418      mov     qword ptr [rsp+18h],r8
+00000001`4049f1da 4889542410      mov     qword ptr [rsp+10h],rdx
+00000001`4049f1df 48894c2408      mov     qword ptr [rsp+8],rcx
+00000001`4049f1e4 53              push    rbx
+00000001`4049f1e5 56              push    rsi
+00000001`4049f1e6 57              push    rdi
+00000001`4049f1e7 4154            push    r12
+00000001`4049f1e9 4155            push    r13
+00000001`4049f1eb 4156            push    r14
+00000001`4049f1ed 4157            push    r15
+00000001`4049f1ef 4883ec50        sub     rsp,50h
+00000001`4049f1f3 4d8bc8          mov     r9,r8
+00000001`4049f1f6 4c8bfa          mov     r15,rdx
+00000001`4049f1f9 488bf9          mov     rdi,rcx
+00000001`4049f1fc 4c8b11          mov     r10,qword ptr [rcx]
+00000001`4049f1ff 4d2bfa          sub     r15,r10
+00000001`4049f202 488b4108        mov     rax,qword ptr [rcx+8]
+00000001`4049f206 492bc2          sub     rax,r10
+00000001`4049f209 48c1f806        sar     rax,6
+00000001`4049f20d 49b8ffffffffffffff03 mov r8,3FFFFFFFFFFFFFFh
+00000001`4049f217 493bc0          cmp     rax,r8
+00000001`4049f21a 0f84f5010000    je      ros64!initgameplay+0x1dfb25 (00000001`4049f415)  Branch
+
+ros64!initgameplay+0x1df930:
+00000001`4049f220 4c8d6001        lea     r12,[rax+1]
+00000001`4049f224 488b4910        mov     rcx,qword ptr [rcx+10h]
+00000001`4049f228 492bca          sub     rcx,r10
+00000001`4049f22b 48c1f906        sar     rcx,6
+00000001`4049f22f 488bd1          mov     rdx,rcx
+00000001`4049f232 48d1ea          shr     rdx,1
+00000001`4049f235 498bc0          mov     rax,r8
+00000001`4049f238 482bc2          sub     rax,rdx
+00000001`4049f23b 483bc8          cmp     rcx,rax
+00000001`4049f23e 7612            jbe     ros64!initgameplay+0x1df962 (00000001`4049f252)  Branch
+
+ros64!initgameplay+0x1df950:
+00000001`4049f240 4c89442420      mov     qword ptr [rsp+20h],r8
+00000001`4049f245 49c7c6c0ffffff  mov     r14,0FFFFFFFFFFFFFFC0h
+00000001`4049f24c 498d4e27        lea     rcx,[r14+27h]
+00000001`4049f250 eb39            jmp     ros64!initgameplay+0x1df99b (00000001`4049f28b)  Branch
+
+ros64!initgameplay+0x1df962:
+00000001`4049f252 488d040a        lea     rax,[rdx+rcx]
+00000001`4049f256 498bf4          mov     rsi,r12
+00000001`4049f259 493bc4          cmp     rax,r12
+00000001`4049f25c 480f43f0        cmovae  rsi,rax
+00000001`4049f260 493bf0          cmp     rsi,r8
+00000001`4049f263 0f87a6010000    ja      ros64!initgameplay+0x1dfb1f (00000001`4049f40f)  Branch
+
+ros64!initgameplay+0x1df979:
+00000001`4049f269 4c8bf6          mov     r14,rsi
+00000001`4049f26c 49c1e606        shl     r14,6
+00000001`4049f270 4889742420      mov     qword ptr [rsp+20h],rsi
+00000001`4049f275 4981fe00100000  cmp     r14,1000h
+00000001`4049f27c 7231            jb      ros64!initgameplay+0x1df9bf (00000001`4049f2af)  Branch
+
+ros64!initgameplay+0x1df98e:
+00000001`4049f27e 498d4e27        lea     rcx,[r14+27h]
+00000001`4049f282 493bce          cmp     rcx,r14
+00000001`4049f285 0f8684010000    jbe     ros64!initgameplay+0x1dfb1f (00000001`4049f40f)  Branch
+
+ros64!initgameplay+0x1df99b:
+00000001`4049f28b e880405a01      call    ros64!Py_hashtable_size+0x71fab0 (00000001`41a43310)
+00000001`4049f290 4885c0          test    rax,rax
+00000001`4049f293 0f8482010000    je      ros64!initgameplay+0x1dfb2b (00000001`4049f41b)  Branch
+
+ros64!initgameplay+0x1df9a9:
+00000001`4049f299 488d5827        lea     rbx,[rax+27h]
+00000001`4049f29d 4883e3e0        and     rbx,0FFFFFFFFFFFFFFE0h
+00000001`4049f2a1 488943f8        mov     qword ptr [rbx-8],rax
+00000001`4049f2a5 4c8b8c24a0000000 mov     r9,qword ptr [rsp+0A0h]
+00000001`4049f2ad eb21            jmp     ros64!initgameplay+0x1df9e0 (00000001`4049f2d0)  Branch
+
+ros64!initgameplay+0x1df9bf:
+00000001`4049f2af 4d85f6          test    r14,r14
+00000001`4049f2b2 7415            je      ros64!initgameplay+0x1df9d9 (00000001`4049f2c9)  Branch
+
+ros64!initgameplay+0x1df9c4:
+00000001`4049f2b4 498bce          mov     rcx,r14
+00000001`4049f2b7 e854405a01      call    ros64!Py_hashtable_size+0x71fab0 (00000001`41a43310)
+00000001`4049f2bc 488bd8          mov     rbx,rax
+00000001`4049f2bf 4c8b8c24a0000000 mov     r9,qword ptr [rsp+0A0h]
+00000001`4049f2c7 eb02            jmp     ros64!initgameplay+0x1df9db (00000001`4049f2cb)  Branch
+
+ros64!initgameplay+0x1df9d9:
+00000001`4049f2c9 33db            xor     ebx,ebx
+
+ros64!initgameplay+0x1df9db:
+00000001`4049f2cb 4889742420      mov     qword ptr [rsp+20h],rsi
+
+ros64!initgameplay+0x1df9e0:
+00000001`4049f2d0 48895c2430      mov     qword ptr [rsp+30h],rbx
+00000001`4049f2d5 4983e7c0        and     r15,0FFFFFFFFFFFFFFC0h
+00000001`4049f2d9 4c03fb          add     r15,rbx
+00000001`4049f2dc 4d8d6f40        lea     r13,[r15+40h]
+00000001`4049f2e0 4c896c2438      mov     qword ptr [rsp+38h],r13
+00000001`4049f2e5 4c896c2428      mov     qword ptr [rsp+28h],r13
+00000001`4049f2ea 4c897c2440      mov     qword ptr [rsp+40h],r15
+00000001`4049f2ef 49c7471000000000 mov     qword ptr [r15+10h],0
+00000001`4049f2f7 49c747180f000000 mov     qword ptr [r15+18h],0Fh
+00000001`4049f2ff 41c60700        mov     byte ptr [r15],0
+00000001`4049f303 48c7c6ffffffff  mov     rsi,0FFFFFFFFFFFFFFFFh
+00000001`4049f30a 4c8bc6          mov     r8,rsi
+00000001`4049f30d 0f1f00          nop     dword ptr [rax]
+
+ros64!initgameplay+0x1dfa20:
+00000001`4049f310 49ffc0          inc     r8
+00000001`4049f313 43803c0100      cmp     byte ptr [r9+r8],0
+00000001`4049f318 75f6            jne     ros64!initgameplay+0x1dfa20 (00000001`4049f310)  Branch
+
+ros64!initgameplay+0x1dfa2a:
+00000001`4049f31a 498bd1          mov     rdx,r9
+00000001`4049f31d 498bcf          mov     rcx,r15
+00000001`4049f320 e89b52beff      call    ros64+0x845c0 (00000001`400845c0)
+00000001`4049f325 90              nop
+00000001`4049f326 498d4f20        lea     rcx,[r15+20h]
+00000001`4049f32a 48c7411000000000 mov     qword ptr [rcx+10h],0
+00000001`4049f332 48c741180f000000 mov     qword ptr [rcx+18h],0Fh
+00000001`4049f33a c60100          mov     byte ptr [rcx],0
+00000001`4049f33d 488b8424a8000000 mov     rax,qword ptr [rsp+0A8h]
+
+ros64!initgameplay+0x1dfa55:
+00000001`4049f345 48ffc6          inc     rsi
+00000001`4049f348 803c3000        cmp     byte ptr [rax+rsi],0
+00000001`4049f34c 75f7            jne     ros64!initgameplay+0x1dfa55 (00000001`4049f345)  Branch
+
+ros64!initgameplay+0x1dfa5e:
+00000001`4049f34e 4c8bc6          mov     r8,rsi
+00000001`4049f351 488bd0          mov     rdx,rax
+00000001`4049f354 e86752beff      call    ros64+0x845c0 (00000001`400845c0)
+00000001`4049f359 90              nop
+00000001`4049f35a 4c897c2428      mov     qword ptr [rsp+28h],r15
+00000001`4049f35f 488b5708        mov     rdx,qword ptr [rdi+8]
+00000001`4049f363 488b0f          mov     rcx,qword ptr [rdi]
+00000001`4049f366 488bb42498000000 mov     rsi,qword ptr [rsp+98h]
+00000001`4049f36e 483bf2          cmp     rsi,rdx
+00000001`4049f371 7505            jne     ros64!initgameplay+0x1dfa88 (00000001`4049f378)  Branch
+
+ros64!initgameplay+0x1dfa83:
+00000001`4049f373 4c8beb          mov     r13,rbx
+00000001`4049f376 eb1a            jmp     ros64!initgameplay+0x1dfaa2 (00000001`4049f392)  Branch
+
+ros64!initgameplay+0x1dfa88:
+00000001`4049f378 4c8bcf          mov     r9,rdi
+00000001`4049f37b 4c8bc3          mov     r8,rbx
+00000001`4049f37e 488bd6          mov     rdx,rsi
+00000001`4049f381 e8ea040000      call    ros64!initgameplay+0x1dff80 (00000001`4049f870)
+00000001`4049f386 48895c2428      mov     qword ptr [rsp+28h],rbx
+00000001`4049f38b 488b5708        mov     rdx,qword ptr [rdi+8]
+00000001`4049f38f 488bce          mov     rcx,rsi
+
+ros64!initgameplay+0x1dfaa2:
+00000001`4049f392 4c8bcf          mov     r9,rdi
+00000001`4049f395 4d8bc5          mov     r8,r13
+00000001`4049f398 e8d3040000      call    ros64!initgameplay+0x1dff80 (00000001`4049f870)
+00000001`4049f39d 90              nop
+00000001`4049f39e 488b0f          mov     rcx,qword ptr [rdi]
+00000001`4049f3a1 4885c9          test    rcx,rcx
+00000001`4049f3a4 7440            je      ros64!initgameplay+0x1dfaf6 (00000001`4049f3e6)  Branch
+
+ros64!initgameplay+0x1dfab6:
+00000001`4049f3a6 4c8bc7          mov     r8,rdi
+00000001`4049f3a9 488b5708        mov     rdx,qword ptr [rdi+8]
+00000001`4049f3ad e82efbffff      call    ros64!initgameplay+0x1df5f0 (00000001`4049eee0)
+00000001`4049f3b2 488b0f          mov     rcx,qword ptr [rdi]
+00000001`4049f3b5 488b5710        mov     rdx,qword ptr [rdi+10h]
+00000001`4049f3b9 482bd1          sub     rdx,rcx
+00000001`4049f3bc 4883e2c0        and     rdx,0FFFFFFFFFFFFFFC0h
+00000001`4049f3c0 4881fa00100000  cmp     rdx,1000h
+00000001`4049f3c7 7218            jb      ros64!initgameplay+0x1dfaf1 (00000001`4049f3e1)  Branch
+
+ros64!initgameplay+0x1dfad9:
+00000001`4049f3c9 4883c227        add     rdx,27h
+00000001`4049f3cd 4c8b41f8        mov     r8,qword ptr [rcx-8]
+00000001`4049f3d1 492bc8          sub     rcx,r8
+00000001`4049f3d4 488d41f8        lea     rax,[rcx-8]
+00000001`4049f3d8 4883f81f        cmp     rax,1Fh
+00000001`4049f3dc 773d            ja      ros64!initgameplay+0x1dfb2b (00000001`4049f41b)  Branch
+
+ros64!initgameplay+0x1dfaee:
+00000001`4049f3de 498bc8          mov     rcx,r8
+
+ros64!initgameplay+0x1dfaf1:
+00000001`4049f3e1 e8663f5a01      call    ros64!Py_hashtable_size+0x71faec (00000001`41a4334c)
+
+ros64!initgameplay+0x1dfaf6:
+00000001`4049f3e6 48891f          mov     qword ptr [rdi],rbx
+00000001`4049f3e9 49c1e406        shl     r12,6
+00000001`4049f3ed 4c03e3          add     r12,rbx
+00000001`4049f3f0 4c896708        mov     qword ptr [rdi+8],r12
+00000001`4049f3f4 498d041e        lea     rax,[r14+rbx]
+00000001`4049f3f8 48894710        mov     qword ptr [rdi+10h],rax
+00000001`4049f3fc 498bc7          mov     rax,r15
+00000001`4049f3ff 4883c450        add     rsp,50h
+00000001`4049f403 415f            pop     r15
+00000001`4049f405 415e            pop     r14
+00000001`4049f407 415d            pop     r13
+00000001`4049f409 415c            pop     r12
+00000001`4049f40b 5f              pop     rdi
+00000001`4049f40c 5e              pop     rsi
+00000001`4049f40d 5b              pop     rbx
+00000001`4049f40e c3              ret
+
+ros64!initgameplay+0x1dfb1f:
+00000001`4049f40f e8bc50beff      call    ros64+0x844d0 (00000001`400844d0)
+00000001`4049f414 cc              int     3
+
+ros64!initgameplay+0x1dfb25:
+00000001`4049f415 e8a6ff0000      call    ros64!initgameplay+0x1efad0 (00000001`404af3c0)
+00000001`4049f41a cc              int     3
+
+ros64!initgameplay+0x1dfb2b:
+00000001`4049f41b e8a8865b01      call    ros64!Py_hashtable_size+0x734268 (00000001`41a57ac8)
+00000001`4049f420 cc              int     3
+00000001`4049f421 cc              int     3
+00000001`4049f422 cc              int     3
+00000001`4049f423 cc              int     3
+00000001`4049f424 cc              int     3
+00000001`4049f425 cc              int     3
+00000001`4049f426 cc              int     3
+00000001`4049f427 cc              int     3
+00000001`4049f428 cc              int     3
+00000001`4049f429 cc              int     3
+00000001`4049f42a cc              int     3
+00000001`4049f42b cc              int     3
+00000001`4049f42c cc              int     3
+00000001`4049f42d cc              int     3
+00000001`4049f42e cc              int     3
+00000001`4049f42f cc              int     3
+00000001`4049f430 4c89442418      mov     qword ptr [rsp+18h],r8
+00000001`4049f435 48894c2408      mov     qword ptr [rsp+8],rcx
+00000001`4049f43a 53              push    rbx
+00000001`4049f43b 56              push    rsi
+00000001`4049f43c 57              push    rdi
+00000001`4049f43d 4154            push    r12
+00000001`4049f43f 4155            push    r13
+00000001`4049f441 4156            push    r14
+00000001`4049f443 4157            push    r15
+00000001`4049f445 4883ec20        sub     rsp,20h
+00000001`4049f449 4c8be2          mov     r12,rdx
+00000001`4049f44c 488bf9          mov     rdi,rcx
+00000001`4049f44f 4c8b09          mov     r9,qword ptr [rcx]
+00000001`4049f452 4c8bfa          mov     r15,rdx
+00000001`4049f455 4d2bf9          sub     r15,r9
+00000001`4049f458 49d1ff          sar     r15,1
+00000001`4049f45b 488b4108        mov     rax,qword ptr [rcx+8]
+00000001`4049f45f 492bc1          sub     rax,r9
+00000001`4049f462 48d1f8          sar     rax,1
+00000001`4049f465 49b8ffffffffffffff7f mov r8,7FFFFFFFFFFFFFFFh
+00000001`4049f46f 493bc0          cmp     rax,r8
+00000001`4049f472 0f8446010000    je      ros64!initgameplay+0x1dfcce (00000001`4049f5be)  Branch
+
+ros64!initgameplay+0x1dfb88:
+00000001`4049f478 4c8d6801        lea     r13,[rax+1]
+00000001`4049f47c 488b4910        mov     rcx,qword ptr [rcx+10h]
+00000001`4049f480 492bc9          sub     rcx,r9
+00000001`4049f483 48d1f9          sar     rcx,1
+00000001`4049f486 488bd1          mov     rdx,rcx
+00000001`4049f489 48d1ea          shr     rdx,1
+00000001`4049f48c 498bc0          mov     rax,r8
+00000001`4049f48f 482bc2          sub     rax,rdx
+00000001`4049f492 483bc8          cmp     rcx,rax
+00000001`4049f495 0f871d010000    ja      ros64!initgameplay+0x1dfcc8 (00000001`4049f5b8)  Branch
+
+ros64!initgameplay+0x1dfbab:
+00000001`4049f49b 488d040a        lea     rax,[rdx+rcx]
+00000001`4049f49f 498bf5          mov     rsi,r13
+00000001`4049f4a2 493bc5          cmp     rax,r13
+00000001`4049f4a5 480f43f0        cmovae  rsi,rax
+00000001`4049f4a9 493bf0          cmp     rsi,r8
+00000001`4049f4ac 0f8706010000    ja      ros64!initgameplay+0x1dfcc8 (00000001`4049f5b8)  Branch
+
+ros64!initgameplay+0x1dfbc2:
+00000001`4049f4b2 4c8d3436        lea     r14,[rsi+rsi]
+00000001`4049f4b6 4889742468      mov     qword ptr [rsp+68h],rsi
+00000001`4049f4bb 4981fe00100000  cmp     r14,1000h
+00000001`4049f4c2 7229            jb      ros64!initgameplay+0x1dfbfd (00000001`4049f4ed)  Branch
+
+ros64!initgameplay+0x1dfbd4:
+00000001`4049f4c4 498d4e27        lea     rcx,[r14+27h]
+00000001`4049f4c8 493bce          cmp     rcx,r14
+00000001`4049f4cb 0f86e7000000    jbe     ros64!initgameplay+0x1dfcc8 (00000001`4049f5b8)  Branch
+
+ros64!initgameplay+0x1dfbe1:
+00000001`4049f4d1 e83a3e5a01      call    ros64!Py_hashtable_size+0x71fab0 (00000001`41a43310)
+00000001`4049f4d6 4885c0          test    rax,rax
+00000001`4049f4d9 0f84e5000000    je      ros64!initgameplay+0x1dfcd4 (00000001`4049f5c4)  Branch
+
+ros64!initgameplay+0x1dfbef:
+00000001`4049f4df 488d5827        lea     rbx,[rax+27h]
+00000001`4049f4e3 4883e3e0        and     rbx,0FFFFFFFFFFFFFFE0h
+00000001`4049f4e7 488943f8        mov     qword ptr [rbx-8],rax
+00000001`4049f4eb eb23            jmp     ros64!initgameplay+0x1dfc20 (00000001`4049f510)  Branch
+
+ros64!initgameplay+0x1dfbfd:
+00000001`4049f4ed 4d85f6          test    r14,r14
+00000001`4049f4f0 7417            je      ros64!initgameplay+0x1dfc19 (00000001`4049f509)  Branch
+
+ros64!initgameplay+0x1dfc02:
+00000001`4049f4f2 498bce          mov     rcx,r14
+00000001`4049f4f5 e8163e5a01      call    ros64!Py_hashtable_size+0x71fab0 (00000001`41a43310)
+00000001`4049f4fa 488bd8          mov     rbx,rax
+00000001`4049f4fd 4889442478      mov     qword ptr [rsp+78h],rax
+00000001`4049f502 4889742468      mov     qword ptr [rsp+68h],rsi
+00000001`4049f507 eb0c            jmp     ros64!initgameplay+0x1dfc25 (00000001`4049f515)  Branch
+
+ros64!initgameplay+0x1dfc19:
+00000001`4049f509 33db            xor     ebx,ebx
+00000001`4049f50b 4889742468      mov     qword ptr [rsp+68h],rsi
+
+ros64!initgameplay+0x1dfc20:
+00000001`4049f510 48895c2478      mov     qword ptr [rsp+78h],rbx
+
+ros64!initgameplay+0x1dfc25:
+00000001`4049f515 4a8d347b        lea     rsi,[rbx+r15*2]
+00000001`4049f519 488b442470      mov     rax,qword ptr [rsp+70h]
+00000001`4049f51e 0fb700          movzx   eax,word ptr [rax]
+00000001`4049f521 668906          mov     word ptr [rsi],ax
+00000001`4049f524 4c8b4708        mov     r8,qword ptr [rdi+8]
+00000001`4049f528 488b17          mov     rdx,qword ptr [rdi]
+00000001`4049f52b 488bcb          mov     rcx,rbx
+00000001`4049f52e 4d3be0          cmp     r12,r8
+00000001`4049f531 7505            jne     ros64!initgameplay+0x1dfc48 (00000001`4049f538)  Branch
+
+ros64!initgameplay+0x1dfc43:
+00000001`4049f533 4c2bc2          sub     r8,rdx
+00000001`4049f536 eb19            jmp     ros64!initgameplay+0x1dfc61 (00000001`4049f551)  Branch
+
+ros64!initgameplay+0x1dfc48:
+00000001`4049f538 4d8bc4          mov     r8,r12
+00000001`4049f53b 4c2bc2          sub     r8,rdx
+00000001`4049f53e e8cd9e5a01      call    ros64!Py_hashtable_size+0x725bb0 (00000001`41a49410)
+00000001`4049f543 488d4e02        lea     rcx,[rsi+2]
+00000001`4049f547 4c8b4708        mov     r8,qword ptr [rdi+8]
+00000001`4049f54b 4d2bc4          sub     r8,r12
+00000001`4049f54e 498bd4          mov     rdx,r12
+
+ros64!initgameplay+0x1dfc61:
+00000001`4049f551 e8ba9e5a01      call    ros64!Py_hashtable_size+0x725bb0 (00000001`41a49410)
+00000001`4049f556 90              nop
+00000001`4049f557 488b0f          mov     rcx,qword ptr [rdi]
+00000001`4049f55a 4885c9          test    rcx,rcx
+00000001`4049f55d 7433            je      ros64!initgameplay+0x1dfca2 (00000001`4049f592)  Branch
+
+ros64!initgameplay+0x1dfc6f:
+00000001`4049f55f 488b5710        mov     rdx,qword ptr [rdi+10h]
+00000001`4049f563 482bd1          sub     rdx,rcx
+00000001`4049f566 48d1fa          sar     rdx,1
+00000001`4049f569 4803d2          add     rdx,rdx
+00000001`4049f56c 4881fa00100000  cmp     rdx,1000h
+00000001`4049f573 7218            jb      ros64!initgameplay+0x1dfc9d (00000001`4049f58d)  Branch
+
+ros64!initgameplay+0x1dfc85:
+00000001`4049f575 4883c227        add     rdx,27h
+00000001`4049f579 4c8b41f8        mov     r8,qword ptr [rcx-8]
+00000001`4049f57d 492bc8          sub     rcx,r8
+00000001`4049f580 488d41f8        lea     rax,[rcx-8]
+00000001`4049f584 4883f81f        cmp     rax,1Fh
+00000001`4049f588 773a            ja      ros64!initgameplay+0x1dfcd4 (00000001`4049f5c4)  Branch
+
+ros64!initgameplay+0x1dfc9a:
+00000001`4049f58a 498bc8          mov     rcx,r8
+
+ros64!initgameplay+0x1dfc9d:
+00000001`4049f58d e8ba3d5a01      call    ros64!Py_hashtable_size+0x71faec (00000001`41a4334c)
+
+ros64!initgameplay+0x1dfca2:
+00000001`4049f592 48891f          mov     qword ptr [rdi],rbx
+00000001`4049f595 4a8d0c6b        lea     rcx,[rbx+r13*2]
+00000001`4049f599 48894f08        mov     qword ptr [rdi+8],rcx
+00000001`4049f59d 498d0c1e        lea     rcx,[r14+rbx]
+00000001`4049f5a1 48894f10        mov     qword ptr [rdi+10h],rcx
+00000001`4049f5a5 488bc6          mov     rax,rsi
+00000001`4049f5a8 4883c420        add     rsp,20h
+00000001`4049f5ac 415f            pop     r15
+00000001`4049f5ae 415e            pop     r14
+00000001`4049f5b0 415d            pop     r13
+00000001`4049f5b2 415c            pop     r12
+00000001`4049f5b4 5f              pop     rdi
+00000001`4049f5b5 5e              pop     rsi
+00000001`4049f5b6 5b              pop     rbx
+00000001`4049f5b7 c3              ret
+
+ros64!initgameplay+0x1dfcc8:
+00000001`4049f5b8 e8134fbeff      call    ros64+0x844d0 (00000001`400844d0)
+00000001`4049f5bd cc              int     3
+
+ros64!initgameplay+0x1dfcce:
+00000001`4049f5be e8cdb8e3ff      call    ros64!initgameplay+0x1b5a0 (00000001`402dae90)
+00000001`4049f5c3 cc              int     3
+
+ros64!initgameplay+0x1dfcd4:
+00000001`4049f5c4 e8ff845b01      call    ros64!Py_hashtable_size+0x734268 (00000001`41a57ac8)
+00000001`4049f5c9 cc              int     3
+00000001`4049f5ca cc              int     3
+00000001`4049f5cb cc              int     3
+00000001`4049f5cc cc              int     3
+00000001`4049f5cd cc              int     3
+00000001`4049f5ce cc              int     3
+00000001`4049f5cf cc              int     3
+00000001`4049f5d0 4c89442418      mov     qword ptr [rsp+18h],r8
+00000001`4049f5d5 48894c2408      mov     qword ptr [rsp+8],rcx
+00000001`4049f5da 53              push    rbx
+00000001`4049f5db 56              push    rsi
+00000001`4049f5dc 57              push    rdi
+00000001`4049f5dd 4154            push    r12
+00000001`4049f5df 4155            push    r13
+00000001`4049f5e1 4156            push    r14
+00000001`4049f5e3 4157            push    r15
+00000001`4049f5e5 4883ec20        sub     rsp,20h
+00000001`4049f5e9 4c8be2          mov     r12,rdx
+00000001`4049f5ec 488bf9          mov     rdi,rcx
+00000001`4049f5ef 4c8b09          mov     r9,qword ptr [rcx]
+00000001`4049f5f2 4c8bfa          mov     r15,rdx
+00000001`4049f5f5 4d2bf9          sub     r15,r9
+00000001`4049f5f8 49c1ff03        sar     r15,3
+00000001`4049f5fc 488b4108        mov     rax,qword ptr [rcx+8]
+00000001`4049f600 492bc1          sub     rax,r9
+00000001`4049f603 48c1f803        sar     rax,3
+00000001`4049f607 49b8ffffffffffffff1f mov r8,1FFFFFFFFFFFFFFFh
+00000001`4049f611 493bc0          cmp     rax,r8
+00000001`4049f614 0f8449010000    je      ros64!initgameplay+0x1dfe73 (00000001`4049f763)  Branch
+
+ros64!initgameplay+0x1dfd2a:
+00000001`4049f61a 4c8d6801        lea     r13,[rax+1]
+00000001`4049f61e 488b4910        mov     rcx,qword ptr [rcx+10h]
+00000001`4049f622 492bc9          sub     rcx,r9
+00000001`4049f625 48c1f903        sar     rcx,3
+00000001`4049f629 488bd1          mov     rdx,rcx
+00000001`4049f62c 48d1ea          shr     rdx,1
+00000001`4049f62f 498bc0          mov     rax,r8
+00000001`4049f632 482bc2          sub     rax,rdx
+00000001`4049f635 483bc8          cmp     rcx,rax
+00000001`4049f638 0f871f010000    ja      ros64!initgameplay+0x1dfe6d (00000001`4049f75d)  Branch
+
+ros64!initgameplay+0x1dfd4e:
+00000001`4049f63e 488d040a        lea     rax,[rdx+rcx]
+00000001`4049f642 498bf5          mov     rsi,r13
+00000001`4049f645 493bc5          cmp     rax,r13
+00000001`4049f648 480f43f0        cmovae  rsi,rax
+00000001`4049f64c 493bf0          cmp     rsi,r8
+00000001`4049f64f 0f8708010000    ja      ros64!initgameplay+0x1dfe6d (00000001`4049f75d)  Branch
+
+ros64!initgameplay+0x1dfd65:
+00000001`4049f655 4c8d34f500000000 lea     r14,[rsi*8]
+00000001`4049f65d 4889742468      mov     qword ptr [rsp+68h],rsi
+00000001`4049f662 4981fe00100000  cmp     r14,1000h
+00000001`4049f669 7229            jb      ros64!initgameplay+0x1dfda4 (00000001`4049f694)  Branch
+
+ros64!initgameplay+0x1dfd7b:
+00000001`4049f66b 498d4e27        lea     rcx,[r14+27h]
+00000001`4049f66f 493bce          cmp     rcx,r14
+00000001`4049f672 0f86e5000000    jbe     ros64!initgameplay+0x1dfe6d (00000001`4049f75d)  Branch
+
+ros64!initgameplay+0x1dfd88:
+00000001`4049f678 e8933c5a01      call    ros64!Py_hashtable_size+0x71fab0 (00000001`41a43310)
+00000001`4049f67d 4885c0          test    rax,rax
+00000001`4049f680 0f84e3000000    je      ros64!initgameplay+0x1dfe79 (00000001`4049f769)  Branch
+
+ros64!initgameplay+0x1dfd96:
+00000001`4049f686 488d5827        lea     rbx,[rax+27h]
+00000001`4049f68a 4883e3e0        and     rbx,0FFFFFFFFFFFFFFE0h
+00000001`4049f68e 488943f8        mov     qword ptr [rbx-8],rax
+00000001`4049f692 eb23            jmp     ros64!initgameplay+0x1dfdc7 (00000001`4049f6b7)  Branch
+
+ros64!initgameplay+0x1dfda4:
+00000001`4049f694 4d85f6          test    r14,r14
+00000001`4049f697 7417            je      ros64!initgameplay+0x1dfdc0 (00000001`4049f6b0)  Branch
+
+ros64!initgameplay+0x1dfda9:
+00000001`4049f699 498bce          mov     rcx,r14
+00000001`4049f69c e86f3c5a01      call    ros64!Py_hashtable_size+0x71fab0 (00000001`41a43310)
+00000001`4049f6a1 488bd8          mov     rbx,rax
+00000001`4049f6a4 4889442478      mov     qword ptr [rsp+78h],rax
+00000001`4049f6a9 4889742468      mov     qword ptr [rsp+68h],rsi
+00000001`4049f6ae eb0c            jmp     ros64!initgameplay+0x1dfdcc (00000001`4049f6bc)  Branch
+
+ros64!initgameplay+0x1dfdc0:
+00000001`4049f6b0 33db            xor     ebx,ebx
+00000001`4049f6b2 4889742468      mov     qword ptr [rsp+68h],rsi
+
+ros64!initgameplay+0x1dfdc7:
+00000001`4049f6b7 48895c2478      mov     qword ptr [rsp+78h],rbx
+
+ros64!initgameplay+0x1dfdcc:
+00000001`4049f6bc 4a8d34fb        lea     rsi,[rbx+r15*8]
+00000001`4049f6c0 488b442470      mov     rax,qword ptr [rsp+70h]
+00000001`4049f6c5 488b00          mov     rax,qword ptr [rax]
+00000001`4049f6c8 488906          mov     qword ptr [rsi],rax
+00000001`4049f6cb 4c8b4708        mov     r8,qword ptr [rdi+8]
+00000001`4049f6cf 488b17          mov     rdx,qword ptr [rdi]
+00000001`4049f6d2 488bcb          mov     rcx,rbx
+00000001`4049f6d5 4d3be0          cmp     r12,r8
+00000001`4049f6d8 7505            jne     ros64!initgameplay+0x1dfdef (00000001`4049f6df)  Branch
+
+ros64!initgameplay+0x1dfdea:
+00000001`4049f6da 4c2bc2          sub     r8,rdx
+00000001`4049f6dd eb19            jmp     ros64!initgameplay+0x1dfe08 (00000001`4049f6f8)  Branch
+
+ros64!initgameplay+0x1dfdef:
+00000001`4049f6df 4d8bc4          mov     r8,r12
+00000001`4049f6e2 4c2bc2          sub     r8,rdx
+00000001`4049f6e5 e8269d5a01      call    ros64!Py_hashtable_size+0x725bb0 (00000001`41a49410)
+00000001`4049f6ea 488d4e08        lea     rcx,[rsi+8]
+00000001`4049f6ee 4c8b4708        mov     r8,qword ptr [rdi+8]
+00000001`4049f6f2 4d2bc4          sub     r8,r12
+00000001`4049f6f5 498bd4          mov     rdx,r12
+
+ros64!initgameplay+0x1dfe08:
+00000001`4049f6f8 e8139d5a01      call    ros64!Py_hashtable_size+0x725bb0 (00000001`41a49410)
+00000001`4049f6fd 90              nop
+00000001`4049f6fe 488b0f          mov     rcx,qword ptr [rdi]
+00000001`4049f701 4885c9          test    rcx,rcx
+00000001`4049f704 7431            je      ros64!initgameplay+0x1dfe47 (00000001`4049f737)  Branch
+
+ros64!initgameplay+0x1dfe16:
+00000001`4049f706 488b5710        mov     rdx,qword ptr [rdi+10h]
+00000001`4049f70a 482bd1          sub     rdx,rcx
+00000001`4049f70d 4883e2f8        and     rdx,0FFFFFFFFFFFFFFF8h
+00000001`4049f711 4881fa00100000  cmp     rdx,1000h
+00000001`4049f718 7218            jb      ros64!initgameplay+0x1dfe42 (00000001`4049f732)  Branch
+
+ros64!initgameplay+0x1dfe2a:
+00000001`4049f71a 4883c227        add     rdx,27h
+00000001`4049f71e 4c8b41f8        mov     r8,qword ptr [rcx-8]
+00000001`4049f722 492bc8          sub     rcx,r8
+00000001`4049f725 488d41f8        lea     rax,[rcx-8]
+00000001`4049f729 4883f81f        cmp     rax,1Fh
+00000001`4049f72d 773a            ja      ros64!initgameplay+0x1dfe79 (00000001`4049f769)  Branch
+
+ros64!initgameplay+0x1dfe3f:
+00000001`4049f72f 498bc8          mov     rcx,r8
+
+ros64!initgameplay+0x1dfe42:
+00000001`4049f732 e8153c5a01      call    ros64!Py_hashtable_size+0x71faec (00000001`41a4334c)
+
+ros64!initgameplay+0x1dfe47:
+00000001`4049f737 48891f          mov     qword ptr [rdi],rbx
+00000001`4049f73a 4a8d0ceb        lea     rcx,[rbx+r13*8]
+00000001`4049f73e 48894f08        mov     qword ptr [rdi+8],rcx
+00000001`4049f742 498d0c1e        lea     rcx,[r14+rbx]
+00000001`4049f746 48894f10        mov     qword ptr [rdi+10h],rcx
+00000001`4049f74a 488bc6          mov     rax,rsi
+00000001`4049f74d 4883c420        add     rsp,20h
+00000001`4049f751 415f            pop     r15
+00000001`4049f753 415e            pop     r14
+00000001`4049f755 415d            pop     r13
+00000001`4049f757 415c            pop     r12
+00000001`4049f759 5f              pop     rdi
+00000001`4049f75a 5e              pop     rsi
+00000001`4049f75b 5b              pop     rbx
+00000001`4049f75c c3              ret
+
+ros64!initgameplay+0x1dfe6d:
+00000001`4049f75d e86e4dbeff      call    ros64+0x844d0 (00000001`400844d0)
+00000001`4049f762 cc              int     3
+
+ros64!initgameplay+0x1dfe73:
+00000001`4049f763 e838fc0000      call    ros64!initgameplay+0x1efab0 (00000001`404af3a0)
+00000001`4049f768 cc              int     3
+
+ros64!initgameplay+0x1dfe79:
+00000001`4049f769 e85a835b01      call    ros64!Py_hashtable_size+0x734268 (00000001`41a57ac8)
+00000001`4049f76e cc              int     3
+00000001`4049f76f cc              int     3
+00000001`4049f770 48896c2418      mov     qword ptr [rsp+18h],rbp
+00000001`4049f775 4889742420      mov     qword ptr [rsp+20h],rsi
+00000001`4049f77a 57              push    rdi
+00000001`4049f77b 4883ec20        sub     rsp,20h
+00000001`4049f77f 4180781900      cmp     byte ptr [r8+19h],0
+00000001`4049f784 498bf8          mov     rdi,r8
+00000001`4049f787 488bf2          mov     rsi,rdx
+00000001`4049f78a 488be9          mov     rbp,rcx
+00000001`4049f78d 0f8586000000    jne     ros64!initgameplay+0x1dff29 (00000001`4049f819)  Branch
+
+ros64!initgameplay+0x1dfea3:
+00000001`4049f793 48895c2430      mov     qword ptr [rsp+30h],rbx
+00000001`4049f798 4c89742438      mov     qword ptr [rsp+38h],r14
+00000001`4049f79d 4533f6          xor     r14d,r14d
+
+ros64!initgameplay+0x1dfeb0:
+00000001`4049f7a0 4c8b4710        mov     r8,qword ptr [rdi+10h]
+00000001`4049f7a4 488bd6          mov     rdx,rsi
+00000001`4049f7a7 488bcd          mov     rcx,rbp
+00000001`4049f7aa e8c1ffffff      call    ros64!initgameplay+0x1dfe80 (00000001`4049f770)
+00000001`4049f7af 488bdf          mov     rbx,rdi
+00000001`4049f7b2 488b3f          mov     rdi,qword ptr [rdi]
+00000001`4049f7b5 488b5338        mov     rdx,qword ptr [rbx+38h]
+00000001`4049f7b9 4883fa10        cmp     rdx,10h
+00000001`4049f7bd 722d            jb      ros64!initgameplay+0x1dfefc (00000001`4049f7ec)  Branch
+
+ros64!initgameplay+0x1dfecf:
+00000001`4049f7bf 488b4b20        mov     rcx,qword ptr [rbx+20h]
+00000001`4049f7c3 48ffc2          inc     rdx
+00000001`4049f7c6 4881fa00100000  cmp     rdx,1000h
+00000001`4049f7cd 7218            jb      ros64!initgameplay+0x1dfef7 (00000001`4049f7e7)  Branch
+
+ros64!initgameplay+0x1dfedf:
+00000001`4049f7cf 4c8b41f8        mov     r8,qword ptr [rcx-8]
+00000001`4049f7d3 4883c227        add     rdx,27h
+00000001`4049f7d7 492bc8          sub     rcx,r8
+00000001`4049f7da 488d41f8        lea     rax,[rcx-8]
+00000001`4049f7de 4883f81f        cmp     rax,1Fh
+00000001`4049f7e2 7745            ja      ros64!initgameplay+0x1dff39 (00000001`4049f829)  Branch
+
+ros64!initgameplay+0x1dfef4:
+00000001`4049f7e4 498bc8          mov     rcx,r8
+
+ros64!initgameplay+0x1dfef7:
+00000001`4049f7e7 e8603b5a01      call    ros64!Py_hashtable_size+0x71faec (00000001`41a4334c)
+
+ros64!initgameplay+0x1dfefc:
+00000001`4049f7ec ba48000000      mov     edx,48h
+00000001`4049f7f1 4c897330        mov     qword ptr [rbx+30h],r14
+00000001`4049f7f5 488bcb          mov     rcx,rbx
+00000001`4049f7f8 48c743380f000000 mov     qword ptr [rbx+38h],0Fh
+00000001`4049f800 44887320        mov     byte ptr [rbx+20h],r14b
+00000001`4049f804 e8433b5a01      call    ros64!Py_hashtable_size+0x71faec (00000001`41a4334c)
+00000001`4049f809 44387719        cmp     byte ptr [rdi+19h],r14b
+00000001`4049f80d 7491            je      ros64!initgameplay+0x1dfeb0 (00000001`4049f7a0)  Branch
+
+ros64!initgameplay+0x1dff1f:
+00000001`4049f80f 488b5c2430      mov     rbx,qword ptr [rsp+30h]
+00000001`4049f814 4c8b742438      mov     r14,qword ptr [rsp+38h]
+
+ros64!initgameplay+0x1dff29:
+00000001`4049f819 488b6c2440      mov     rbp,qword ptr [rsp+40h]
+00000001`4049f81e 488b742448      mov     rsi,qword ptr [rsp+48h]
+00000001`4049f823 4883c420        add     rsp,20h
+00000001`4049f827 5f              pop     rdi
+00000001`4049f828 c3              ret
+
+ros64!initgameplay+0x1dff39:
+00000001`4049f829 e89a825b01      call    ros64!Py_hashtable_size+0x734268 (00000001`41a57ac8)
+00000001`4049f82e cc              int     3
+00000001`4049f82f cc              int     3
+00000001`4049f830 48895c2408      mov     qword ptr [rsp+8],rbx
+00000001`4049f835 57              push    rdi
+00000001`4049f836 4883ec20        sub     rsp,20h
+00000001`4049f83a 488bda          mov     rbx,rdx
+00000001`4049f83d 498bf8          mov     rdi,r8
+00000001`4049f840 482bd9          sub     rbx,rcx
+00000001`4049f843 488bd1          mov     rdx,rcx
+00000001`4049f846 4c8bc3          mov     r8,rbx
+00000001`4049f849 488bcf          mov     rcx,rdi
+00000001`4049f84c e8bf9b5a01      call    ros64!Py_hashtable_size+0x725bb0 (00000001`41a49410)
+00000001`4049f851 48c1fb03        sar     rbx,3
+00000001`4049f855 488d04df        lea     rax,[rdi+rbx*8]
+00000001`4049f859 488b5c2430      mov     rbx,qword ptr [rsp+30h]
+00000001`4049f85e 4883c420        add     rsp,20h
+00000001`4049f862 5f              pop     rdi
+00000001`4049f863 c3              ret
+Closing open log file C:\Users\MAFIA\Downloads\Compressed\ROSLegacy\Diamonds\recon_out_v13\windbg_context_v13.log
