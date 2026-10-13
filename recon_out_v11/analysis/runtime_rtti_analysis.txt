@@ -1,0 +1,391 @@
+ROS64 RUNTIME RTTI AND ADJACENT VFTABLE ANALYSIS V11
+==============================================================================
+Target decorated name: .?AVModelFxData@world@neox@@
+
+CAPTURE REGIONS
+- hierarchy: 0x1428DC000-0x1428DDFFF; size=8,192; SHA256=8e4fc52c85135ee654bd754e2672e43cb03ce8e2368b2ddbe3890bd64714f0aa
+- typeinfo: 0x1428DD000-0x1428DEFFF; size=8,192; SHA256=0ef78b56236af884e0af0fcea63e20b89986dab1d922c71c99a50cce42541b9a
+- vtable: 0x141C2A000-0x141C2BFFF; size=8,192; SHA256=091aac8193c9ebcca2c4a053a95256d5f18ce44c102f1d0e393cb58605c372ed
+- name: 0x1431BB000-0x1431BCFFF; size=8,192; SHA256=1c61550d04853a78758b717f319e46d4c36e2c41fc580eec4cda3165043a488d
+
+FINDINGS
+- Target TypeDescriptor resolved at 0x1431BBE20.
+- Selected vftable COL at 0x1428DD1F8 resolves class .?AVModelFxData@world@neox@@; inferred image base 0x140000000.
+- Scanned 1024 qwords across the full supplied vtable capture; detected 55 validated COL markers and segmented 55 adjacent vftable groups.
+- Target vftable segmented as group 35 with 7 function-pointer entries; COL marker qwords are excluded from function slots.
+
+INITIAL VFTABLE / TYPE HIERARCHY
+- COL 0x1428DD1F8; class=.?AVModelFxData@world@neox@@; image base=0x140000000
+  CHD 0x1428DD220; base count=2; status=walked
+    [0] .?AVModelFxData@world@neox@@ BCD=0x1428DD250
+    [1] .?AVSfxBaseData@world@neox@@ BCD=0x1428DCD20
+
+ADJACENT VFTABLE GROUPS
+- Group 0: .?AV?$_Ref_count@V?$vector@UQTM_TREE@world@neox@@V?$allocator@UQTM_TREE@world@neox@@@std@@@std@@@std@@; vftable=0x141C2A2F0; functions=4; COL=0x1428DC050
+    [94] 0x141C2A2F0 -> 0x140499520
+    [95] 0x141C2A2F8 -> 0x1404991F0
+    [96] 0x141C2A300 -> 0x140483FC0
+    [97] 0x141C2A308 -> 0x14008E8E0
+- Group 1: .?AV?$_Ref_count@V?$unordered_map@GPEAUIColMesh@collision@neox@@U?$hash@G@std@@U?$equal_to@G@5@V?$allocator@U?$pair@$$CBGPEAUIColMesh@collision@neox@@@std@@@5@@std@@@std@@; vftable=0x141C2A318; functions=4; COL=0x1428DC0D0
+    [99] 0x141C2A318 -> 0x140499330
+    [100] 0x141C2A320 -> 0x1404990F0
+    [101] 0x141C2A328 -> 0x140483E40
+    [102] 0x141C2A330 -> 0x14008E8E0
+- Group 2: .?AV?$_Ref_count@V?$vector@UQTMSubNodeHead@world@neox@@V?$allocator@UQTMSubNodeHead@world@neox@@@std@@@std@@@std@@; vftable=0x141C2A340; functions=4; COL=0x1428DC150
+    [104] 0x141C2A340 -> 0x1404994D0
+    [105] 0x141C2A348 -> 0x1404991B0
+    [106] 0x141C2A350 -> 0x140483F60
+    [107] 0x141C2A358 -> 0x14008E8E0
+- Group 3: .?AV?$_Ref_count@V?$vector@EV?$allocator@E@std@@@std@@@std@@; vftable=0x141C2A368; functions=4; COL=0x1428DC1D0
+    [109] 0x141C2A368 -> 0x140499360
+    [110] 0x141C2A370 -> 0x140499110
+    [111] 0x141C2A378 -> 0x140483E70
+    [112] 0x141C2A380 -> 0x14008E8E0
+- Group 4: .?AV?$_Ref_count@VQuadTreeLodNode@world@neox@@@std@@; vftable=0x141C2A390; functions=4; COL=0x1428DC250
+    [114] 0x141C2A390 -> 0x1404995C0
+    [115] 0x141C2A398 -> 0x140499290
+    [116] 0x141C2A3A0 -> 0x1404840B0
+    [117] 0x141C2A3A8 -> 0x14008E8E0
+- Group 5: .?AV?$_Ref_count@V?$vector@UABT_TREE@world@neox@@V?$allocator@UABT_TREE@world@neox@@@std@@@std@@@std@@; vftable=0x141C2A3B8; functions=4; COL=0x1428DC2D0
+    [119] 0x141C2A3B8 -> 0x140499480
+    [120] 0x141C2A3C0 -> 0x140499170
+    [121] 0x141C2A3C8 -> 0x140483F00
+    [122] 0x141C2A3D0 -> 0x14008E8E0
+- Group 6: .?AV?$_Ref_count@V?$vector@UNODE_ABT@world@neox@@V?$allocator@UNODE_ABT@world@neox@@@std@@@std@@@std@@; vftable=0x141C2A3E0; functions=4; COL=0x1428DC350
+    [124] 0x141C2A3E0 -> 0x1404994A0
+    [125] 0x141C2A3E8 -> 0x140499190
+    [126] 0x141C2A3F0 -> 0x140483F30
+    [127] 0x141C2A3F8 -> 0x14008E8E0
+- Group 7: .?AV?$_Ref_count@UPreViewTree@world@neox@@@std@@; vftable=0x141C2A408; functions=4; COL=0x1428DC3D0
+    [129] 0x141C2A408 -> 0x1404992B0
+    [130] 0x141C2A410 -> 0x1404990D0
+    [131] 0x141C2A418 -> 0x140483E10
+    [132] 0x141C2A420 -> 0x14008E8E0
+- Group 8: .?AV?$_Ref_count@VConvexHullNode@world@neox@@@std@@; vftable=0x141C2A430; functions=4; COL=0x1428DC450
+    [134] 0x141C2A430 -> 0x140499540
+    [135] 0x141C2A438 -> 0x140499210
+    [136] 0x141C2A440 -> 0x140483FF0
+    [137] 0x141C2A448 -> 0x14008E8E0
+- Group 9: .?AV?$_Ref_count@V?$vector@UQTM_RENDER_TREE@world@neox@@V?$allocator@UQTM_RENDER_TREE@world@neox@@@std@@@std@@@std@@; vftable=0x141C2A458; functions=4; COL=0x1428DC4D0
+    [139] 0x141C2A458 -> 0x1404994F0
+    [140] 0x141C2A460 -> 0x1404991D0
+    [141] 0x141C2A468 -> 0x140483F90
+    [142] 0x141C2A470 -> 0x14008E8E0
+- Group 10: .?AV?$_Ref_count@V?$vector@PEAVRenderContext@render@neox@@V?$allocator@PEAVRenderContext@render@neox@@@std@@@std@@@std@@; vftable=0x141C2A480; functions=4; COL=0x1428DC550
+    [144] 0x141C2A480 -> 0x1404993D0
+    [145] 0x141C2A488 -> 0x140499130
+    [146] 0x141C2A490 -> 0x140483EA0
+    [147] 0x141C2A498 -> 0x14008E8E0
+- Group 11: .?AV?$_Ref_count@V?$vector@UABT_RENDER_TREE@world@neox@@V?$allocator@UABT_RENDER_TREE@world@neox@@@std@@@std@@@std@@; vftable=0x141C2A4A8; functions=4; COL=0x1428DC5D0
+    [149] 0x141C2A4A8 -> 0x140499450
+    [150] 0x141C2A4B0 -> 0x140499150
+    [151] 0x141C2A4B8 -> 0x140483ED0
+    [152] 0x141C2A4C0 -> 0x14008E8E0
+- Group 12: .?AV?$_Func_impl_no_alloc@V<lambda_d41a7b7b8ae1b2565b38c2ad4d53056e>@@XAEBV?$vector@UNODE_ABT@world@neox@@V?$allocator@UNODE_ABT@world@neox@@@std@@@std@@HAEAV?$vector@V?$tuple@UDrawRange@render@neox@@PEAUABT_RENDER_TREE@world@3@@std@@V?$allocator@V?$tuple@UDrawRange@render@neox@@PEAUABT_RENDER_TREE@world@3@@std@@@2@@3@PEAUABT_RENDER_TREE@world@neox@@AEAV?$set@GU?$less@G@std@@V?$allocator@G@2@@3@@std@@; vftable=0x141C2A4D0; functions=6; COL=0x1428DC650
+    [154] 0x141C2A4D0 -> 0x140499090
+    [155] 0x141C2A4D8 -> 0x14049D210
+    [156] 0x141C2A4E0 -> 0x140499680
+    [157] 0x141C2A4E8 -> 0x14049D3D0
+    [158] 0x141C2A4F0 -> 0x1404990C0
+    [159] 0x141C2A4F8 -> 0x14049AFA0
+- Group 13: .?AV?$_Func_impl_no_alloc@V<lambda_5a3881b83630c2a0d5e4c1a6a53c1491>@@XAEBU?$_Vector3@M@math3d@neox@@AEBUPreViewTree@world@4@AEAV?$set@GU?$less@G@std@@V?$allocator@G@2@@std@@G@std@@; vftable=0x141C2A508; functions=6; COL=0x1428DC6D0
+    [161] 0x141C2A508 -> 0x140499070
+    [162] 0x141C2A510 -> 0x14049D1F0
+    [163] 0x141C2A518 -> 0x140499660
+    [164] 0x141C2A520 -> 0x14049D3C0
+    [165] 0x141C2A528 -> 0x1404990B0
+    [166] 0x141C2A530 -> 0x14049AF90
+- Group 14: .?AV?$_Ref_count@VOWLodRenderData@world@neox@@@std@@; vftable=0x141C2A540; functions=4; COL=0x1428DC750
+    [168] 0x141C2A540 -> 0x140499580
+    [169] 0x141C2A548 -> 0x140499250
+    [170] 0x141C2A550 -> 0x140484050
+    [171] 0x141C2A558 -> 0x14008E8E0
+- Group 15: .?AV?$_Ref_count@VOpenWorldLodTask@world@neox@@@std@@; vftable=0x141C2A568; functions=4; COL=0x1428DC7D0
+    [173] 0x141C2A568 -> 0x1404995A0
+    [174] 0x141C2A570 -> 0x140499270
+    [175] 0x141C2A578 -> 0x140484080
+    [176] 0x141C2A580 -> 0x14008E8E0
+- Group 16: .?AV?$_Ref_count@VConvexHullTaskImp@world@neox@@@std@@; vftable=0x141C2A590; functions=23; COL=0x1428DC850
+    [178] 0x141C2A590 -> 0x140499560
+    [179] 0x141C2A598 -> 0x140499230
+    [180] 0x141C2A5A0 -> 0x140484020
+    [181] 0x141C2A5A8 -> 0x14008E8E0
+    [182] 0x141C2A5B0 -> 0x1700000010
+    [183] 0x141C2A5B8 -> 0x400000020
+    [184] 0x141C2A5C0 -> 0x2100000010
+    [185] 0x141C2A5C8 -> 0x500000020
+    [186] 0x141C2A5D0 -> 0x100000001
+    [187] 0x141C2A5D8 -> 0x1400000002
+    [188] 0x141C2A5E0 -> 0x1500000004
+    [189] 0x141C2A5E8 -> 0x1600000008
+    ... 11 additional function pointers in this group
+- Group 17: .?AVSfxTrackBaseData@world@neox@@; vftable=0x141C2A650; functions=2; COL=0x1428DC8D0
+    [202] 0x141C2A650 -> 0x1404A4340
+    [203] 0x141C2A658 -> 0x1404ADE10
+- Group 18: .?AVSfxTrackLineData@world@neox@@; vftable=0x141C2A668; functions=2; COL=0x1428DC948
+    [205] 0x141C2A668 -> 0x1404A4480
+    [206] 0x141C2A670 -> 0x14061B000
+- Group 19: .?AVSfxTrackCircleData@world@neox@@; vftable=0x141C2A680; functions=2; COL=0x1428DC9C8
+    [208] 0x141C2A680 -> 0x1404A4370
+    [209] 0x141C2A688 -> 0x14061ABF0
+- Group 20: .?AVSfxTrackEllipseData@world@neox@@; vftable=0x141C2A698; functions=2; COL=0x1428DCA48
+    [211] 0x141C2A698 -> 0x1404A43E0
+    [212] 0x141C2A6A0 -> 0x14061AF20
+- Group 21: .?AVSfxTrackRotateData@world@neox@@; vftable=0x141C2A6B0; functions=2; COL=0x1428DCAD0
+    [214] 0x141C2A6B0 -> 0x1404A4520
+    [215] 0x141C2A6B8 -> 0x14061B160
+- Group 22: .?AVSfxTrackDirectionData@world@neox@@; vftable=0x141C2A6C8; functions=2; COL=0x1428DCB50
+    [217] 0x141C2A6C8 -> 0x1404A43B0
+    [218] 0x141C2A6D0 -> 0x14061AE00
+- Group 23: .?AVSfxTrackScaleData@world@neox@@; vftable=0x141C2A6E0; functions=2; COL=0x1428DCBD0
+    [220] 0x141C2A6E0 -> 0x1404A45F0
+    [221] 0x141C2A6E8 -> 0x14061B450
+- Group 24: .?AVSfxTrackSampleData@world@neox@@; vftable=0x141C2A6F8; functions=2; COL=0x1428DCC50
+    [223] 0x141C2A6F8 -> 0x1404A45C0
+    [224] 0x141C2A700 -> 0x14061B2D0
+- Group 25: .?AVSfxBaseData@world@neox@@; vftable=0x141C2A710; functions=7; COL=0x1428DCCD0
+    [226] 0x141C2A710 -> 0x1404A4300
+    [227] 0x141C2A718 -> 0x1404AD8B0
+    [228] 0x141C2A720 -> 0x1404AF270
+    [229] 0x141C2A728 -> 0x1404AF320
+    [230] 0x141C2A730 -> 0x1404AF080
+    [231] 0x141C2A738 -> 0x1404A68C0
+    [232] 0x141C2A740 -> 0x1404A73F0
+- Group 26: .?AVDummyFxData@world@neox@@; vftable=0x141C2A750; functions=7; COL=0x1428DCD48
+    [234] 0x141C2A750 -> 0x1404A3830
+    [235] 0x141C2A758 -> 0x1404AD8B0
+    [236] 0x141C2A760 -> 0x1404AF270
+    [237] 0x141C2A768 -> 0x1404AF320
+    [238] 0x141C2A770 -> 0x1404AF080
+    [239] 0x141C2A778 -> 0x1404A68C0
+    [240] 0x141C2A780 -> 0x1404A73F0
+- Group 27: .?AVFxGroupData@world@neox@@; vftable=0x141C2A790; functions=7; COL=0x1428DCDC8
+    [242] 0x141C2A790 -> 0x1404A38B0
+    [243] 0x141C2A798 -> 0x1404AD8B0
+    [244] 0x141C2A7A0 -> 0x1404AF270
+    [245] 0x141C2A7A8 -> 0x1404AF320
+    [246] 0x141C2A7B0 -> 0x1404AF080
+    [247] 0x141C2A7B8 -> 0x1404A68C0
+    [248] 0x141C2A7C0 -> 0x1404A73F0
+- Group 28: .?AVEmitterData@world@neox@@; vftable=0x141C2A7D0; functions=7; COL=0x1428DCE48
+    [250] 0x141C2A7D0 -> 0x1404A3870
+    [251] 0x141C2A7D8 -> 0x1404A8EA0
+    [252] 0x141C2A7E0 -> 0x1404AF270
+    [253] 0x141C2A7E8 -> 0x1404AF320
+    [254] 0x141C2A7F0 -> 0x1404AF080
+    [255] 0x141C2A7F8 -> 0x1404A68C0
+    [256] 0x141C2A800 -> 0x1404A69D0
+- Group 29: .?AVParticleModelFxData@world@neox@@; vftable=0x141C2A810; functions=7; COL=0x1428DCEC8
+    [258] 0x141C2A810 -> 0x1404A3FF0
+    [259] 0x141C2A818 -> 0x1404ABFC0
+    [260] 0x141C2A820 -> 0x1404AF270
+    [261] 0x141C2A828 -> 0x1404AF320
+    [262] 0x141C2A830 -> 0x1404AF080
+    [263] 0x141C2A838 -> 0x1404A68C0
+    [264] 0x141C2A840 -> 0x1404A7040
+- Group 30: .?AVParticleResData@world@neox@@; vftable=0x141C2A850; functions=7; COL=0x1428DCF50
+    [266] 0x141C2A850 -> 0x1404A4180
+    [267] 0x141C2A858 -> 0x1404ACD00
+    [268] 0x141C2A860 -> 0x1404AF270
+    [269] 0x141C2A868 -> 0x1404AF320
+    [270] 0x141C2A870 -> 0x1404AF080
+    [271] 0x141C2A878 -> 0x1404A68C0
+    [272] 0x141C2A880 -> 0x1404A7220
+- Group 31: .?AVParticlePolyFxData@world@neox@@; vftable=0x141C2A890; functions=7; COL=0x1428DCFD8
+    [274] 0x141C2A890 -> 0x1404A4100
+    [275] 0x141C2A898 -> 0x1404AC230
+    [276] 0x141C2A8A0 -> 0x1404AF270
+    [277] 0x141C2A8A8 -> 0x1404AF320
+    [278] 0x141C2A8B0 -> 0x1404AF080
+    [279] 0x141C2A8B8 -> 0x1404A68C0
+    [280] 0x141C2A8C0 -> 0x1404A70A0
+- Group 32: .?AVParticleInfluenceData@world@neox@@; vftable=0x141C2A8D0; functions=7; COL=0x1428DD060
+    [282] 0x141C2A8D0 -> 0x1404A3FB0
+    [283] 0x141C2A8D8 -> 0x1404ABDE0
+    [284] 0x141C2A8E0 -> 0x1404AF270
+    [285] 0x141C2A8E8 -> 0x1404AF320
+    [286] 0x141C2A8F0 -> 0x1404AF080
+    [287] 0x141C2A8F8 -> 0x1404A68C0
+    [288] 0x141C2A900 -> 0x1404A70A0
+- Group 33: .?AVParticlePolyTubeFxData@world@neox@@; vftable=0x141C2A910; functions=7; COL=0x1428DD0F0
+    [290] 0x141C2A910 -> 0x1404A4140
+    [291] 0x141C2A918 -> 0x1404AC960
+    [292] 0x141C2A920 -> 0x1404AF270
+    [293] 0x141C2A928 -> 0x1404AF320
+    [294] 0x141C2A930 -> 0x1404AF080
+    [295] 0x141C2A938 -> 0x1404A68C0
+    [296] 0x141C2A940 -> 0x1404A71A0
+- Group 34: .?AVSpriteFxData@world@neox@@; vftable=0x141C2A950; functions=7; COL=0x1428DD178
+    [298] 0x141C2A950 -> 0x1404A4860
+    [299] 0x141C2A958 -> 0x1404AE3E0
+    [300] 0x141C2A960 -> 0x1404AF270
+    [301] 0x141C2A968 -> 0x1404AF320
+    [302] 0x141C2A970 -> 0x1404AF080
+    [303] 0x141C2A978 -> 0x1404A68C0
+    [304] 0x141C2A980 -> 0x1404A76A0
+- Group 35: .?AVModelFxData@world@neox@@; vftable=0x141C2A990; functions=7; COL=0x1428DD1F8 [TARGET]
+    [306] 0x141C2A990 -> 0x1404A3D40
+    [307] 0x141C2A998 -> 0x1404AB480
+    [308] 0x141C2A9A0 -> 0x1404AF270
+    [309] 0x141C2A9A8 -> 0x1404AF320
+    [310] 0x141C2A9B0 -> 0x1404AF080
+    [311] 0x141C2A9B8 -> 0x1404A68C0
+    [312] 0x141C2A9C0 -> 0x1404A6DA0
+- Group 36: .?AVVegCollisionSfxData@world@neox@@; vftable=0x141C2A9D0; functions=7; COL=0x1428DD278
+    [314] 0x141C2A9D0 -> 0x1404A48A0
+    [315] 0x141C2A9D8 -> 0x1404AF000
+    [316] 0x141C2A9E0 -> 0x1404AF270
+    [317] 0x141C2A9E8 -> 0x1404AF320
+    [318] 0x141C2A9F0 -> 0x1404AF080
+    [319] 0x141C2A9F8 -> 0x1404A68C0
+    [320] 0x141C2AA00 -> 0x1404A7790
+- Group 37: .?AVLeadingFxBaseData@world@neox@@; vftable=0x141C2AA10; functions=7; COL=0x1428DD2F8
+    [322] 0x141C2AA10 -> 0x1404A3B30
+    [323] 0x141C2AA18 -> 0x1404AA970
+    [324] 0x141C2AA20 -> 0x1404AF270
+    [325] 0x141C2AA28 -> 0x1404AF320
+    [326] 0x141C2AA30 -> 0x1404AF080
+    [327] 0x141C2AA38 -> 0x1404A68C0
+    [328] 0x141C2AA40 -> 0x1404A6BD0
+- Group 38: .?AVLeadingFxData@world@neox@@; vftable=0x141C2AA50; functions=7; COL=0x1428DD378
+    [330] 0x141C2AA50 -> 0x1404A3B90
+    [331] 0x141C2AA58 -> 0x1404AAAB0
+    [332] 0x141C2AA60 -> 0x1404AF270
+    [333] 0x141C2AA68 -> 0x1404AF320
+    [334] 0x141C2AA70 -> 0x1404AF080
+    [335] 0x141C2AA78 -> 0x1404A68C0
+    [336] 0x141C2AA80 -> 0x1404A6C30
+- Group 39: .?AVLeadingExFxData@world@neox@@; vftable=0x141C2AA90; functions=7; COL=0x1428DD400
+    [338] 0x141C2AA90 -> 0x1404A3A20
+    [339] 0x141C2AA98 -> 0x1404AA380
+    [340] 0x141C2AAA0 -> 0x1404AF270
+    [341] 0x141C2AAA8 -> 0x1404AF320
+    [342] 0x141C2AAB0 -> 0x1404AF080
+    [343] 0x141C2AAB8 -> 0x1404A68C0
+    [344] 0x141C2AAC0 -> 0x1404A6B50
+- Group 40: .?AVCameraShakeSfxData@world@neox@@; vftable=0x141C2AAD0; functions=7; COL=0x1428DD488
+    [346] 0x141C2AAD0 -> 0x1404A37F0
+    [347] 0x141C2AAD8 -> 0x1404A8A80
+    [348] 0x141C2AAE0 -> 0x1404AF270
+    [349] 0x141C2AAE8 -> 0x1404AF320
+    [350] 0x141C2AAF0 -> 0x1404AF080
+    [351] 0x141C2AAF8 -> 0x1404A68C0
+    [352] 0x141C2AB00 -> 0x1404A6900
+- Group 41: .?AVSoundBaseFxData@world@neox@@; vftable=0x141C2AB10; functions=7; COL=0x1428DD508
+    [354] 0x141C2AB10 -> 0x1404A4690
+    [355] 0x141C2AB18 -> 0x1404AE0A0
+    [356] 0x141C2AB20 -> 0x1404AF270
+    [357] 0x141C2AB28 -> 0x1404AF320
+    [358] 0x141C2AB30 -> 0x1404AF080
+    [359] 0x141C2AB38 -> 0x1404A68C0
+    [360] 0x141C2AB40 -> 0x1404A74E0
+- Group 42: .?AVSoundWavFxData@world@neox@@; vftable=0x141C2AB50; functions=7; COL=0x1428DD588
+    [362] 0x141C2AB50 -> 0x1404A4780
+    [363] 0x141C2AB58 -> 0x1404AE290
+    [364] 0x141C2AB60 -> 0x1404AF270
+    [365] 0x141C2AB68 -> 0x1404AF320
+    [366] 0x141C2AB70 -> 0x1404AF080
+    [367] 0x141C2AB78 -> 0x1404A68C0
+    [368] 0x141C2AB80 -> 0x1404A75C0
+- Group 43: .?AVSoundFmodFxData@world@neox@@; vftable=0x141C2AB90; functions=7; COL=0x1428DD610
+    [370] 0x141C2AB90 -> 0x1404A46D0
+    [371] 0x141C2AB98 -> 0x1404AE140
+    [372] 0x141C2ABA0 -> 0x1404AF270
+    [373] 0x141C2ABA8 -> 0x1404AF320
+    [374] 0x141C2ABB0 -> 0x1404AF080
+    [375] 0x141C2ABB8 -> 0x1404A68C0
+    [376] 0x141C2ABC0 -> 0x1404A7540
+- Group 44: .?AVPolytubeFxData@world@neox@@; vftable=0x141C2ABD0; functions=7; COL=0x1428DD698
+    [378] 0x141C2ABD0 -> 0x1404A4220
+    [379] 0x141C2ABD8 -> 0x1404AD360
+    [380] 0x141C2ABE0 -> 0x1404AF270
+    [381] 0x141C2ABE8 -> 0x1404AF320
+    [382] 0x141C2ABF0 -> 0x1404AF080
+    [383] 0x141C2ABF8 -> 0x1404A68C0
+    [384] 0x141C2AC00 -> 0x1404A72E0
+- Group 45: .?AVPolytubeExFxData@world@neox@@; vftable=0x141C2AC10; functions=7; COL=0x1428DD718
+    [386] 0x141C2AC10 -> 0x1404A41E0
+    [387] 0x141C2AC18 -> 0x1404ACED0
+    [388] 0x141C2AC20 -> 0x1404AF270
+    [389] 0x141C2AC28 -> 0x1404AF320
+    [390] 0x141C2AC30 -> 0x1404AF080
+    [391] 0x141C2AC38 -> 0x1404A68C0
+    [392] 0x141C2AC40 -> 0x1404A7240
+- Group 46: .?AVSpeedFxData@world@neox@@; vftable=0x141C2AC50; functions=7; COL=0x1428DD798
+    [394] 0x141C2AC50 -> 0x1404A47C0
+    [395] 0x141C2AC58 -> 0x1404AE340
+    [396] 0x141C2AC60 -> 0x1404AF270
+    [397] 0x141C2AC68 -> 0x1404AF320
+    [398] 0x141C2AC70 -> 0x1404AF080
+    [399] 0x141C2AC78 -> 0x1404A68C0
+    [400] 0x141C2AC80 -> 0x1404A7620
+- Group 47: .?AVMtlCtrlFxData@world@neox@@; vftable=0x141C2AC90; functions=7; COL=0x1428DD818
+    [402] 0x141C2AC90 -> 0x1404A3D80
+    [403] 0x141C2AC98 -> 0x1404AB890
+    [404] 0x141C2ACA0 -> 0x1404AF270
+    [405] 0x141C2ACA8 -> 0x1404AF320
+    [406] 0x141C2ACB0 -> 0x1404AF080
+    [407] 0x141C2ACB8 -> 0x1404A68C0
+    [408] 0x141C2ACC0 -> 0x1404A6EA0
+- Group 48: .?AVShaderCtrlFxData@world@neox@@; vftable=0x141C2ACD0; functions=7; COL=0x1428DD898
+    [410] 0x141C2ACD0 -> 0x1404A4650
+    [411] 0x141C2ACD8 -> 0x1404ADE20
+    [412] 0x141C2ACE0 -> 0x1404AF270
+    [413] 0x141C2ACE8 -> 0x1404AF320
+    [414] 0x141C2ACF0 -> 0x1404AF080
+    [415] 0x141C2ACF8 -> 0x1404A68C0
+    [416] 0x141C2AD00 -> 0x1404A7440
+- Group 49: .?AVLightingFxData@world@neox@@; vftable=0x141C2AD10; functions=7; COL=0x1428DD918
+    [418] 0x141C2AD10 -> 0x1404A3D00
+    [419] 0x141C2AD18 -> 0x1404AB000
+    [420] 0x141C2AD20 -> 0x1404AF270
+    [421] 0x141C2AD28 -> 0x1404AF320
+    [422] 0x141C2AD30 -> 0x1404AF080
+    [423] 0x141C2AD38 -> 0x1404A68C0
+    [424] 0x141C2AD40 -> 0x1404A6CC0
+- Group 50: .?AVPostProcessFxData@world@neox@@; vftable=0x141C2AD50; functions=7; COL=0x1428DD998
+    [426] 0x141C2AD50 -> 0x1404A4260
+    [427] 0x141C2AD58 -> 0x1404AD840
+    [428] 0x141C2AD60 -> 0x1404AF270
+    [429] 0x141C2AD68 -> 0x1404AF320
+    [430] 0x141C2AD70 -> 0x1404AF080
+    [431] 0x141C2AD78 -> 0x1404A68C0
+    [432] 0x141C2AD80 -> 0x1404A7380
+- Group 51: .?AVGpuParticleSfxData@world@neox@@; vftable=0x141C2AD90; functions=7; COL=0x1428DDA18
+    [434] 0x141C2AD90 -> 0x1404A38F0
+    [435] 0x141C2AD98 -> 0x1404A9CC0
+    [436] 0x141C2ADA0 -> 0x1404AF270
+    [437] 0x141C2ADA8 -> 0x1404AF320
+    [438] 0x141C2ADB0 -> 0x1404AF080
+    [439] 0x141C2ADB8 -> 0x1404A68C0
+    [440] 0x141C2ADC0 -> 0x1404A6AC0
+- Group 52: .?AVParticleForceBaseData@world@neox@@; vftable=0x141C2ADD0; functions=7; COL=0x1428DDA98
+    [442] 0x141C2ADD0 -> 0x1404A3DC0
+    [443] 0x141C2ADD8 -> 0x1404ABB50
+    [444] 0x141C2ADE0 -> 0x1404AF270
+    [445] 0x141C2ADE8 -> 0x1404AF320
+    [446] 0x141C2ADF0 -> 0x1404AF080
+    [447] 0x141C2ADF8 -> 0x1404A68C0
+    [448] 0x141C2AE00 -> 0x1404A6F50
+- Group 53: .?AVParticleForceMagnetData@world@neox@@; vftable=0x141C2AE10; functions=7; COL=0x1428DDB18
+    [450] 0x141C2AE10 -> 0x1404A3E00
+    [451] 0x141C2AE18 -> 0x1404ABBF0
+    [452] 0x141C2AE20 -> 0x1404AF270
+    [453] 0x141C2AE28 -> 0x1404AF320
+    [454] 0x141C2AE30 -> 0x1404AF080
+    [455] 0x141C2AE38 -> 0x1404A68C0
+    [456] 0x141C2AE40 -> 0x1404A6FC0
+- Group 54: .?AVParticleForceVortexData@world@neox@@; vftable=0x141C2AE50; functions=566; COL=0x1428DDBA0
+    [458] 0x141C2AE50 -> 0x1404A3EA0
+    [459] 0x141C2AE58 -> 0x1404ABCC0
+    [460] 0x141C2AE60 -> 0x1404AF270
+    [461] 0x141C2AE68 -> 0x1404AF320
+    [462] 0x141C2AE70 -> 0x1404AF080
+    [463] 0x141C2AE78 -> 0x1404A68C0
+    [464] 0x141C2AE80 -> 0x1404A6FF0
+    [465] 0x141C2AE88 -> 0x7254656469736E49
+    [466] 0x141C2AE90 -> 0x676E696D6D69
+    [467] 0x141C2AE98 -> 0x754E73746E696F70
+    [468] 0x141C2AEA0 -> 0x6D6172467265506D
+    [469] 0x141C2AEA8 -> 0x65
+    ... 554 additional function pointers in this group
