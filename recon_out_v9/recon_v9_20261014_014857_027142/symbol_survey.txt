@@ -1,0 +1,43 @@
+ROS64 STATIC SYMBOL SURVEY V9
+================================================================================
+Input: recon_out_v7\recon_v7_20261013_222227_683898\extracted\ros64.exe
+Size: 28,041,456 bytes
+SHA-256: b44e482cc8994cee2a381dfe277bea9dc788bd20e44ea274a95a07d85c1b00bb
+Architecture: AMD64/x64 / PE64
+PE timestamp: 2022-03-21T11:44:19+00:00
+Entry point: 0x04BEEFF5 in section .Eg91
+Sections: 8; declared image size: 95,330,304 bytes
+ASCII strings: 120,789
+RTTI descriptors: 0 (0 outside recognized frameworks)
+MSVC-decorated strings: 9,648; scope candidates: 531
+Target keyword hits: 1,361; lower-noise custom candidates: 107
+Exact high-priority anchor hits: 1
+
+PDB IDENTITY
+PDB: D:\h45na\engine\stable\NeoX\bin_dev_win64\mobile\Visual_Studio_16_2019\win32\Release\client.pdb | GUID=ad2eb09d-bc0a-42bc-875c-ebcaaabb9eaf | age=49 | key=ad2eb09dbc0a42bc875cebcaaabb9eaf31
+
+HIGH-PRIORITY ANCHOR COUNTS
+ModelFxData: 0
+world@neox: 0
+neox@@: 1
+  0x148D394: ?CompBlksShape@Texture2D@cocos2d@@QEBAPEAUImageCompBlksShape@image@neox@@XZ
+Vehicle: 0
+vehicle: 0
+mount: 0
+riding: 0
+rideable: 0
+
+OUTPUT FILES
+- symbol_survey.json: overall PE facts, anchor counts, PDB identity
+- rtti_types.csv: extracted MSVC RTTI class/struct/enum candidates
+- mangled_symbols.csv: decorated symbols and heuristic scope candidates
+- symbol_scope_inventory.csv: ranked scope-path candidates
+- target_keyword_hits.csv: all target-term matches (includes framework noise)
+- custom_target_candidates.csv: lower-noise filtered subset for manual review
+
+LIMITATIONS
+- PE/string/RTTI inspection only; target code was not executed.
+- MSVC RTTI names are reconstructed by reversing encoded scope components; template types may need manual demangling.
+- Decorated symbol scope paths are heuristics and may include classes as well as namespaces.
+- Keyword hits and scope names are leads, not proof of runtime behavior.
+- Framework filtering only suppresses common third-party names; unusual dependencies can remain in the custom shortlist.
